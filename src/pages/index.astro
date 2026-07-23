@@ -120,15 +120,18 @@ const description = `A sourced, single-page record of ${total} documented action
             The pattern documented here runs the other direction: change who counts the votes, who
             certifies them, who can cast them, and who is watching — <strong>before a single ballot
             is cast</strong>.
-            Below: {total} documented actions. Every fact is sourced, every opinion is labeled,
-            and the unprecedented and the unlawful are flagged as such, with the basis stated.
+          </p>
+          <p class="deck">
+            Below: {total} documented election-interfering actions. Every fact is sourced, every
+            opinion is labeled, and the unprecedented and the unlawful are flagged as such, with
+            the basis stated.
           </p>
 
           <div class="statrow">
-            <div class="stat"><div class="num" data-count={total}>0</div><div class="lbl">Documented actions</div></div>
-            <div class="stat" data-tone="active"><div class="num" data-count={statusCounts.active}>0</div><div class="lbl">In effect now</div></div>
-            <div class="stat" data-tone="court"><div class="num" data-count={statusCounts.court}>0</div><div class="lbl">Being fought in court</div></div>
-            <div class="stat" data-tone="blocked"><div class="num" data-count={statusCounts.blocked}>0</div><div class="lbl">Blocked or failed</div></div>
+            <button class="stat stat-btn" data-goto-all><div class="num" data-count={total}>0</div><div class="lbl">Documented actions</div></button>
+            <button class="stat stat-btn" data-tone="active" data-goto-status="active"><div class="num" data-count={statusCounts.active}>0</div><div class="lbl">In effect now</div></button>
+            <button class="stat stat-btn" data-tone="court" data-goto-status="court"><div class="num" data-count={statusCounts.court}>0</div><div class="lbl">Being fought in court</div></button>
+            <button class="stat stat-btn" data-tone="blocked" data-goto-status="blocked"><div class="num" data-count={statusCounts.blocked}>0</div><div class="lbl">Blocked or failed</div></button>
             <button class="stat stat-btn" data-tone="unprec" data-goto-flag="unprec"><div class="num" data-count={unprecCount}>0</div><div class="lbl">Without historical precedent</div></button>
             <button class="stat stat-btn" data-tone="legal" data-goto-flag="legal"><div class="num" data-count={legalCount}>0</div><div class="lbl">Unlawful or in constitutional conflict</div></button>
             <div class="stat" data-tone="countdown"><div class="num" id="days-out-big">—</div><div class="lbl">Days until Nov 3, 2026</div></div>
@@ -594,6 +597,26 @@ const description = `A sourced, single-page record of ${total} documented action
       document.querySelectorAll('[data-goto-flag]').forEach((tile) => {
         tile.addEventListener('click', () => {
           document.querySelector(`.chip[data-flag="${tile.dataset.gotoFlag}"]`)?.click();
+          document.getElementById('record').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+        });
+      });
+
+      // hero status tiles jump + filter
+      document.querySelectorAll('[data-goto-status]').forEach((tile) => {
+        tile.addEventListener('click', () => {
+          document.querySelector('.chip[data-cat="all"]')?.click();
+          document.querySelector('.chip[data-flag="all"]')?.click();
+          document.querySelector(`.chip[data-status="${tile.dataset.gotoStatus}"]`)?.click();
+          document.getElementById('record').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+        });
+      });
+
+      // hero "documented actions" tile — reset all filters, jump to record
+      document.querySelectorAll('[data-goto-all]').forEach((tile) => {
+        tile.addEventListener('click', () => {
+          document.querySelector('.chip[data-cat="all"]')?.click();
+          document.querySelector('.chip[data-status="all"]')?.click();
+          document.querySelector('.chip[data-flag="all"]')?.click();
           document.getElementById('record').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
         });
       });
