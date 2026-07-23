@@ -309,6 +309,51 @@ section { scroll-margin-top: 40px; }
 }
 .src-list a:hover { color: var(--st-court); border-color: var(--st-court); }
 
+/* ── the sequence (timeline) ───────────────────────────────────────────── */
+.timeline { max-width: 880px; }
+.tl-month { margin-bottom: 6px; }
+.tl-month-head {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text);
+  display: flex; align-items: baseline; gap: 12px; margin: 26px 0 4px;
+}
+.tl-month-head::after { content: ""; flex: 1; height: 1px; background: var(--line-soft); }
+.tl-count { color: var(--text-3); letter-spacing: 0.06em; }
+.tl-list { list-style: none; border-left: 2px solid var(--line); margin-left: 5px; padding: 8px 0 10px; }
+.tl-item {
+  position: relative;
+  display: grid; grid-template-columns: 74px 1fr auto; gap: 16px;
+  align-items: baseline; padding: 8px 0 8px 24px;
+}
+.tl-item::before {
+  content: ""; position: absolute; left: -7px; top: 12px;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--tl-c, var(--text-3));
+  border: 2px solid var(--bg);
+}
+.tl-item[data-status="active"] { --tl-c: var(--st-active); }
+.tl-item[data-status="court"] { --tl-c: var(--st-court); }
+.tl-item[data-status="threatened"] { --tl-c: var(--st-threat); }
+.tl-item[data-status="record"] { --tl-c: var(--st-record); }
+.tl-item[data-status="blocked"] { --tl-c: var(--st-blocked); }
+.tl-date {
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--text-3);
+  white-space: nowrap;
+}
+.tl-title {
+  font-size: 15px; font-weight: 500; color: var(--text); text-decoration: none;
+  line-height: 1.45; border-bottom: 1px solid transparent; transition: border-color 0.12s;
+}
+.tl-title:hover { border-bottom-color: var(--brand-bright); }
+.tl-status {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--tl-c, var(--text-3)); white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .tl-item { grid-template-columns: 1fr; gap: 3px; }
+  .tl-status { order: 3; }
+}
+
 /* ── pattern (analysis) ────────────────────────────────────────────────── */
 .analysis-note {
   display: inline-block; font-family: var(--font-mono); font-size: 10.5px;

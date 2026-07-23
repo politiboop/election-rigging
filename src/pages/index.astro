@@ -33,7 +33,20 @@ const CATS = {
 };
 
 const sorted = [...actions].sort((a, b) => b.date.localeCompare(a.date));
+const chrono = [...actions].sort((a, b) => a.date.localeCompare(b.date));
 const total = actions.length;
+
+const MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const monthLabel = (d) => { const [y, m] = d.split('-').map(Number); return `${MONTHS_LONG[m - 1]} ${y}`; };
+const timelineMonths = [];
+for (const a of chrono) {
+  const key = a.date.slice(0, 7);
+  if (!timelineMonths.length || timelineMonths[timelineMonths.length - 1].key !== key) {
+    timelineMonths.push({ key, label: monthLabel(a.date), items: [] });
+  }
+  timelineMonths[timelineMonths.length - 1].items.push(a);
+}
+const since2026 = chrono.filter((a) => a.date >= '2026-01-01').length;
 const statusCounts = Object.fromEntries(STATUS_ORDER.map(s => [s, actions.filter(a => a.status === s).length]));
 const catCounts = Object.fromEntries(Object.keys(CATS).map(c => [c, actions.filter(a => a.category === c).length]));
 const sourceCount = actions.reduce((n, a) => n + a.sources.length, 0);
@@ -65,6 +78,7 @@ const description = `A sourced, single-page record of ${total} documented action
         <a class="wordmark" href="#top">Rigged <em>Before</em> the Vote</a>
         <nav class="topnav" aria-label="Sections">
           <a href="#record">The Record</a>
+          <a href="#sequence">The Sequence</a>
           <a href="#pattern">The Pattern</a>
           <a href="#watch">What to Watch</a>
           <a href="#method">Method</a>
@@ -235,6 +249,37 @@ const description = `A sourced, single-page record of ${total} documented action
                   </ul>
                 </div>
               </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- ── THE SEQUENCE ─────────────────────────────────────────────── -->
+      <section id="sequence" aria-label="The sequence">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">In order</p>
+            <h2>The sequence</h2>
+            <p class="sub">
+              Every documented action, oldest first — <strong>{since2026} of {total}</strong> have
+              come since January 2026. Click any entry to open its full record, with sources, above.
+            </p>
+          </div>
+
+          <div class="timeline">
+            {timelineMonths.map((m) => (
+              <div class="tl-month">
+                <h3 class="tl-month-head">{m.label} <span class="tl-count">{m.items.length} {m.items.length === 1 ? 'action' : 'actions'}</span></h3>
+                <ul class="tl-list">
+                  {m.items.map((a) => (
+                    <li class="tl-item" data-status={a.status}>
+                      <span class="tl-date">{fmtDate(a.date).replace(/, \d{4}$/, '')}</span>
+                      <a class="tl-title" href={'#' + a.id}>{a.title}</a>
+                      <span class="tl-status">{STATUS[a.status].label}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
           </div>
         </div>
@@ -443,7 +488,13 @@ const description = `A sourced, single-page record of ${total} documented action
       // ── open card when deep-linked (#card-id) ──
       const openFromHash = () => {
         const el = document.getElementById(location.hash.slice(1));
-        if (el?.classList.contains('card')) { el.open = true; el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); }
+        if (!el?.classList.contains('card')) return;
+        if (el.classList.contains('is-hidden')) {
+          document.querySelector('.chip[data-cat="all"]')?.click();
+          document.querySelector('.chip[data-status="all"]')?.click();
+        }
+        el.open = true;
+        el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
       };
       window.addEventListener('hashchange', openFromHash);
       if (location.hash) openFromHash();
@@ -457,7 +508,7 @@ const description = `A sourced, single-page record of ${total} documented action
           }
         });
       }, { rootMargin: '-30% 0px -60% 0px' });
-      ['record', 'pattern', 'watch', 'method'].forEach((id) => {
+      ['record', 'sequence', 'pattern', 'watch', 'method'].forEach((id) => {
         const el = document.getElementById(id);
         if (el) spy.observe(el);
       });
