@@ -50,8 +50,7 @@ a { color: inherit; }
 /* ── topbar ─────────────────────────────────────────────────────────────── */
 .topbar {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(11, 13, 16, 0.92);
-  backdrop-filter: blur(10px);
+  background: rgba(11, 13, 16, 0.97);
   border-bottom: 1px solid var(--line-soft);
 }
 .topbar-inner {
@@ -198,7 +197,7 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
 .cat-tile .t { font-size: 12.5px; color: var(--text-2); margin-top: 6px; line-height: 1.35; }
 
 /* ── filters ───────────────────────────────────────────────────────────── */
-.filterbar { position: sticky; top: 54px; z-index: 40; background: rgba(11,13,16,0.94); backdrop-filter: blur(10px); padding: 14px 0; border-bottom: 1px solid var(--line-soft); margin-bottom: 28px; }
+.filterbar { position: sticky; top: 54px; z-index: 40; background: rgba(11,13,16,0.97); padding: 14px 0; border-bottom: 1px solid var(--line-soft); margin-bottom: 28px; }
 .chiprow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .chiprow + .chiprow { margin-top: 8px; }
 .chiprow .rowlbl {
