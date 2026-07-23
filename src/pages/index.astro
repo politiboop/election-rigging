@@ -102,6 +102,7 @@ const description = `A sourced, single-page record of ${total} documented action
           <a href="#sequence">The Sequence</a>
           <a href="#pattern">The Pattern</a>
           <a href="#watch">What to Watch</a>
+          <a href="#protect">Protect the Vote</a>
           <a href="#method">Method</a>
         </nav>
         <span class="countdown-chip"><strong id="days-out">—</strong> days to the midterms</span>
@@ -314,6 +315,7 @@ const description = `A sourced, single-page record of ${total} documented action
                       <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.text} ↗</a></li>
                     ))}
                   </ul>
+                  <button class="share-btn" data-share={a.id} type="button">Copy link to this entry</button>
                 </div>
               </details>
             ))}
@@ -456,6 +458,38 @@ const description = `A sourced, single-page record of ${total} documented action
         </div>
       </section>
 
+      <!-- ── PROTECT THE VOTE ─────────────────────────────────────────── -->
+      <section id="protect" aria-label="Protect the vote">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">Before you leave this page</p>
+            <h2>Protect the vote</h2>
+            <p class="sub">Documentation only matters if it moves you to act. None of this requires a side. It requires that you can vote, that you know your rights, and that you can check this record for yourself.</p>
+          </div>
+          <div class="protect-grid">
+            <div class="protect-card">
+              <span class="protect-num">01</span>
+              <h3>Make sure you can vote</h3>
+              <p>Confirm your registration, or register, at <a href="https://vote.gov/" target="_blank" rel="noopener noreferrer">vote.gov</a>, the official federal portal. Check your state's deadlines, ID rules, and mail-ballot options at <a href="https://www.canivote.org/" target="_blank" rel="noopener noreferrer">CanIVote.org</a>, run by the bipartisan National Association of Secretaries of State.</p>
+              <p class="protect-note">The rules are changing this cycle, see the SAVE Act and mail-ballot cards above. Check again close to the election.</p>
+            </div>
+            <div class="protect-card">
+              <span class="protect-num">02</span>
+              <h3>If someone tries to stop you</h3>
+              <p>Voter intimidation and being wrongly turned away are illegal. Call the nonpartisan Election Protection hotline, staffed by volunteer lawyers:</p>
+              <p class="protect-hotline"><strong>866-OUR-VOTE</strong> <span>(866-687-8683)</span><br /><strong>888-VE-Y-VOTA</strong> <span>en español (888-839-8682)</span></p>
+              <p class="protect-note">Report problems to your state or county election office. If you are in line when polls close, stay, you have the right to vote.</p>
+            </div>
+            <div class="protect-card">
+              <span class="protect-num">03</span>
+              <h3>Check our work, then share it</h3>
+              <p>Every card on this page links to its sources. Don't take our word for it, read them and decide for yourself.</p>
+              <p>Then send someone the receipt, not just the headline: open any entry and use <strong>Copy link to this entry</strong> to share that specific record.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- ── METHOD ───────────────────────────────────────────────────── -->
       <section id="method" aria-label="Method">
         <div class="wrap">
@@ -479,6 +513,14 @@ const description = `A sourced, single-page record of ${total} documented action
                 <li>Single-sourced items are noted as such in the card.</li>
                 <li>We use the most precise language the evidence supports — "blocked" is not "killed," "reported" is not "proven."</li>
                 <li>Corrections are made openly, not quietly.</li>
+              </ul>
+            </div>
+            <div class="method-card">
+              <h3>One standard for everyone</h3>
+              <ul>
+                <li>A claim that an election was stolen requires evidence, no matter who makes it or who it benefits.</li>
+                <li>That is the standard by which 60+ courts, Trump's own attorney general, and his own cybersecurity agency rejected the 2020 fraud claims. It is the same standard we would apply to any fraud claim about 2024 or 2026, including from people who oppose Trump.</li>
+                <li>This page documents actions that are themselves documented — orders signed, words spoken, suits filed — not statistical inferences about secret manipulation.</li>
               </ul>
             </div>
             <div class="method-card">
@@ -621,6 +663,20 @@ const description = `A sourced, single-page record of ${total} documented action
         });
       });
 
+      // ── copy link to a specific entry (event-delegated) ──
+      document.getElementById('cards').addEventListener('click', (e) => {
+        const btn = e.target.closest('.share-btn');
+        if (!btn) return;
+        e.preventDefault();
+        const url = location.origin + location.pathname + '#' + btn.dataset.share;
+        const done = () => { const t = btn.textContent; btn.textContent = 'Link copied ✓'; btn.classList.add('copied'); setTimeout(() => { btn.textContent = t; btn.classList.remove('copied'); }, 1800); };
+        if (navigator.clipboard?.writeText) {
+          navigator.clipboard.writeText(url).then(done).catch(() => { location.hash = btn.dataset.share; done(); });
+        } else {
+          location.hash = btn.dataset.share; done();
+        }
+      });
+
       // ── doubt-band filter link ──
       document.getElementById('doubt-filter-btn').addEventListener('click', () => {
         document.querySelector('.chip[data-flag="doubt"]')?.click();
@@ -672,7 +728,7 @@ const description = `A sourced, single-page record of ${total} documented action
           }
         });
       }, { rootMargin: '-30% 0px -60% 0px' });
-      ['record', 'prehistory', 'sequence', 'pattern', 'watch', 'method'].forEach((id) => {
+      ['record', 'prehistory', 'sequence', 'pattern', 'watch', 'protect', 'method'].forEach((id) => {
         const el = document.getElementById(id);
         if (el) spy.observe(el);
       });

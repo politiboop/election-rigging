@@ -480,6 +480,45 @@ section { scroll-margin-top: 40px; }
 .watch-what a { color: var(--st-court); text-decoration: none; }
 .watch-what a:hover { text-decoration: underline; }
 
+/* ── share button (on cards) ───────────────────────────────────────────── */
+.share-btn {
+  margin-top: 16px;
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--text-2);
+  background: transparent; border: 1px solid var(--line);
+  border-radius: 4px; padding: 7px 12px; cursor: pointer;
+  transition: color 0.12s, border-color 0.12s;
+}
+.share-btn:hover { color: var(--text); border-color: var(--text-3); }
+.share-btn.copied { color: var(--st-blocked); border-color: color-mix(in srgb, var(--st-blocked) 55%, transparent); }
+
+/* ── protect the vote ──────────────────────────────────────────────────── */
+.protect-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+@media (max-width: 900px) { .protect-grid { grid-template-columns: 1fr; } }
+.protect-card {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-top: 3px solid var(--brand); border-radius: 8px; padding: 24px;
+}
+.protect-num {
+  font-family: var(--font-mono); font-size: 12px; color: var(--brand-bright);
+  letter-spacing: 0.1em;
+}
+.protect-card h3 {
+  font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+  font-size: 22px; line-height: 1.1; margin: 8px 0 12px;
+}
+.protect-card p { font-size: 14.5px; color: var(--text-2); line-height: 1.6; margin-bottom: 10px; }
+.protect-card a { color: var(--st-court); text-decoration: none; border-bottom: 1px solid var(--line); }
+.protect-card a:hover { border-color: var(--st-court); }
+.protect-card strong { color: var(--text); font-weight: 600; }
+.protect-note { font-size: 13px; color: var(--text-3); border-top: 1px solid var(--line-soft); padding-top: 10px; margin-top: 4px; }
+.protect-hotline {
+  font-family: var(--font-mono); font-size: 15px; line-height: 1.9;
+  background: var(--raised); border-radius: 6px; padding: 12px 14px;
+}
+.protect-hotline strong { color: var(--brand-bright); }
+.protect-hotline span { color: var(--text-3); font-size: 12px; }
+
 /* ── method ────────────────────────────────────────────────────────────── */
 .method-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
 @media (max-width: 900px) { .method-grid { grid-template-columns: 1fr; } }
