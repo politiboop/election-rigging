@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "georgia-ballot-seizure",
+    "title": "The FBI Raids a County Election Office and Seizes the 2020 Ballots",
+    "date": "2026-01-28",
+    "category": "machinery",
+    "status": "active",
+    "facts": [
+      "On January 28, 2026, the FBI raided the Fulton County, Georgia elections office and seized roughly 700 boxes of 2020 ballots, along with tabulator tapes, voter rolls, and electronic ballot images. ABC News called the seizure \"apparently unprecedented.\"",
+      "Trump personally ordered Director of National Intelligence Tulsi Gabbard to Atlanta. She was physically present at the raid, despite the DNI being barred by law from domestic law enforcement, and she put agents on speakerphone with Trump, who thanked them in what officials described as a \"pep talk.\"",
+      "The warrant was premised on 2020 fraud claims that roughly 60 courts, Trump's own attorney general, and Georgia's Republican secretary of state had already rejected.",
+      "Fulton County called the warrant improper and is fighting in court to keep the materials in Georgia under seal."
+    ],
+    "take": "Five years after an election he lost by 12,000 votes in the state, the president sent the FBI and his intelligence chief into the county that counted it. Whatever this is, it is not evidence-gathering. It is a demonstration to every election office in the country of what happens to jurisdictions he loses.",
+    "sources": [
+      {
+        "text": "ABC News: FBI seizes 2020 ballots in Georgia in apparently unprecedented action, alarming local officials",
+        "url": "https://abcnews.go.com/Politics/fbi-conducting-court-ordered-activity-georgia-election-site/story?id=129644345"
+      },
+      {
+        "text": "Washington Post: FBI executes search warrant looking for 2020 ballots in Georgia's Fulton County",
+        "url": "https://www.washingtonpost.com/national-security/2026/01/28/fbi-fulton-2020-election-fraud/"
+      },
+      {
+        "text": "Democracy Docket: Trump directed Gabbard to take part in FBI raid on Fulton County election hub",
+        "url": "https://www.democracydocket.com/news-alerts/trump-tulsi-gabbard-order-take-part-fulton-county-fbi-2020-raid/"
+      },
+      {
+        "text": "NBC News: Election officials push back against Trump administration after Fulton County raid",
+        "url": "https://www.nbcnews.com/politics/elections/election-officials-push-back-trump-administration-fulton-county-raid-rcna256538"
+      }
+    ],
+    "trackerIds": [
+      "fulton-county-ballot-seizure"
+    ]
+  },
+  {
+    "id": "puerto-rico-machines",
+    "title": "Intelligence Officials Take Puerto Rico's Voting Machines on a Venezuela Pretext",
+    "date": "2025-05-01",
+    "category": "machinery",
+    "status": "active",
+    "facts": [
+      "In May 2025, DNI Tulsi Gabbard's office obtained Puerto Rico's voting machines, with the local U.S. attorney, Homeland Security Investigations, and the FBI facilitating the handover, to investigate claims that Venezuela had hacked them.",
+      "No evidence of Venezuelan interference was found. A later teardown found ordinary chips from China, Japan, South Korea, and Malaysia, no Venezuelan code, and no hacking.",
+      "Sen. Mark Warner: \"Absent a foreign nexus, intelligence agencies have absolutely no lawful role in domestic election administration. This is exactly the kind of overreach Congress wrote the law to prevent.\"",
+      "Puerto Rico does not vote in presidential elections. Election experts read the episode as a test run for seizing machines somewhere that lacked the political power to resist."
+    ],
+    "sources": [
+      {
+        "text": "CNN: Intelligence director Tulsi Gabbard's office obtained and tested voting machines in Puerto Rico",
+        "url": "https://edition.cnn.com/2026/02/04/politics/gabbard-office-obtained-voting-machines-puerto-rico"
+      },
+      {
+        "text": "Reuters (via US News): US spy chief's office investigated voting machines in Puerto Rico",
+        "url": "https://www.usnews.com/news/world/articles/2026-02-04/exclusive-us-spy-chiefs-office-investigated-voting-machines-in-puerto-rico"
+      },
+      {
+        "text": "The New Republic: Tulsi Gabbard's Team Took a Bunch of Voting Machines in Puerto Rico",
+        "url": "https://newrepublic.com/post/206194/tulsi-gabbard-voting-machines-puerto-rico"
+      }
+    ],
+    "trackerIds": [
+      "gabbard-dni-puerto-rico-voting-machines"
+    ]
+  },
+  {
+    "id": "dominion-ban-attempt",
+    "title": "Officials Tried to Ban the Voting Machines Half the Country Uses",
+    "date": "2026-05-22",
+    "category": "machinery",
+    "status": "blocked",
+    "facts": [
+      "Reuters reported in May 2026 that Trump officials, led by White House election adviser Kurt Olsen, tried to ban Dominion voting machines used in roughly 27 states by having the Commerce Department declare their components a national security risk.",
+      "The goal was to force much of the country onto hand-counted paper ballots, potentially before the 2026 midterms. Commerce Secretary Howard Lutnick was reportedly unaware of the discussions.",
+      "The plan failed because officials could not find legal grounds to declare the machines a threat. No U.S. voting machine has ever been shown to have been hacked in an election, and about 98% of jurisdictions already produce auditable paper records.",
+      "Election-security expert Alex Halderman: switching to hand counting \"would be chaotic and might facilitate cheating.\""
+    ],
+    "sources": [
+      {
+        "text": "HuffPost: Trump officials tried to ban voting machines used in more than half of U.S. states",
+        "url": "https://www.huffpost.com/entry/trump-officials-voting-machines_n_6a104120e4b0f1ba1f64e15f"
+      },
+      {
+        "text": "The New Republic: Trump moves to ban voting machines",
+        "url": "https://newrepublic.com/post/210838/trump-ban-voting-machines"
+      }
+    ],
+    "trackerIds": [
+      "trump-dominion-voting-machine-ban-effort-commerce-hand-counting"
+    ]
+  },
+  {
+    "id": "eac-emptied",
+    "title": "The Agency That Certifies Voting Systems Is Left With Nobody Home",
+    "date": "2026-07-09",
+    "category": "machinery",
+    "status": "active",
+    "facts": [
+      "On July 9, 2026, Trump removed the last members of the bipartisan Election Assistance Commission, firing Democrats Thomas Hicks and Benjamin Hovland while Republican Christy McCormick was allowed to resign. With zero commissioners, the agency cannot take official action until the Senate confirms replacements.",
+      "The EAC certifies voting systems, maintains the national voter registration form, distributes federal election funds, and advises election officials. In March 2025 Trump had ordered it to rewrite the national registration form to require documentary proof of citizenship.",
+      "Months earlier, the administration blocked appointments to the EAC's Technical Guidelines Development Committee, leaving nearly half its 15 seats vacant, unprecedented in its 20-year history, with no functioning body to update voting-system security guidelines before the midterms.",
+      "Nevada Secretary of State Cisco Aguilar: it \"will again fall on Secretaries of State... to fill the gap.\""
+    ],
+    "sources": [
+      {
+        "text": "ProPublica: Trump Pushes Out Remaining Members of Bipartisan Election Commission Ahead of Midterms",
+        "url": "https://www.propublica.org/article/federal-election-assistance-commission-trump-dismantled"
+      },
+      {
+        "text": "Votebeat: Trump fires all Election Assistance Commission members, leaving agency unable to act",
+        "url": "https://www.votebeat.org/national/2026/07/09/trump-fires-election-assistance-commission-members-hicks-hovland-mccormick/"
+      },
+      {
+        "text": "The Guardian: Trump fires last members of election commission, inciting fears of midterm 'chaos'",
+        "url": "https://www.theguardian.com/us-news/2026/jul/09/trump-fires-election-commissioners"
+      },
+      {
+        "text": "Democracy Docket: Trump admin blocks appointments to EAC Voting Equipment Standards Committee",
+        "url": "https://www.democracydocket.com/news-alerts/trump-adminstration-block-appointments-eac-voting-equipment-standards-committee/"
+      }
+    ],
+    "trackerIds": [
+      "trump-fires-election-assistance-commission-quorum",
+      "eac-voting-standards-committee-blocked"
+    ]
+  },
+  {
+    "id": "mail-voting-eo",
+    "title": "An Executive Order Puts the Federal Government in Charge of Who Gets a Mail Ballot",
+    "date": "2026-03-31",
+    "category": "machinery",
+    "status": "court",
+    "facts": [
+      "On March 31, 2026, Trump signed an executive order directing DHS to compile federal lists of \"confirmed U.S. citizens eligible to vote in each state\" and giving the Postal Service control over mail ballot distribution. It was drafted in part by Kurt Olsen, who was involved in the 2020 election-overturn effort.",
+      "States refused immediately. New Hampshire's secretary of state: \"The Federal Government cannot usurp New Hampshire's express constitutional authority.\" Twenty-three Democratic-led states sued; at least four lawsuits are pending.",
+      "The Constitution assigns election administration to the states (Article I, Section 4). Election expert David Becker predicted courts would block the order \"before the ink is dry.\"",
+      "In May, U.S. District Judge Carl Nichols, a Trump appointee, declined to block it, reasoning that no agency had yet acted on it in a way that harmed the plaintiffs. By June, plaintiffs told an appeals court the order was already being implemented through the USPS rule and DHS memos.",
+      "Trump himself voted by mail in Florida three days before signing the order."
+    ],
+    "sources": [
+      {
+        "text": "NBC News: Trump signs executive order to create federal voter lists",
+        "url": "https://www.nbcnews.com/politics/elections/trump-signs-executive-order-create-federal-voter-lists-rcna266092"
+      },
+      {
+        "text": "AP: Democrats and 23 states sue to block Trump mail ballot executive order",
+        "url": "https://apnews.com/article/donald-trump-elections-mail-ballots-democrats-8d58e1e194c3b85a94a562ef8807a016"
+      },
+      {
+        "text": "Reuters: Judge allows Trump to implement mail-in voting executive order",
+        "url": "https://www.reuters.com/legal/government/judge-allows-trump-implement-mail-in-voting-executive-order-2026-05-28/"
+      },
+      {
+        "text": "Democracy Docket: Trump's mail-voting order is already being implemented and must be blocked, new filing alleges",
+        "url": "https://www.democracydocket.com/news-alerts/trumps-flagrantly-unconstitutional-order-attacking-mail-voting-is-already-being-implemented-and-must-be-blocked-now-new-filing-alleges/"
+      }
+    ],
+    "trackerIds": [
+      "trump-executive-order-mail-voting-federal-voter-lists",
+      "judge-nichols-declines-block-trump-mail-in-voting-eo"
+    ]
+  },
+  {
+    "id": "usps-ballot-refusal",
+    "title": "The Post Office Wins Permission, for Now, to Refuse Ballots",
+    "date": "2026-07-17",
+    "category": "machinery",
+    "status": "court",
+    "facts": [
+      "Under the rule implementing Trump's mail-voting order, USPS would deliver mail ballots only for states that hand over their voter lists 60 or more days before the election and put a unique tracking barcode on every ballot. USPS could refuse noncompliant ballots.",
+      "On June 24, Postmaster General David Steiner confirmed under oath that USPS would not deliver ballots for states that refuse to hand over voter rolls: \"Under our proposed regulation? No.\"",
+      "A district judge blocked the rule in early July. On July 17, a three-judge appeals panel temporarily lifted that injunction, letting the rule advance while litigation continues.",
+      "Implementation must happen before mid-September, when ballot mailing begins. Missing barcodes or mismatched records could delay or void ballots, hitting elderly, disabled, and rural voters hardest."
+    ],
+    "take": "Watch the September deadline. If this rule is in force when ballots start mailing, the post office becomes a ballot gatekeeper weeks before the election, and any state that refused to surrender its voter file finds out what that means in real time.",
+    "sources": [
+      {
+        "text": "CNN: Postal Service won't deliver mail ballots for states that don't hand over voter lists, under plan for Trump directive",
+        "url": "https://www.cnn.com/2026/06/10/politics/postal-service-deliver-mail-in-ballots"
+      },
+      {
+        "text": "PBS NewsHour: USPS won't deliver mail ballots to states that don't provide voter rolls, Postmaster General says",
+        "url": "https://www.pbs.org/newshour/politics/watch-under-proposed-rule-usps-wont-deliver-mail-ballots-to-states-that-dont-provide-voter-rolls-postmaster-general-says"
+      },
+      {
+        "text": "Newsweek: Donald Trump Scores Legal Victory In Major Mail-In Voting Change",
+        "url": "https://www.newsweek.com/donald-trump-legal-victory-mail-in-voting-12213708"
+      }
+    ],
+    "trackerIds": [
+      "usps-mail-ballot-rule-appeals-court-unblocks",
+      "usps-mail-ballot-delivery-conditioned-voter-lists"
+    ]
+  },
+  {
+    "id": "voter-roll-lawsuits",
+    "title": "The DOJ Sues 30 States for Voter Files and Loses Nine Straight Times",
+    "date": "2026-06-22",
+    "category": "data",
+    "status": "court",
+    "facts": [
+      "Trump's DOJ has filed roughly 30 lawsuits against 29 states plus D.C. demanding voter registration data: names, addresses, birthdates, partial Social Security numbers, and driver's license numbers, using a Civil Rights Act provision written to protect Black voters.",
+      "It is 0-for-9 in court. Five of the nine losses came from judges Trump himself appointed. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
+      "Twelve Republican-led states complied voluntarily, so the data campaign advances even as it loses in court.",
+      "An NBC News review found the DOJ still cannot substantiate Trump's claims of widespread voter fraud months before the midterms."
+    ],
+    "sources": [
+      {
+        "text": "Democracy Docket: Trump DOJ loses again, 0-for-5 on voter roll cases",
+        "url": "https://www.democracydocket.com/news-alerts/trump-doj-loses-again-now-0-for-5-on-voter-roll-cases-as-court-rejects-rhode-island-lawsuit/"
+      },
+      {
+        "text": "Washington Times: Trump's DOJ loses another voter list case",
+        "url": "https://www.washingtontimes.com/news/2026/apr/17/donald-trumps-doj-loses-another-voter-list-case/"
+      },
+      {
+        "text": "Democracy Docket: Trump DOJ loses in Maine, Wisconsin as courts rebuff demand for voter rolls",
+        "url": "https://www.democracydocket.com/news-alerts/trump-doj-loses-in-maine-wisconsin-as-courts-rebuff-demand-for-voter-rolls/"
+      },
+      {
+        "text": "NBC News: Trump's DOJ struggles to show evidence of widespread voter fraud",
+        "url": "https://www.nbcnews.com/politics/justice-department/trumps-doj-struggles-show-evidence-widespread-voter-fraud-rcna349100"
+      }
+    ],
+    "trackerIds": [
+      "doj-voter-roll-lawsuits-0-for-5"
+    ]
+  },
+  {
+    "id": "national-voter-database",
+    "title": "A National Voter Database Nobody Authorized",
+    "date": "2026-04-05",
+    "category": "data",
+    "status": "active",
+    "facts": [
+      "CNN reported in April 2026 that the administration is building a national voter database through a DOJ-DHS data sharing deal, with 50 to 60 million voter records already collected from states, assembled through executive channels with no congressional authorization.",
+      "The DHS SAVE system it relies on flagged about 21,000 of 60 million records as possible noncitizens, 0.00035%. In Virginia's experience with the same system, 94% of people flagged as \"noncitizens\" were actually U.S. citizens.",
+      "Experts warn naturalized citizens are the people most likely to be wrongly caught in the net."
+    ],
+    "sources": [
+      {
+        "text": "CNN: Trump administration building voter database using DHS-DOJ data sharing",
+        "url": "https://edition.cnn.com/2026/04/05/politics/trump-voter-database-election-fraud"
+      }
+    ],
+    "trackerIds": [
+      "trump-voter-database-dhs-doj-data-sharing"
+    ]
+  },
+  {
+    "id": "alaska-voter-rolls",
+    "title": "Alaska Quietly Hands Its Unredacted Voter Rolls to the DOJ",
+    "date": "2026-04-22",
+    "category": "data",
+    "status": "court",
+    "facts": [
+      "Under a memorandum of understanding signed in August 2025, Alaska's Republican lieutenant governor transferred the state's complete unredacted voter list, including full names, birth dates, home addresses, and driver's license or partial Social Security numbers, to the Trump DOJ.",
+      "The ACLU, the Electronic Privacy Information Center, the League of Women Voters of Alaska, and the Alaska Black Caucus sued in April 2026, asking a court to void the MOU, order the DOJ to destroy all copies, and bar future transfers.",
+      "ACLU attorney Theresa J. Lee: the state \"has put both privacy and democracy at serious risk.\" Civil rights groups argue the program is designed to engineer purges of Democratic-leaning voters, voters with immigrant-sounding names, and voters of color.",
+      "Alaska is small, but the MOU is a template: if it survives, other Republican-led states can copy it before November."
+    ],
+    "sources": [
+      {
+        "text": "Bloomberg Law: Alaska officials sued for turning voter rolls over to DOJ",
+        "url": "https://news.bloomberglaw.com/business-and-practice/alaska-officials-sued-for-turning-voter-rolls-over-to-doj"
+      },
+      {
+        "text": "ACLU: Civil rights groups sue Alaska Division of Elections for sharing unredacted voter registration list",
+        "url": "https://www.aclu.org/press-releases/civil-rights-groups-sue-alaska-division-of-elections-for-sharing-unredacted-voter-registration-list"
+      },
+      {
+        "text": "AP (via Press Democrat): Groups sue Alaska election officials over sharing of voter data with DOJ",
+        "url": "https://www.pressdemocrat.com/2026/04/22/elections-justice-department-alaska/"
+      }
+    ],
+    "trackerIds": [
+      "alaska-voter-rolls-doj-lawsuit"
+    ]
+  },
+  {
+    "id": "fulton-worker-subpoena",
+    "title": "A Subpoena for the Names and Home Addresses of 3,000 Election Workers",
+    "date": "2026-04-17",
+    "category": "data",
+    "status": "blocked",
+    "facts": [
+      "In April 2026 the DOJ subpoenaed Fulton County for its full 2020 election staff roster: names, home addresses, email addresses, and personal phone numbers for nearly 3,000 employees, temporary poll workers, and volunteers.",
+      "Fulton County Commission Chair Robb Pitts said the purpose was \"to intimidate workers in our county, to discourage people from voting,\" and the county filed a 27-page motion to block it. A federal judge later rejected the DOJ's demand for election workers' names as \"unreasonable.\"",
+      "Poll worker rosters are not historically material to fraud investigations. The likely operational effect is a chilling one: many of the same people would be staffing the November midterms."
+    ],
+    "sources": [
+      {
+        "text": "The New Republic: DOJ wants to name every 2020 election worker in Fulton County, Georgia",
+        "url": "https://newrepublic.com/post/209944/justice-deparment-name-every-2020-election-worker-fulton-county-georgia"
+      },
+      {
+        "text": "MS NOW: FBI analysts fired after refusing to join Georgia 2020 election probe (notes the subpoena's rejection)",
+        "url": "https://www.ms.now/news/fbi-kash-patel-trump-georgia-2020-election"
+      }
+    ],
+    "trackerIds": [
+      "doj-subpoenas-fulton-county-3000-election-workers-personal-data",
+      "fbi-fires-analysts-refused-georgia-2020-election-probe"
+    ]
+  },
+  {
+    "id": "dhs-grants-leverage",
+    "title": "Homeland Security Money Becomes Election Leverage",
+    "date": "2026-06-22",
+    "category": "data",
+    "status": "active",
+    "facts": [
+      "In June 2026 the administration moved to condition more than $1 billion in DHS grants, money that funds state and local terrorism prevention, infrastructure protection, and disaster preparedness, on states adopting its election changes.",
+      "To keep the funding, states would have to switch to hand-marked paper ballots and run their voter rolls through the contested DHS citizenship database. Refusers reportedly face roughly a 20% cut.",
+      "Jurisdictions forced to change include Delaware, Georgia, Nevada, South Carolina, and Los Angeles County. A former DOJ lawyer predicted the requirements \"will be blocked in the courts.\""
+    ],
+    "sources": [
+      {
+        "text": "CNN: Homeland Security to condition grants on states adopting election changes",
+        "url": "https://www.cnn.com/2026/06/22/politics/homeland-security-grants-election-changes"
+      },
+      {
+        "text": "The New Republic: Trump threatens to defund Homeland Security for states over election changes",
+        "url": "https://newrepublic.com/post/212151/trump-threatens-defund-homeland-security-states-election-changes-2026-midterms"
+      }
+    ],
+    "trackerIds": [
+      "dhs-grants-conditioned-election-changes-paper-ballots-citizenship"
+    ]
+  },
+  {
+    "id": "bondi-minnesota-letter",
+    "title": "The Attorney General Ties Federal Enforcement Decisions to a State's Voter Rolls",
+    "date": "2026-01-25",
+    "category": "data",
+    "status": "active",
+    "facts": [
+      "In January 2026, Attorney General Pam Bondi sent Gov. Tim Walz a letter requesting access to Minnesota's voter rolls for a federal \"compliance review,\" along with the state's Medicaid and SNAP records, and urging repeal of sanctuary policies.",
+      "News outlets across the spectrum reported that the letter tied future federal enforcement decisions in Minnesota to the state's cooperation.",
+      "The demand arrived while federal agents were deployed in Minneapolis, making the leverage explicit: enforcement posture on one side of the scale, voter data on the other."
+    ],
+    "sources": [
+      {
+        "text": "Fox News: Bondi sends warning letter to Gov. Walz on Minnesota immigration policies",
+        "url": "https://www.foxnews.com/politics/read-it-bondi-sends-warning-letter-gov-walz-warning-minnesotas-immigration-policies-endanger-agents"
+      },
+      {
+        "text": "The Hill: Bondi seeks action on welfare fraud, immigration in Minnesota after shooting",
+        "url": "https://thehill.com/homenews/state-watch/5705179-bondi-walz-letter-immigration-fraud-voter-rolls/"
+      },
+      {
+        "text": "KSTP: Bondi letter requests access to Minnesota voting and welfare records, repeal of sanctuary policies",
+        "url": "https://kstp.com/kstp-news/top-news/bondi-letter-to-walz-requests-access-to-minnesota-voting-and-welfare-records-repeal-of-santuary-policies/"
+      }
+    ],
+    "trackerIds": [
+      "bondi-minnesota-ice-extortion"
+    ]
+  },
+  {
+    "id": "ice-surround-polls",
+    "title": "'You're Damn Right We're Going to Have ICE Surround the Polls'",
+    "date": "2026-02-05",
+    "category": "force",
+    "status": "threatened",
+    "facts": [
+      "Steve Bannon, on his War Room podcast: \"You're damn right we're going to have ICE surround the polls come November.\"",
+      "Asked about it the same day, White House Press Secretary Karoline Leavitt declined to rule it out: \"I can't guarantee that an ICE agent won't be around a polling location in November,\" adding only that there were \"no formal plans.\"",
+      "Federal and state laws prohibit federal law enforcement from patrolling polling places. Even the threat works as intimidation, deterring immigrant families and mixed-status households from voting."
+    ],
+    "sources": [
+      {
+        "text": "The Hill: Steve Bannon calls for ICE presence at polls ahead of 2026 midterms",
+        "url": "https://thehill.com/homenews/media/5723066-bannon-ice-presence-polls/"
+      },
+      {
+        "text": "Democracy Docket: Steve Bannon says ICE will 'surround the polls' as Trump doubles down on taking over elections",
+        "url": "https://www.democracydocket.com/news-alerts/steve-bannon-says-ice-will-surround-the-polls-as-trump-doubles-down-on-taking-over-elections/"
+      },
+      {
+        "text": "Newsweek: Warnings issued on nationalizing elections, ICE at polls: 'Huge danger'",
+        "url": "https://www.newsweek.com/warnings-issued-on-nationalizing-elections-ice-at-polls-huge-danger-11467048"
+      }
+    ],
+    "trackerIds": [
+      "white-house-ice-polling-places-midterms"
+    ]
+  },
+  {
+    "id": "election-integrity-army",
+    "title": "Trump Promises an 'Election Integrity Army' at Every Polling Place",
+    "date": "2026-05-10",
+    "category": "force",
+    "status": "threatened",
+    "facts": [
+      "On May 10, 2026, Trump announced on Truth Social that Republicans will field an \"Election Integrity Army\" for the midterms, \"much bigger and stronger\" than 2024's poll-watching operation, without saying who would be in it or how large it would be.",
+      "It is the third parallel route to force at the polls floated in 2026, alongside Bannon's ICE threat and Hegseth's refusal to rule out following an order to deploy troops.",
+      "Sen. Chuck Schumer: \"Donald Trump knows, his party knows, that they're at risk of losing this election in 2026, which is why they're working round the clock to tilt the scales unfairly in their favor.\""
+    ],
+    "sources": [
+      {
+        "text": "The Independent: Trump announces 'Election Integrity Army' for 2026 midterms",
+        "url": "https://www.the-independent.com/news/world/americas/us-politics/trump-election-integrity-army-midterms-b2973934.html"
+      },
+      {
+        "text": "The New Republic: Trump blurts vile plot to steal midterms as crushing new poll hits",
+        "url": "https://newrepublic.com/article/210212/trump-blurts-vile-plot-steal-midterms-crushing-new-poll-hits"
+      }
+    ],
+    "trackerIds": [
+      "trump-election-integrity-army-2026-midterm-rigging-signal"
+    ]
+  },
+  {
+    "id": "hegseth-troops-claim",
+    "title": "The Defense Secretary Invents a Precedent for Troops at the Polls",
+    "date": "2026-04-29",
+    "category": "force",
+    "status": "threatened",
+    "facts": [
+      "Asked in April 2026 congressional testimony whether he would follow a hypothetical Trump order to deploy troops to polling places, an order that would violate federal law, Defense Secretary Pete Hegseth declined to rule it out and instead claimed Biden \"deployed troops to polling locations in 15 states\" in 2024.",
+      "He repeated the claim in both chambers. CNN contacted all 15 states; the 11 that responded all said no troops were at polling locations. Guard activity in 2024 was cybersecurity support or liaison work, ordered by governors, not Biden.",
+      "The false claim matters because of what it builds: a fabricated precedent that would normalize exactly the deployment he was asked about."
+    ],
+    "sources": [
+      {
+        "text": "CNN (Daniel Dale): Hegseth twice made a false claim to Congress about troops being sent to voting places under Biden",
+        "url": "https://www.cnn.com/2026/05/04/politics/hegseth-biden-2024-troops-voting-locations-fact-check"
+      }
+    ],
+    "trackerIds": [
+      "hegseth-false-2024-troops-polling-locations-claim"
+    ]
+  },
+  {
+    "id": "syracuse-poll-worker",
+    "title": "ICE Agents Visit a Poll Worker at Her Job on Election Day",
+    "date": "2026-06-24",
+    "category": "force",
+    "status": "active",
+    "facts": [
+      "On Election Day, June 24, 2026, two ICE agents tracked down Syracuse poll worker Paigelynne Gonyea at her workplace carrying printouts of her Instagram posts and her driver's license, handed her a notice claiming she had \"threatened ICE personnel,\" and pressed her to sign a form agreeing to delete her account.",
+      "Her offense: sharing an article naming the agent who shot Renee Good, captioned \"I think today is a great day for Jonathan to be indicted.\"",
+      "She refused: \"For ICE to come to me over a social media post just feels very 1984 to me... I'm kinda now even worried more about November.\"",
+      "The county elections commissioner noted the law bars law enforcement at polling places except in emergencies, with \"no indication of that here.\" Rep. John Mannion demanded DHS explain who ordered the visit."
+    ],
+    "sources": [
+      {
+        "text": "The New Republic: ICE tracks down a poll worker to force her to delete an Instagram post",
+        "url": "https://newrepublic.com/post/212340/ice-poll-worker-election-delete-instagram-post"
+      },
+      {
+        "text": "Democracy Docket: New York poll worker confronted by ICE speaks out, 'I'm even worried more about November'",
+        "url": "https://www.democracydocket.com/news-alerts/new-york-poll-worker-confronted-by-ice-speaks-out-im-even-worried-more-about-november/"
+      }
+    ],
+    "trackerIds": [
+      "ice-visits-poll-worker-instagram-post-election-day-syracuse"
+    ]
+  },
+  {
+    "id": "emergency-powers-track",
+    "title": "The Emergency-Powers Track: NSPM-7, 137 Statutory Powers, and the PEADs",
+    "date": "2026-05-05",
+    "category": "force",
+    "status": "threatened",
+    "facts": [
+      "Since March 2026, Trump allies have publicly pushed to invoke emergency powers around the midterms: federal agents at polling places, seizure of state election infrastructure, federalized election oversight.",
+      "A New York Times analysis by Thomas Edsall mapped the architecture experts say makes that possible. NSPM-7, signed September 2025, directs agencies to pursue \"domestic terrorist organizations,\" a category that does not exist in federal law, citing no statute. National emergency declarations unlock powers in 137 provisions of law, and terminating one requires a veto-proof supermajority. Classified PEADs can be activated by a presidential signature alone, with no court review before taking effect.",
+      "The Brennan Center's Elizabeth Goitein calls the congressional check \"a very weak constraint.\" Keep Our Republic's Joel McCleary: the combined effect \"has no precedent in American law outside wartime.\"",
+      "After the July primetime election address, Trump's own former White House special counsel Ty Cobb warned the speech was designed \"to add the predicate that he needs to declare an emergency at or about the time of the elections.\""
+    ],
+    "take": "This is the card we most want to age badly. Nothing here has been activated. But predicates are being laid in public, by the administration's own former lawyers' account, and the infrastructure spending is real. We track it so that if an \"election emergency\" arrives in October, nobody can say it came from nowhere.",
+    "sources": [
+      {
+        "text": "Politico: Trump allies push emergency powers plan for 2026 midterms",
+        "url": "https://www.politico.com/news/2026/03/03/trump-allies-emergency-powers-midterm-elections-00203145"
+      },
+      {
+        "text": "New York Times (Edsall): The President Is Preparing to Disrupt the 2026 Midterms",
+        "url": "https://www.nytimes.com/2026/05/05/opinion/trump-midterm-elections-2026.html"
+      },
+      {
+        "text": "Brennan Center: Presidential Emergency Action Documents",
+        "url": "https://www.brennancenter.org/our-work/research-reports/presidential-emergency-action-documents-review"
+      },
+      {
+        "text": "PBS NewsHour: Trump setting stage to declare emergency around midterms, former White House attorney says",
+        "url": "https://www.pbs.org/newshour/show/trump-setting-stage-to-declare-emergency-around-midterms-former-white-house-attorney-says"
+      }
+    ],
+    "trackerIds": [
+      "edsall-nspm7-peads-emergency-powers-2026-midterm-disruption",
+      "trump-emergency-powers-midterm-elections",
+      "trump-primetime-address-2020-declassified-interference-claims"
+    ]
+  },
+  {
+    "id": "wisconsin-officials-homes",
+    "title": "FBI Agents at the Front Doors of Election Officials",
+    "date": "2026-05-29",
+    "category": "force",
+    "status": "active",
+    "facts": [
+      "In late May 2026, FBI Director Kash Patel sent agents unannounced to the private homes of current and former Wisconsin election officials, chasing two debunked 2020 theories: a flash drive of supposedly altered absentee results and a claim that an Illinois man secretly printed Biden ballots.",
+      "It is part of a multi-state pattern: the Fulton County raid in Georgia, seizure of ballot images and data in Arizona, and ballot demands in Michigan.",
+      "Local officials fear the FBI will try to seize Wisconsin's absentee ballots, which a quirk of state law allows to be traced back to individual voters.",
+      "No outcome-altering fraud has ever been found in Wisconsin or any state in 2020."
+    ],
+    "sources": [
+      {
+        "text": "The New Republic: FBI agents show up at homes of election workers in key swing state",
+        "url": "https://newrepublic.com/post/211125/fbi-agents-homes-election-workers-wisconsin"
+      },
+      {
+        "text": "The Daily Beast: Kash Patel sends agents to election officials' homes in Wisconsin",
+        "url": "https://www.thedailybeast.com/kash-patel-sends-agents-to-election-officials-homes-in-wisconsin/"
+      }
+    ],
+    "trackerIds": [
+      "patel-fbi-wisconsin-election-officials-homes"
+    ]
+  },
+  {
+    "id": "lucas-raid",
+    "title": "The FBI Raids the 82-Year-Old Legislator Behind a Redistricting Win",
+    "date": "2026-05-06",
+    "category": "force",
+    "status": "active",
+    "facts": [
+      "On May 6, 2026, the FBI raided the Portsmouth office of Sen. L. Louise Lucas, the 82-year-old president pro tempore of the Virginia Senate and the legislative architect of the redistricting referendum voters had approved two weeks earlier.",
+      "The stated cause was \"corruption allegations\" tied to a state cannabis regulatory matter, the kind of issue not normally subject to federal raids.",
+      "The sequence: April 21, the referendum passes. April 22, Trump declares it \"RIGGED.\" May 6, the FBI raids the legislator who championed it. May 8, the Virginia Supreme Court strikes it down 4-3.",
+      "It is the first publicly reported FBI raid on a sitting Democratic state legislator's office of the second term."
+    ],
+    "sources": [
+      {
+        "text": "The New Republic: FBI raids office of top Democratic leader in Virginia redistricting wars",
+        "url": "https://newrepublic.com/post/210025/fbi-raids-home-democratic-leader-lucas-virginia-redistricting-wars"
+      }
+    ],
+    "trackerIds": [
+      "fbi-raids-virginia-senator-louise-lucas-redistricting-victory"
+    ]
+  },
+  {
+    "id": "dc-guard-2029",
+    "title": "The National Guard Is Scheduled in the Capital Through the Next Two Elections",
+    "date": "2026-07-14",
+    "category": "force",
+    "status": "active",
+    "facts": [
+      "The Pentagon confirmed in July 2026 that the D.C. National Guard deployment will run through Inauguration Day 2029 unless Trump decides otherwise, keeping troops in the capital through the 2026 midterms and the 2028 election.",
+      "The force has roughly doubled to nearly 5,000 troops from more than 20 states, at a cost the Congressional Budget Office puts above $3 million per day. It was created by a \"crime emergency\" declared while D.C. violent crime sat at a 30-year low.",
+      "A nonpartisan Niskanen Center study found no measurable effect on violent crime. The Brennan Center's Elizabeth Goitein: announcing an emergency will last another two and a half years means it is not an emergency."
+    ],
+    "sources": [
+      {
+        "text": "NPR: Trump's National Guard deployment in D.C. has been extended until 2029",
+        "url": "https://www.npr.org/2026/07/14/nx-s1-5892498/national-guard-deployment-dc-2029"
+      },
+      {
+        "text": "The Hill: National Guard deployment in DC extended until next presidential inauguration",
+        "url": "https://thehill.com/policy/defense/5967829-national-guard-deployment-in-dc-extended-until-next-presidential-inauguration/"
+      }
+    ],
+    "trackerIds": [
+      "dc-national-guard-deployment-extended-2029"
+    ]
+  },
+  {
+    "id": "save-act-hostage",
+    "title": "Everything Becomes Hostage to the SAVE Act",
+    "date": "2026-03-26",
+    "category": "ballot",
+    "status": "active",
+    "facts": [
+      "The SAVE Act would require documentary proof of citizenship, a passport or birth certificate, to register to vote, and would end the online and mail registration used for 94% of registrations. More than 21 million eligible Americans lack ready access to those documents; only 21% of households earning under $50,000 have passports.",
+      "The verification systems it relies on are famously wrong: Virginia's purge flagged 94% citizens; North Carolina found 98% of flagged \"noncitizens\" were citizens; Kansas's version blocked 31,000 eligible citizens while catching virtually none.",
+      "To force it through, Trump shut down DHS for 40+ days over it (Sen. John Kennedy revealed Trump personally killed a bipartisan deal to pay TSA workers), had Sen. Cornyn reverse his career-long filibuster position, and in June canceled the signing of the biggest housing-affordability bill in a generation an hour before the ceremony, writing that it stays \"cancelled until such time as we pass the desperately needed SAVE AMERICA ACT.\"",
+      "Trump privately told Republicans that banning mail ballots would \"guarantee the midterms.\""
+    ],
+    "take": "You don't hold airport security and housing policy hostage for an election-administration bill unless the bill is the point. By the administration's own private framing, it is: fewer people registering means better Republican math.",
+    "sources": [
+      {
+        "text": "Brennan Center: New SAVE Act bills would still block millions of Americans from voting",
+        "url": "https://www.brennancenter.org/our-work/analysis-opinion/new-save-act-bills-would-still-block-millions-americans-voting"
+      },
+      {
+        "text": "CNN: Trump rejected an off-ramp to the DHS shutdown",
+        "url": "https://www.cnn.com/2026/03/23/politics/trump-dhs-shutdown-save-america-act"
+      },
+      {
+        "text": "PolitiFact: Trump wants to slash voting by mail through SAVE America Act",
+        "url": "https://www.politifact.com/article/2026/mar/11/trump-voting-by-mail-save-america-act-congress/"
+      },
+      {
+        "text": "CNBC: Trump cancels housing bill signing over the SAVE America Act",
+        "url": "https://www.cnbc.com/2026/06/24/trump-cancels-housing-bill-signing-save-america-act.html"
+      }
+    ],
+    "trackerIds": [
+      "trump-save-act-dhs-shutdown-hostage",
+      "cornyn-filibuster-save-act",
+      "trump-cancels-housing-bill-signing-save-act-hostage"
+    ]
+  },
+  {
+    "id": "draft-emergency-eo",
+    "title": "A Draft Executive Order Declaring an 'Election Emergency'",
+    "date": "2026-02-26",
+    "category": "ballot",
+    "status": "threatened",
+    "facts": [
+      "ABC News reported in February 2026 that pro-Trump attorneys circulated a 17-page draft executive order declaring an \"election emergency\" based on a claim of Chinese interference in 2020 for which no evidence exists.",
+      "The draft would mandate voter ID for the midterms, ban mail-in ballots, and require hand-counted paper ballots, by presidential decree.",
+      "Sources told ABC that Trump reviewed the draft and that the attorneys were coordinating with the White House. Trump denied knowing about it.",
+      "Five months later, his primetime address made the same Chinese-interference claim the draft order was built on."
+    ],
+    "sources": [
+      {
+        "text": "ABC News: Pro-Trump attorneys push executive order that would give Trump sweeping power over elections",
+        "url": "https://abcnews.com/US/pro-trump-attorneys-push-executive-order-give-trump/story?id=130539044"
+      },
+      {
+        "text": "Washington Post: Trump, seeking executive power over elections, is urged to declare emergency",
+        "url": "https://www.washingtonpost.com/politics/2026/02/26/trump-elections-executive-order-activists/"
+      }
+    ],
+    "trackerIds": [
+      "draft-election-emergency-executive-order"
+    ]
+  },
+  {
+    "id": "never-lose-50-years",
+    "title": "'We Won't Lose a Race for 50 Years'",
+    "date": "2026-02-19",
+    "category": "ballot",
+    "status": "record",
+    "facts": [
+      "At a Georgia rally in February 2026, Trump said that eliminating mail-in ballots means Republicans \"won't lose a race for 50 years,\" calling mail ballots \"crooked as hell\" and proposing to limit them to military, ill, and disabled voters.",
+      "He falsely claimed the U.S. is \"the only country in the world\" with mail voting; at least 34 countries use postal voting, including the UK, Germany, and Canada.",
+      "Stating that a voting restriction guarantees your party never loses is a description of voter suppression, offered as the sales pitch."
+    ],
+    "sources": [
+      {
+        "text": "The New Republic: Trump reveals ominous plot for 50 years of rigged elections",
+        "url": "https://newrepublic.com/post/206815/trump-mail-in-ballots-midterms-50-years-rigged-elections"
+      },
+      {
+        "text": "Democracy Docket: Trump says Republicans will 'never lose a race' if SAVE Act passes",
+        "url": "https://www.democracydocket.com/news-alerts/trump-republicans-will-never-lose-save-america-act/"
+      }
+    ],
+    "trackerIds": [
+      "trump-50-years-never-lose"
+    ]
+  },
+  {
+    "id": "trump-votes-by-mail",
+    "title": "The President Votes by Mail While Calling It 'Mail-In Cheating'",
+    "date": "2026-03-25",
+    "category": "ballot",
+    "status": "record",
+    "facts": [
+      "Palm Beach County records show Donald, Melania, and Barron Trump all voted by mail in a March 2026 Florida special election. The day before the election, Trump declared in Memphis: \"Mail-in voting means mail-in cheating.\"",
+      "Asked why he voted by mail while at Mar-a-Lago during in-person early voting, he answered, \"Because I'm president of the United States,\" then claimed he had to be in Washington; a reporter fact-checked him to his face: \"You were in Palm Beach, sir.\"",
+      "PolitiFact rated his fraud claim Pants on Fire; documented mail-ballot fraud runs about 4 cases per 10 million votes.",
+      "A Democrat then flipped his home district, the 29th state legislative seat Democrats have flipped since his second term began."
+    ],
+    "sources": [
+      {
+        "text": "CBS News: Trump calls mail-in voting 'mail-in cheating.' He just cast his ballot by mail.",
+        "url": "https://www.cbsnews.com/news/trump-votes-by-mail-florida-election-ballot/"
+      },
+      {
+        "text": "PolitiFact: After voting by mail, Trump said mail-in voting means cheating. Pants on Fire!",
+        "url": "https://www.politifact.com/factchecks/2026/mar/25/donald-trump/trump-voted-by-mail-in-florida-the-same-month-he-f/"
+      },
+      {
+        "text": "Fox News: Democrats flip Florida legislative seat in Trump's stomping ground",
+        "url": "https://www.foxnews.com/politics/ballot-box-upset-democrats-flip-florida-legislative-seat-trumps-stomping-ground"
+      }
+    ],
+    "trackerIds": [
+      "trump-votes-mail-calls-it-cheating"
+    ]
+  },
+  {
+    "id": "musk-wisconsin-bribery",
+    "title": "A Bipartisan Commission Finds Musk's $1 Million Voter Checks Likely Broke the Bribery Law",
+    "date": "2026-07-14",
+    "category": "ballot",
+    "status": "court",
+    "facts": [
+      "On July 14, 2026, the Wisconsin Elections Commission, three Democrats and three Republicans, voted 5-1 to find probable cause that Elon Musk violated the state's election bribery law with his $1 million checks to voters before the 2025 state Supreme Court election, and referred him to prosecutors.",
+      "The commission found Musk's offer was made \"to induce them to vote.\" He handed out two $1 million checks at a Green Bay rally days before the election and offered $100 for signing a petition.",
+      "Musk and allied groups spent at least $20 million on the race, the most expensive judicial election in U.S. history at over $100 million total. His candidate lost by 10 points.",
+      "The Brown County district attorney has 40 days from the referral to report back on charges."
+    ],
+    "sources": [
+      {
+        "text": "NBC News: Elon Musk likely broke the law by promising voters $1 million payouts, Wisconsin board says",
+        "url": "https://www.nbcnews.com/politics/elections/elon-musk-likely-broke-law-promising-voters-1-million-payouts-wisconsi-rcna587616"
+      },
+      {
+        "text": "CNN: Elon Musk likely broke the law by giving voters $1 million, Wisconsin board says",
+        "url": "https://www.cnn.com/2026/07/14/politics/elon-musk-wisconsin-supreme-court-1-million-checks"
+      },
+      {
+        "text": "UPI: Wisconsin elections panel sends Elon Musk bribery complaints to prosecutors",
+        "url": "https://www.upi.com/Top_News/US/2026/07/14/elon-musk-wisconsin-bribery/8311784062796/"
+      }
+    ],
+    "trackerIds": [
+      "musk-wisconsin-elections-commission-bribery-referral"
+    ]
+  },
+  {
+    "id": "callais-decision",
+    "title": "The Supreme Court Guts the Voting Rights Act on Numbers That Don't Add Up",
+    "date": "2026-05-01",
+    "category": "maps",
+    "status": "active",
+    "facts": [
+      "On May 1, 2026, the Supreme Court ruled 6-3 in Louisiana v. Callais, striking down Louisiana's congressional map with two majority-Black districts and gutting Section 2 of the Voting Rights Act.",
+      "Justice Alito's majority opinion justified the result by claiming Black turnout now exceeds white turnout, a claim built on comparing total voting-age population instead of eligible voters. University of Florida elections expert Michael McDonald: \"If I wanted to manipulate the numbers in a way that was favorable to the government's interest, I would be using voting age population.\" Counted properly, white turnout significantly exceeds Black turnout.",
+      "The ruling was released hours after all six conservative justices attended Trump's white-tie state dinner for King Charles III; none of the three Democratic-appointed justices attended.",
+      "The lead plaintiff, Phillip Callais, attended the January 6, 2021 'Stop the Steal' rally and posted photos from that day."
+    ],
+    "take": "A Supreme Court ruling is not itself rigging, even a wrong one. What earns Callais a place on this page is what it was for: within four days, Trump publicly converted it into a seat count, and six states began redrawing maps mid-decade to hit the number.",
+    "sources": [
+      {
+        "text": "Democracy Docket: SCOTUS used faulty racial voter turnout data to shred Voting Rights Act in recent ruling",
+        "url": "https://www.democracydocket.com/news-alerts/scotus-used-faulty-racial-voter-turnout-data-to-shred-voting-rights-act-in-recent-ruling/"
+      },
+      {
+        "text": "MSNBC: Supreme Court conservative justices' attendance at King Charles state dinner raises ethics concerns",
+        "url": "https://www.ms.now/news/news-analysis/supreme-court-king-charles-state-dinner"
+      },
+      {
+        "text": "The New Republic: The plaintiff in the Callais Supreme Court case is a January 6er",
+        "url": "https://newrepublic.com/post/209973/plantiff-callais-supreme-court-case-voting-rights-act-jan-6er"
+      }
+    ],
+    "trackerIds": [
+      "scotus-callais-faulty-racial-voter-turnout-data-alito",
+      "six-conservative-justices-king-charles-state-dinner",
+      "callais-plaintiff-january-6-stop-the-steal-attendee"
+    ]
+  },
+  {
+    "id": "vote-twice-directive",
+    "title": "'If They Have to Vote Twice, So Be It': Trump Orders a Map Race",
+    "date": "2026-05-04",
+    "category": "maps",
+    "status": "record",
+    "facts": [
+      "Three days after Callais, Trump posted: \"If they have to vote twice, so be it. We should demand that State Legislatures do what the Supreme Court says must be done,\" predicting \"the Republicans will receive more than 20 House Seats in the upcoming Midterms!\"",
+      "Twenty seats exceeds the projected House majority margin; the directive announces an intent to decide chamber control before votes are cast.",
+      "Louisiana, Florida, Alabama, Mississippi, South Carolina, and Tennessee moved in visible coordination within days.",
+      "Election lawyer Marc Elias called the Louisiana piece \"both a redistricting power grab and a dry run for authoritarian election subversion this fall.\""
+    ],
+    "sources": [
+      {
+        "text": "Democracy Docket: Trump demands states cancel elections, rig maps after Supreme Court Callais ruling",
+        "url": "https://www.democracydocket.com/news-alerts/trump-demand-states-cancel-elections-rig-maps-after-supreme-court-callais/"
+      },
+      {
+        "text": "The New Republic: Trump threatens states to rig midterm elections",
+        "url": "https://newrepublic.com/post/209895/trump-threatens-states-rig-midterm-elections"
+      }
+    ],
+    "trackerIds": [
+      "trump-demands-states-cancel-elections-rig-maps-callais"
+    ]
+  },
+  {
+    "id": "louisiana-primary-suspended",
+    "title": "Louisiana Cancels Its Own Primaries in the Middle of Voting",
+    "date": "2026-05-01",
+    "category": "maps",
+    "status": "active",
+    "facts": [
+      "On May 1, 2026, Louisiana Gov. Jeff Landry suspended the state's U.S. House primaries by executive order, citing Callais, after more than 100,000 absentee ballots had already been mailed and some had been cast. Roughly 45,000 votes already cast were nullified.",
+      "A state court denied an emergency restraining order to keep the election on the ballot. The ACLU, the Elias Law Group, and a candidate all filed challenges.",
+      "On 60 Minutes, Landry said discarding the ballots \"wasn't a big deal\" and that those voters \"will vote again in November.\"",
+      "Trump praised the move; Landry posted: \"If there is one thing the Republican Party should learn from President Trump — it's to FIGHT!\""
+    ],
+    "take": "An American governor canceled a federal election that was already underway, threw out tens of thousands of cast ballots, and faced no consequence beyond litigation. That precedent now exists, and November is the next test of it.",
+    "sources": [
+      {
+        "text": "ACLU: Civil rights groups file emergency challenge to Louisiana governor's attempt to suspend election already underway",
+        "url": "https://www.aclu.org/press-releases/civil-rights-groups-file-emergency-challenge-to-louisiana-governors-attempt-to-suspend-election-already-underway"
+      },
+      {
+        "text": "PBS NewsHour: Louisiana congressional primaries suspended after Supreme Court ruling",
+        "url": "https://www.pbs.org/newshour/politics/louisiana-congressional-primaries-suspended-after-supreme-court-ruling-state-officials-say"
+      },
+      {
+        "text": "HuffPost: Jeff Landry says Louisiana voters whose primary ballots were discarded 'will vote again'",
+        "url": "https://www.huffpost.com/entry/jeff-landry-louisiana-elections-suspended-60-minutes_n_6a0263b5e4b088000126c859"
+      }
+    ],
+    "trackerIds": [
+      "louisiana-governor-suspends-house-primaries-callais"
+    ]
+  },
+  {
+    "id": "florida-24-of-28",
+    "title": "Florida's Mid-Decade Map Hands Republicans 24 of 28 Seats",
+    "date": "2026-05-04",
+    "category": "maps",
+    "status": "court",
+    "facts": [
+      "On May 4, 2026, Gov. Ron DeSantis signed a mid-decade congressional map giving Republicans the advantage in 24 of Florida's 28 districts, 86% of the delegation.",
+      "Voters sued the same day under Florida's Fair Districts Amendment, which voters added to the state constitution in 2010 and which bars drawing districts with partisan intent.",
+      "The plaintiffs have unusual direct evidence: the map's drawer, DeSantis aide Jason Poreda, testified to the legislature that he used partisan data \"mixed in\" across the map during \"final balancing.\" Under Florida law, any partisan intent is enough to strike a map.",
+      "Callais removed a federal floor, but it did not touch Florida's own constitutional ban, which is what the case will turn on."
+    ],
+    "sources": [
+      {
+        "text": "Democracy Docket: Voters sue to block Florida's new map",
+        "url": "https://www.democracydocket.com/news-alerts/voters-sue-to-block-floridas-new-map/"
+      },
+      {
+        "text": "Bloomberg Law: Florida sued over new GOP-favoring congressional map",
+        "url": "https://news.bloomberglaw.com/litigation/florida-sued-over-new-gop-favoring-congressional-map"
+      }
+    ],
+    "trackerIds": [
+      "desantis-florida-congressional-map-24-of-28-seats"
+    ]
+  },
+  {
+    "id": "alabama-districts",
+    "title": "Alabama Moves to Eliminate Both Majority-Black Districts, and Says So Out Loud",
+    "date": "2026-05-04",
+    "category": "maps",
+    "status": "court",
+    "facts": [
+      "Alabama's governor called a special session to redraw the congressional map mid-decade, with legislative leaders openly stating the goal: eliminating both congressional seats currently held by Black Democrats.",
+      "The state is under court order to use its existing two-majority-Black-district map, the result of the Supreme Court's own 2023 Allen v. Milligan ruling, until 2030. Callais is the hook for revisiting it.",
+      "The May 19 primary went forward during the redistricting fight, meaning voters may have cast ballots in districts that no longer exist by November.",
+      "Three Republican-led Southern states moved within five days of each other to redraw maps reducing Black representation."
+    ],
+    "sources": [
+      {
+        "text": "Democracy Docket: Alabama prepares to eliminate majority-Black districts while moving forward with elections it may annul",
+        "url": "https://www.democracydocket.com/news-alerts/chaos-alabama-prepares-to-eliminate-majority-black-districts-while-moving-forward-with-elections-it-may-annul/"
+      }
+    ],
+    "trackerIds": [
+      "alabama-special-session-eliminate-majority-black-districts"
+    ]
+  },
+  {
+    "id": "virginia-sequence",
+    "title": "The Virginia Sequence: 'RIGGED,' a Raid, and a 4-3 Reversal",
+    "date": "2026-05-08",
+    "category": "maps",
+    "status": "active",
+    "facts": [
+      "On April 21, 2026, Virginia voters approved a redistricting referendum 51.45% to 48.55% that could have shifted the state's delegation from 6-5 Democratic to as much as 10-1. The next morning Trump declared, in his first fraud claim about a 2026 election, \"A RIGGED ELECTION TOOK PLACE LAST NIGHT IN VIRGINIA,\" blaming a \"massive Mail In Ballot Drop\" (mail ballots are counted after in-person ballots in Virginia; that is procedure, not fraud).",
+      "On May 6, the FBI raided the office of the referendum's champion, Sen. Louise Lucas. On May 8, the Virginia Supreme Court struck the referendum down 4-3 on procedural grounds, with two Republican-appointed justices in dissent.",
+      "Trump celebrated the reversal as a \"huge win\" over a \"horrible gerrymander\", the same vote he had called rigged when it passed.",
+      "The ruling erased the one major Democratic counter-move in the post-Callais map war; no official, court, or observer had reported any irregularity in the vote itself."
+    ],
+    "sources": [
+      {
+        "text": "Washington Post: Virginia Supreme Court strikes down new House map favoring Democrats",
+        "url": "https://www.washingtonpost.com/politics/2026/05/08/virginia-court-invalidates-redistricting-measure/"
+      },
+      {
+        "text": "Al Jazeera: Trump calls Virginia election 'rigged' after redistricting referendum",
+        "url": "https://www.aljazeera.com/news/2026/4/22/trump-calls-virginia-election-rigged-after-redistricting-referendum"
+      },
+      {
+        "text": "Virginia Mercury: Supreme Court of Virginia strikes down redistricting amendment, keeps current maps in place",
+        "url": "https://virginiamercury.com/2026/05/08/supreme-court-of-virginia-strikes-down-redistricting-amendment-keeps-current-maps-in-place/"
+      }
+    ],
+    "trackerIds": [
+      "virginia-supreme-court-strikes-redistricting-referendum-4-3",
+      "trump-virginia-redistricting-rigged-claim"
+    ]
+  },
+  {
+    "id": "guardrails-gone",
+    "title": "The 75 People Who Protected the 2020 Election Are Gone",
+    "date": "2026-04-13",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "A ProPublica investigation found that 75 federal officials who defended the integrity of the 2020 election have been fired, resigned, or been reassigned, and that roughly 24 Trump loyalists now hold election-affecting positions, including about 10 who actively worked to overturn the 2020 result.",
+      "Officials have been hired directly from election-denial activist groups; ProPublica describes the movement as having \"merged with the federal government.\" The CISA specialists who debunked the Antrim County conspiracy are all gone.",
+      "ProPublica's conclusion: 2026 will be \"an unprecedented stress test of the integrity of American elections.\""
+    ],
+    "sources": [
+      {
+        "text": "ProPublica: Inside Trump's Effort to 'Take Over' the Midterm Elections",
+        "url": "https://www.propublica.org/article/trump-midterm-elections-takeover"
+      }
+    ],
+    "trackerIds": [
+      "propublica-trump-midterm-elections-takeover"
+    ]
+  },
+  {
+    "id": "election-deniers-running",
+    "title": "53 Election Deniers Are Running to Referee the Next Election",
+    "date": "2026-05-04",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "A States United Action analysis found at least 53 election-denying candidates running in 23 states for the statewide offices that certify elections, governor, secretary of state, attorney general, including in five presidential swing states.",
+      "In Arizona, deniers are running for all three certification roles at once. The Republican gubernatorial front-runner, Andy Biggs, voted against certifying the 2020 election in Congress.",
+      "In 2020, certification held because officials like Georgia's Brad Raffensperger and Arizona's Doug Ducey refused Trump's pressure. The 2026 ballot decides who holds those chairs in 2028."
+    ],
+    "sources": [
+      {
+        "text": "NPR: In many states, election-denying candidates are running to control voting",
+        "url": "https://www.npr.org/2026/05/04/nx-s1-5803149/election-denial-2026-candidates"
+      },
+      {
+        "text": "States United Action: analysis and tracker",
+        "url": "https://statesuniteddemocracy.org/"
+      }
+    ],
+    "trackerIds": [
+      "53-election-deniers-2026-states-united"
+    ]
+  },
+  {
+    "id": "odni-purge",
+    "title": "The Intelligence Purge Comes With Instructions",
+    "date": "2026-07-02",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "In early July 2026, dozens of intelligence officials began receiving termination notices under acting DNI Bill Pulte, two weeks into his tenure, with reporting indicating he was eyeing hundreds of firings. Those removed were described by leadership as \"deep state\" officials.",
+      "Trump said publicly that he expects Pulte to \"find out some things about the rigged elections.\"",
+      "His previous intelligence chief, Tulsi Gabbard, spent roughly 18 months looking for 2020 fraud evidence and found none. The White House plans to declassify thousands of documents to advance the stolen-election claim anyway."
+    ],
+    "sources": [
+      {
+        "text": "NBC News: Top intelligence agency begins mass firings under new Trump appointee",
+        "url": "https://www.nbcnews.com/politics/trump-administration/odni-begins-firings-under-bill-pulte-director-national-intelligence-rcna351290"
+      },
+      {
+        "text": "CNN: Trump's new acting intel chief Bill Pulte arrives early, eyes firing hundreds",
+        "url": "https://www.cnn.com/2026/06/19/politics/bill-pulte-intel-chief-takes-office"
+      }
+    ],
+    "trackerIds": [
+      "pulte-dni-fires-intelligence-officials-2020-election-purge"
+    ]
+  },
+  {
+    "id": "fbi-analysts-fired",
+    "title": "Refuse the 2020 Probe, Lose Your Job",
+    "date": "2026-07-11",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "FBI Director Kash Patel directed roughly 260 intelligence analysts nationwide onto a \"priority investigation\" of Georgia's 2020 election, a race Biden won by nearly 12,000 votes and that multiple investigations, including by Georgia Republicans, found clean. Each analyst was assigned 708 record checks.",
+      "Two Atlanta-based analysts, a married couple, refused on the grounds that the probe was not justified under FBI and DOJ policy. They were escorted out of the building and fired.",
+      "Sen. Mark Warner: \"This diversion of significant FBI resources towards a political investigation threatens the purpose of its mission.\""
+    ],
+    "sources": [
+      {
+        "text": "MS NOW: FBI analysts fired after refusing to join Georgia 2020 election probe",
+        "url": "https://www.ms.now/news/fbi-kash-patel-trump-georgia-2020-election"
+      },
+      {
+        "text": "Newsmax: FBI fires 2 analysts in Georgia election inquiry",
+        "url": "https://www.newsmax.com/politics/fbi-fulton-county-georgia-2020-election/2026/07/13/id/1262682/"
+      }
+    ],
+    "trackerIds": [
+      "fbi-fires-analysts-refused-georgia-2020-election-probe"
+    ]
+  },
+  {
+    "id": "clayton-certified",
+    "title": "The Next Intelligence Chief Won't Say Who Won 2020",
+    "date": "2026-07-15",
+    "category": "referees",
+    "status": "record",
+    "facts": [
+      "At his July 2026 confirmation hearing, Trump's DNI nominee Jay Clayton refused to say Joe Biden won the 2020 election, allowing only that Biden was \"certified.\"",
+      "Sen. Jon Ossoff pressed him repeatedly, \"we can keep doing this\", and Clayton kept declining to name the winner.",
+      "The hearing came the day before Trump's primetime address claiming declassified intelligence showed 2020 was compromised. Clayton would replace acting DNI Bill Pulte, who pushed for that address."
+    ],
+    "sources": [
+      {
+        "text": "The Guardian: Trump intelligence pick Jay Clayton refuses to say Biden won 2020 election",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/jay-clayton-senate-intelligence-committee-hearing"
+      },
+      {
+        "text": "Democracy Docket: Trump's pick for intel chief refuses to say who won 2020 election",
+        "url": "https://www.democracydocket.com/news-alerts/trump-intel-chief-pick-jay-clayton-2020-election-victor/"
+      }
+    ],
+    "trackerIds": [
+      "clayton-dni-nominee-refuses-say-biden-won-2020"
+    ]
+  },
+  {
+    "id": "patel-arrests-soon",
+    "title": "'Arrests Coming Soon' for a Conspiracy 60 Courts Rejected",
+    "date": "2026-04-19",
+    "category": "referees",
+    "status": "threatened",
+    "facts": [
+      "FBI Director Kash Patel went on Fox News in April 2026 and announced: \"We are going to be making arrests, and it's coming — and I promise you, it's coming soon,\" claiming \"we have the information that backs President Trump's claim\" about 2020. He named no targets and cited no crimes.",
+      "The claims have been rejected by 60+ courts, by Trump's own attorney general (\"no evidence of fraud that would change the outcome\"), and by Trump's own CISA (\"the most secure election in American history\").",
+      "Michigan's attorney general read the announcement as an effort to \"sow fresh doubts about electoral integrity ahead of midterms.\""
+    ],
+    "sources": [
+      {
+        "text": "Democracy Docket: FBI Director says arrests 'coming soon' on 2020 rigged election conspiracy",
+        "url": "https://www.democracydocket.com/news-alerts/fbi-director-says-arrests-coming-soon-on-2020-rigged-election-conspiracy/"
+      },
+      {
+        "text": "The Independent: Patel claims FBI has 'evidence' 2020 election was stolen",
+        "url": "https://www.the-independent.com/news/world/americas/us-politics/kash-patel-2020-election-trump-b2960883.html"
+      }
+    ],
+    "trackerIds": [
+      "patel-2020-election-arrests-announced-fbi"
+    ]
+  },
+  {
+    "id": "blanche-ton-of-evidence",
+    "title": "The Acting Attorney General's 'Ton of Evidence' He Can't Produce",
+    "date": "2026-05-17",
+    "category": "referees",
+    "status": "record",
+    "facts": [
+      "In May 2026, Acting Attorney General Todd Blanche told Fox News there is \"a ton of evidence\" the 2020 election was stolen, while conceding the DOJ has not released it and hedging: \"I'm not going to promise there's going to be a definitive answer.\"",
+      "He confirmed \"multiple investigations going on in Arizona, in Fulton County, Georgia.\"",
+      "The nation's top law enforcement officer asserting a stolen election on television, while declining to promise his department can demonstrate it, is itself the message: the claim does not need to be proven to be useful."
+    ],
+    "sources": [
+      {
+        "text": "Democracy Docket: Attorney General says 'ton of evidence exists' of stolen election in 2020, also says he can't promise a definitive answer",
+        "url": "https://www.democracydocket.com/news-alerts/attorney-general-ton-of-evidence-exists-of-stolen-election-in-2020-also-says-he-cant-promise-a-definitive-answer-it-was-stolen/"
+      }
+    ],
+    "trackerIds": [
+      "blanche-2020-stolen-ton-of-evidence-bartiromo-fox-news"
+    ]
+  },
+  {
+    "id": "tina-peters-commutation",
+    "title": "Federal Money Is Withheld Until a State Frees an Election-System Felon",
+    "date": "2026-05-19",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "Tina Peters, the Colorado county clerk convicted in 2024 of breaching her county's election equipment chasing 2020 conspiracy theories, was serving nearly nine years. Trump's federal pardon had no legal effect on her state conviction, so, per Votebeat's reporting, the administration withheld unrelated federal funds from Colorado while Trump publicly campaigned for her release.",
+      "In May 2026, Gov. Jared Polis commuted her sentence. His own state party censured him for it: \"It sends a message to future bad actors that election tampering has consequences, unless you're friends with the president.\"",
+      "Colorado Secretary of State Jena Griswold: \"A clear message is being sent to those willing to break the law and attack our democracy.\"",
+      "In June, Trump hosted Peters at the White House, repeating the false claim she was imprisoned for \"finding Election Fraud.\""
+    ],
+    "sources": [
+      {
+        "text": "Votebeat: Polis commutes Tina Peters' sentence amid Trump pressure",
+        "url": "https://www.votebeat.org/national/2026/05/19/tina-peters-colorado-governor-jared-polis-commutation-matt-crane/"
+      },
+      {
+        "text": "NBC News: Colorado Democrats censure Gov. Jared Polis for commuting election denier's sentence",
+        "url": "https://www.nbcnews.com/politics/politics-news/colorado-democrats-censure-gov-jared-polis-commuting-election-deniers-rcna346249"
+      },
+      {
+        "text": "The New Republic: Trump hosts convicted election fraudster at White House",
+        "url": "https://newrepublic.com/post/212576/donald-trump-hosts-tina-peters-white-house"
+      }
+    ],
+    "trackerIds": [
+      "trump-withheld-federal-funds-colorado-polis-tina-peters-commutation"
+    ]
+  },
+  {
+    "id": "nationalize-voting",
+    "title": "'The Republicans Ought to Nationalize the Voting'",
+    "date": "2026-02-02",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "On February 2, 2026, Trump said on the Dan Bongino Show: \"We should take over the voting in at least — many, 15 places. The Republicans ought to nationalize the voting,\" naming Detroit, Philadelphia, and Atlanta as \"extremely corrupt\" without evidence. The Constitution assigns election administration to the states.",
+      "Three days later, asked whether he would accept the midterm results: \"I will, if the elections are honest. If the elections aren't honest, then something else has to happen.\"",
+      "In the same interview he denied having used the word \"nationalize,\" despite the recording.",
+      "Dartmouth election scholar Brendan Nyhan: \"The last time he started talking like this, his allies minimized the risks and we ended up with Jan 6... These comments are a five-alarm fire for democracy.\""
+    ],
+    "sources": [
+      {
+        "text": "Washington Post: Trump says he wants to 'nationalize the voting,' a power granted to states",
+        "url": "https://www.washingtonpost.com/politics/2026/02/02/trump-elections-nationalize-fraud/"
+      },
+      {
+        "text": "The Independent: Trump says he will only accept the midterm results 'if the elections are honest'",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-election-results-voting-nationalize-b2914259.html"
+      },
+      {
+        "text": "NPR: Trump says he wants Republicans to 'nationalize' elections",
+        "url": "https://www.npr.org/2026/02/03/nx-s1-5698095/trump-says-he-wants-republicans-to-nationalize-elections"
+      }
+    ],
+    "trackerIds": [
+      "trump-nationalize-voting-2026",
+      "nationalize-elections-conditional-acceptance"
+    ]
+  },
+  {
+    "id": "primetime-address",
+    "title": "The Primetime Address That Debunked Itself",
+    "date": "2026-07-16",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "On July 16, 2026, Trump delivered a 27-minute primetime address claiming U.S. elections were \"left vulnerable to being rigged and stolen,\" that China obtained 220 million voter records, and that the \"deep state\" suppressed the intelligence. He demanded the SAVE Act and paper ballots: \"The only reason you wouldn't [pass it] is you want to cheat.\"",
+      "The documents he declassified undercut him: they state China \"did not deploy interference efforts\" to change 2020 and that election systems \"would be difficult to manipulate.\" What they do show is Russia interfering on Trump's behalf, seeding Burisma narratives and undermining confidence in mail voting.",
+      "His own task-force investigator, John Solomon, conceded on air: \"the intelligence community has zero evidence that a foreign power flipped the vote in 2020, '22, or '24.\"",
+      "Five days later, asked if China would face consequences, Trump shrugged: \"It took place a long time ago... we do things to them too, it's not a one-way street.\" Sen. Mark Warner's reading of the speech: \"Donald Trump intends to interfere in this year's elections... this was the opening shot.\""
+    ],
+    "take": "Follow the sequence: the claims were contradicted by his own documents, disowned by his own investigator, and finally waved off by Trump himself. What survives is the only thing the address was built to produce, doubt about the election he is restructuring.",
+    "sources": [
+      {
+        "text": "CNN: What Trump's newly declassified documents do and don't tell us about threats to US elections",
+        "url": "https://www.cnn.com/2026/07/16/politics/what-trumps-newly-declassified-documents-do-and-dont-tell-us-about-threats-to-us-elections"
+      },
+      {
+        "text": "FactCheck.org: FactChecking Trump's Election Security Speech",
+        "url": "https://www.factcheck.org/2026/07/factchecking-trumps-election-security-speech/"
+      },
+      {
+        "text": "The New Republic: Trump's own election fraud guy admits he's found no proof",
+        "url": "https://newrepublic.com/post/213185/trump-election-fraud-guy-john-solomon-found-no-proof"
+      },
+      {
+        "text": "USA Today: Trump downplays China's election meddling. 'We do things to them, too'",
+        "url": "https://www.usatoday.com/story/news/politics/2026/07/21/trump-downplays-china-election-interference-national-address/90997054007/"
+      }
+    ],
+    "trackerIds": [
+      "trump-primetime-address-2020-declassified-interference-claims"
+    ]
+  },
+  {
+    "id": "license-revocation-threat",
+    "title": "Air the Speech or Lose Your License",
+    "date": "2026-07-16",
+    "category": "narrative",
+    "status": "threatened",
+    "facts": [
+      "When ABC and NBC declined to carry the primetime election address on broadcast (they streamed it; CBS, Fox, and the CW aired it), Trump called the decision \"fraud\" and demanded their broadcast licenses be revoked.",
+      "The FCC's sole Democratic commissioner called the demand unconstitutional. Networks do not hold broadcast licenses; their local affiliates do, and most are owned by other companies.",
+      "The threat landed on an FCC whose chair has repeatedly threatened broadcasters over content."
+    ],
+    "sources": [
+      {
+        "text": "Washington Post: Trump says ABC, NBC licenses should be revoked over refusal to air speech",
+        "url": "https://www.washingtonpost.com/business/2026/07/16/trump-says-abc-nbc-licenses-should-be-revoked-over-refusal-air-speech-election-integrity/"
+      },
+      {
+        "text": "Reuters (via US News): FCC commissioner says Trump call to revoke ABC, NBC licenses is unconstitutional",
+        "url": "https://www.usnews.com/news/politics/articles/2026-07-17/fcc-commissioner-says-trump-call-to-revoke-abc-nbc-licenses-is-unconstitutional"
+      },
+      {
+        "text": "Axios: Trump threatens TV broadcast licenses after networks skip speech",
+        "url": "https://www.axios.com/2026/07/17/trump-speech-tv-broadcast-licenses"
+      }
+    ],
+    "trackerIds": [
+      "trump-demands-abc-nbc-license-revocation-speech-snub"
+    ]
+  },
+  {
+    "id": "third-term-drumbeat",
+    "title": "'We're Entitled to It': The Third-Term Drumbeat",
+    "date": "2026-02-27",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "In his 2026 State of the Union: \"this should be my third term.\" Two days later at a Texas rally: \"We're entitled to it, because they cheated like hell in the second.\" In May, to a room of business leaders: he'll \"get out of office in, let's say, eight or nine years from now.\"",
+      "The 22nd Amendment is unambiguous: \"No person shall be elected to the office of the President more than twice.\"",
+      "In May 2026, four of Trump's federal judicial nominees refused to affirm to the Senate Judiciary Committee that the 22nd Amendment bars a third term. These are people who would sit in judgment of any future challenge.",
+      "Former federal prosecutor Joyce Vance's warning: do not dismiss this as \"mere trolling.\""
+    ],
+    "sources": [
+      {
+        "text": "Common Dreams: Trump says he's 'entitled' to illegal third term as allies draft voter suppression decree",
+        "url": "https://www.commondreams.org/news/trump-third-term"
+      },
+      {
+        "text": "Common Dreams: Trump's third term is illegal, and his judicial nominees won't say so",
+        "url": "https://www.commondreams.org/news/trump-third-term-illegal"
+      },
+      {
+        "text": "The Independent: Trump cracks about leaving office in 'eight or nine years'",
+        "url": "https://www.the-independent.com/news/world/americas/us-politics/trump-third-term-small-business-meeting-b2970284.html"
+      }
+    ],
+    "trackerIds": [
+      "trump-third-term-entitled"
+    ]
+  },
+  {
+    "id": "california-prosecutor-call",
+    "title": "Trump Brags That a Phone Call to a Prosecutor Changed a Primary",
+    "date": "2026-06-23",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "At a June 2026 rally, Trump claimed he called U.S. Attorney Bill Essayli about California's primary, \"I said, Do me a favor. Take a look\", and that \"about an hour after the call... Mr. Hilton has won... Had I not made that call, Steve Hilton would right now be watching the election from home.\"",
+      "What actually happened: Hilton advanced under California's top-two system because more ballots were counted in the days after election night, as happens routinely. No evidence suggests any prosecutor altered a tally.",
+      "Either account is disqualifying: he directed federal law enforcement at an ongoing election, or he is telling supporters that doing so works. He framed it, openly, as a success story."
+    ],
+    "sources": [
+      {
+        "text": "New York Magazine: Trump says he changed CA election results with a phone call",
+        "url": "https://nymag.com/intelligencer/article/trump-says-he-changed-ca-election-results-with-a-phone-call.html"
+      },
+      {
+        "text": "Democracy Docket: 'Do me a favor': Trump says he directed the Justice Department to investigate California elections",
+        "url": "https://www.democracydocket.com/news-alerts/trump-ordered-justice-department-investigations-california-elections/"
+      }
+    ],
+    "trackerIds": [
+      "trump-claims-called-california-prosecutor-changed-primary-result"
+    ]
+  }
+]

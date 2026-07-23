@@ -1,0 +1,466 @@
+---
+import '@fontsource/barlow-condensed/500.css';
+import '@fontsource/barlow-condensed/600.css';
+import '@fontsource/barlow-condensed/700.css';
+import '@fontsource/barlow/400.css';
+import '@fontsource/barlow/500.css';
+import '@fontsource/barlow/600.css';
+import '@fontsource/lora/400-italic.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '../styles/global.css';
+import actions from '../data/actions.json';
+
+const LAST_UPDATED = 'July 23, 2026';
+
+const STATUS = {
+  active:     { label: 'In Effect',     color: 'var(--st-active)' },
+  court:      { label: 'In Court',      color: 'var(--st-court)' },
+  threatened: { label: 'Threatened',    color: 'var(--st-threat)' },
+  record:     { label: 'On the Record', color: 'var(--st-record)' },
+  blocked:    { label: 'Blocked',       color: 'var(--st-blocked)' },
+};
+const STATUS_ORDER = ['active', 'court', 'threatened', 'record', 'blocked'];
+
+const CATS = {
+  machinery: 'Seizing the Machinery',
+  data:      'The Voter Data Dragnet',
+  force:     'Force at the Polls',
+  ballot:    'The Ballot Box',
+  maps:      'Redrawing the Maps',
+  referees:  'Replacing the Referees',
+  narrative: 'The Narrative War',
+};
+
+const sorted = [...actions].sort((a, b) => b.date.localeCompare(a.date));
+const total = actions.length;
+const statusCounts = Object.fromEntries(STATUS_ORDER.map(s => [s, actions.filter(a => a.status === s).length]));
+const catCounts = Object.fromEntries(Object.keys(CATS).map(c => [c, actions.filter(a => a.category === c).length]));
+const sourceCount = actions.reduce((n, a) => n + a.sources.length, 0);
+
+const fmtDate = (d) => {
+  const [y, m, day] = d.split('-').map(Number);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return `${months[m - 1]} ${day}, ${y}`;
+};
+
+const description = `A sourced, single-page record of ${total} documented actions to tilt the 2026 midterm elections before they happen: who counts the votes, who certifies them, who can cast them, and who is watching.`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rigged Before the Vote — Tracking the Campaign Against the 2026 Midterms</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content="Rigged Before the Vote" />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="wordmark" href="#top">Rigged <em>Before</em> the Vote</a>
+        <nav class="topnav" aria-label="Sections">
+          <a href="#record">The Record</a>
+          <a href="#pattern">The Pattern</a>
+          <a href="#watch">What to Watch</a>
+          <a href="#method">Method</a>
+        </nav>
+        <span class="countdown-chip"><strong id="days-out">—</strong> days to the midterms</span>
+      </div>
+    </header>
+
+    <main id="top">
+
+      <!-- ── HERO ─────────────────────────────────────────────────────── -->
+      <div class="hero">
+        <div class="wrap">
+          <p class="eyebrow">A documented record · Updated {LAST_UPDATED}</p>
+          <h1>Rigged <span class="accent">before</span><br />the vote.</h1>
+          <p class="deck">
+            In 2020, they tried to overturn an election <strong>after losing it</strong>.
+            The 2026 project runs the other direction: change who counts the votes, who certifies
+            them, who can cast them, and who is watching — <strong>before a single ballot is cast</strong>.
+            Below: {total} documented actions. Every fact is sourced. Every opinion is labeled.
+          </p>
+
+          <div class="statrow">
+            <div class="stat"><div class="num" data-count={total}>0</div><div class="lbl">Documented actions</div></div>
+            <div class="stat" data-tone="active"><div class="num" data-count={statusCounts.active}>0</div><div class="lbl">In effect now</div></div>
+            <div class="stat" data-tone="court"><div class="num" data-count={statusCounts.court}>0</div><div class="lbl">Being fought in court</div></div>
+            <div class="stat" data-tone="blocked"><div class="num" data-count={statusCounts.blocked}>0</div><div class="lbl">Blocked or failed</div></div>
+            <div class="stat" data-tone="countdown"><div class="num" id="days-out-big">—</div><div class="lbl">Days until Nov 3, 2026</div></div>
+          </div>
+
+          <blockquote class="hero-quote">
+            <p>“The taking of democracy does not occur in one fell swoop; it is chipped away piece-by-piece until there is nothing left.”</p>
+            <cite>U.S. District Judge David O. Carter, dismissing a DOJ voter-roll lawsuit, January 2026</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- ── HOW TO READ ──────────────────────────────────────────────── -->
+      <section id="readme" aria-label="How to read this page">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">How to read this page</p>
+            <h2>Facts and takes are separated. On purpose.</h2>
+          </div>
+          <div class="readme-grid">
+            <div class="readme-card facts">
+              <h3>The facts</h3>
+              <p>
+                Every card below documents an action with dates, names, and direct quotes, and links to
+                its sources — {sourceCount} citations across major outlets, court records, and official
+                statements, including right-leaning outlets where they covered the story. If a claim is
+                contested or single-sourced, the card says so. We would rather publish nothing than
+                publish something wrong.
+              </p>
+            </div>
+            <div class="readme-card take">
+              <h3>Our take</h3>
+              <p>
+                When we editorialize, it looks like this block: labeled, set apart, and easy to skip.
+                Here is our take, up front: taken together, this record describes a sustained effort to
+                decide the 2026 midterms before they are held. You do not have to accept that conclusion —
+                the sources are all here. Read them and decide for yourself.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SCOREBOARD ───────────────────────────────────────────────── -->
+      <section id="scoreboard" aria-label="Status scoreboard">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">Where things stand</p>
+            <h2>The scoreboard</h2>
+            <p class="sub">Each of the {total} documented actions carries a status. The proportions tell the story: most of this is not hypothetical.</p>
+          </div>
+
+          <div class="breakdown">
+            <div class="breakdown-bar" role="img" aria-label={STATUS_ORDER.map(s => `${STATUS[s].label}: ${statusCounts[s]}`).join(', ')}>
+              {STATUS_ORDER.map(s => (
+                <div class="seg" style={`flex:${statusCounts[s]};background:${STATUS[s].color}`} title={`${STATUS[s].label}: ${statusCounts[s]}`}></div>
+              ))}
+            </div>
+            <div class="breakdown-legend">
+              {STATUS_ORDER.map(s => (
+                <span class="legend-item">
+                  <span class="swatch" style={`background:${STATUS[s].color}`}></span>
+                  <strong>{statusCounts[s]}</strong> {STATUS[s].label}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div class="cat-tiles">
+            {Object.entries(CATS).map(([slug, label]) => (
+              <button class="cat-tile" data-goto-cat={slug}>
+                <div class="n">{catCounts[slug]}</div>
+                <div class="t">{label}</div>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- ── THE RECORD ───────────────────────────────────────────────── -->
+      <section id="record" aria-label="The record">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">The evidence wall</p>
+            <h2>The record</h2>
+            <p class="sub">Filter by category or status. Click any card for the full facts, our labeled take where we have one, and every source.</p>
+          </div>
+        </div>
+
+        <div class="filterbar">
+          <div class="wrap">
+            <div class="chiprow">
+              <span class="rowlbl">Category</span>
+              <button class="chip is-on" data-cat="all">All</button>
+              {Object.entries(CATS).map(([slug, label]) => (
+                <button class="chip" data-cat={slug}>{label}</button>
+              ))}
+              <span class="result-count"><span id="shown-count">{total}</span> / {total} shown</span>
+            </div>
+            <div class="chiprow">
+              <span class="rowlbl">Status</span>
+              <button class="chip is-on" data-status="all">All</button>
+              {STATUS_ORDER.map(s => (
+                <button class="chip" data-status={s} style={`--chip-c:${STATUS[s].color}`}>{STATUS[s].label}</button>
+              ))}
+              <button class="sort-toggle" id="sort-toggle" style="margin-left:auto">Newest first ↓</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="cards" id="cards">
+            {sorted.map((a) => (
+              <details class="card" id={a.id} data-status={a.status} data-cat={a.category} data-date={a.date}>
+                <summary>
+                  <div class="card-meta">
+                    <span class="status-chip">{STATUS[a.status].label}</span>
+                    <span class="cat-chip">{CATS[a.category]}</span>
+                    <span class="date">{fmtDate(a.date)}</span>
+                  </div>
+                  <h3>{a.title}</h3>
+                  <p class="peek">{a.facts[0]}</p>
+                  <p class="expand-hint">
+                    <span class="closed-txt">▸ {a.facts.length} facts · {a.sources.length} sources{a.take ? ' · our take' : ''}</span>
+                    <span class="open-txt">▾ Collapse</span>
+                  </p>
+                </summary>
+                <div class="card-body">
+                  <ul>
+                    {a.facts.map((f) => <li>{f}</li>)}
+                  </ul>
+                  {a.take && (
+                    <div class="take-block">
+                      <p class="take-lbl">Our take — opinion, not reporting</p>
+                      <p>{a.take}</p>
+                    </div>
+                  )}
+                  <p class="src-lbl">Sources</p>
+                  <ul class="src-list">
+                    {a.sources.map((s) => (
+                      <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.text} ↗</a></li>
+                    ))}
+                  </ul>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- ── THE PATTERN ──────────────────────────────────────────────── -->
+      <section id="pattern" aria-label="The pattern">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">Reading the record</p>
+            <h2>The pattern</h2>
+          </div>
+          <span class="analysis-note">Analysis — our interpretation of the sourced record above</span>
+          <div class="prose">
+            <p>
+              Take the {total} cards above as one story and a shape emerges. The machinery moves first:
+              ballots seized, the certification agency emptied, the post office deputized. The data
+              comes next: voter files demanded from every state that will hand them over, and sued for
+              where they won't. Then the people: the officials who protected 2020 replaced, the analysts
+              who refuse reassigned or fired, election deniers running for the offices that certify the
+              next race. And over all of it, the narrative — <em>rigged, stolen, corrupt</em> — repeated
+              until any result that goes the wrong way arrives pre-delegitimized.
+            </p>
+            <p>
+              The record also shows the counterforce. Courts have ruled against the voter-data campaign
+              nine straight times, five of those rulings from Trump-appointed judges. States have refused.
+              A bipartisan commission referred the world's richest man to prosecutors. The system is not
+              gone — it is under load, and some of it is holding.
+            </p>
+            <p class="big-line">He doesn't need a coup if he controls who counts, who certifies, and who can vote. He just needs to call it an election.</p>
+            <p>
+              That sentence is our thesis, and it is an opinion. The {sourceCount} sources above are not.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── WHAT TO WATCH ────────────────────────────────────────────── -->
+      <section id="watch" aria-label="What to watch">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">Dated triggers</p>
+            <h2>What to watch</h2>
+            <p class="sub">The record above is history. These are the dates and open threats where it becomes the future.</p>
+          </div>
+          <ul class="watch-list">
+            <li>
+              <span class="watch-when">~Aug 23, 2026</span>
+              <span class="watch-what"><strong>The Musk charging decision.</strong> The Brown County, Wisconsin district attorney has 40 days from the July 14 referral to report back on election-bribery charges over the $1 million voter checks. <a href="#musk-wisconsin-bribery">See the card</a>.</span>
+            </li>
+            <li>
+              <span class="watch-when">Mid-Sept 2026</span>
+              <span class="watch-what"><strong>The mail-ballot gate.</strong> The USPS rule must be implemented before ballot mailing begins. If it survives court, the post office starts deciding which states' ballots it will carry. <a href="#usps-ballot-refusal">See the card</a>.</span>
+            </li>
+            <li>
+              <span class="watch-when">Open threat</span>
+              <span class="watch-what"><strong>Patel's promised arrests.</strong> The FBI director announced 2020-related arrests "coming soon" in April. No targets or crimes have been named. The threat stays open on purpose. <a href="#patel-arrests-soon">See the card</a>.</span>
+            </li>
+            <li>
+              <span class="watch-when">Oct–Nov 2026</span>
+              <span class="watch-what"><strong>An "election emergency."</strong> Trump's own former White House special counsel says the primetime address was built "to add the predicate" for declaring an emergency at election time. If one is declared, the machinery in the emergency-powers card is what it runs on. <a href="#emergency-powers-track">See the card</a>.</span>
+            </li>
+            <li>
+              <span class="watch-when">Nov 3, 2026</span>
+              <span class="watch-what"><strong>Election Day.</strong> Trump has said he will accept the results "if they are honest" — and that if not, "something else has to happen." <a href="#nationalize-voting">See the card</a>.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ── METHOD ───────────────────────────────────────────────────── -->
+      <section id="method" aria-label="Method">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">Standards</p>
+            <h2>Method</h2>
+          </div>
+          <div class="method-grid">
+            <div class="method-card">
+              <h3>What gets included</h3>
+              <ul>
+                <li>Actions by Trump, his administration, or allies he directed, endorsed, or enabled, aimed at the machinery, rules, personnel, or legitimacy of the 2026 midterms.</li>
+                <li>Not included: ordinary partisan politics, campaigning, or policies we merely disagree with.</li>
+                <li>Statements count when they are threats, directives, or admissions — and they are labeled "On the Record," not treated as completed acts.</li>
+              </ul>
+            </div>
+            <div class="method-card">
+              <h3>Sourcing rules</h3>
+              <ul>
+                <li>Every card links to its sources; nearly all claims carry two or more independent outlets, including right-leaning outlets when they covered the story.</li>
+                <li>Single-sourced items are noted as such in the card.</li>
+                <li>We use the most precise language the evidence supports — "blocked" is not "killed," "reported" is not "proven."</li>
+                <li>Corrections are made openly, not quietly.</li>
+              </ul>
+            </div>
+            <div class="method-card">
+              <h3>Status definitions</h3>
+              <ul>
+                <li><strong>In Effect</strong> — happened or currently operating.</li>
+                <li><strong>In Court</strong> — operative or contested, with litigation pending.</li>
+                <li><strong>Blocked</strong> — stopped by courts, or abandoned after failing.</li>
+                <li><strong>Threatened</strong> — announced or planned, not yet executed.</li>
+                <li><strong>On the Record</strong> — a statement, directive, or admission in the speaker's own words.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot-inner">
+        <p class="foot-note">
+          Rigged Before the Vote is an independent documentation project. Facts are sourced;
+          opinions are labeled. Found an error? We correct openly — every claim links to its source
+          so you can check us.
+        </p>
+        <div class="foot-links">
+          <a href="https://thetrumptracker.com" target="_blank" rel="noopener noreferrer">From the team behind The Trump Tracker ↗</a>
+          <a href="#top">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // ── countdown to Election Day (Nov 3, 2026) ──
+      const eday = new Date(2026, 10, 3);
+      const days = Math.max(0, Math.ceil((eday - new Date()) / 86400000));
+      document.getElementById('days-out').textContent = days;
+      document.getElementById('days-out-big').textContent = days;
+
+      // ── count-up animation on hero stats ──
+      const animate = (el) => {
+        const target = +el.dataset.count;
+        const dur = 900;
+        const t0 = performance.now();
+        const tick = (t) => {
+          const p = Math.min(1, (t - t0) / dur);
+          el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      };
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) { reduce ? (e.target.textContent = e.target.dataset.count) : animate(e.target); io.unobserve(e.target); }
+        });
+      });
+      document.querySelectorAll('[data-count]').forEach((el) => io.observe(el));
+
+      // ── filtering ──
+      let activeCat = 'all';
+      let activeStatus = 'all';
+      const cards = [...document.querySelectorAll('.card')];
+      const shownCount = document.getElementById('shown-count');
+
+      const applyFilters = () => {
+        let shown = 0;
+        cards.forEach((c) => {
+          const ok = (activeCat === 'all' || c.dataset.cat === activeCat)
+                  && (activeStatus === 'all' || c.dataset.status === activeStatus);
+          c.classList.toggle('is-hidden', !ok);
+          if (ok) shown++;
+        });
+        shownCount.textContent = shown;
+      };
+
+      document.querySelectorAll('[data-cat]').forEach((chip) => {
+        if (chip.classList.contains('card')) return;
+        chip.addEventListener('click', () => {
+          activeCat = chip.dataset.cat;
+          document.querySelectorAll('.chip[data-cat]').forEach((c) => c.classList.toggle('is-on', c === chip));
+          applyFilters();
+        });
+      });
+      document.querySelectorAll('.chip[data-status]').forEach((chip) => {
+        chip.addEventListener('click', () => {
+          activeStatus = chip.dataset.status;
+          document.querySelectorAll('.chip[data-status]').forEach((c) => c.classList.toggle('is-on', c === chip));
+          applyFilters();
+        });
+      });
+
+      // category tiles jump + filter
+      document.querySelectorAll('[data-goto-cat]').forEach((tile) => {
+        tile.addEventListener('click', () => {
+          const slug = tile.dataset.gotoCat;
+          const chip = document.querySelector(`.chip[data-cat="${slug}"]`);
+          chip?.click();
+          document.getElementById('record').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+        });
+      });
+
+      // ── sort toggle ──
+      let newestFirst = true;
+      const grid = document.getElementById('cards');
+      document.getElementById('sort-toggle').addEventListener('click', (e) => {
+        newestFirst = !newestFirst;
+        e.target.textContent = newestFirst ? 'Newest first ↓' : 'Oldest first ↑';
+        [...grid.children]
+          .sort((a, b) => (newestFirst ? b.dataset.date.localeCompare(a.dataset.date) : a.dataset.date.localeCompare(b.dataset.date)))
+          .forEach((el) => grid.appendChild(el));
+      });
+
+      // ── open card when deep-linked (#card-id) ──
+      const openFromHash = () => {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el?.classList.contains('card')) { el.open = true; el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); }
+      };
+      window.addEventListener('hashchange', openFromHash);
+      if (location.hash) openFromHash();
+
+      // ── scroll-spy topbar ──
+      const navLinks = [...document.querySelectorAll('.topnav a')];
+      const spy = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            navLinks.forEach((l) => l.classList.toggle('is-active', l.getAttribute('href') === '#' + e.target.id));
+          }
+        });
+      }, { rootMargin: '-30% 0px -60% 0px' });
+      ['record', 'pattern', 'watch', 'method'].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) spy.observe(el);
+      });
+    </script>
+  </body>
+</html>
