@@ -32,7 +32,12 @@
     ],
     "trackerIds": [
       "fulton-county-ballot-seizure"
-    ]
+    ],
+    "unprecedented": "ABC News called the federal seizure of a state's 2020 ballots 'apparently unprecedented,' and no Director of National Intelligence had ever joined a domestic law-enforcement raid.",
+    "legal": {
+      "level": "statute",
+      "basis": "Federal law bars the DNI from participating in domestic law enforcement. Gabbard was physically present, on the president's orders."
+    }
   },
   {
     "id": "puerto-rico-machines",
@@ -62,7 +67,12 @@
     ],
     "trackerIds": [
       "gabbard-dni-puerto-rico-voting-machines"
-    ]
+    ],
+    "unprecedented": "Election experts called ODNI's hands-on role in election infrastructure unprecedented; domestic election security belongs to states and law enforcement, not spy agencies.",
+    "legal": {
+      "level": "statute",
+      "basis": "Sen. Warner: absent a foreign nexus, intelligence agencies have 'absolutely no lawful role in domestic election administration.' No foreign nexus was found."
+    }
   },
   {
     "id": "dominion-ban-attempt",
@@ -123,7 +133,8 @@
     "trackerIds": [
       "trump-fires-election-assistance-commission-quorum",
       "eac-voting-standards-committee-blocked"
-    ]
+    ],
+    "unprecedented": "Nearly half the standards committee's seats vacant is unprecedented in its 20-year history, and the commission itself now has zero members and cannot act."
   },
   {
     "id": "mail-voting-eo",
@@ -159,7 +170,12 @@
     "trackerIds": [
       "trump-executive-order-mail-voting-federal-voter-lists",
       "judge-nichols-declines-block-trump-mail-in-voting-eo"
-    ]
+    ],
+    "unprecedented": "The order gives the Postal Service unprecedented oversight over who receives a mail ballot and directs the first federal voter-eligibility lists.",
+    "legal": {
+      "level": "constitution",
+      "basis": "Article I, Section 4 assigns election administration to the states. Twenty-three states are suing; New Hampshire's secretary of state called it a usurpation of state constitutional authority."
+    }
   },
   {
     "id": "usps-ballot-refusal",
@@ -191,7 +207,11 @@
     "trackerIds": [
       "usps-mail-ballot-rule-appeals-court-unblocks",
       "usps-mail-ballot-delivery-conditioned-voter-lists"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "Implements an executive order under constitutional challenge; a district judge blocked the rule before an appeals panel let it advance while the case continues."
+    }
   },
   {
     "id": "voter-roll-lawsuits",
@@ -225,7 +245,11 @@
     ],
     "trackerIds": [
       "doj-voter-roll-lawsuits-0-for-5"
-    ]
+    ],
+    "legal": {
+      "level": "ruled",
+      "basis": "Nine straight federal court losses, five before Trump-appointed judges; one called the demand a 'fishing expedition' that 'lacks a legally sufficient basis.'"
+    }
   },
   {
     "id": "national-voter-database",
@@ -246,7 +270,11 @@
     ],
     "trackerIds": [
       "trump-voter-database-dhs-doj-data-sharing"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "Assembled through executive channels with no congressional authorization, in a domain the Constitution leaves to the states."
+    }
   },
   {
     "id": "alaska-voter-rolls",
@@ -276,7 +304,11 @@
     ],
     "trackerIds": [
       "alaska-voter-rolls-doj-lawsuit"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "The lawsuit alleges the unredacted transfer was unconstitutional; plaintiffs want the MOU voided and every federal copy destroyed."
+    }
   },
   {
     "id": "fulton-worker-subpoena",
@@ -302,7 +334,11 @@
     "trackerIds": [
       "doj-subpoenas-fulton-county-3000-election-workers-personal-data",
       "fbi-fires-analysts-refused-georgia-2020-election-probe"
-    ]
+    ],
+    "legal": {
+      "level": "ruled",
+      "basis": "A federal judge rejected the DOJ's demand for election workers' names as 'unreasonable.'"
+    }
   },
   {
     "id": "dhs-grants-leverage",
@@ -385,7 +421,11 @@
     ],
     "trackerIds": [
       "white-house-ice-polling-places-midterms"
-    ]
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "Federal and state law prohibit federal law-enforcement agents from patrolling polling places."
+    }
   },
   {
     "id": "election-integrity-army",
@@ -431,7 +471,11 @@
     ],
     "trackerIds": [
       "hegseth-false-2024-troops-polling-locations-claim"
-    ]
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "The deployment he was asked about would violate the Posse Comitatus Act and 18 U.S.C. § 592, which bar armed federal forces at the polls."
+    }
   },
   {
     "id": "syracuse-poll-worker",
@@ -457,7 +501,11 @@
     ],
     "trackerIds": [
       "ice-visits-poll-worker-instagram-post-election-day-syracuse"
-    ]
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "Law bars law enforcement at polling places except in emergencies; the county elections commissioner said there was 'no indication of that here.'"
+    }
   },
   {
     "id": "emergency-powers-track",
@@ -494,7 +542,12 @@
       "edsall-nspm7-peads-emergency-powers-2026-midterm-disruption",
       "trump-emergency-powers-midterm-elections",
       "trump-primetime-address-2020-declassified-interference-claims"
-    ]
+    ],
+    "unprecedented": "Keep Our Republic's Joel McCleary on the combined emergency architecture: it 'has no precedent in American law outside wartime.'",
+    "legal": {
+      "level": "constitution",
+      "basis": "NSPM-7 cites no statute and no constitutional provision; 'domestic terrorist organization' is a category that does not exist in federal law."
+    }
   },
   {
     "id": "wisconsin-officials-homes",
@@ -630,7 +683,11 @@
     ],
     "trackerIds": [
       "draft-election-emergency-executive-order"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "The Constitution gives election authority to Congress and the states, and a federal court had already struck down a previous Trump election executive order."
+    }
   },
   {
     "id": "never-lose-50-years",
@@ -655,7 +712,8 @@
     ],
     "trackerIds": [
       "trump-50-years-never-lose"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "trump-votes-by-mail",
@@ -685,7 +743,8 @@
     ],
     "trackerIds": [
       "trump-votes-mail-calls-it-cheating"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "musk-wisconsin-bribery",
@@ -715,7 +774,11 @@
     ],
     "trackerIds": [
       "musk-wisconsin-elections-commission-bribery-referral"
-    ]
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "A bipartisan state commission found probable cause that the payments violated Wisconsin's election bribery law; prosecutors now decide on charges."
+    }
   },
   {
     "id": "callais-decision",
@@ -774,7 +837,8 @@
     ],
     "trackerIds": [
       "trump-demands-states-cancel-elections-rig-maps-callais"
-    ]
+    ],
+    "unprecedented": "The coordination of a Supreme Court ruling, a presidential directive, governors' orders, and a public 20-seat target within days is unprecedented in modern U.S. history."
   },
   {
     "id": "louisiana-primary-suspended",
@@ -831,7 +895,11 @@
     ],
     "trackerIds": [
       "desantis-florida-congressional-map-24-of-28-seats"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "Florida's voter-enacted Fair Districts Amendment bars drawing maps with partisan intent; the map's own drawer testified he used partisan data 'mixed in' during 'final balancing.'"
+    }
   },
   {
     "id": "alabama-districts",
@@ -853,7 +921,11 @@
     ],
     "trackerIds": [
       "alabama-special-session-eliminate-majority-black-districts"
-    ]
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "Alabama is under federal court order, from the Supreme Court's own Allen v. Milligan line, to keep its two majority-Black districts until 2030."
+    }
   },
   {
     "id": "virginia-sequence",
@@ -884,7 +956,8 @@
     "trackerIds": [
       "virginia-supreme-court-strikes-redistricting-referendum-4-3",
       "trump-virginia-redistricting-rigged-claim"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "guardrails-gone",
@@ -905,7 +978,8 @@
     ],
     "trackerIds": [
       "propublica-trump-midterm-elections-takeover"
-    ]
+    ],
+    "unprecedented": "ProPublica's conclusion: 2026 will be 'an unprecedented stress test of the integrity of American elections.'"
   },
   {
     "id": "election-deniers-running",
@@ -955,7 +1029,12 @@
     ],
     "trackerIds": [
       "pulte-dni-fires-intelligence-officials-2020-election-purge"
-    ]
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "The DNI's election role is limited by law to foreign interference; the purge comes with instructions to find domestic 'rigged elections' evidence."
+    },
+    "doubt": true
   },
   {
     "id": "fbi-analysts-fired",
@@ -1005,7 +1084,8 @@
     ],
     "trackerIds": [
       "clayton-dni-nominee-refuses-say-biden-won-2020"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "patel-arrests-soon",
@@ -1030,7 +1110,8 @@
     ],
     "trackerIds": [
       "patel-2020-election-arrests-announced-fbi"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "blanche-ton-of-evidence",
@@ -1051,7 +1132,8 @@
     ],
     "trackerIds": [
       "blanche-2020-stolen-ton-of-evidence-bartiromo-fox-news"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "tina-peters-commutation",
@@ -1112,7 +1194,12 @@
     "trackerIds": [
       "trump-nationalize-voting-2026",
       "nationalize-elections-conditional-acceptance"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "Article I, Section 4 assigns election administration to the states. Schumer called the proposal 'outlandishly illegal.'"
+    },
+    "doubt": true
   },
   {
     "id": "primetime-address",
@@ -1147,7 +1234,8 @@
     ],
     "trackerIds": [
       "trump-primetime-address-2020-declassified-interference-claims"
-    ]
+    ],
+    "doubt": true
   },
   {
     "id": "license-revocation-threat",
@@ -1176,7 +1264,11 @@
     ],
     "trackerIds": [
       "trump-demands-abc-nbc-license-revocation-speech-snub"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "The FCC's sole Democratic commissioner called the demand unconstitutional; the president has no authority to force outlets to air his speech or punish them for declining."
+    }
   },
   {
     "id": "third-term-drumbeat",
@@ -1206,7 +1298,12 @@
     ],
     "trackerIds": [
       "trump-third-term-entitled"
-    ]
+    ],
+    "legal": {
+      "level": "constitution",
+      "basis": "The 22nd Amendment is explicit: 'No person shall be elected to the office of the President more than twice.'"
+    },
+    "doubt": true
   },
   {
     "id": "california-prosecutor-call",
@@ -1231,6 +1328,7 @@
     ],
     "trackerIds": [
       "trump-claims-called-california-prosecutor-changed-primary-result"
-    ]
+    ],
+    "doubt": true
   }
 ]

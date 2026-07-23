@@ -35,6 +35,8 @@ Each entry in `src/data/actions.json`:
   "status": "active | court | threatened | record | blocked",
   "facts": ["2-5 sourced factual sentences"],
   "take": "OPTIONAL labeled opinion — rendered in a visually distinct 'OUR TAKE' block",
+  "unprecedented": "OPTIONAL — the stated basis for the UNPRECEDENTED flag (see flag criteria below)",
+  "legal": { "level": "ruled | statute | constitution", "basis": "OPTIONAL — the stated legal conflict" },
   "sources": [{ "text": "Outlet: headline", "url": "https://..." }],
   "trackerIds": ["every controversial-trump entry this card is seeded from"]
 }
@@ -68,6 +70,32 @@ node -e 'const fs=require("fs");const a=JSON.parse(fs.readFileSync("src/data/act
 - `record` — a statement, directive, or admission in the speaker's own words
 
 Update a card's status when reality changes (e.g., a court blocks a rule → `blocked`).
+
+### Flags (strict criteria — published in the Method section)
+
+- `unprecedented` — apply ONLY where cited officials, experts, or reporting say the action has no
+  equivalent; the string states that basis and it renders on the card.
+- `legal.level`:
+  - `ruled` — a court has ruled against the action itself
+  - `statute` — conflicts with explicit statute or a standing court order
+  - `constitution` — collides with constitutional text or allocation of power per litigation and
+    experts cited (courts may not have ruled yet)
+- The `basis` string must be traceable to the card's facts or its seed tracker entries — never
+  Claude's own legal conclusion. When a court rules on a flagged action, upgrade/downgrade the
+  level accordingly.
+- `doubt: true` — the entry documents Trump or his administration publicly asserting that American
+  elections are rigged, fraudulent, or illegitimate, or publicly delegitimizing a result. Feeds the
+  hero trust counter (doubt cards + history entries). Apply tightly: the public assertion must be
+  the entry's substance, not merely its premise.
+
+## The prehistory (`src/data/history.json`)
+
+A dedicated Prehistory section (between The Record and The Sequence) shows the 2020–2025 record:
+the Big Lie, fake electors, the Raffensperger call, January 6, the "termination" post, the 2024
+"only way we lose" claims, and the January 6 pardons. Schema: `{ id, date, title, summary, sources: [{text, url}], seedRefs }`.
+Every source URL must exist in a tracker entry, the research site's election-rigging pages, or the
+Civics Desk fake-electors article (`seedRefs` records where). These entries count toward the hero
+trust counter. Add here only pre-2026 events; 2026 events belong in `actions.json`.
 
 ## The two hard rules
 
