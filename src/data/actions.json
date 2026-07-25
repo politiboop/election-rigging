@@ -286,7 +286,8 @@
       "Under a memorandum of understanding signed in August 2025, Alaska's Republican lieutenant governor transferred the state's complete unredacted voter list, including full names, birth dates, home addresses, and driver's license or partial Social Security numbers, to the Trump DOJ.",
       "The ACLU, the Electronic Privacy Information Center, the League of Women Voters of Alaska, and the Alaska Black Caucus sued in April 2026, asking a court to void the MOU, order the DOJ to destroy all copies, and bar future transfers.",
       "ACLU attorney Theresa J. Lee: the state \"has put both privacy and democracy at serious risk.\" Civil rights groups argue the program is designed to engineer purges of Democratic-leaning voters, voters with immigrant-sounding names, and voters of color.",
-      "Alaska is small, but the MOU is a template: if it survives, other Republican-led states can copy it before November."
+      "Alaska is small, but the MOU is a template: if it survives, other Republican-led states can copy it before November.",
+      "The purge then arrived. On July 23, 2026, the state removed 3,048 people from its active voter list, many of them U.S. citizens wrongly flagged as noncitizens by the Alaska DMV. Elections director Carol Beecher blamed \"old data\" and said a normal annual check flags \"more like 200 names,\" not 3,000. Those removed can vote only by producing extra documentation, the exact citizenship-flagging harm this data campaign was warned would cause."
     ],
     "sources": [
       {
@@ -300,6 +301,14 @@
       {
         "text": "AP (via Press Democrat): Groups sue Alaska election officials over sharing of voter data with DOJ",
         "url": "https://www.pressdemocrat.com/2026/04/22/elections-justice-department-alaska/"
+      },
+      {
+        "text": "Alaska Beacon: Alaska removes thousands from its active voter list, erroneously flagging some citizens (July 23, 2026)",
+        "url": "https://alaskabeacon.com/2026/07/23/alaska-removes-thousands-from-states-active-voter-list-erroneously-flagging-some-citizens/"
+      },
+      {
+        "text": "Anchorage Daily News: Alaska removes thousands from its active voter list, erroneously flagging some citizens (July 24, 2026)",
+        "url": "https://www.adn.com/politics/2026/07/24/alaska-removes-thousands-from-states-active-voter-list-erroneously-flagging-some-citizens/"
       }
     ],
     "trackerIds": [
