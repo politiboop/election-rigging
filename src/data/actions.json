@@ -147,6 +147,7 @@
       "States refused immediately. New Hampshire's secretary of state: \"The Federal Government cannot usurp New Hampshire's express constitutional authority.\" Twenty-three Democratic-led states sued; at least four lawsuits are pending.",
       "The Constitution assigns election administration to the states (Article I, Section 4). Election expert David Becker predicted courts would block the order \"before the ink is dry.\"",
       "In May, U.S. District Judge Carl Nichols, a Trump appointee, declined to block it, reasoning that no agency had yet acted on it in a way that harmed the plaintiffs. By June, plaintiffs told an appeals court the order was already being implemented through the USPS rule and DHS memos.",
+      "On July 25, 2026, the 1st U.S. Circuit Court of Appeals (2-1) refused to lift a June 25 injunction blocking the order's key provisions in the 23 states, leaving the federal \"citizenship list\" and ballot-routing scheme blocked while the case proceeds. The DOJ signaled it would seek emergency relief from the Supreme Court.",
       "Trump himself voted by mail in Florida three days before signing the order."
     ],
     "sources": [
@@ -163,8 +164,12 @@
         "url": "https://www.reuters.com/legal/government/judge-allows-trump-implement-mail-in-voting-executive-order-2026-05-28/"
       },
       {
-        "text": "Democracy Docket: Trump's mail-voting order is already being implemented and must be blocked, new filing alleges",
-        "url": "https://www.democracydocket.com/news-alerts/trumps-flagrantly-unconstitutional-order-attacking-mail-voting-is-already-being-implemented-and-must-be-blocked-now-new-filing-alleges/"
+        "text": "CBS News: Federal appeals court upholds ruling blocking Trump's order to create federal voter list (July 25, 2026)",
+        "url": "https://www.cbsnews.com/news/appeals-court-upholds-ruling-blocking-trump-order-federal-voter-list/"
+      },
+      {
+        "text": "CNBC: U.S. appeals court rules Trump cannot implement mail-in voting order (July 25, 2026)",
+        "url": "https://www.cnbc.com/2026/07/25/us-appeals-court-rules-trump-cannot-implement-mail-in-voting-order.html"
       }
     ],
     "trackerIds": [
@@ -358,7 +363,8 @@
     "facts": [
       "In June 2026 the administration moved to condition more than $1 billion in DHS grants, money that funds state and local terrorism prevention, infrastructure protection, and disaster preparedness, on states adopting its election changes.",
       "To keep the funding, states would have to switch to hand-marked paper ballots and run their voter rolls through the contested DHS citizenship database. Refusers reportedly face roughly a 20% cut.",
-      "Jurisdictions forced to change include Delaware, Georgia, Nevada, South Carolina, and Los Angeles County. A former DOJ lawyer predicted the requirements \"will be blocked in the courts.\""
+      "Jurisdictions forced to change include Delaware, Georgia, Nevada, South Carolina, and Los Angeles County. A former DOJ lawyer predicted the requirements \"will be blocked in the courts.\"",
+      "On July 23, 2026, more than two dozen states sued in federal court in Rhode Island over the conditions, which by then extended to FEMA disaster aid: to keep the money, states would have to verify voter citizenship through a federal database, move toward hand-marked paper ballots, run federally prescribed election audits, and cooperate with ICE. The states argue conditioning appropriated funds this way violates the Administrative Procedure Act and the Constitution's Spending Clause."
     ],
     "sources": [
       {
@@ -368,10 +374,15 @@
       {
         "text": "The New Republic: Trump threatens to defund Homeland Security for states over election changes",
         "url": "https://newrepublic.com/post/212151/trump-threatens-defund-homeland-security-states-election-changes-2026-midterms"
+      },
+      {
+        "text": "CBS News: 25 states sue FEMA and DHS, accusing Trump administration of withholding funding",
+        "url": "https://www.cbsnews.com/news/states-sue-fema-dhs-trump-administration-funding/"
       }
     ],
     "trackerIds": [
-      "dhs-grants-conditioned-election-changes-paper-ballots-citizenship"
+      "dhs-grants-conditioned-election-changes-paper-ballots-citizenship",
+      "two-dozen-states-sue-fema-dhs-election-immigration-conditions"
     ]
   },
   {
@@ -526,9 +537,10 @@
       "Since March 2026, Trump allies have publicly pushed to invoke emergency powers around the midterms: federal agents at polling places, seizure of state election infrastructure, federalized election oversight.",
       "A New York Times analysis by Thomas Edsall mapped the architecture experts say makes that possible. NSPM-7, signed September 2025, directs agencies to pursue \"domestic terrorist organizations,\" a category that does not exist in federal law, citing no statute. National emergency declarations unlock powers in 137 provisions of law, and terminating one requires a veto-proof supermajority. Classified PEADs can be activated by a presidential signature alone, with no court review before taking effect.",
       "The Brennan Center's Elizabeth Goitein calls the congressional check \"a very weak constraint.\" Keep Our Republic's Joel McCleary: the combined effect \"has no precedent in American law outside wartime.\"",
-      "After the July primetime election address, Trump's own former White House special counsel Ty Cobb warned the speech was designed \"to add the predicate that he needs to declare an emergency at or about the time of the elections.\""
+      "After the July primetime election address, Trump's own former White House special counsel Ty Cobb warned the speech was designed \"to add the predicate that he needs to declare an emergency at or about the time of the elections.\"",
+      "In late July 2026, Steve Bannon put a date on it, saying he believes Trump will declare a national emergency by late August, claiming there would be \"enough evidence by mid-August\" of a \"massive problem\" of election fraud, the fraud roughly 60 courts, Barr, and CISA have found does not exist. Asked directly, Trump said he was not considering it and denied knowing about the proposal."
     ],
-    "take": "This is the card we most want to age badly. Nothing here has been activated. But predicates are being laid in public, by the administration's own former lawyers' account, and the infrastructure spending is real. We track it so that if an \"election emergency\" arrives in October, nobody can say it came from nowhere.",
+    "take": "This is the card we most want to age badly. Nothing here has been activated. But predicates are being laid in public, by the administration's own former lawyers' account, and the infrastructure spending is real, and now a former Trump strategist has named a month. We track it so that if an \"election emergency\" arrives around late August or in October, nobody can say it came from nowhere.",
     "sources": [
       {
         "text": "Politico: Trump allies push emergency powers plan for 2026 midterms",
@@ -545,6 +557,10 @@
       {
         "text": "PBS NewsHour: Trump setting stage to declare emergency around midterms, former White House attorney says",
         "url": "https://www.pbs.org/newshour/show/trump-setting-stage-to-declare-emergency-around-midterms-former-white-house-attorney-says"
+      },
+      {
+        "text": "Yahoo/AOL: Trump says he's not considering declaring a national emergency ahead of midterms (responding to Bannon's prediction, July 2026)",
+        "url": "https://www.yahoo.com/news/articles/trump-says-not-considering-declaring-192340022.html"
       }
     ],
     "trackerIds": [
