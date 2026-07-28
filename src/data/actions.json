@@ -147,7 +147,8 @@
       "States refused immediately. New Hampshire's secretary of state: \"The Federal Government cannot usurp New Hampshire's express constitutional authority.\" Twenty-three Democratic-led states sued; at least four lawsuits are pending.",
       "The Constitution assigns election administration to the states (Article I, Section 4). Election expert David Becker predicted courts would block the order \"before the ink is dry.\"",
       "In May, U.S. District Judge Carl Nichols, a Trump appointee, declined to block it, reasoning that no agency had yet acted on it in a way that harmed the plaintiffs. By June, plaintiffs told an appeals court the order was already being implemented through the USPS rule and DHS memos.",
-      "On July 25, 2026, the 1st U.S. Circuit Court of Appeals (2-1) refused to lift a June 25 injunction blocking the order's key provisions in the 23 states, leaving the federal \"citizenship list\" and ballot-routing scheme blocked while the case proceeds. The DOJ signaled it would seek emergency relief from the Supreme Court.",
+      "On July 25, 2026, the 1st U.S. Circuit Court of Appeals (2-1) refused to lift a June 25 injunction blocking the order's key provisions in the 23 states, leaving the federal \"citizenship list\" and ballot-routing scheme blocked while the case proceeds.",
+      "On July 27, 2026, the DOJ took it to the Supreme Court, asking on the emergency docket to put the injunction on hold and let the order take effect in the 23 states and D.C., 99 days before the midterms. The Court ordered the states to respond by August 3. A single emergency order could decide whether the federal government screens the nation's mail ballots this fall.",
       "Trump himself voted by mail in Florida three days before signing the order."
     ],
     "sources": [
@@ -170,6 +171,10 @@
       {
         "text": "CNBC: U.S. appeals court rules Trump cannot implement mail-in voting order (July 25, 2026)",
         "url": "https://www.cnbc.com/2026/07/25/us-appeals-court-rules-trump-cannot-implement-mail-in-voting-order.html"
+      },
+      {
+        "text": "The Washington Post: Trump administration asks Supreme Court to allow new limits on mail ballots (July 27, 2026)",
+        "url": "https://www.washingtonpost.com/politics/2026/07/27/trump-administration-asks-supreme-court-allow-new-limits-mail-ballots/"
       }
     ],
     "trackerIds": [
@@ -658,7 +663,8 @@
       "The verification systems it relies on are famously wrong: Virginia's purge flagged 94% citizens; North Carolina found 98% of flagged \"noncitizens\" were citizens; Kansas's version blocked 31,000 eligible citizens while catching virtually none.",
       "To force it through, Trump shut down DHS for 40+ days over it (Sen. John Kennedy revealed Trump personally killed a bipartisan deal to pay TSA workers), had Sen. Cornyn reverse his career-long filibuster position, and in June canceled the signing of the biggest housing-affordability bill in a generation an hour before the ceremony, writing that it stays \"cancelled until such time as we pass the desperately needed SAVE AMERICA ACT.\"",
       "Trump privately told Republicans that banning mail ballots would \"guarantee the midterms.\"",
-      "July 23, 2026: with the bill still stalled in the Senate, Trump pressed for as much of the SAVE Act as possible before the August recess. Leavitt said his \"patience is running out\" and named Majority Leader John Thune, who fired back that the White House should get the votes itself."
+      "July 23, 2026: with the bill still stalled in the Senate, Trump pressed for as much of the SAVE Act as possible before the August recess. Leavitt said his \"patience is running out\" and named Majority Leader John Thune, who fired back that the White House should get the votes itself.",
+      "July 27, 2026: Trump escalated, posting that Thune should not let the Senate \"leave town\" until it passes the SAVE Act \"or, far better still, TERMINATES THE FILIBUSTER.\" Thune again said he does not have the votes for either."
     ],
     "take": "You don't hold airport security and housing policy hostage for an election-administration bill unless the bill is the point. By the administration's own private framing, it is: fewer people registering means better Republican math.",
     "sources": [
@@ -685,6 +691,10 @@
       {
         "text": "Washington Times: Trump wants SAVE America voting rules passed before lawmakers' August recess (July 23, 2026)",
         "url": "https://www.washingtontimes.com/news/2026/jul/23/trump-wants-save-america-voting-rules-passed-lawmakers-august-recess/"
+      },
+      {
+        "text": "The Hill: Trump, Thune clash over cancelling August recess to debate SAVE America Act (July 27, 2026)",
+        "url": "https://thehill.com/homenews/senate/5993113-save-america-act-recess-fight/"
       }
     ],
     "trackerIds": [
