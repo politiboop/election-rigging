@@ -225,15 +225,16 @@
   },
   {
     "id": "voter-roll-lawsuits",
-    "title": "The DOJ Sues 30 States for Voter Files and Loses Nine Straight Times",
-    "date": "2026-06-22",
+    "title": "The DOJ Sues 30 States for Voter Files and Loses Eighteen Straight Times",
+    "date": "2026-07-29",
     "category": "data",
     "status": "court",
     "facts": [
       "Trump's DOJ has filed roughly 30 lawsuits against 29 states plus D.C. demanding voter registration data: names, addresses, birthdates, partial Social Security numbers, and driver's license numbers, using a Civil Rights Act provision written to protect Black voters.",
-      "It is 0-for-9 in court. Five of the nine losses came from judges Trump himself appointed. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
+      "It is 0-for-18 in court, with no wins. Five of the first nine losses came from judges Trump himself appointed. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
       "Twelve Republican-led states complied voluntarily, so the data campaign advances even as it loses in court.",
-      "An NBC News review found the DOJ still cannot substantiate Trump's claims of widespread voter fraud months before the midterms."
+      "An NBC News review found the DOJ still cannot substantiate Trump's claims of widespread voter fraud months before the midterms.",
+      "On July 29, 2026, U.S. District Judge Zahid Quraishi dismissed the DOJ's demand for New Jersey's unredacted voter rolls, its eighteenth straight loss, noting that judges in more than a dozen other states had reached the same conclusion."
     ],
     "sources": [
       {
@@ -251,6 +252,14 @@
       {
         "text": "NBC News: Trump's DOJ struggles to show evidence of widespread voter fraud",
         "url": "https://www.nbcnews.com/politics/justice-department/trumps-doj-struggles-show-evidence-widespread-voter-fraud-rcna349100"
+      },
+      {
+        "text": "Democracy Docket: Trump DOJ loses bid for New Jersey voter rolls, now 0 for 18",
+        "url": "https://www.democracydocket.com/news-alerts/trump-doj-loses-bid-for-new-jersey-voter-rolls/"
+      },
+      {
+        "text": "Politico (via Yahoo): Federal judge rejects DOJ attempt to obtain unredacted NJ voter rolls",
+        "url": "https://www.yahoo.com/news/politics/articles/federal-judge-rejects-doj-attempt-203904379.html"
       }
     ],
     "trackerIds": [
@@ -258,7 +267,7 @@
     ],
     "legal": {
       "level": "ruled",
-      "basis": "Nine straight federal court losses, five before Trump-appointed judges; one called the demand a 'fishing expedition' that 'lacks a legally sufficient basis.'"
+      "basis": "Eighteen straight federal court losses with no wins, several before Trump-appointed judges; one called the demand a \"fishing expedition\" that \"lacks a legally sufficient basis.\""
     }
   },
   {
@@ -1107,14 +1116,15 @@
   },
   {
     "id": "clayton-certified",
-    "title": "The Next Intelligence Chief Won't Say Who Won 2020",
-    "date": "2026-07-15",
+    "title": "The New Intelligence Chief Wouldn't Say Who Won 2020",
+    "date": "2026-07-28",
     "category": "referees",
     "status": "record",
     "facts": [
       "At his July 2026 confirmation hearing, Trump's DNI nominee Jay Clayton refused to say Joe Biden won the 2020 election, allowing only that Biden was \"certified.\"",
       "Sen. Jon Ossoff pressed him repeatedly, \"we can keep doing this\", and Clayton kept declining to name the winner.",
-      "The hearing came the day before Trump's primetime address claiming declassified intelligence showed 2020 was compromised. Clayton would replace acting DNI Bill Pulte, who pushed for that address."
+      "The hearing came the day before Trump's primetime address claiming declassified intelligence showed 2020 was compromised. Clayton would replace acting DNI Bill Pulte, who pushed for that address.",
+      "On July 28, 2026, the Senate confirmed Clayton as director of national intelligence, 51-47 on a party-line vote, putting a chief who would not say Biden won 2020 atop the 18 intelligence agencies weeks before the midterms."
     ],
     "sources": [
       {
@@ -1124,6 +1134,14 @@
       {
         "text": "Democracy Docket: Trump's pick for intel chief refuses to say who won 2020 election",
         "url": "https://www.democracydocket.com/news-alerts/trump-intel-chief-pick-jay-clayton-2020-election-victor/"
+      },
+      {
+        "text": "NPR: Senate confirms Jay Clayton as director of national intelligence",
+        "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence"
+      },
+      {
+        "text": "CNBC: Senate confirms Jay Clayton as Trump's spy chief, replacing Pulte",
+        "url": "https://www.cnbc.com/2026/07/28/jay-clayton-bill-pulte-senate-vote-trump-spy-chief.html"
       }
     ],
     "trackerIds": [
