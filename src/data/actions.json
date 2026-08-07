@@ -225,17 +225,18 @@
   },
   {
     "id": "voter-roll-lawsuits",
-    "title": "The DOJ Sues 30 States for Voter Files and Loses Twenty Straight Times",
-    "date": "2026-08-03",
+    "title": "The DOJ Sues 30 States for Voter Files and Loses Twenty-One Straight Times",
+    "date": "2026-08-07",
     "category": "data",
     "status": "court",
     "facts": [
       "Trump's DOJ has filed roughly 30 lawsuits against 29 states plus D.C. demanding voter registration data: names, addresses, birthdates, partial Social Security numbers, and driver's license numbers, using a Civil Rights Act provision written to protect Black voters.",
-      "It is 0-for-20 in court, with no wins. Of the twenty losses, twelve came from judges appointed by Republican presidents, eight of them Trump's own. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
+      "It is 0-for-21 in court, with no wins, losing every resolved case. Twelve of the losses came from judges appointed by Republican presidents, eight of them Trump's own. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
       "Twelve Republican-led states complied voluntarily, so the data campaign advances even as it loses in court.",
       "An NBC News review found the DOJ still cannot substantiate Trump's claims of widespread voter fraud months before the midterms.",
       "On July 29, 2026, U.S. District Judge Zahid Quraishi dismissed the DOJ's demand for New Jersey's unredacted voter rolls, its eighteenth straight loss, noting that judges in more than a dozen other states had reached the same conclusion.",
-      "On August 3, 2026, U.S. District Judge Philip Brimmer, a George W. Bush appointee, dismissed the DOJ's demand for Colorado's voter rolls with prejudice, its twentieth straight loss; the nineteenth was a dismissal in Illinois. The department has also lost the only appellate ruling so far."
+      "On August 3, 2026, U.S. District Judge Philip Brimmer, a George W. Bush appointee, dismissed the DOJ's demand for Colorado's voter rolls with prejudice, its twentieth straight loss; the nineteenth was a dismissal in Illinois. The department has also lost the only appellate ruling so far.",
+      "On August 6-7, 2026, U.S. District Judge Randolph Moss dismissed the DOJ's demand for the District of Columbia's full voter list, its twenty-first straight loss; a Washington State case argued August 4 was still undecided. The DOJ has appealed 16 of the losses, and the 6th Circuit has already rejected one (Michigan)."
     ],
     "sources": [
       {
@@ -265,6 +266,10 @@
       {
         "text": "Democracy Docket: Trump DOJ now 0 for 20 after judge dismisses Colorado voter roll lawsuit \"with prejudice\"",
         "url": "https://www.democracydocket.com/news-alerts/trump-doj-now-0-for-20-after-judge-dismisses-colorado-voter-roll-lawsuit-with-prejudice/"
+      },
+      {
+        "text": "Democracy Docket: After 20 straight losses, Trump DOJ struggles to defend demand for Washington state voter rolls",
+        "url": "https://www.democracydocket.com/news-alerts/trump-doj-struggles-to-defend-demand-for-washington-voter-rolls/"
       }
     ],
     "trackerIds": [
@@ -272,7 +277,7 @@
     ],
     "legal": {
       "level": "ruled",
-      "basis": "Twenty straight federal court losses with no wins, twelve before Republican-appointed judges (eight of them Trump's); one called the demand a \"fishing expedition\" that \"lacks a legally sufficient basis.\""
+      "basis": "Twenty-one straight federal court losses with no wins, twelve before Republican-appointed judges (eight of them Trump's); one called the demand a \"fishing expedition\" that \"lacks a legally sufficient basis.\""
     }
   },
   {
