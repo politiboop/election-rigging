@@ -725,14 +725,15 @@
   {
     "id": "draft-emergency-eo",
     "title": "A Draft Executive Order Declaring an 'Election Emergency'",
-    "date": "2026-02-26",
+    "date": "2026-08-10",
     "category": "ballot",
     "status": "threatened",
     "facts": [
       "ABC News reported in February 2026 that pro-Trump attorneys circulated a 17-page draft executive order declaring an \"election emergency\" based on a claim of Chinese interference in 2020 for which no evidence exists.",
       "The draft would mandate voter ID for the midterms, ban mail-in ballots, and require hand-counted paper ballots, by presidential decree.",
       "Sources told ABC that Trump reviewed the draft and that the attorneys were coordinating with the White House. Trump denied knowing about it.",
-      "Five months later, his primetime address made the same Chinese-interference claim the draft order was built on."
+      "Five months later, his primetime address made the same Chinese-interference claim the draft order was built on.",
+      "On August 10, 2026, asked directly whether he would declare a \"national security emergency for elections\" to impose citizenship, photo-ID, and mail-in rules without Congress, a plan pushed by a Real America's Voice host, Trump did not rule it out: \"Let me just say that stranger things have happened, OK? I'll leave it at that.\""
     ],
     "sources": [
       {
@@ -742,10 +743,15 @@
       {
         "text": "Washington Post: Trump, seeking executive power over elections, is urged to declare emergency",
         "url": "https://www.washingtonpost.com/politics/2026/02/26/trump-elections-executive-order-activists/"
+      },
+      {
+        "text": "Democracy Docket: Trump signals openness to unconstitutional plot to take over elections (August 2026)",
+        "url": "https://www.democracydocket.com/news-alerts/trump-national-security-emergency-take-over-elections/"
       }
     ],
     "trackerIds": [
-      "draft-election-emergency-executive-order"
+      "draft-election-emergency-executive-order",
+      "trump-noncommittal-national-security-emergency-elections"
     ],
     "legal": {
       "level": "constitution",
