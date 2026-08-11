@@ -501,7 +501,7 @@
     "title": "The Defense Secretary Invents a Precedent for Troops at the Polls",
     "date": "2026-04-29",
     "category": "force",
-    "status": "threatened",
+    "status": "record",
     "facts": [
       "Asked in April 2026 congressional testimony whether he would follow a hypothetical Trump order to deploy troops to polling places, an order that would violate federal law, Defense Secretary Pete Hegseth declined to rule it out and instead claimed Biden \"deployed troops to polling locations in 15 states\" in 2024.",
       "He repeated the claim in both chambers. CNN contacted all 15 states; the 11 that responded all said no troops were at polling locations. Guard activity in 2024 was cybersecurity support or liaison work, ordered by governors, not Biden.",
@@ -1408,5 +1408,197 @@
       "trump-claims-called-california-prosecutor-changed-primary-result"
     ],
     "doubt": true
+  },
+  {
+    "id": "voter-id-executive-order",
+    "title": "Trump Says There Will Be Voter ID in the Midterms 'Whether Approved by Congress or Not'",
+    "date": "2026-02-13",
+    "category": "ballot",
+    "status": "threatened",
+    "facts": [
+      "On February 13, 2026, Trump posted: \"There will be Voter I.D. for the Midterm Elections, whether approved by Congress or not!\" He added that if it could not get through Congress, he would present the requirement \"shortly, in the form of an Executive Order.\"",
+      "The House had narrowly passed the SAVE America Act 218-213, requiring proof of citizenship and photo ID; Senate Minority Leader Chuck Schumer called it dead on arrival in the Senate.",
+      "A federal judge had already struck down Trump's earlier election executive order as unconstitutional, writing that \"our Constitution entrusts Congress and the states, not the president, with the authority to regulate federal elections.\"",
+      "Article I, Section 4 of the Constitution assigns the rules of federal elections to the states and to Congress. Election-law experts say the president has no authority to set them by decree."
+    ],
+    "take": "A president announcing he will impose election rules whether or not the legislature agrees is not a policy dispute. It is a claim to a power the Constitution deliberately withheld from him, made out loud, in advance.",
+    "legal": {
+      "level": "constitution",
+      "basis": "Article I, Section 4 assigns federal election rules to Congress and the states; a federal judge had already struck down Trump's earlier election executive order, holding the Constitution entrusts that authority \"not the president.\""
+    },
+    "sources": [
+      {
+        "text": "CBS News: Trump vows to require voter ID in midterms 'whether approved by Congress or not'",
+        "url": "https://www.cbsnews.com/news/trump-vows-to-require-voter-id-in-midterms-whether-approved-by-congress-or-not/"
+      },
+      {
+        "text": "Democracy Docket: Trump: 'There will be Voter I.D. for the Midterm Elections, whether approved by Congress or not!'",
+        "url": "https://www.democracydocket.com/news-alerts/trump-there-will-be-voter-i-d-for-the-midterm-elections-whether-approved-by-congress-or-not/"
+      },
+      {
+        "text": "NBC News: Trump vows voter ID requirements for the midterms, 'whether approved by Congress or not'",
+        "url": "https://www.nbcnews.com/politics/elections/trump-vows-voter-id-requirements-midterms-rcna259018"
+      }
+    ],
+    "trackerIds": [
+      "trump-voter-id-bypass-congress"
+    ]
+  },
+  {
+    "id": "mullin-throw-out-constitution",
+    "title": "The Homeland Security Secretary Says He'd 'Throw Out the Constitution' to Stop Noncitizen Voting, and Won't Rule Out ICE at the Polls",
+    "date": "2026-06-14",
+    "category": "force",
+    "status": "record",
+    "facts": [
+      "On June 14, 2026, DHS Secretary Markwayne Mullin told CNN he would \"throw out the Constitution\" to ensure that only citizens vote, then walked it back moments later: \"Throw it out as an argument.\"",
+      "He said DHS is scrubbing state voter rolls and claimed it sees \"thousands\" registered with mail-out ballots, without naming a single state or roll.",
+      "Asked whether ICE agents would be at polling places for the midterms, he would not rule it out, saying officers \"would only be there if a threat is arised.\"",
+      "Every major study has found noncitizen voting to be vanishingly rare, and the Constitution assigns the administration of elections to the states."
+    ],
+    "take": "The cabinet secretary who runs immigration enforcement floated putting his agents near polling places, and named the Constitution as the obstacle. Federal officers at a polling place do not have to arrest anyone to change who feels safe walking in.",
+    "legal": {
+      "level": "constitution",
+      "basis": "The secretary named the Constitution itself as the obstacle to his aim; the Constitution assigns the administration of elections to the states, not to a federal enforcement agency."
+    },
+    "sources": [
+      {
+        "text": "The Hill: Mullin won't rule out ICE agents near polls for the midterms",
+        "url": "https://thehill.com/policy/national-security/5923403-mullin-ice-agents-midterms-polls/"
+      },
+      {
+        "text": "Salon: 'Let's throw out the Constitution': Mullin shares DHS plans ahead of midterms",
+        "url": "https://www.salon.com/2026/06/14/lets-throw-out-the-constitution-mullin-shares-dhs-plans-ahead-of-midterms/"
+      },
+      {
+        "text": "Fox News: DHS chief Mullin refuses to rule out ICE at polls",
+        "url": "https://www.foxnews.com/media/dhs-chief-mullin-refuses-rule-ice-polls-claims-american-citizens-line"
+      }
+    ],
+    "trackerIds": [
+      "dhs-mullin-throw-out-constitution-voter-rolls-ice-polls"
+    ]
+  },
+  {
+    "id": "dhs-250k-noncitizen-claim",
+    "title": "DHS Says 250,000 Noncitizens Are Registered to Vote in Four States. The States and the Fact-Checkers Say the Number Is Wildly Inflated.",
+    "date": "2026-07-16",
+    "category": "narrative",
+    "status": "record",
+    "doubt": true,
+    "facts": [
+      "In mid-July 2026, DHS claimed more than 250,000 noncitizens were registered to vote across four states: 190,832 in California, 35,152 in New Jersey, 15,903 in Nevada, and 14,576 in Pennsylvania. Secretary Markwayne Mullin promoted the numbers.",
+      "Snopes rated the claim false, finding zero evidence to support it. PolitiFact reported the figures were preliminary counts of the kind that shrink drastically after vetting.",
+      "New Jersey Gov. Mikie Sherrill said a 2023-24 software error had registered about 6,600 noncitizens, who cast fewer than 400 ballots statewide in total. Nevada told the New York Times that just 138 of its 2.1 million active voters lacked a driver's license or Social Security number at registration.",
+      "The inflated figure has been used to justify federal intervention in state-run elections, while the vetted counts are small enough to change no outcome."
+    ],
+    "take": "The number does not have to survive fact-checking to do its job. It has to exist long enough to justify the federal government reaching into four states' voter rolls.",
+    "sources": [
+      {
+        "text": "Snopes: DHS claimed 250K noncitizens are registered to vote across 4 states. Here's the truth (rated False)",
+        "url": "https://www.snopes.com/fact-check/dhs-250k-noncitizens-registered-vote/"
+      },
+      {
+        "text": "PolitiFact: Are 250,000 noncitizens on US voting rolls?",
+        "url": "https://politifact.com/article/2026/jul/17/Mullin-dhs-250000-noncitizen-voters-Trump/"
+      },
+      {
+        "text": "CBS News: What to know about the administration's claim that 250K noncitizens are registered to vote in 4 states",
+        "url": "https://www.cbsnews.com/news/trump-markwayne-mullin-non-citizens-registered-voters-california-new-jersey-nevada-pennsylvania/"
+      }
+    ],
+    "trackerIds": [
+      "dhs-250k-noncitizen-voters-claim-debunked-four-states"
+    ]
+  },
+  {
+    "id": "war-on-polling",
+    "title": "Trump Says Unfavorable Polling Should Be 'Virtually a Criminal Offence,' Then Gallup Ends 88 Years of Approval Tracking",
+    "date": "2026-02-11",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "After a January 22, 2026 New York Times/Siena poll put his approval at 40 percent against 56 percent disapproval, Trump posted that \"Fake and Fraudulent Polling should be, virtually, a criminal offence\" and that \"something has to be done about Fake Polls! They are truly OUT OF CONTROL.\"",
+      "He announced the poll would be added to his $15 billion lawsuit against the New York Times, saying the paper \"will be held fully responsible for all of their Radical Left lies and wrongdoing.\"",
+      "The 40 percent figure was consistent with other polling at the time; the RealClearPolitics average stood at about 42.5 percent.",
+      "On February 11, 2026, Gallup announced it would stop tracking presidential approval after roughly eight decades."
+    ],
+    "take": "Polling is not election machinery. It is the instrument the public uses to know where it stands before a vote, and a president threatening to criminalize the unflattering readings is trying to take that instrument away.",
+    "sources": [
+      {
+        "text": "The Hill: Gallup to stop tracking presidential approval ratings after 8 decades",
+        "url": "https://thehill.com/homenews/media/5733236-gallup-stops-presidential-approval-ratings-polls/"
+      },
+      {
+        "text": "Politico: Trump poll NYT approval",
+        "url": "https://www.politico.com/news/2026/01/22/trump-poll-nyt-approval-00740786"
+      },
+      {
+        "text": "Just The News: Trump fumes over 'fake polls,' adds Siena poll to NYT lawsuit",
+        "url": "https://justthenews.com/politics-policy/trump-fumes-over-fake-polls-adds-siena-poll-nyt-lawsuit"
+      }
+    ],
+    "trackerIds": [
+      "trump-war-on-polling"
+    ]
+  },
+  {
+    "id": "musk-georgia-ballot-applications",
+    "title": "Georgia's Election Board Reprimands Musk's America PAC for Mailing Prefilled Absentee Ballot Applications",
+    "date": "2026-02-19",
+    "category": "ballot",
+    "status": "active",
+    "facts": [
+      "On February 19, 2026, the Georgia State Election Board voted to reprimand Elon Musk's America PAC for sending voters partially prefilled absentee ballot applications.",
+      "Georgia law, O.C.G.A. 21-2-381, prohibits non-relatives from sending prefilled ballot applications. The board also found the mailings lacked the required disclaimer that they were not official government publications.",
+      "The investigation began in October 2024 after complaints from voters in Chattooga, Cherokee, Coweta, Floyd, and Whitfield counties; a police report was filed in January and security-camera footage documented at least one incident.",
+      "The penalty was a formal letter of reprimand, which was widely criticized as a slap on the wrist. Musk spent more than $250 million through America PAC to help elect Trump in 2024."
+    ],
+    "take": "The voter-fraud machinery that spent 2026 hunting for noncitizens on the rolls found an actual, adjudicated violation of ballot law in Georgia. It was committed by the president's largest donor, and it cost him a letter.",
+    "legal": {
+      "level": "statute",
+      "basis": "The Georgia State Election Board found the mailings violated O.C.G.A. 21-2-381, which bars non-relatives from sending prefilled absentee ballot applications, and the state's disclaimer requirement."
+    },
+    "sources": [
+      {
+        "text": "11Alive: Musk-founded PAC reprimanded by Georgia State Election Board for prefilled absentee ballot applications",
+        "url": "https://www.11alive.com/article/news/politics/georgia-state-election-board-letter-of-reprimand-america-pac-pre-filled-absentee-ballot-applications/85-ddb4f02a-a78a-4931-80e7-0fab668727c4"
+      },
+      {
+        "text": "The New Republic: Turns Out There Was Voter Fraud in Georgia, by Elon Musk",
+        "url": "https://newrepublic.com/post/206857/georgia-voter-fraud-elon-musk"
+      }
+    ],
+    "trackerIds": [
+      "musk-america-pac-georgia-voter-fraud"
+    ]
+  },
+  {
+    "id": "musk-america-pac-midterm-spending",
+    "title": "Musk Revives America PAC With a Planned $100 Million Turnout Operation, Coordinating With Trump's Political Team",
+    "date": "2026-07-29",
+    "category": "narrative",
+    "status": "active",
+    "facts": [
+      "On July 29-30, 2026, the New York Times and Axios reported that Elon Musk authorized his super PAC, America PAC, to spend between $100 million and $120 million on a get-out-the-vote program for Republicans, beginning the following month and targeting at least eight states.",
+      "The initial Senate targets are Alaska, Iowa, Maine, Michigan, and Ohio, with talks about North Carolina, Georgia, and Texas, plus House races in California, Wisconsin, and Washington. The program is door-knocking, digital advertising, and direct mail aimed at turning out irregular conservative voters.",
+      "It revives the vehicle Musk used to spend more than $260 million backing Trump in 2024, again run by his top political adviser, Chris Young. The group intends to align its canvassing with the Koch network's Americans for Prosperity under recently loosened coordination rules.",
+      "Axios reported that Musk has been in talks with Trump's political team about how he can help; an America PAC spokesman, Andrew Romeo, said, \"we're excited to again be part of the team.\"",
+      "This is legal super-PAC spending. What is documented here is its scale and the reported coordination with the president's political operation."
+    ],
+    "take": "This card is the boundary of our own standard. Spending money to persuade voters is legal, and we do not call it rigging. We include it because the same donor already drew an adjudicated ballot-law violation in Georgia and a bribery referral in Wisconsin, and because a nine-figure operation coordinating with the White House political team is context a reader deserves when weighing everything else on this page. Judge it as spending, not as fraud.",
+    "sources": [
+      {
+        "text": "Newsweek: Map Shows States Elon Musk's Midterm Money Machine Could Impact Most",
+        "url": "https://www.newsweek.com/map-elon-musk-midterm-america-pac-12264200"
+      },
+      {
+        "text": "Axios (via Yahoo): Exclusive: Musk plans massive push for GOP in midterms",
+        "url": "https://www.yahoo.com/news/politics/articles/exclusive-musk-plans-massive-push-230005221.html"
+      }
+    ],
+    "trackerIds": [
+      "musk-america-pac-100-million-midterm-turnout-2026"
+    ]
   }
 ]
