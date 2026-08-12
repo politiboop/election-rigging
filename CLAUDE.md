@@ -119,7 +119,22 @@ When processing news batches in the tracker, for every new/updated election-rela
 3. Bump the `LAST_UPDATED` constant in `index.astro`.
 4. Check the **What to Watch** list in `index.astro` — retire dates that passed (note what
    happened), add new dated triggers.
-5. `npm run build`, verify, commit (ask the user before pushing, per workspace convention).
+5. Run `node verify-sources.js` (see below), then `npm run build`, verify, commit (ask the user
+   before pushing, per workspace convention).
+
+## Source-integrity check
+
+```bash
+node verify-sources.js
+```
+
+Enforces hard rule 2 mechanically: **every source URL on a card must appear verbatim in the sources
+of at least one of that card's own `trackerIds`.** A URL that traces to nothing was either typed from
+memory or orphaned when the tracker entry it came from was corrected. Both fail, and both need a look.
+It also checks that every `trackerId` resolves to a real entry file and that no card is sourceless.
+
+Exits non-zero, so it can gate a commit. Run it after any tracker-side correction too, not just when
+adding cards here: fixing a fabricated URL in `controversial-trump` can orphan a card that quoted it.
 
 ## Design notes
 
