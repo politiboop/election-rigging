@@ -1624,5 +1624,31 @@
     "trackerIds": [
       "musk-america-pac-100-million-midterm-turnout-2026"
     ]
+  },
+  {
+    "id": "impeachment-stake",
+    "title": "Trump Tells Supporters He Gets Impeached if Republicans Lose",
+    "date": "2026-08-21",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "Campaigning in Myrtle Beach, South Carolina on August 21, 2026, Trump told supporters he expects to be impeached if Republicans lose the November midterms, and that they would \"lose everything\" if Democrats took control of Congress for his final two years.",
+      "He made the same argument earlier in 2026 at a House Republican policy retreat: \"You got to win the midterms, because if we don't win the midterms, it's just going to be, I mean, they'll find a reason to impeach me.\"",
+      "Impeachment requires a House majority to impeach and two-thirds of the Senate to convict. A Democratic House alone could impeach but not remove him."
+    ],
+    "take": "Predicting impeachment is not improper, and a president is entitled to campaign on the stakes. What this supplies is his own statement of what he personally stands to lose, made while his administration is directing federal agencies into the administration of the same election: the mail-voting order, the USPS ballot rule, the voter-roll suits. Every other card here documents an action. This one documents the motive the president stated out loud.",
+    "sources": [
+      {
+        "text": "NBC News: Trump predicts he will be impeached if Republicans lose the midterms",
+        "url": "https://www.nbcnews.com/politics/2026-election/trump-predicts-impeachment-if-republicans-lose-2026-midterms-rcna252604"
+      },
+      {
+        "text": "Deccan Herald: 'If we don't win midterms I will get impeached,' Trump to House Republicans",
+        "url": "https://www.deccanherald.com/world/if-we-dont-win-midterms-i-will-get-impeached-trump-to-house-republicans-3853614"
+      }
+    ],
+    "trackerIds": [
+      "trump-predicts-impeachment-if-gop-loses-midterms"
+    ]
   }
 ]
