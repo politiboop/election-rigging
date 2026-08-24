@@ -189,17 +189,20 @@
   },
   {
     "id": "usps-ballot-refusal",
-    "title": "The Post Office Wins Permission, for Now, to Refuse Ballots",
-    "date": "2026-07-17",
+    "title": "The Post Office Finalizes Its Ballot-Refusal Rule While a Court Order Blocks It",
+    "date": "2026-08-21",
     "category": "machinery",
     "status": "court",
     "facts": [
       "Under the rule implementing Trump's mail-voting order, USPS would deliver mail ballots only for states that hand over their voter lists 60 or more days before the election and put a unique tracking barcode on every ballot. USPS could refuse noncompliant ballots.",
       "On June 24, Postmaster General David Steiner confirmed under oath that USPS would not deliver ballots for states that refuse to hand over voter rolls: \"Under our proposed regulation? No.\"",
       "A district judge blocked the rule in early July. On July 17, a three-judge appeals panel temporarily lifted that injunction, letting the rule advance while litigation continues.",
-      "Implementation must happen before mid-September, when ballot mailing begins. Missing barcodes or mismatched records could delay or void ballots, hitting elderly, disabled, and rural voters hardest."
+      "Implementation must happen before mid-September, when ballot mailing begins. Missing barcodes or mismatched records could delay or void ballots, hitting elderly, disabled, and rural voters hardest.",
+      "On August 11, 2026, a federal judge in Massachusetts issued a preliminary injunction barring USPS from implementing Section 3 of the executive order for the November elections, finding the provision likely unconstitutional.",
+      "On August 21, USPS issued its final rule implementing that same section anyway, effective immediately, stating it will be implemented \"immediately\" for the November elections if the injunctive orders are lifted.",
+      "Plaintiffs in League of Women Voters of Massachusetts v. Trump moved to enforce the court's order, asking the court to confirm the rule \"has no force or effect\" before November and to bar USPS from taking \"no implementation or preparatory steps\" this year."
     ],
-    "take": "Watch the September deadline. If this rule is in force when ballots start mailing, the post office becomes a ballot gatekeeper weeks before the election, and any state that refused to surrender its voter file finds out what that means in real time.",
+    "take": "Finalizing a rule a court has enjoined does not switch it on. What it does is leave the rule loaded: complete, effective on paper, and waiting for an appellate court to lift the block. Ballot mailing starts in mid-September, so the window in which that could still matter is short.",
     "sources": [
       {
         "text": "CNN: Postal Service won't deliver mail ballots for states that don't hand over voter lists, under plan for Trump directive",
@@ -212,6 +215,18 @@
       {
         "text": "Newsweek: Donald Trump Scores Legal Victory In Major Mail-In Voting Change",
         "url": "https://www.newsweek.com/donald-trump-legal-victory-mail-in-voting-12213708"
+      },
+      {
+        "text": "ACLU: Voting Rights Organizations Seek to Enforce Injunction Against Mail Voting Executive Order",
+        "url": "https://www.aclu.org/press-releases/voting-rights-organizations-seek-to-enforce-injunction-against-mail-voting-executive-order"
+      },
+      {
+        "text": "Democracy Docket: Court must enforce injunction blocking USPS from finalizing rule restricting mail voting, say voting rights groups",
+        "url": "https://www.democracydocket.com/news-alerts/court-must-enforce-injunction-blocking-usps-from-finalizing-rule-restricting-mail-voting-says-voting-rights-groups/"
+      },
+      {
+        "text": "TIME: What to Know About the USPS's Rule for Mail-In Ballots (August 23, 2026)",
+        "url": "https://time.com/article/2026/08/23/what-to-know-about-the-usps-s-rule-for-mail-in-ballots/"
       }
     ],
     "trackerIds": [
@@ -825,7 +840,8 @@
       "On July 14, 2026, the Wisconsin Elections Commission, three Democrats and three Republicans, voted 5-1 to find probable cause that Elon Musk violated the state's election bribery law with his $1 million checks to voters before the 2025 state Supreme Court election, and referred him to prosecutors.",
       "The commission found Musk's offer was made \"to induce them to vote.\" He handed out two $1 million checks at a Green Bay rally days before the election and offered $100 for signing a petition.",
       "Musk and allied groups spent at least $20 million on the race, the most expensive judicial election in U.S. history at over $100 million total. His candidate lost by 10 points.",
-      "The Brown County district attorney has 40 days from the referral to report back on charges."
+      "The Brown County district attorney has 40 days from the referral to report back on charges.",
+      "On August 7, 2026, Brown County DA David Lasee said his office had a conflict of interest, without specifying it, and requested a special prosecutor. La Crosse County DA Tim Gruenke took the case over. The 40 days after the referral passed with no charging decision."
     ],
     "sources": [
       {
@@ -839,6 +855,14 @@
       {
         "text": "UPI: Wisconsin elections panel sends Elon Musk bribery complaints to prosecutors",
         "url": "https://www.upi.com/Top_News/US/2026/07/14/elon-musk-wisconsin-bribery/8311784062796/"
+      },
+      {
+        "text": "WBAY: Brown County District Attorney requests special prosecutor for WEC referral on Elon Musk (August 7, 2026)",
+        "url": "https://www.wbay.com/2026/08/07/brown-county-district-attorney-requests-special-prosecutor-wec-referral-elon-musk/"
+      },
+      {
+        "text": "FOX 11: Special prosecutor to take over Brown County case involving Elon Musk",
+        "url": "https://fox11online.com/news/election/elon-musk-election-bribery-1-million-dollar-checks-voters-brown-county-district-attorney-david-lasee-conflict-interest-la-crosse-county-tim-gruenke-wisconsin-elections-commission-complaints"
       }
     ],
     "trackerIds": [
