@@ -138,8 +138,8 @@
   },
   {
     "id": "mail-voting-eo",
-    "title": "An Executive Order Puts the Federal Government in Charge of Who Gets a Mail Ballot",
-    "date": "2026-03-31",
+    "title": "The Supreme Court Lets the Mail-Voting Order Advance, Without Ruling It Legal",
+    "date": "2026-08-24",
     "category": "machinery",
     "status": "court",
     "facts": [
@@ -149,7 +149,11 @@
       "In May, U.S. District Judge Carl Nichols, a Trump appointee, declined to block it, reasoning that no agency had yet acted on it in a way that harmed the plaintiffs. By June, plaintiffs told an appeals court the order was already being implemented through the USPS rule and DHS memos.",
       "On July 25, 2026, the 1st U.S. Circuit Court of Appeals (2-1) refused to lift a June 25 injunction blocking the order's key provisions in the 23 states, leaving the federal \"citizenship list\" and ballot-routing scheme blocked while the case proceeds.",
       "On July 27, 2026, the DOJ took it to the Supreme Court, asking on the emergency docket to put the injunction on hold and let the order take effect in the 23 states and D.C., 99 days before the midterms. The Court ordered the states to respond by August 3. A single emergency order could decide whether the federal government screens the nation's mail ballots this fall.",
-      "Trump himself voted by mail in Florida three days before signing the order."
+      "Trump himself voted by mail in Florida three days before signing the order.",
+      "On August 24, 2026, the Supreme Court granted emergency applications from the DOJ and a dozen Republican-led states and lifted, 6-3, Judge Talwani's June injunction blocking the order in the 23 states and D.C. that sued.",
+      "The majority ruled on standing, not legality: any injury would come from \"the downstream action that the Secretary might take in the future,\" which was \"no more than conjecture.\" It added that its ruling \"does not mean that any measure taken by the Government to implement the Order will necessarily be lawful.\"",
+      "A second, nationwide injunction Talwani issued August 11 in the League of Women Voters case was not before the Court and remains in force, so the order still cannot be implemented for November as of this update.",
+      "Sotomayor and Kagan dissented together, saying the decision \"merely postpones adjudication.\" Jackson dissented separately: the ruling \"needlessly injects chaos and uncertainty into the upcoming midterm elections.\""
     ],
     "sources": [
       {
@@ -175,17 +179,31 @@
       {
         "text": "The Washington Post: Trump administration asks Supreme Court to allow new limits on mail ballots (July 27, 2026)",
         "url": "https://www.washingtonpost.com/politics/2026/07/27/trump-administration-asks-supreme-court-allow-new-limits-mail-ballots/"
+      },
+      {
+        "text": "Votebeat: Supreme Court lifts 1 of 2 injunctions on Trump's mail-voting executive order for 2026 elections (August 24, 2026)",
+        "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+      },
+      {
+        "text": "NPR: Supreme Court gives Trump an interim win on his mail voting order, but hurdles loom (August 24, 2026)",
+        "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court"
+      },
+      {
+        "text": "CBS News: Supreme Court allows Trump to implement key parts of order restricting mail voting ahead of midterms",
+        "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"
       }
     ],
     "trackerIds": [
       "trump-executive-order-mail-voting-federal-voter-lists",
-      "judge-nichols-declines-block-trump-mail-in-voting-eo"
+      "judge-nichols-declines-block-trump-mail-in-voting-eo",
+      "scotus-lifts-mail-voting-injunction-states-lacked-standing"
     ],
     "unprecedented": "The order gives the Postal Service unprecedented oversight over who receives a mail ballot and directs the first federal voter-eligibility lists.",
     "legal": {
       "level": "constitution",
       "basis": "Article I, Section 4 assigns election administration to the states. Twenty-three states are suing; New Hampshire's secretary of state called it a usurpation of state constitutional authority."
-    }
+    },
+    "take": "Read the headline and the holding separately. The Court did not say the order is lawful; it said these plaintiffs sued too early, and it went out of its way to say implementing measures might still be unlawful. What actually stands between the order and November is the other injunction, the nationwide one, which the Court did not touch. That is a thinner thread than a ruling on the merits, and it is now the only thread."
   },
   {
     "id": "usps-ballot-refusal",
@@ -200,7 +218,8 @@
       "Implementation must happen before mid-September, when ballot mailing begins. Missing barcodes or mismatched records could delay or void ballots, hitting elderly, disabled, and rural voters hardest.",
       "On August 11, 2026, a federal judge in Massachusetts issued a preliminary injunction barring USPS from implementing Section 3 of the executive order for the November elections, finding the provision likely unconstitutional.",
       "On August 21, USPS issued its final rule implementing that same section anyway, effective immediately, stating it will be implemented \"immediately\" for the November elections if the injunctive orders are lifted.",
-      "Plaintiffs in League of Women Voters of Massachusetts v. Trump moved to enforce the court's order, asking the court to confirm the rule \"has no force or effect\" before November and to bar USPS from taking \"no implementation or preparatory steps\" this year."
+      "Plaintiffs in League of Women Voters of Massachusetts v. Trump moved to enforce the court's order, asking the court to confirm the rule \"has no force or effect\" before November and to bar USPS from taking \"no implementation or preparatory steps\" this year.",
+      "The Supreme Court's August 24 order lifted the other injunction, the June one covering the suing states. The August 11 nationwide injunction that reaches this USPS rule survives. Election law professor Rick Hasen expects the trial court to amend it to bar implementation of the now-final rule outright."
     ],
     "take": "Finalizing a rule a court has enjoined does not switch it on. What it does is leave the rule loaded: complete, effective on paper, and waiting for an appellate court to lift the block. Ballot mailing starts in mid-September, so the window in which that could still matter is short.",
     "sources": [
@@ -227,11 +246,20 @@
       {
         "text": "TIME: What to Know About the USPS's Rule for Mail-In Ballots (August 23, 2026)",
         "url": "https://time.com/article/2026/08/23/what-to-know-about-the-usps-s-rule-for-mail-in-ballots/"
+      },
+      {
+        "text": "Votebeat: Supreme Court lifts 1 of 2 injunctions on Trump's mail-voting executive order for 2026 elections (August 24, 2026)",
+        "url": "https://www.votebeat.org/national/2026/08/24/supreme-court-lifts-stay-trump-executive-order-on-elections-mail-ballot-restrictions/"
+      },
+      {
+        "text": "NPR: Supreme Court gives Trump an interim win on his mail voting order, but hurdles loom (August 24, 2026)",
+        "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court"
       }
     ],
     "trackerIds": [
       "usps-mail-ballot-rule-appeals-court-unblocks",
-      "usps-mail-ballot-delivery-conditioned-voter-lists"
+      "usps-mail-ballot-delivery-conditioned-voter-lists",
+      "scotus-lifts-mail-voting-injunction-states-lacked-standing"
     ],
     "legal": {
       "level": "constitution",
