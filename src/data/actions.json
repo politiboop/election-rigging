@@ -208,7 +208,7 @@
   {
     "id": "usps-ballot-refusal",
     "title": "The Post Office Finalizes Its Ballot-Refusal Rule While a Court Order Blocks It",
-    "date": "2026-08-21",
+    "date": "2026-08-26",
     "category": "machinery",
     "status": "court",
     "facts": [
@@ -219,9 +219,12 @@
       "On August 11, 2026, a federal judge in Massachusetts issued a preliminary injunction barring USPS from implementing Section 3 of the executive order for the November elections, finding the provision likely unconstitutional.",
       "On August 21, USPS issued its final rule implementing that same section anyway, effective immediately, stating it will be implemented \"immediately\" for the November elections if the injunctive orders are lifted.",
       "Plaintiffs in League of Women Voters of Massachusetts v. Trump moved to enforce the court's order, asking the court to confirm the rule \"has no force or effect\" before November and to bar USPS from taking \"no implementation or preparatory steps\" this year.",
-      "The Supreme Court's August 24 order lifted the other injunction, the June one covering the suing states. The August 11 nationwide injunction that reaches this USPS rule survives. Election law professor Rick Hasen expects the trial court to amend it to bar implementation of the now-final rule outright."
+      "The Supreme Court's August 24 order lifted the other injunction, the June one covering the suing states. The August 11 nationwide injunction that reaches this USPS rule survives. Election law professor Rick Hasen expects the trial court to amend it to bar implementation of the now-final rule outright.",
+      "The rule requires election officials to submit each mail voter's name and address to a new USPS portal, along with unique Intelligent Mail barcodes assigned to the envelopes used to send and return that voter's ballot.",
+      "Postal officials and election administrators warned in late August that the timing invites mismatched barcodes, incomplete records and technical failures across thousands of local election offices, any of which could stop an eligible voter from receiving a ballot. The objection is operational, not ideological.",
+      "On August 26, 2026, states sued to block the rule, two days after the Supreme Court lifted the other injunction. USPS still cannot implement it for November 3, because the nationwide injunction was not before the Court."
     ],
-    "take": "Finalizing a rule a court has enjoined does not switch it on. What it does is leave the rule loaded: complete, effective on paper, and waiting for an appellate court to lift the block. Ballot mailing starts in mid-September, so the window in which that could still matter is short.",
+    "take": "The legal fight and the practical one have separated. Even if the surviving injunction falls, the people who would have to run this say the calendar no longer allows it to be done cleanly: barcodes matched to voters, portals populated, thousands of county offices trained, with ballots already going out. A rule that arrives too late to implement carefully is not a neutral rule. Whether it takes effect is now a question about administrative capacity as much as about law.",
     "sources": [
       {
         "text": "CNN: Postal Service won't deliver mail ballots for states that don't hand over voter lists, under plan for Trump directive",
@@ -254,6 +257,14 @@
       {
         "text": "NPR: Supreme Court gives Trump an interim win on his mail voting order, but hurdles loom (August 24, 2026)",
         "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court"
+      },
+      {
+        "text": "NOTUS: Postal Officials Say Trump's Mail-Ballot Push Will Create Widespread Errors",
+        "url": "https://www.notus.org/policy/postal-officials-ballot-errors"
+      },
+      {
+        "text": "CNBC: States sue to block Trump-backed USPS mail-ballot rule after Supreme Court setback (August 26, 2026)",
+        "url": "https://www.cnbc.com/2026/08/26/trump-usps-mail-voting-rule-lawsuit-states-supreme-court.html"
       }
     ],
     "trackerIds": [
