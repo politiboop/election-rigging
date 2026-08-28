@@ -1702,5 +1702,43 @@
     "trackerIds": [
       "trump-predicts-impeachment-if-gop-loses-midterms"
     ]
+  },
+  {
+    "id": "wyoming-doj-monitors",
+    "title": "A Republican Governor Asks His AG to Investigate the DOJ's Election Monitors",
+    "date": "2026-08-26",
+    "category": "force",
+    "status": "active",
+    "facts": [
+      "The Justice Department sent two Civil Rights Division attorneys to observe Wyoming's primary in Laramie County, which contains Cheyenne. Gov. Mark Gordon (R) said some officials, including the state attorney general, were not told in advance.",
+      "Gordon, at an August 26, 2026 state canvassing board meeting: \"It sounded like the behavior of the observers was a bit aggressive. It just was irregular, and I have asked the attorney general to start looking into the nature of the visits.\"",
+      "Laramie County Chief Election Clerk Debra Lee said the observers arrived unannounced, offered no credentials, and asked detailed questions that were outside the scope of federal voting rights laws.",
+      "Gordon did not allege the election was compromised. He said the opposite: \"I'm not saying anything went wrong or anything else, and I certainly think that the conduct of this election was phenomenal.\" His objection was jurisdictional, that the observers' behavior \"seemed to exceed what the authority that Congress had given them was.\"",
+      "He also said he does not object to election monitors as such, adding: \"I don't like the federal government coming in and taking our votes.\"",
+      "DOJ pointed to an August 18 statement from Wyoming U.S. Attorney Darin Smith: \"Voters deserve absolute confidence that their ballots are secure and their voices are heard without interference.\"",
+      "DOJ has sent more than 80 monitors to seven states for primaries this year, and says it plans to send about 1,000 monitors to polling sites in November. The administration says the deployments follow decades-old federal monitoring practice."
+    ],
+    "take": "Voting-rights groups warned for a year that the monitor program could be used to pressure local officials rather than protect voters, and that warning was easy to file as partisan. This complaint is not. It comes from a Republican governor in one of the reddest states in the country, who volunteered that his own election was run well and that he has no objection to monitors in principle. That narrows the dispute to the one question worth watching: what these observers actually do when they arrive. Wyoming is a two-attorney, one-county sample. November is roughly 1,000 of them.",
+    "sources": [
+      {
+        "text": "CNN: Republican governor asks his AG to look into 'aggressive' behavior by Trump admin's election monitors (August 28, 2026)",
+        "url": "https://www.cnn.com/2026/08/28/politics/wyoming-republican-governor-criticism-election-monitors"
+      },
+      {
+        "text": "NBC News: Wyoming's Republican governor raises concerns over 'aggressive' DOJ election monitors (August 28, 2026)",
+        "url": "https://www.nbcnews.com/politics/2026-election/wyoming-republican-governor-concerns-aggressive-doj-election-monitors-rcna594730"
+      },
+      {
+        "text": "WyoFile: Gov. Gordon concerned by 'aggressive' DOJ election observers during Wyoming's primary election",
+        "url": "https://wyofile.com/gov-gordon-concerned-by-aggressive-doj-election-observers-during-wyomings-primary-election/"
+      },
+      {
+        "text": "Cowboy State Daily: Gordon 'Shocked' At Federal Agents Monitoring Wyoming Election, Sends Concern To AG (August 27, 2026)",
+        "url": "https://cowboystatedaily.com/2026/08/27/gordon-shocked-at-federal-agents-monitoring-wyoming-election-sends-concern-to-ag/"
+      }
+    ],
+    "trackerIds": [
+      "wyoming-gop-governor-doj-election-monitors-aggressive"
+    ]
   }
 ]
