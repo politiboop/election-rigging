@@ -362,26 +362,46 @@
   {
     "id": "national-voter-database",
     "title": "A National Voter Database Nobody Authorized",
-    "date": "2026-04-05",
+    "date": "2026-09-01",
     "category": "data",
-    "status": "active",
+    "status": "court",
     "facts": [
       "CNN reported in April 2026 that the administration is building a national voter database through a DOJ-DHS data sharing deal, with 50 to 60 million voter records already collected from states, assembled through executive channels with no congressional authorization.",
       "The DHS SAVE system it relies on flagged about 21,000 of 60 million records as possible noncitizens, 0.00035%. In Virginia's experience with the same system, 94% of people flagged as \"noncitizens\" were actually U.S. citizens.",
-      "Experts warn naturalized citizens are the people most likely to be wrongly caught in the net."
+      "Experts warn naturalized citizens are the people most likely to be wrongly caught in the net.",
+      "Trump's March 2026 executive order contains a section, separate from the mail-ballot provisions that have been litigated all year, directing federal agencies to compile and send each state's chief election official a list of individuals confirmed to be citizens aged 18 or older, no fewer than 60 days before each federal election.",
+      "On September 1, 2026, DHS published a \"State Citizenship Lists Portal\" webpage saying the lists were coming soon. A June DHS memo had set a target of having it fully functional by Friday, September 4.",
+      "The lists are not built from state voter registration files. They are assembled from federal databases whose citizenship information is incomplete, which is why plaintiffs argue actual citizens will be left off.",
+      "On September 1, 2026, the Electronic Privacy Information Center sued DHS and the Social Security Administration in federal court in Maryland, represented by Protect Democracy and Citizens for Responsibility and Ethics in Washington. The 41-page complaint cites the Privacy Act of 1974, the Social Security Act, the Administrative Procedure Act, and the constitutional allocation of election authority to the states.",
+      "The complaint alleges DHS is \"aggressively pushing state election officials to use this admittedly unreliable data to purge their voter rolls of purported non-citizens, under threat of fines, penalties, and even prison time.\"",
+      "EPIC deputy director John Davisson: \"Building a database containing the identities, Social Security numbers, addresses, and citizenship information of every U.S. citizen is an extraordinary illegal overreach.\"",
+      "No ruling had issued as of September 3, 2026."
     ],
     "sources": [
       {
         "text": "CNN: Trump administration building voter database using DHS-DOJ data sharing",
         "url": "https://edition.cnn.com/2026/04/05/politics/trump-voter-database-election-fraud"
+      },
+      {
+        "text": "Democracy Docket: New lawsuit challenges Trump's \"flagrantly unlawful\" bid to create federal voter database for midterms",
+        "url": "https://www.democracydocket.com/news-alerts/new-lawsuit-trump-federal-voter-database-midterms/"
+      },
+      {
+        "text": "Democracy Docket: DHS posts \"Citizenship Lists Portal\" to advance Trump's anti-voting order",
+        "url": "https://www.democracydocket.com/news-alerts/homeland-security-state-citizenship-lists-portal-trump-anti-voting-executive-order/"
+      },
+      {
+        "text": "Law and Crime: Trump admin unlawfully creating \"voter lists\" with citizens' personal information, complaint says",
+        "url": "https://lawandcrime.com/high-profile/trump-admin-unlawfully-creating-voter-lists-with-citizens-personal-information-and-directing-states-as-to-who-can-and-cant-vote-complaint-says/"
       }
     ],
     "trackerIds": [
-      "trump-voter-database-dhs-doj-data-sharing"
+      "trump-voter-database-dhs-doj-data-sharing",
+      "trump-executive-order-mail-voting-federal-voter-lists"
     ],
     "legal": {
       "level": "constitution",
-      "basis": "Assembled through executive channels with no congressional authorization, in a domain the Constitution leaves to the states."
+      "basis": "Assembled through executive channels with no congressional authorization, in a domain the Constitution leaves to the states. A pending suit alleges violations of the Privacy Act, the Social Security Act, and the Administrative Procedure Act."
     }
   },
   {
