@@ -369,6 +369,9 @@
       "CNN reported in April 2026 that the administration is building a national voter database through a DOJ-DHS data sharing deal, with 50 to 60 million voter records already collected from states, assembled through executive channels with no congressional authorization.",
       "The DHS SAVE system it relies on flagged about 21,000 of 60 million records as possible noncitizens, 0.00035%. In Virginia's experience with the same system, 94% of people flagged as \"noncitizens\" were actually U.S. citizens.",
       "Experts warn naturalized citizens are the people most likely to be wrongly caught in the net.",
+      "As of February 2026, 27 states had agreed to run their voter rolls through the revamped SAVE system against Social Security and passport data. DHS acknowledges \"the SAVE Program may produce inaccurate results,\" and has had to correct information it gave at least five states after the system misidentified voters as noncitizens.",
+      "On June 22, 2026, U.S. District Judge Sparkle L. Sooknanan vacated the rebuilt SAVE system and its privacy notices as contrary to law, arbitrary and capricious, in excess of statutory authority, and adopted without required procedure, finding violations of the Privacy Act, the Social Security Act and the Administrative Procedure Act. Her opinion said the agencies \"haphazardly combined and repurposed the private information of millions of Americans, including citizenship data that they knew to be unreliable.\"",
+      "The vacatur did not settle it. On July 7, 2026, U.S. District Judge T. Kent Wetherell II granted an emergency motion by Florida, Ohio, Iowa and Indiana to enforce a settlement with DHS, and a judge ordered the tool restored the next day. Two federal courts were issuing conflicting orders about the same system.",
       "Trump's March 2026 executive order contains a section, separate from the mail-ballot provisions that have been litigated all year, directing federal agencies to compile and send each state's chief election official a list of individuals confirmed to be citizens aged 18 or older, no fewer than 60 days before each federal election.",
       "On September 1, 2026, DHS published a \"State Citizenship Lists Portal\" webpage saying the lists were coming soon. A June DHS memo had set a target of having it fully functional by Friday, September 4.",
       "The lists are not built from state voter registration files. They are assembled from federal databases whose citizenship information is incomplete, which is why plaintiffs argue actual citizens will be left off.",
@@ -393,6 +396,18 @@
       {
         "text": "Law and Crime: Trump admin unlawfully creating \"voter lists\" with citizens' personal information, complaint says",
         "url": "https://lawandcrime.com/high-profile/trump-admin-unlawfully-creating-voter-lists-with-citizens-personal-information-and-directing-states-as-to-who-can-and-cant-vote-complaint-says/"
+      },
+      {
+        "text": "NPR: A federal judge finds a Trump data system to verify voters is unlawful",
+        "url": "https://www.npr.org/2026/06/22/nx-s1-5866719/save-voter-data-trump-judge-unlawful"
+      },
+      {
+        "text": "Votebeat: Judge blocks Trump administration's overhaul of SAVE database",
+        "url": "https://www.votebeat.org/national/2026/06/22/judge-rules-against-trump-overhaul-save-database-noncitizen-voters/"
+      },
+      {
+        "text": "Washington Examiner: Federal judges clash over DHS SAVE database for voter roll citizenship checks",
+        "url": "https://www.washingtonexaminer.com/news/justice/4643066/federal-judges-warring-rulings-dhs-citizenship-database/"
       }
     ],
     "trackerIds": [
@@ -400,8 +415,8 @@
       "trump-executive-order-mail-voting-federal-voter-lists"
     ],
     "legal": {
-      "level": "constitution",
-      "basis": "Assembled through executive channels with no congressional authorization, in a domain the Constitution leaves to the states. A pending suit alleges violations of the Privacy Act, the Social Security Act, and the Administrative Procedure Act."
+      "level": "ruled",
+      "basis": "A federal court vacated the rebuilt SAVE system on June 22, 2026 as contrary to law and in violation of the Privacy Act, the Social Security Act and the Administrative Procedure Act. A conflicting order from another district followed, and the successor State Citizenship Lists are separately under challenge."
     }
   },
   {
