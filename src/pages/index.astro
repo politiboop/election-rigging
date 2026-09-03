@@ -246,30 +246,40 @@ const description = `A sourced, single-page record of ${total} documented action
           </div>
         </div>
 
-        <div class="filterbar">
+        <div class="filterbar" id="filterbar">
           <div class="wrap">
-            <div class="chiprow">
-              <span class="rowlbl">Category</span>
-              <button class="chip is-on" data-cat="all">All</button>
-              {Object.entries(CATS).map(([slug, label]) => (
-                <button class="chip" data-cat={slug}>{label}</button>
-              ))}
-              <span class="result-count"><span id="shown-count">{total}</span> / {total} shown</span>
-            </div>
-            <div class="chiprow">
-              <span class="rowlbl">Status</span>
-              <button class="chip is-on" data-status="all">All</button>
-              {STATUS_ORDER.map(s => (
-                <button class="chip" data-status={s} style={`--chip-c:${STATUS[s].color}`}>{STATUS[s].label}</button>
-              ))}
-              <button class="sort-toggle" id="sort-toggle" style="margin-left:auto">Newest first ↓</button>
-            </div>
-            <div class="chiprow">
-              <span class="rowlbl">Flags</span>
-              <button class="chip is-on" data-flag="all">All</button>
-              <button class="chip" data-flag="unprec">Unprecedented ({unprecCount})</button>
-              <button class="chip" data-flag="legal">Unlawful / constitutional conflict ({legalCount})</button>
-              <button class="chip" data-flag="doubt">Undermined election trust ({doubtCount})</button>
+            <button class="filter-toggle" id="filter-toggle" type="button" aria-expanded="true" aria-controls="filter-rows">
+              <span class="ft-label">Filters</span>
+              <span class="ft-summary" id="filter-summary">All</span>
+              <span class="ft-count"><span id="shown-count-mini">{total}</span> shown</span>
+              <span class="ft-caret" aria-hidden="true"></span>
+            </button>
+            <div class="filter-rows" id="filter-rows">
+              <div class="filter-rows-inner">
+                <div class="chiprow">
+                  <span class="rowlbl">Category</span>
+                  <button class="chip is-on" data-cat="all">All</button>
+                  {Object.entries(CATS).map(([slug, label]) => (
+                    <button class="chip" data-cat={slug}>{label}</button>
+                  ))}
+                  <span class="result-count"><span id="shown-count">{total}</span> / {total} shown</span>
+                </div>
+                <div class="chiprow">
+                  <span class="rowlbl">Status</span>
+                  <button class="chip is-on" data-status="all">All</button>
+                  {STATUS_ORDER.map(s => (
+                    <button class="chip" data-status={s} style={`--chip-c:${STATUS[s].color}`}>{STATUS[s].label}</button>
+                  ))}
+                  <button class="sort-toggle" id="sort-toggle" style="margin-left:auto">Newest first ↓</button>
+                </div>
+                <div class="chiprow">
+                  <span class="rowlbl">Flags</span>
+                  <button class="chip is-on" data-flag="all">All</button>
+                  <button class="chip" data-flag="unprec">Unprecedented ({unprecCount})</button>
+                  <button class="chip" data-flag="legal">Unlawful / constitutional conflict ({legalCount})</button>
+                  <button class="chip" data-flag="doubt">Undermined election trust ({doubtCount})</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -611,6 +621,32 @@ const description = `A sourced, single-page record of ${total} documented action
       let activeFlag = 'all';
       const cards = [...document.querySelectorAll('.card')];
       const shownCount = document.getElementById('shown-count');
+      const shownCountMini = document.getElementById('shown-count-mini');
+      const filterSummary = document.getElementById('filter-summary');
+
+      // Collapsed bar has to say what is filtered, or collapsing hides state.
+      // Flag labels are too long for a phone-width bar, so they get short forms.
+      const FLAG_SHORT = { unprec: 'Unprecedented', legal: 'Unlawful', doubt: 'Election trust' };
+      const updateFilterSummary = () => {
+        if (!filterSummary) return;
+        const on = (sel, key) => {
+          const chip = document.querySelector(sel);
+          if (!chip || chip.dataset[key] === 'all') return null;
+          return key === 'flag'
+            ? FLAG_SHORT[chip.dataset.flag]
+            : chip.textContent.trim();
+        };
+        const parts = [
+          on('.chip[data-cat].is-on', 'cat'),
+          on('.chip[data-status].is-on', 'status'),
+          on('.chip[data-flag].is-on', 'flag'),
+        ].filter(Boolean);
+        // Two names already overflow a 375px bar, so past one filter the count
+        // is the honest thing to show. Opening the bar shows which are on.
+        filterSummary.textContent = parts.length === 0 ? 'All'
+          : parts.length === 1 ? parts[0]
+          : parts.length + ' filters';
+      };
 
       const applyFilters = () => {
         let shown = 0;
@@ -626,6 +662,8 @@ const description = `A sourced, single-page record of ${total} documented action
           if (ok) shown++;
         });
         shownCount.textContent = shown;
+        if (shownCountMini) shownCountMini.textContent = shown;
+        updateFilterSummary();
       };
 
       document.querySelectorAll('[data-cat]').forEach((chip) => {
@@ -650,6 +688,72 @@ const description = `A sourced, single-page record of ${total} documented action
           applyFilters();
         });
       });
+
+      // ── collapsible filter bar (mobile) ──
+      // The bar is sticky, and on a phone its three wrapping rows eat much of
+      // the viewport while reading cards. Collapse it once the reader scrolls
+      // into the record, and let them open it again on demand.
+      (() => {
+        const bar = document.getElementById('filterbar');
+        const toggle = document.getElementById('filter-toggle');
+        const record = document.getElementById('record');
+        if (!bar || !toggle || !record) return;
+
+        const mq = matchMedia('(max-width: 720px)');
+        let pinnedOpen = false;   // user opened it deliberately; stop auto-collapsing
+        let lastY = window.scrollY;
+
+        const rows = document.getElementById('filter-rows');
+        const setCollapsed = (collapsed) => {
+          bar.classList.toggle('is-collapsed', collapsed);
+          toggle.setAttribute('aria-expanded', String(!collapsed));
+          // Collapsed rows are only visually clipped, so without this the chips
+          // stay in the tab order and a keyboard or screen-reader user lands on
+          // controls they cannot see.
+          if (rows) rows.inert = collapsed;
+        };
+
+        toggle.addEventListener('click', () => {
+          const nowCollapsed = !bar.classList.contains('is-collapsed');
+          setCollapsed(nowCollapsed);
+          // Opening it by hand is a deliberate act; don't yank it shut on the
+          // next scroll. Closing it by hand hands control back to the scroll.
+          pinnedOpen = !nowCollapsed;
+        });
+
+        const onScroll = () => {
+          if (!mq.matches) return;
+          const y = window.scrollY;
+          const scrollingDown = y > lastY + 4;
+          lastY = y;
+
+          const top = record.getBoundingClientRect().top;
+          // At or above the head of the record, show the full bar and forget
+          // any pin, so arriving at the section always presents the filters.
+          if (top > -120) {
+            pinnedOpen = false;
+            setCollapsed(false);
+            return;
+          }
+          // Deeper in, collapse on downward scroll only. Reopening is a tap,
+          // not a scroll gesture, which keeps the bar from flickering while
+          // the reader moves around the cards.
+          if (scrollingDown && !pinnedOpen) setCollapsed(true);
+        };
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+
+        // Above the breakpoint the collapse CSS goes inert but `inert` on the
+        // rows does not, so a stale collapsed state would leave the chips
+        // unfocusable on desktop. Clear it on resize as well as on the media
+        // query change, which can fire mid-resize and miss the final width.
+        const syncToViewport = () => {
+          if (!mq.matches) { setCollapsed(false); pinnedOpen = false; }
+        };
+        mq.addEventListener('change', syncToViewport);
+        window.addEventListener('resize', syncToViewport, { passive: true });
+        syncToViewport();
+      })();
 
       // flag tiles jump + filter
       document.querySelectorAll('[data-goto-flag]').forEach((tile) => {
