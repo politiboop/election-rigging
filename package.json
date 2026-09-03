@@ -9,10 +9,12 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@astrojs/vercel": "^10.0.8",
     "@fontsource/barlow": "^5.2.7",
     "@fontsource/barlow-condensed": "^5.2.7",
     "@fontsource/ibm-plex-mono": "^5.2.7",
     "@fontsource/lora": "^5.2.7",
+    "@vercel/analytics": "^1.4.1",
     "astro": "^6.1.6"
   }
 }
