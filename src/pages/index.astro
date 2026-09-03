@@ -90,6 +90,10 @@ const description = `A sourced, single-page record of ${total} documented action
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      import { inject } from '@vercel/analytics';
+      inject();
+    </script>
   </head>
   <body>
 
