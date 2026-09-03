@@ -105,7 +105,7 @@ const description = `A sourced, single-page record of ${total} documented action
           <a href="#protect">Protect the Vote</a>
           <a href="#method">Method</a>
         </nav>
-        <span class="countdown-chip"><strong id="days-out">—</strong> days to the midterms</span>
+        <span class="countdown-chip" id="countdown-chip"><strong id="days-out">—</strong> days<span class="cd-long"> to the midterms</span></span>
       </div>
     </header>
 
@@ -594,6 +594,10 @@ const description = `A sourced, single-page record of ${total} documented action
       const days = Math.max(0, Math.ceil((eday - new Date()) / 86400000));
       document.getElementById('days-out').textContent = days;
       document.getElementById('days-out-big').textContent = days;
+      // The chip sheds "to the midterms" on narrow screens, so carry the full
+      // phrase in the label rather than announcing a bare number.
+      document.getElementById('countdown-chip')
+        .setAttribute('aria-label', days + ' days to the midterms');
 
       // ── count-up animation on hero stats ──
       const animate = (el) => {

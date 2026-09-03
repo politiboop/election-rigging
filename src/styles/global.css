@@ -80,6 +80,18 @@ a { color: inherit; }
 .countdown-chip strong { color: var(--brand-bright); font-weight: 600; }
 @media (max-width: 860px) { .topnav { display: none; } }
 
+/* On a phone the nowrap wordmark and the full countdown label together exceed
+   the viewport, and the chip runs off the right edge. Shorten both: the chip
+   drops to "62 days" and keeps the full phrase as its aria-label. */
+@media (max-width: 560px) {
+  .topbar-inner { gap: 12px; }
+  .wordmark { font-size: 16px; letter-spacing: 0.04em; }
+  .cd-long { display: none; }
+  /* .topnav normally carries the margin-left:auto that pushes the chip right,
+     but it is hidden at this width, so the chip has to claim the space. */
+  .countdown-chip { margin-left: auto; }
+}
+
 /* ── hero ───────────────────────────────────────────────────────────────── */
 .hero { padding: 72px 0 40px; border-bottom: 1px solid var(--line-soft); }
 .eyebrow {
