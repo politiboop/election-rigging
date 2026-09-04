@@ -305,7 +305,7 @@
   {
     "id": "voter-roll-lawsuits",
     "title": "The DOJ Sues 30 States for Voter Files and Loses Twenty-One Straight Times",
-    "date": "2026-08-07",
+    "date": "2026-09-03",
     "category": "data",
     "status": "court",
     "facts": [
@@ -315,7 +315,12 @@
       "An NBC News review found the DOJ still cannot substantiate Trump's claims of widespread voter fraud months before the midterms.",
       "On July 29, 2026, U.S. District Judge Zahid Quraishi dismissed the DOJ's demand for New Jersey's unredacted voter rolls, its eighteenth straight loss, noting that judges in more than a dozen other states had reached the same conclusion.",
       "On August 3, 2026, U.S. District Judge Philip Brimmer, a George W. Bush appointee, dismissed the DOJ's demand for Colorado's voter rolls with prejudice, its twentieth straight loss; the nineteenth was a dismissal in Illinois. The department has also lost the only appellate ruling so far.",
-      "On August 6-7, 2026, U.S. District Judge Randolph Moss dismissed the DOJ's demand for the District of Columbia's full voter list, its twenty-first straight loss; a Washington State case argued August 4 was still undecided. The DOJ has appealed 16 of the losses, and the 6th Circuit has already rejected one (Michigan)."
+      "On August 6-7, 2026, U.S. District Judge Randolph Moss dismissed the DOJ's demand for the District of Columbia's full voter list, its twenty-first straight loss; a Washington State case argued August 4 was still undecided. The DOJ has appealed 16 of the losses, and the 6th Circuit has already rejected one (Michigan).",
+      "In early September 2026, Georgia released an audit of roughly 7.9 million voter registrations. It found the rolls more than 99.9% accurate with no evidence of malicious manipulation, and estimated that no more than 0.1% of records would have allowed a vote despite an unverified identity, invalid address, or citizenship problem.",
+      "The audit did find errors: about 2,570 potential noncitizens had at some point been placed in active or inactive status, 407 of them with a voting history. Auditors traced the cause to coding mistakes in the Department of Driver Services licensing process and to county verification failures, not to intentional registration by noncitizens.",
+      "Georgia joins nearly two dozen states that have run similar reviews over the past two years and found scant evidence of noncitizen voting at a scale capable of changing outcomes.",
+      "On September 1 and 2, 2026, reporting described a planned federal voter fraud inquiry in Georgia, and DHS subpoenaed voter files from Secretary of State Brad Raffensperger. The subpoena sought 13 files. Gabe Sterling, Raffensperger's director of special projects, called that relatively modest against Georgia's eight million-plus voters and said other states had received similar requests.",
+      "DHS cited more than 24,000 cases flagged by the SAVE system as potential noncitizens on voter rolls since April 2025. A federal court vacated the rebuilt SAVE system as unlawful in June 2026, and when Virginia checked its own SAVE flags, 94% of the people identified as noncitizens were U.S. citizens."
     ],
     "sources": [
       {
@@ -349,10 +354,23 @@
       {
         "text": "Democracy Docket: After 20 straight losses, Trump DOJ struggles to defend demand for Washington state voter rolls",
         "url": "https://www.democracydocket.com/news-alerts/trump-doj-struggles-to-defend-demand-for-washington-voter-rolls/"
+      },
+      {
+        "text": "WSB-TV: Georgia voter rolls more than 99.9% accurate, 407 potential non-citizens cast ballots, audit finds",
+        "url": "https://www.wsbtv.com/news/local/georgia-voter-rolls-more-than-999-accurate-407-potential-non-citizens-cast-ballots-audit-finds/4WPJEOQWUFHF3FNPZXTSTT24PM/"
+      },
+      {
+        "text": "The Daily Signal: DHS Subpoenas Georgia for Voter Files Amid Fraud Claims",
+        "url": "https://www.dailysignal.com/2026/09/02/dhs-subpoenas-georgia-voter-fraud/"
+      },
+      {
+        "text": "WRDW: Feds plan to launch voter fraud inquiry in Georgia",
+        "url": "https://www.wrdw.com/2026/09/01/feds-plan-launch-voter-fraud-inquiry-georgia/"
       }
     ],
     "trackerIds": [
-      "doj-voter-roll-lawsuits-0-for-5"
+      "doj-voter-roll-lawsuits-0-for-5",
+      "georgia-voter-roll-audit-999-accurate-noncitizen-claims"
     ],
     "legal": {
       "level": "ruled",
