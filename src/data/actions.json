@@ -208,7 +208,7 @@
   {
     "id": "usps-ballot-refusal",
     "title": "The Post Office Finalizes Its Ballot-Refusal Rule While a Court Order Blocks It",
-    "date": "2026-09-01",
+    "date": "2026-09-06",
     "category": "machinery",
     "status": "court",
     "facts": [
@@ -229,7 +229,12 @@
       "A hearing on a longer-lasting preliminary injunction is set for September 3, 2026. The executive order's separate provision directing DHS to compile lists of eligible voters and send them to states was not blocked and remains in effect.",
       "On September 1, 2026, Sen. Richard Blumenthal released a USPS official's account of how the ballot portal is being built. The whistleblower called the work \"secretive, rushed, chaotic, and fundamentally flawed,\" said USPS compressed into weeks a system that normally takes nine months to a year, and said testing procedures for the platform were eliminated to meet deadlines described as impossible.",
       "The operational detail that matters most: according to the account, if a state delivers a batch of 10,000 ballots and USPS cannot match a single one against the portal, USPS would refuse to mail the other 9,999 and expect the state to take the whole batch back to fix the one.",
-      "The official warned that \"potentially millions of American voters may not receive their mail-in ballot this election cycle in a timely manner, or at all.\" Blumenthal's letter also alleges USPS kept building the portal while injunctions barred implementation, describing a \"pattern of defiance of court orders.\" USPS has not publicly rebutted the technical claims."
+      "The official warned that \"potentially millions of American voters may not receive their mail-in ballot this election cycle in a timely manner, or at all.\" Blumenthal's letter also alleges USPS kept building the portal while injunctions barred implementation, describing a \"pattern of defiance of court orders.\" USPS has not publicly rebutted the technical claims.",
+      "On September 4, 2026, after a hearing the day before, Judge Indira Talwani replaced her August 27 temporary restraining order with a preliminary injunction. It blocks the mandatory Outbound and Return Federal Ballot Mail Envelope Standards, mandatory registration for the Postal Service Federal Ballot Mail Portal, mandatory voter enrollment in that portal, and parts of the Outbound Federal Ballot Mail Verification procedures. The plaintiffs are the League of Women Voters of Massachusetts and a multistate group led by California.",
+      "Talwani's reasoning was structural: \"Congress has never delegated its Elections Clause power to the USPS.\" She found the rule \"clashes with Congress's statutory scheme, and is unconstitutional where it intrudes not only on Congress's Elections Clause powers but also that power left to the States.\"",
+      "On the timing she wrote that implementation \"less than seventy days before the November 2026 election threatens disenfranchisement of millions of United States citizens who seek to vote by mail,\" while \"the record includes no evidence relating to fraudulent mail voting to support the rushed implementation of the Final Rule.\"",
+      "The administration moved twice in two days. On September 5 the Justice Department asked the First Circuit for a stay. On September 6 Solicitor General John Sauer took it to the Supreme Court, seeking a stay pending appeal and an administrative stay, describing the rule as imposing \"only modest envelope-design and addressee-information requirements for federal-election ballots sent via U.S. Mail.\" Justice Ketanji Brown Jackson ordered responses by 4 p.m. Eastern on Wednesday, September 9.",
+      "North Carolina and Alabama began mailing ballots as early as September 4, 2026, which is the clock the filings are racing."
     ],
     "take": "The legal fight and the practical one have separated, and the practical one now has a number attached. Talwani blocked the rule on both the law and the calendar, and a postal official has since described a system built in weeks instead of a year with its testing removed. Note what the batch rule would do if it holds: one unmatched record does not delay one ballot, it returns ten thousand. Whether the rule survives appeal matters less to November than whether the machinery behind it works at all, and the people building it are saying it does not.",
     "sources": [
@@ -288,6 +293,18 @@
       {
         "text": "Talking Points Memo: Postal Service whistleblower warns new project will sow chaos in the election (September 2026)",
         "url": "https://talkingpointsmemo.com/news/a-shit-show-postal-service-whistleblower-warns-that-new-project-will-sow-chaos-in-election"
+      },
+      {
+        "text": "Law Dork: Federal judge blocks new USPS mail ballot restrictions as general election ballots begin to be mailed",
+        "url": "https://www.lawdork.com/p/new-usps-mail-ballot-restrictions-blocked"
+      },
+      {
+        "text": "SCOTUSblog: Trump administration asks Supreme Court to clear the way for it to implement new mail-in voting rule",
+        "url": "https://www.scotusblog.com/2026/09/trump-administration-asks-supreme-court-to-clear-the-way-for-it-to-implement-new-mail-in-voting-/"
+      },
+      {
+        "text": "Fox News: Obama-appointed judge ripped for blocking Trump mail ballot rule",
+        "url": "https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock"
       }
     ],
     "trackerIds": [
@@ -298,8 +315,8 @@
       "usps-whistleblower-ballot-portal-untested-court-defiance"
     ],
     "legal": {
-      "level": "constitution",
-      "basis": "Implements an executive order under constitutional challenge; a district judge blocked the rule before an appeals panel let it advance while the case continues."
+      "level": "ruled",
+      "basis": "On September 4, 2026 a federal court preliminarily enjoined the rule, finding that \"Congress has never delegated its Elections Clause power to the USPS\" and that the rule is unconstitutional where it intrudes on Congress's Elections Clause powers and on the power left to the States. The administration has sought stays from the First Circuit and the Supreme Court."
     }
   },
   {
