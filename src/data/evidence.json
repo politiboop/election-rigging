@@ -1,0 +1,562 @@
+{
+  "baseline": {
+    "kicker": "The stated reason",
+    "title": "The premise: the elections were already secure",
+    "sub": "Every action on this page is justified as a response to fraud, above all voting by noncitizens. Before judging the response, measure the problem. Here is what the people who looked hardest found. Most of them are Republicans.",
+    "stats": [
+      {
+        "value": "0.0001%",
+        "label": "Suspected noncitizen votes, 2016",
+        "detail": "The Brennan Center asked election officials in 42 jurisdictions across 12 states, covering 23.5 million votes and 8 of the 10 jurisdictions with the largest noncitizen populations. About 30 cases were referred for investigation. In 40 of the 42 jurisdictions, the number was zero.",
+        "sources": [
+          {
+            "text": "Brennan Center",
+            "url": "https://www.brennancenter.org/our-work/research-reports/noncitizen-voting-vanishingly-rare"
+          }
+        ]
+      },
+      {
+        "value": "31",
+        "label": "Credible impersonation cases in one billion ballots",
+        "detail": "Loyola law professor Justin Levitt tracked every credible allegation of in-person voter impersonation from 2000 to 2014. A separate News21 review of 2,068 alleged fraud cases since 2000 found 10 impersonation cases, about one for every 15 million voters.",
+        "sources": [
+          {
+            "text": "Washington Post (Levitt)",
+            "url": "https://www.washingtonpost.com/news/wonk/wp/2014/08/06/a-comprehensive-investigation-of-voter-impersonation-finds-31-credible-incidents-out-of-one-billion-ballots-cast/"
+          },
+          {
+            "text": "News21 / Arizona State",
+            "url": "https://votingrights.news21.com/article/election-fraud/"
+          }
+        ]
+      },
+      {
+        "value": "20",
+        "label": "Noncitizens Georgia found on 8.2 million registrations",
+        "detail": "Republican Secretary of State Brad Raffensperger's October 2024 audit, which he called \"the most comprehensive citizenship check ever conducted in Georgia.\" Nine of the 20 had ever voted. A September 2026 audit of 7.9 million registrations found the rolls more than 99.9 percent accurate.",
+        "sources": [
+          {
+            "text": "CNN",
+            "url": "https://www.cnn.com/2024/10/23/politics/georgia-raffensperger-noncitizens-registered/index.html"
+          },
+          {
+            "text": "Georgia Recorder",
+            "url": "https://georgiarecorder.com/2024/10/23/georgia-gop-secretary-of-state-reports-audit-found-20-noncitizens-registered-to-vote-out-of-8-2m/"
+          },
+          {
+            "text": "WSB-TV (2026 audit)",
+            "url": "https://www.wsbtv.com/news/local/georgia-voter-rolls-more-than-999-accurate-407-potential-non-citizens-cast-ballots-audit-finds/4WPJEOQWUFHF3FNPZXTSTT24PM/"
+          }
+        ]
+      },
+      {
+        "value": "0 for 21",
+        "label": "Trump's DOJ in court demanding state voter rolls",
+        "detail": "About thirty suits against 29 states and D.C., and twenty-one straight losses as of August 6, 2026. Twelve of the first twenty came from Republican-appointed judges, eight of them Trump appointees. A federal judge in Oregon wrote that the presumption of regularity the government normally enjoys \"no longer holds.\"",
+        "sources": [
+          {
+            "text": "Democracy Docket",
+            "url": "https://www.democracydocket.com/news-alerts/trump-doj-now-0-for-20-after-judge-dismisses-colorado-voter-roll-lawsuit-with-prejudice/"
+          },
+          {
+            "text": "Bloomberg Government",
+            "url": "https://news.bgov.com/litigation/dc-beats-trump-administrations-voter-rolls-demand-lawsuit"
+          },
+          {
+            "text": "Democracy Docket (Oregon ruling)",
+            "url": "https://www.democracydocket.com/news-alerts/federal-judge-rules-doj-can-no-longer-be-trusted-in-voter-roll-crusade/"
+          },
+          {
+            "text": "NBC News tracker",
+            "url": "https://www.nbcnews.com/politics/justice-department/tracking-dojs-effort-get-us-voter-registration-data-rcna331509"
+          }
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "who": "Existing federal law",
+        "when": "On the books since 1993 and 1996",
+        "looked": "What already stops a noncitizen from registering or voting",
+        "found": "A sworn citizenship attestation on every form, a federal database check, and up to a year in prison plus deportation.",
+        "detail": "The National Voter Registration Act requires every applicant to attest to citizenship under penalty of perjury (52 U.S.C. 20508). States check registrations against the Department of Homeland Security's SAVE database; that check is how Georgia caught every noncitizen who tried to register. Voting as a noncitizen is a federal crime under 18 U.S.C. 611 and makes the voter deportable without a conviction.",
+        "sources": [
+          {
+            "text": "52 U.S.C. 20508",
+            "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A52+section%3A20508+edition%3Aprelim%29"
+          },
+          {
+            "text": "18 U.S.C. 611",
+            "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A611+edition%3Aprelim%29"
+          },
+          {
+            "text": "CRS on immigration consequences",
+            "url": "https://www.congress.gov/crs-product/IF12767"
+          },
+          {
+            "text": "Georgia Secretary of State",
+            "url": "https://sos.ga.gov/news/citizenship-audit-finds-1634-noncitizens-attempted-register-vote"
+          }
+        ]
+      },
+      {
+        "who": "CISA, Attorney General Barr, and about 60 courts",
+        "when": "November 2020 to early 2021",
+        "looked": "Every allegation about the 2020 election",
+        "found": "\"The most secure in American history.\" No fraud \"on a scale that could have effected a different outcome.\" One minor court win in roughly 60 cases.",
+        "detail": "The joint statement of November 12, 2020 was signed by Trump's own cybersecurity agency and the bipartisan associations of state election officials: \"There is no evidence that any voting system deleted or lost votes, changed votes, or was in any way compromised.\" Georgia counted its ballots three times, by hand and by machine. Michigan's Republican-led Senate Oversight Committee: \"no evidence of widespread or systematic fraud.\"",
+        "sources": [
+          {
+            "text": "CISA joint statement",
+            "url": "https://www.cisa.gov/news-events/news/joint-statement-elections-infrastructure-government-coordinating-council-election-infrastructure"
+          },
+          {
+            "text": "NPR (Barr)",
+            "url": "https://www.npr.org/sections/biden-transition-updates/2020/12/01/940786321/barr-doj-has-no-evidence-of-fraud-affecting-2020-election-outcome"
+          },
+          {
+            "text": "Brookings (court record)",
+            "url": "https://www.brookings.edu/articles/trumps-judicial-campaign-to-upend-the-2020-election-a-failure-but-not-a-wipe-out/"
+          },
+          {
+            "text": "CBS News (Michigan Senate report)",
+            "url": "https://www.cbsnews.com/news/michigan-senate-no-election-fraud-2020/"
+          },
+          {
+            "text": "AJC (Georgia recounts)",
+            "url": "https://www.ajc.com/politics/election/georgia-recount-confirms-biden-win-again-but-trump-still-battling/OZGAOQCMKVFG7G43L5PSF3BNHM/"
+          }
+        ]
+      },
+      {
+        "who": "Trump's own campaign",
+        "when": "2020 to 2021, reported 2023",
+        "looked": "About $1.5 million paid to two research firms to find fraud in five swing states",
+        "found": "\"No reason to believe the final vote totals in five key states were fraudulent.\" The reports were never released.",
+        "detail": "Berkeley Research Group and Simpatico Software were hired by the campaign after the election. Ken Block of Simpatico: \"Every fraud claim I was asked to investigate was false.\" The Associated Press separately reviewed the six battleground states and found fewer than 475 potential fraud cases against Biden's combined margin of 311,257 votes.",
+        "sources": [
+          {
+            "text": "Washington Post",
+            "url": "https://www.washingtonpost.com/politics/2023/02/11/trump-campaign-report-electoral-fraud/"
+          },
+          {
+            "text": "CNN",
+            "url": "https://www.cnn.com/2023/02/11/politics/trump-2020-election-fraud-researchers-wapo/index.html"
+          },
+          {
+            "text": "PBS (AP review)",
+            "url": "https://www.pbs.org/newshour/politics/ap-review-finds-far-too-little-vote-fraud-to-tip-2020-election-to-trump"
+          },
+          {
+            "text": "The Hill (AP review)",
+            "url": "https://thehill.com/homenews/presidential-campaign/585901-ap-finds-fewer-than-475-cases-of-potential-voter-fraud-in-six/"
+          }
+        ]
+      },
+      {
+        "who": "Cyber Ninjas, hired by Arizona Senate Republicans",
+        "when": "2021",
+        "looked": "A hand count of 2.1 million Maricopa County ballots",
+        "found": "Biden gained 360 votes on the official count.",
+        "detail": "The review Trump's allies commissioned and promoted found Biden with 99 more votes and Trump with 261 fewer than the certified canvass.",
+        "sources": [
+          {
+            "text": "NPR",
+            "url": "https://www.npr.org/2021/09/24/1040327483/the-controversial-election-review-in-arizona-confirms-bidens-win"
+          },
+          {
+            "text": "CNBC",
+            "url": "https://www.cnbc.com/2021/09/24/trump-friendly-cyber-ninjas-audit-of-arizona-votes-still-shows-biden-won.html"
+          }
+        ]
+      },
+      {
+        "who": "Georgia Secretary of State Brad Raffensperger (R)",
+        "when": "2022",
+        "looked": "Every registration since 1997, checked against the federal SAVE database",
+        "found": "1,634 noncitizens tried to register in 25 years. None were added to the rolls. None voted.",
+        "detail": "From the secretary's own release: \"All 2,258 individuals were placed in pending status and not added to the voter rolls. None of these individuals have cast ballots in Georgia elections.\" The existing checks caught every one.",
+        "sources": [
+          {
+            "text": "Georgia Secretary of State",
+            "url": "https://sos.ga.gov/news/citizenship-audit-finds-1634-noncitizens-attempted-register-vote"
+          },
+          {
+            "text": "WALB",
+            "url": "https://www.walb.com/2022/04/11/ga-elections-chief-finds-1634-noncitizen-voting-attempts/"
+          }
+        ]
+      },
+      {
+        "who": "Ohio Attorney General Dave Yost (R)",
+        "when": "2024",
+        "looked": "More than 600 referrals from the secretary of state, out of 8 million registered voters",
+        "found": "Six indictments. \"Not enough that it would have changed any of those elections.\"",
+        "detail": "Only 138 referrals alleged illegal voting; all six people indicted were lawful permanent residents, and one had died two years earlier. Yost: this \"should enable everybody to take a deep breath and be more confident that our elections are, in fact, safe and secure.\" Ohio prosecutors said the referrals \"often lack minimal evidence necessary to pursue charges.\"",
+        "sources": [
+          {
+            "text": "Ohio Capital Journal",
+            "url": "https://ohiocapitaljournal.com/2024/10/23/ohio-attorney-general-dave-yost-announces-six-voter-fraud-indictments-two-weeks-from-election-day/"
+          },
+          {
+            "text": "Statehouse News Bureau",
+            "url": "https://www.statenews.org/government-politics/2024-09-17/it-doesnt-say-were-the-police-larose-bristles-with-prosecutors-over-election-law-cases"
+          }
+        ]
+      },
+      {
+        "who": "Iowa Secretary of State Paul Pate (R)",
+        "when": "2024 to 2025",
+        "looked": "2,176 voters challenged two weeks before Election Day; 1.6 million votes cast",
+        "found": "277 confirmed noncitizens and 35 counted ballots. Nearly nine in ten of those challenged were citizens.",
+        "detail": "The federal SAVE check Pate later obtained confirmed 277 of the 2,176 as noncitizens, about 12 percent. Thirty-five noncitizen ballots were counted and five rejected, in an election of roughly 1.6 million votes.",
+        "sources": [
+          {
+            "text": "Iowa Secretary of State",
+            "url": "https://sos.iowa.gov/news-resources/iowa-secretary-states-audit-voter-registration-lists-finds-277-confirmed-noncitizens"
+          },
+          {
+            "text": "Iowa Public Radio",
+            "url": "https://www.iowapublicradio.org/state-government-news/2025-03-20/iowa-secretary-of-state-noncitizens-voted-2024-election"
+          }
+        ]
+      },
+      {
+        "who": "Texas Gov. Greg Abbott (R)",
+        "when": "2024",
+        "looked": "Announced 6,500 noncitizens removed from the rolls, about 2,000 with a voting history",
+        "found": "581 had been identified as noncitizens. The rest had not answered a letter. At least nine U.S. citizens were wrongly removed.",
+        "detail": "ProPublica, the Texas Tribune and Votebeat traced the numbers to the secretary of state's own report. The governor's press release was later edited to say \"potential noncitizens.\"",
+        "sources": [
+          {
+            "text": "Votebeat",
+            "url": "https://www.votebeat.org/texas/2024/10/15/greg-abbott-noncitizen-voter-roll-removal-investigation/"
+          },
+          {
+            "text": "ProPublica",
+            "url": "https://www.propublica.org/article/texas-noncitizen-voter-roll-removal-included-americans"
+          }
+        ]
+      },
+      {
+        "who": "Alabama Secretary of State Wes Allen (R)",
+        "when": "2024",
+        "looked": "3,251 voters inactivated as suspected noncitizens",
+        "found": "A federal judge found an apparent error rate above 50 percent. At least 717 citizens were purged.",
+        "detail": "Judge Anna Manasco, a Trump appointee, wrote that Allen \"later admitted that his purge list included thousands of United States citizens\" and blocked the program for violating the National Voter Registration Act's 90-day quiet period.",
+        "sources": [
+          {
+            "text": "Alabama Reflector",
+            "url": "https://alabamareflector.com/2024/10/16/federal-judge-blocks-alabama-secretary-of-states-voter-removal-plan/"
+          },
+          {
+            "text": "NPR",
+            "url": "https://www.npr.org/2024/10/16/nx-s1-5154148/alabama-noncitizen-voter-purge-lawsuit"
+          },
+          {
+            "text": "Campaign Legal Center",
+            "url": "https://campaignlegal.org/cases-actions/protecting-alabamians-voter-purges-alabama-coalition-immigrant-justice-v-allen"
+          }
+        ]
+      },
+      {
+        "who": "New Jersey Gov. Mikie Sherrill (D)",
+        "when": "July 2026",
+        "looked": "A Motor Vehicle Commission software error, 2023 to 2024",
+        "found": "About 6,600 noncitizens registered by mistake and about 400 voted. The state found and reported it. Trump said the number was 35,152.",
+        "detail": "This is the largest confirmed case on record, and it belongs here. The registrants were Democrats, Republicans and mostly unaffiliated, and the governor said there was \"no evidence at this time that any elections were swayed.\" FactCheck.org found the president's figure more than five times the state's.",
+        "sources": [
+          {
+            "text": "NBC News",
+            "url": "https://www.nbcnews.com/politics/2026-election/6600-noncitizens-registered-vote-nj-software-error-governor-says-rcna588524"
+          },
+          {
+            "text": "FactCheck.org",
+            "url": "https://www.factcheck.org/2026/08/trump-overstates-magnitude-of-noncitizen-voting-in-new-jersey/"
+          },
+          {
+            "text": "New Jersey Monitor",
+            "url": "https://newjerseymonitor.com/2026/07/21/governor-software-error-non-citizens-register-vote/"
+          }
+        ]
+      },
+      {
+        "who": "Trump's own Justice Department and DHS",
+        "when": "January 2025 to mid-2026",
+        "looked": "A national hunt for noncitizen voters among 150 million 2024 ballots",
+        "found": "Fewer than 150 referrals, 41 charged, 14 convictions through May 2026. DHS claimed 16,000 noncitizens on Nevada's rolls and confirmed 185.",
+        "detail": "ProPublica's count from court records. The department's own maximal figure, given to the Daily Signal in September 2026, is 50 charged and 17 convicted since January 2025. Pennsylvania said DHS \"did not have high confidence\" in its list of 14,576 names; New Jersey and Pennsylvania asked for documentation DHS did not provide. A Minnesota federal prosecutor: \"The entire process has been dysfunctional.\"",
+        "sources": [
+          {
+            "text": "ProPublica",
+            "url": "https://www.propublica.org/article/noncitizen-voting-trump-homeland-security-investigations"
+          },
+          {
+            "text": "Daily Signal (conservative)",
+            "url": "https://www.dailysignal.com/2026/09/06/trump-doj-charges-nearly-four-times-more-noncitizens-in-election-fraud-cases-than-biden-doj/"
+          },
+          {
+            "text": "NPR",
+            "url": "https://www.npr.org/2026/07/31/nx-s1-5906708/trump-claim-noncitizens-midterms-election-interference-voter-rolls"
+          },
+          {
+            "text": "MS NOW",
+            "url": "https://www.ms.now/news/aggressive-dhs-hunt-for-voter-fraud-only-finding-a-handful-of-possible-noncitizen-cases"
+          }
+        ]
+      },
+      {
+        "who": "FBI Director Kash Patel",
+        "when": "January to June 2026",
+        "looked": "A raid on Fulton County's election office (600 boxes of 2020 ballots), a Maricopa subpoena, and home visits to Milwaukee officials",
+        "found": "\"I promise you, it's coming soon.\" No arrests, no evidence released, and the acting attorney general will not promise \"a definitive answer.\"",
+        "detail": "Patel told Fox News on April 19, 2026 that arrests over 2020 were imminent. As of June, the Atlanta Journal-Constitution reported the Fulton investigation had \"failed to deliver so far.\" Acting Attorney General Todd Blanche: \"I'm not going to promise that there's going to be a definitive answer.\"",
+        "sources": [
+          {
+            "text": "Democracy Docket",
+            "url": "https://www.democracydocket.com/news-alerts/fbi-director-says-arrests-coming-soon-on-2020-rigged-election-conspiracy/"
+          },
+          {
+            "text": "Votebeat",
+            "url": "https://www.votebeat.org/national/2026/06/08/fbi-investigation-2020-election-trump-milwaukee-fulton-maricopa/"
+          },
+          {
+            "text": "Atlanta Journal-Constitution",
+            "url": "https://www.ajc.com/politics/2026/06/fbis-fulton-county-2020-investigation-fails-to-deliver-so-far/"
+          }
+        ]
+      }
+    ],
+    "take": "The administration's case rests on a fraud that the people best placed to find it cannot find. Republican secretaries of state audited their own rolls and found cases in the dozens, in states with millions of voters. Trump's own campaign paid for a search and buried the answer. His own Justice Department has lost twenty-one straight suits for voter data, and his own prosecutors have produced fourteen convictions by ProPublica's count, seventeen by the department's own, out of a hundred and fifty million voters. Errors exist, and we list the biggest one above, because New Jersey found it and said so. What the record does not contain is the thing every card on this page is justified by. When the stated problem is this small and the response is this large, the response is the point."
+  },
+  "saveact": {
+    "kicker": "The bill behind the pressure",
+    "title": "The SAVE Act, in the data",
+    "sub": "The president calls it a \"National Emergency.\" He held a housing bill hostage for it and demanded the Senate kill the filibuster to pass it. Here is what the bill requires, who it would stop, and what happened the one time a state tried it.",
+    "stats": [
+      {
+        "value": "21.3M",
+        "label": "Citizens without ready access to proof of citizenship",
+        "detail": "9.1 percent of voting-age citizens, in a 2023 survey by the Brennan Center and the University of Maryland. About 3.8 million have no such document at all. 11 percent of citizens of color lack ready access, against 8 percent of white citizens.",
+        "sources": [
+          {
+            "text": "Brennan Center",
+            "url": "https://www.brennancenter.org/our-work/analysis-opinion/213-million-american-citizens-voting-age-dont-have-ready-access"
+          },
+          {
+            "text": "UMD survey results (PDF)",
+            "url": "https://cdce.umd.edu/sites/cdce.umd.edu/files/pubs/Voter%20ID%202023%20survey%20Key%20Results%20June%202024%20updatev2.pdf"
+          }
+        ]
+      },
+      {
+        "value": "146M",
+        "label": "Citizens without a valid passport",
+        "detail": "A passport is the simplest document the bill accepts. State Department data put valid passports at 0.48 per person. Fewer than a third of adults hold one in West Virginia, Mississippi, Alabama, Arkansas, Kentucky, Louisiana and Oklahoma; about one in five earning under $50,000 does.",
+        "sources": [
+          {
+            "text": "USAFacts (State Dept. data)",
+            "url": "https://usafacts.org/articles/how-many-us-passports-are-in-circulation/"
+          },
+          {
+            "text": "Center for American Progress",
+            "url": "https://www.americanprogress.org/article/the-save-act-overview-and-facts/"
+          }
+        ]
+      },
+      {
+        "value": "31,089",
+        "label": "Kansans blocked from registering under the same rule",
+        "detail": "The only state to run a comparable law, 2013 to 2018. The blocked applicants were 12.4 percent of new registrations. Kansas could show 39 confirmed noncitizens registered over 14 years, 0.002 percent of voters. The Tenth Circuit struck the law down; the Supreme Court declined to hear the appeal.",
+        "sources": [
+          {
+            "text": "Fish v. Schwab, 10th Cir. (PDF)",
+            "url": "https://electionlawblog.org/wp-content/uploads/fish-10th-opinion.pdf"
+          },
+          {
+            "text": "ACLU of Kansas",
+            "url": "https://www.aclukansas.org/press-releases/resounding-victory-tens-thousands-disenfranchised-kansas-voters-supreme-court-refuses/"
+          }
+        ]
+      },
+      {
+        "value": "< 6%",
+        "label": "Registrations done in person today",
+        "detail": "About 80 million Americans register or update a registration each cycle; fewer than 6 percent do it at an election office. The bill requires anyone using the mail form to present papers in person, and makes every other method conditional on documents at the time of application.",
+        "sources": [
+          {
+            "text": "15 secretaries of state to Congress (PDF)",
+            "url": "https://sos.mn.gov/media/zzia53yr/033125-secretaries-of-state-letter-on-the-save-act.pdf"
+          },
+          {
+            "text": "Bill text, Rules Committee Print 119-19 (PDF)",
+            "url": "https://docs.house.gov/billsthisweek/20260209/RCP_S1383_xml.pdf"
+          }
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "claim": "\"The SAVE America Act will ensure that our federal elections are decided by U.S. citizens, and U.S. citizens alone.\"",
+        "who": "Rep. Chip Roy and Sen. Mike Lee, sponsors, January 29, 2026",
+        "found": "Noncitizen registration is already a federal crime, and every state that has looked has found it in the dozens, not the thousands.",
+        "detail": "Kansas: 39 confirmed noncitizen registrations in 14 years, a share a federal appeals court called \"statistically indistinguishable from zero.\" New Hampshire: 8 noncitizen cases in 8.3 million ballots cast from 1998 to 2024, per the judge who struck down its 2024 proof-of-citizenship law. Utah: one noncitizen among about 1.8 million active voters. Alaska: 70 possible cases since 2015.",
+        "sources": [
+          {
+            "text": "Rep. Roy press release",
+            "url": "https://roy.house.gov/media/press-releases/rep-roy-senator-lee-launch-save-america-act-renewed-push-election-integrity"
+          },
+          {
+            "text": "Fish v. Schwab (PDF)",
+            "url": "https://electionlawblog.org/wp-content/uploads/fish-10th-opinion.pdf"
+          },
+          {
+            "text": "New Hampshire Bulletin",
+            "url": "https://newhampshirebulletin.com/2026/05/29/ahead-of-midterms-federal-court-strikes-down-nh-proof-of-citizenship-voter-registration-law/"
+          },
+          {
+            "text": "Brennan Center state tracker",
+            "url": "https://www.brennancenter.org/our-work/research-reports/states-already-enacting-harmful-save-act-policies-requiring-proof"
+          },
+          {
+            "text": "Sen. Murkowski",
+            "url": "https://www.murkowski.senate.gov/press/release/murkowski-i-support-voter-id_but-oppose-the-save-america-act"
+          }
+        ]
+      },
+      {
+        "claim": "\"Anyone with a REAL ID can avoid them.\"",
+        "who": "National Review, on the bill's document hurdles",
+        "found": "A standard REAL ID does not show citizenship, so the roughly 140 million already issued would not qualify on their own.",
+        "detail": "The bill accepts a REAL ID only if it \"indicates the applicant is a citizen of the United States.\" Most states' cards do not. Sen. Lisa Murkowski, who supports voter ID and opposes this bill: \"Alaska's REAL IDs do not, so you would need to present a passport, certified birth certificate or another valid document.\" A military ID qualifies only with a service record showing a U.S. birthplace.",
+        "sources": [
+          {
+            "text": "Bill text (PDF)",
+            "url": "https://docs.house.gov/billsthisweek/20260209/RCP_S1383_xml.pdf"
+          },
+          {
+            "text": "15 secretaries of state (PDF)",
+            "url": "https://sos.mn.gov/media/zzia53yr/033125-secretaries-of-state-letter-on-the-save-act.pdf"
+          },
+          {
+            "text": "Sen. Murkowski",
+            "url": "https://www.murkowski.senate.gov/press/release/murkowski-i-support-voter-id_but-oppose-the-save-america-act"
+          },
+          {
+            "text": "National Review",
+            "url": "https://www.nationalreview.com/2026/02/the-save-acts-virtuous-goals-are-not-worth-the-cost/"
+          }
+        ]
+      },
+      {
+        "claim": "Married women who changed their name can use a birth certificate and an affidavit.",
+        "who": "The bill's defenders, and PolitiFact's March 2026 check",
+        "found": "True of the 2026 text, and worth saying plainly. It still puts a new step between roughly 69 million women and the registration form.",
+        "detail": "Pew found 79 percent of married women took their husband's surname. The Center for American Progress estimates about 69 million women hold a birth certificate that no longer matches their legal name. The 2026 bill lets a state accept \"additional documentation\" or a signed affidavit for a prior name, through a process each state must build under Election Assistance Commission guidance due 10 days after enactment. PolitiFact's verdict: the bill \"doesn't eliminate voting rights but adds procedural hurdles.\"",
+        "sources": [
+          {
+            "text": "PolitiFact",
+            "url": "https://politifact.com/article/2026/mar/19/SAVE-America-Act-women-vote-citizenship-Trump/"
+          },
+          {
+            "text": "Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2023/09/07/about-eight-in-ten-women-in-opposite-sex-marriages-say-they-took-their-husbands-last-name/"
+          },
+          {
+            "text": "Center for American Progress",
+            "url": "https://www.americanprogress.org/article/the-save-act-overview-and-facts/"
+          }
+        ]
+      },
+      {
+        "claim": "\"There are accommodations for those who don't have documentation.\"",
+        "who": "Sen. Mike Lee",
+        "found": "The accommodation is an in-person visit, and an election official who registers someone without papers commits a new federal crime.",
+        "detail": "Mail applicants \"shall not be registered\" unless they present documents \"in person\" at an election office. The bill adds \"registering an applicant to vote ... who fails to present documentary proof of United States citizenship\" to the list of federal election offenses and lets private parties sue the official. Republican county clerks in Idaho warned of a \"mass exodus of poll workers.\" Alaska's Murkowski: registering \"could mean purchasing plane tickets,\" with a two-month wait for certified documents. The rules take effect the day the bill is signed.",
+        "sources": [
+          {
+            "text": "Bill text (PDF)",
+            "url": "https://docs.house.gov/billsthisweek/20260209/RCP_S1383_xml.pdf"
+          },
+          {
+            "text": "Spokesman-Review",
+            "url": "https://www.spokesman.com/stories/2026/jul/12/the-save-america-act-has-brought-congress-to-a-hal/"
+          },
+          {
+            "text": "Sen. Murkowski",
+            "url": "https://www.murkowski.senate.gov/press/release/murkowski-i-support-voter-id_but-oppose-the-save-america-act"
+          },
+          {
+            "text": "Native American Rights Fund",
+            "url": "https://narf.org/save-act-hurts-native-voters/"
+          }
+        ]
+      },
+      {
+        "claim": "\"The American people support it by an 80/20 margin.\"",
+        "who": "Sen. Jon Husted",
+        "found": "The Republicans who would have to run it, and the party's own editorial pages, do not.",
+        "detail": "Utah Lt. Gov. Deidre Henderson (R): the bill \"would be impossible to implement,\" and \"I can count on zero fingers the number of times Sen. Lee has reached out to ask how his bill will affect our state.\" National Review: \"it is prudent not to swat a fly with a sledgehammer... think dozens, not thousands.\" The Wall Street Journal editorial board called ending the filibuster for it \"a terrible trade.\" Sen. Thom Tillis called it \"theater.\" Five of six Idaho county clerks quoted by the Spokesman-Review, all Republicans, oppose it. The Senate has rejected it five times in 2026, twice at 48-50, with Collins, Murkowski, McConnell and Tillis joining every Democrat.",
+        "sources": [
+          {
+            "text": "Sen. Husted",
+            "url": "https://www.husted.senate.gov/media/press-releases/husted-bill-to-require-photo-id-to-vote-blocked-from-passage/"
+          },
+          {
+            "text": "Utah News Dispatch (via Yahoo)",
+            "url": "https://www.yahoo.com/news/articles/utah-lieutenant-governor-says-save-230036731.html"
+          },
+          {
+            "text": "National Review",
+            "url": "https://www.nationalreview.com/2026/02/the-save-acts-virtuous-goals-are-not-worth-the-cost/"
+          },
+          {
+            "text": "The Hill (WSJ editorial)",
+            "url": "https://thehill.com/media/5994942-wall-street-journal-trump-senate-filibuster-save-america-act/"
+          },
+          {
+            "text": "Fox News (June 4 vote)",
+            "url": "https://www.foxnews.com/politics/four-senate-republicans-unite-dems-block-trumps-save-america-act"
+          },
+          {
+            "text": "NPR (June 4 vote)",
+            "url": "https://www.npr.org/2026/06/04/nx-s1-5751145/save-act-senate-vote-trump"
+          }
+        ]
+      },
+      {
+        "claim": "\"The desperately needed SAVE AMERICA ACT, which I consider to be a National Emergency.\"",
+        "who": "Trump, canceling a housing-bill signing, June 24, 2026",
+        "found": "Two federal courts have ruled the president cannot impose the rule himself. What followed was leverage, not evidence.",
+        "detail": "His March 2025 executive order directing proof of citizenship on the federal form was permanently blocked in October 2025 (\"the President lacks the authority to direct such changes\") and again in June 2026 (the Constitution \"does not grant the President any specific powers over elections\"). He then refused to sign the ROAD to Housing Act, which passed 358-32 and 85-5, until the Senate passed the SAVE Act; it became law without his signature on July 11. On July 25 he posted: \"Terminate the Filibuster... and PASS THE SAVE AMERICA ACT.\" In March he told Republican lawmakers that the mail-ballot ban he wants added to it is \"the only way to guarantee the midterms.\"",
+        "sources": [
+          {
+            "text": "Votebeat (Oct. 2025 ruling)",
+            "url": "https://www.votebeat.org/2025/11/24/judge-blocks-trump-executive-order-proof-of-citizenship/"
+          },
+          {
+            "text": "NBC News (June 2026 ruling)",
+            "url": "https://www.nbcnews.com/news/us-news/judge-bars-trump-proof-citizenship-for-voting-rcna351649"
+          },
+          {
+            "text": "NBC News (housing bill)",
+            "url": "https://www.nbcnews.com/politics/donald-trump/trump-cancels-plan-sign-major-housing-bill-fights-congress-act-rcna351558"
+          },
+          {
+            "text": "CNBC (law without signature)",
+            "url": "https://www.cnbc.com/2026/07/10/trump-housing-bill-save-act-law.html"
+          },
+          {
+            "text": "Trump's Truth Social post, July 25",
+            "url": "https://trumpstruth.org/statuses/40242"
+          },
+          {
+            "text": "CNBC (\"guarantee the midterms\")",
+            "url": "https://www.cnbc.com/2026/03/15/trump-save-america-act-senate-2026-elections.html"
+          }
+        ]
+      }
+    ],
+    "take": "Voter suppression is a strong phrase, so here is the standard we hold it to: a rule that stops far more eligible citizens than ineligible ones, adopted with that ratio in plain view. Kansas ran the experiment. It blocked 31,089 registrations to catch a few dozen noncitizens over two decades, and a federal appeals court called the noncitizen share statistically indistinguishable from zero. The SAVE Act is the Kansas rule for the whole country, effective the day it is signed, with a federal crime attached for the clerk who lets someone through. The people most likely to lack a passport or a matching birth certificate are the young, the poor, the rural, women who changed their name, and voters of color. The president has told Republican lawmakers what the package is for: to \"guarantee the midterms.\" We take him at his word."
+  }
+}

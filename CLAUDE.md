@@ -88,6 +88,27 @@ Update a card's status when reality changes (e.g., a court blocks a rule → `bl
   hero trust counter (doubt cards + history entries). Apply tightly: the public assertion must be
   the entry's substance, not merely its premise.
 
+## The evidence sections (`src/data/evidence.json`)
+
+Two sections sit between The Sequence and The Pattern: **The Premise** (`#premise`, the data showing
+elections were already secure and fraud is rare, drawn largely from Republican-run audits and the
+administration's own results) and **The SAVE Act** (`#saveact`, what the bill requires, who lacks the
+documents, the Kansas precedent, and a claim-vs-record table). Both render from `evidence.json`:
+
+```json
+{ "baseline": { "kicker", "title", "sub", "stats": [{ "value", "label", "detail", "sources": [{text,url}] }],
+                "rows": [{ "who", "when", "looked", "found", "detail", "sources" }], "take" },
+  "saveact":  { ..., "rows": [{ "claim", "who", "found", "detail", "sources" }], "take" } }
+```
+
+These cite primary documents (court opinions, state audits, bill text, surveys) that are not seeded
+from tracker entries, so `verify-sources.js` does not cover them. Run `node verify-evidence.js`
+instead: every URL must answer with a real page (2xx, or a bot-block from a host on the script's
+allowlist, each of which was confirmed with a headless browser when added). The fact/take rule
+applies exactly as on cards: `take` is the only place for opinion, and it renders under the
+"OUR TAKE — opinion, not reporting" label. Keep the claim column in the SAVE Act table to the
+sponsors' strongest version of the argument, quoted, so the comparison is fair.
+
 ## The prehistory (`src/data/history.json`)
 
 A dedicated Prehistory section (between The Record and The Sequence) shows the 2020–2025 record:
@@ -119,8 +140,8 @@ When processing news batches in the tracker, for every new/updated election-rela
 3. Bump the `LAST_UPDATED` constant in `index.astro`.
 4. Check the **What to Watch** list in `index.astro` — retire dates that passed (note what
    happened), add new dated triggers.
-5. Run `node verify-sources.js` (see below), then `npm run build`, verify, commit (ask the user
-   before pushing, per workspace convention).
+5. Run `node verify-sources.js` (see below) and, if `evidence.json` changed, `node verify-evidence.js`;
+   then `npm run build`, verify, commit (ask the user before pushing, per workspace convention).
 
 ## Source-integrity check
 

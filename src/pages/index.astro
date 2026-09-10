@@ -11,6 +11,7 @@ import '@fontsource/ibm-plex-mono/500.css';
 import '../styles/global.css';
 import actions from '../data/actions.json';
 import history from '../data/history.json';
+import evidence from '../data/evidence.json';
 
 const LAST_UPDATED = 'September 10, 2026';
 
@@ -36,6 +37,7 @@ const CATS = {
 const sorted = [...actions].sort((a, b) => b.date.localeCompare(a.date));
 const chrono = [...actions].sort((a, b) => a.date.localeCompare(b.date));
 const total = actions.length;
+const evidenceSourceCount = [evidence.baseline, evidence.saveact].reduce((n, sec) => n + [...sec.stats, ...sec.rows].reduce((m, x) => m + (x.sources || []).length, 0), 0);
 
 const MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const monthLabel = (d) => { const [y, m] = d.split('-').map(Number); return `${MONTHS_LONG[m - 1]} ${y}`; };
@@ -104,6 +106,8 @@ const description = `A sourced, single-page record of ${total} documented action
           <a href="#record">The Record</a>
           <a href="#prehistory">The Prehistory</a>
           <a href="#sequence">The Sequence</a>
+          <a href="#premise">The Premise</a>
+          <a href="#saveact">The SAVE Act</a>
           <a href="#pattern">The Pattern</a>
           <a href="#watch">What to Watch</a>
           <a href="#protect">Protect the Vote</a>
@@ -407,6 +411,97 @@ const description = `A sourced, single-page record of ${total} documented action
         </div>
       </section>
 
+      <!-- ── THE PREMISE ──────────────────────────────────────────────── -->
+      <section id="premise" aria-label="The premise">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">{evidence.baseline.kicker}</p>
+            <h2>{evidence.baseline.title}</h2>
+            <p class="sub">{evidence.baseline.sub}</p>
+          </div>
+
+          <div class="ev-stats">
+            {evidence.baseline.stats.map((s) => (
+              <div class="ev-stat">
+                <div class="ev-num">{s.value}</div>
+                <div class="ev-lbl">{s.label}</div>
+                <p class="ev-detail">{s.detail}</p>
+                <p class="ev-src">{s.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < s.sources.length - 1 ? ' · ' : ''}</>))}</p>
+              </div>
+            ))}
+          </div>
+
+          <div class="ev-table" role="table" aria-label="Who looked, what they found">
+            <div class="ev-row ev-head" role="row">
+              <span role="columnheader">Who looked</span>
+              <span role="columnheader">What they looked at</span>
+              <span role="columnheader">What they found</span>
+            </div>
+            {evidence.baseline.rows.map((r) => (
+              <div class="ev-row" role="row">
+                <span class="ev-who" role="cell"><strong>{r.who}</strong><span class="ev-when">{r.when}</span></span>
+                <span class="ev-looked" role="cell">{r.looked}</span>
+                <span class="ev-found" role="cell">
+                  <strong>{r.found}</strong>
+                  <span class="ev-detail">{r.detail}</span>
+                  <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div class="ev-take">
+            <p class="take-lbl">Our take — opinion, not reporting</p>
+            <p>{evidence.baseline.take}</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── THE SAVE ACT ─────────────────────────────────────────────── -->
+      <section id="saveact" aria-label="The SAVE Act">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">{evidence.saveact.kicker}</p>
+            <h2>{evidence.saveact.title}</h2>
+            <p class="sub">{evidence.saveact.sub}</p>
+          </div>
+
+          <div class="ev-stats">
+            {evidence.saveact.stats.map((s) => (
+              <div class="ev-stat">
+                <div class="ev-num">{s.value}</div>
+                <div class="ev-lbl">{s.label}</div>
+                <p class="ev-detail">{s.detail}</p>
+                <p class="ev-src">{s.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < s.sources.length - 1 ? ' · ' : ''}</>))}</p>
+              </div>
+            ))}
+          </div>
+
+          <div class="ev-table is-compare" role="table" aria-label="The claim and the record">
+            <div class="ev-row ev-head" role="row">
+              <span role="columnheader">What the bill's backers say</span>
+              <span role="columnheader">What the record shows</span>
+            </div>
+            {evidence.saveact.rows.map((r) => (
+              <div class="ev-row" role="row">
+                <span class="ev-claim" role="cell"><strong>{r.claim}</strong><span class="ev-when">{r.who}</span></span>
+                <span class="ev-found" role="cell">
+                  <strong>{r.found}</strong>
+                  <span class="ev-detail">{r.detail}</span>
+                  <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div class="ev-take">
+            <p class="take-lbl">Our take — opinion, not reporting</p>
+            <p>{evidence.saveact.take}</p>
+          </div>
+          <p class="ev-foot">{evidenceSourceCount} sources in these two sections, separate from the {sourceCount} on the cards above. Every number links to where it came from.</p>
+        </div>
+      </section>
+
       <!-- ── THE PATTERN ──────────────────────────────────────────────── -->
       <section id="pattern" aria-label="The pattern">
         <div class="wrap">
@@ -427,7 +522,8 @@ const description = `A sourced, single-page record of ${total} documented action
             </p>
             <p>
               The record also shows the counterforce. Courts have ruled against the voter-data campaign
-              nine straight times, five of those rulings from Trump-appointed judges. States have refused.
+              twenty-one straight times, eight of the first twenty rulings from Trump-appointed judges.
+              The sections above measure the fraud those actions are justified by, and find it in the dozens. States have refused.
               A bipartisan commission referred the world's richest man to prosecutors. The system is not
               gone — it is under load, and some of it is holding.
             </p>
@@ -868,7 +964,7 @@ const description = `A sourced, single-page record of ${total} documented action
           }
         });
       }, { rootMargin: '-30% 0px -60% 0px' });
-      ['record', 'prehistory', 'sequence', 'pattern', 'watch', 'protect', 'method'].forEach((id) => {
+      ['record', 'prehistory', 'sequence', 'premise', 'saveact', 'pattern', 'watch', 'protect', 'method'].forEach((id) => {
         const el = document.getElementById(id);
         if (el) spy.observe(el);
       });

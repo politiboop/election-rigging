@@ -526,6 +526,65 @@ section { scroll-margin-top: 40px; }
   padding: 18px 0; margin: 30px 0;
 }
 
+/* ── the premise + the save act (evidence sections) ────────────────────── */
+.ev-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 28px; }
+@media (max-width: 1000px) { .ev-stats { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .ev-stats { grid-template-columns: 1fr; } }
+.ev-stat {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-top: 3px solid var(--st-court); border-radius: 8px; padding: 20px 20px 16px;
+  display: flex; flex-direction: column;
+}
+.ev-num {
+  font-family: var(--font-display); font-weight: 700; font-size: clamp(34px, 3.4vw, 44px);
+  line-height: 1; color: var(--text); letter-spacing: -0.01em;
+}
+.ev-lbl {
+  font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+  font-size: 15px; letter-spacing: 0.03em; color: var(--text-2); margin-top: 8px; line-height: 1.2;
+}
+.ev-detail { font-size: 13.5px; color: var(--text-2); line-height: 1.55; margin-top: 10px; display: block; }
+.ev-src { margin-top: auto; padding-top: 10px; display: block; line-height: 1.8; }
+.ev-src a {
+  font-family: var(--font-mono); font-size: 11px; color: var(--text-3);
+  text-decoration: none; border-bottom: 1px solid var(--line);
+}
+.ev-src a:hover { color: var(--st-court); border-color: var(--st-court); }
+.ev-table { border-top: 1px solid var(--line); margin-bottom: 28px; }
+.ev-row {
+  display: grid; grid-template-columns: 180px 220px 1fr; gap: 18px;
+  padding: 16px 0; border-bottom: 1px solid var(--line-soft);
+}
+.ev-table.is-compare .ev-row { grid-template-columns: minmax(200px, 2fr) 3fr; }
+.ev-row.ev-head {
+  padding: 10px 0; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-3);
+}
+.ev-who strong, .ev-claim strong { display: block; color: var(--text); font-weight: 600; font-size: 15px; line-height: 1.35; }
+.ev-claim strong { font-family: var(--font-serif); font-style: italic; font-weight: 400; color: var(--text); font-size: 15.5px; }
+.ev-when { display: block; font-family: var(--font-mono); font-size: 11px; color: var(--text-3); margin-top: 4px; }
+.ev-looked { font-size: 14.5px; color: var(--text-2); line-height: 1.5; }
+.ev-found strong { display: block; color: var(--text); font-weight: 600; font-size: 15px; line-height: 1.4; }
+.ev-found .ev-detail { margin-top: 5px; }
+.ev-found .ev-src { padding-top: 6px; }
+@media (max-width: 800px) {
+  .ev-row, .ev-table.is-compare .ev-row { grid-template-columns: 1fr; gap: 6px; }
+  .ev-row.ev-head { display: none; }
+  .ev-looked::before { content: "Looked at: "; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3); }
+}
+.ev-take {
+  max-width: 820px; padding: 16px 20px;
+  border-left: 3px solid var(--st-record);
+  background: color-mix(in srgb, var(--st-record) 7%, transparent);
+  border-radius: 0 6px 6px 0;
+}
+.ev-take .take-lbl {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--st-record); margin-bottom: 8px;
+}
+.ev-take p:not(.take-lbl) { font-family: var(--font-serif); font-style: italic; font-size: 16.5px; line-height: 1.7; color: var(--text-2); }
+.ev-foot { margin-top: 18px; font-family: var(--font-mono); font-size: 11.5px; color: var(--text-3); }
+
 /* ── watch list ────────────────────────────────────────────────────────── */
 .watch-list { list-style: none; max-width: 820px; }
 .watch-list li {
