@@ -1822,5 +1822,113 @@
     "trackerIds": [
       "wyoming-gop-governor-doj-election-monitors-aggressive"
     ]
+  },
+  {
+    "id": "trump-dividend-5000",
+    "title": "Trump Promises a $5,000 'Trump Dividend' to Every Adult if Republicans Keep Congress",
+    "date": "2026-09-09",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "At the Republican Party's first midterm convention, in Dallas on September 9, 2026, Trump said: \"If the Republicans win the House of Representatives and the United States Senate, both of them, because of our tremendous strength and success economically, I will issue a dividend to every adult citizen in the United States of America for $5,000.\" He added, \"So if the Republicans win, you win with us, and you get $5,000. It will be called 'the Trump dividend.'\"",
+      "He named no funding source or mechanism. Vice President Vance said within the hour that tariffs would pay for it and that it would be limited to the middle class, a limit Trump did not state. Sen. Bernie Moreno said he would have a bill ready \"immediately after the November 3rd election.\" Congress would have to appropriate the money.",
+      "With roughly 240 to 245 million adult citizens, the promise costs about $1.2 trillion or more. Tariff revenue was about $154.5 billion in the first ten months of fiscal 2026, and the Supreme Court's February tariff ruling has forced more than $100 billion in refunds. The deficit is running near $1.8 trillion.",
+      "Election-law scholar Rick Hasen wrote that the pledge is \"almost certainly protected by the First Amendment\" as a campaign promise delivered through the normal processes of government. Rep. Chip Roy asked how it would be paid for; former Freedom Caucus chairman Bob Good called it a \"socialist vote-buying scheme.\"",
+      "Trump's earlier $5,000 DOGE dividend (February 2025) and $2,000 tariff dividend (November 2025) were never paid."
+    ],
+    "take": "This is not vote-buying in the legal sense, and the tracker does not call it that. It is something the law has not had to think about: a sitting president conditioning a cash payment to the public on which party wins an election, with no money to pay it. Whether a voter believes the check is coming is the whole point, and the record on the last two dividends answers that. The card is here because the promise is itself an instrument aimed at the outcome, made by the man whose administration is also setting the rules for the count.",
+    "sources": [
+      {
+        "text": "CNBC: Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback",
+        "url": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+      },
+      {
+        "text": "CBS News: At RNC midterm convention, Trump pitches $5,000 checks to U.S. citizens, but only if GOP wins House and Senate",
+        "url": "https://www.cbsnews.com/news/trump-dividends-5000-checks-rnc-midterm-convention/"
+      },
+      {
+        "text": "Fast Company (Associated Press): Trump, hoping to salvage midterms, makes a dubious pledge to give every U.S. adult $5,000 if GOP wins",
+        "url": "https://www.fastcompany.com/91605181/trump-pledges-5000-every-american-gop-wins-midterms-legal"
+      },
+      {
+        "text": "Fox News: Trump makes stunning first-of-its-kind cash promise in bid to rally GOP voters at Dallas midterm convention",
+        "url": "https://www.foxnews.com/politics/trump-makes-stunning-first-of-its-kind-cash-promise-bid-rally-gop-voters-dallas-midterm-convention"
+      },
+      {
+        "text": "Election Law Blog: Trump's hard-to-believe pledge to give every American adult $5,000 if Republicans win control of House and Senate is almost certainly protected by the First Amendment against bribery or vote-buying",
+        "url": "https://electionlawblog.org/2026/trumps-hard-to-believe-pledge-to-give-every-american-adult-5000-if-republicans-win-control-of-house-and-senate-is-almost-certainly-protected-by-the-first-amendment-against-bribery-or-vote-buying/"
+      }
+    ],
+    "trackerIds": [
+      "trump-5000-dividend-promise-if-gop-wins-midterms",
+      "doge-tariff-checks-broken-promises"
+    ]
+  },
+  {
+    "id": "iran-war-ends-after-election",
+    "title": "Trump Says the Iran War 'Will End Immediately After Our Election'",
+    "date": "2026-09-09",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "At Joint Base Andrews on September 9, 2026, before flying to the Republican midterm convention, Trump said: \"I think the war is going to end immediately after the election. They can't hold out any longer. They're desperate to try and affect the election so that we can get a nice, weak group of people in there, and leave them alone and let them have their nuclear weapon.\"",
+      "Asked whether negotiations would resume, he said, \"We're not looking for it, to be honest.\" In Dallas that night he said Iran was \"hanging out for dear life, hoping that we lose, so they can deal with dumb, weak Democrats.\"",
+      "The remarks came on a day Iran said it had targeted ten ships near the Strait of Hormuz, including two U.S. vessels, after U.S. forces destroyed five Iranian tankers. Newsweek counted roughly 23 separate Trump predictions since February of when the war would end.",
+      "An NBC News Decision Desk poll found 69 percent of Americans disapprove of Trump's handling of the war. A Reuters/Ipsos survey put his approval at 33 percent."
+    ],
+    "take": "A president is free to argue that an adversary wants him to lose. What this statement does is tie the end of a war he began without a vote of Congress to the date of a domestic election, in his own words, and cast the opposition party as the enemy's preferred outcome. Read alongside the impeachment card above it, it is the president's own account of what November decides.",
+    "sources": [
+      {
+        "text": "NBC News: Trump says the war in Iran will end after Election Day",
+        "url": "https://www.nbcnews.com/politics/2026-election/trump-says-war-iran-will-end-after-election-day-rcna596950"
+      },
+      {
+        "text": "The Hill: Trump predicts Iran war will end 'immediately after the election'",
+        "url": "https://thehill.com/homenews/administration/6079754-trump-comments-iran-midterms/"
+      },
+      {
+        "text": "Al Jazeera: Trump says Iran war 'will end immediately' after US midterm elections",
+        "url": "https://www.aljazeera.com/news/2026/9/9/trump-says-iran-war-will-end-immediately-after-us-midterm-elections"
+      }
+    ],
+    "trackerIds": [
+      "trump-says-iran-war-will-end-immediately-after-election"
+    ]
+  },
+  {
+    "id": "kimmel-talarico-youtube",
+    "title": "Kimmel Keeps a Senate Candidate Off Broadcast TV, Citing Threats From Trump's FCC",
+    "date": "2026-09-09",
+    "category": "narrative",
+    "status": "active",
+    "facts": [
+      "On September 9, 2026, Jimmy Kimmel announced that his interview with James Talarico, the Democratic nominee for U.S. Senate in Texas, would be posted to YouTube and would not air on ABC. On air, he said: \"His FCC has threatened me, threatened our show, threatened our network, ABC, our affiliates, our local stations, based on simple, traditional editorial decisions, guest bookings it would seem they don't like.\"",
+      "No FCC order barred the interview. Kimmel said the decision was made \"out of consideration for our local stations, especially our ABC affiliates in Texas.\" After Talarico appeared on ABC's The View in February, the FCC opened an inquiry into ABC's Houston station and 20 Texas ABC affiliates filed equal-time notices.",
+      "In January 2026 the FCC's Media Bureau said late-night and daytime talk shows could no longer assume they qualify for the equal-time rule's news-interview exemption. CBS lawyers kept Talarico off Stephen Colbert's broadcast in February on the same basis. Disney and ABC sued the FCC in August; a hearing on the FCC's motion to dismiss is set for the week of October 5.",
+      "Kimmel noted he had interviewed candidates for 20 years, including Trump in 2015 and 2016, and said: \"In the America we live in right now, that is the best that we can do until November.\" The FCC did not respond to requests for comment."
+    ],
+    "take": "The regulator never had to rule. It only had to make the cost of airing a Senate candidate uncertain enough that two of the three largest broadcast networks decided not to find out. That is how a chilling effect works, and this one lands eight weeks before an election in a state where the same candidate is on the ballot.",
+    "sources": [
+      {
+        "text": "Variety: 'Jimmy Kimmel Live' Moves Interview With Texas Senate Candidate James Talarico From TV to YouTube Due to FCC Threats",
+        "url": "https://variety.com/2026/tv/news/jimmy-kimmel-live-james-talarico-youtube-fcc-1236856911/"
+      },
+      {
+        "text": "Deadline: Kimmel Says Trump's FCC Has Threatened Show, So His James Talarico Interview Will Air On YouTube Instead Of ABC",
+        "url": "https://deadline.com/2026/09/kimmel-trump-threat-james-talarico-interview-1237073160/"
+      },
+      {
+        "text": "NBC News: Jimmy Kimmel says show won't air James Talarico interview on TV, citing FCC threats",
+        "url": "https://www.nbcnews.com/politics/trump-administration/jimmy-kimmel-abc-tv-show-wont-air-james-talarico-interview-fcc-threats-rcna596994"
+      },
+      {
+        "text": "Fox News: Kimmel reveals he's interviewing James Talarico under 'unusual circumstances,' citing FCC threats",
+        "url": "https://www.foxnews.com/media/kimmel-reveals-interviewing-james-talarico-unusual-circumstances-citing-fcc-threats"
+      }
+    ],
+    "trackerIds": [
+      "kimmel-talarico-interview-youtube-only-fcc-threats",
+      "cbs-colbert-fcc-censorship"
+    ]
   }
 ]
