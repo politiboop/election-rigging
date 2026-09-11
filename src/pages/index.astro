@@ -9,6 +9,7 @@ import '@fontsource/lora/400-italic.css';
 import '@fontsource/ibm-plex-mono/400.css';
 import '@fontsource/ibm-plex-mono/500.css';
 import '../styles/global.css';
+import SpeedInsights from '@vercel/speed-insights/astro';
 import actions from '../data/actions.json';
 import history from '../data/history.json';
 import evidence from '../data/evidence.json';
@@ -96,6 +97,7 @@ const description = `A sourced, single-page record of ${total} documented action
       import { inject } from '@vercel/analytics';
       inject();
     </script>
+    <SpeedInsights />
   </head>
   <body>
 
