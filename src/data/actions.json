@@ -234,7 +234,8 @@
       "Talwani's reasoning was structural: \"Congress has never delegated its Elections Clause power to the USPS.\" She found the rule \"clashes with Congress's statutory scheme, and is unconstitutional where it intrudes not only on Congress's Elections Clause powers but also that power left to the States.\"",
       "On the timing she wrote that implementation \"less than seventy days before the November 2026 election threatens disenfranchisement of millions of United States citizens who seek to vote by mail,\" while \"the record includes no evidence relating to fraudulent mail voting to support the rushed implementation of the Final Rule.\"",
       "The administration moved twice in two days. On September 5 the Justice Department asked the First Circuit for a stay. On September 6 Solicitor General John Sauer took it to the Supreme Court, seeking a stay pending appeal and an administrative stay, describing the rule as imposing \"only modest envelope-design and addressee-information requirements for federal-election ballots sent via U.S. Mail.\" Justice Ketanji Brown Jackson ordered responses by 4 p.m. Eastern on Wednesday, September 9.",
-      "North Carolina and Alabama began mailing ballots as early as September 4, 2026, which is the clock the filings are racing."
+      "North Carolina and Alabama began mailing ballots as early as September 4, 2026, which is the clock the filings are racing.",
+      "On September 9, the day responses were due, Republican secretaries of state from Kentucky, North Dakota, South Dakota, Georgia, New Hampshire and Kansas, with Utah Lt. Gov. Deidre Henderson and 26 local election officials in Georgia and Utah, asked the Supreme Court not to let the rule take effect for the midterms. They took no position on its legality, only on timing: \"late changes breed confusion, that confusion keeps eligible voters from voting, and that a chaotic election erodes confidence in the result,\" and \"in many respects, the election is already underway.\" Federal law requires states to send ballots to military and overseas voters by September 19."
     ],
     "take": "The legal fight and the practical one have separated, and the practical one now has a number attached. Talwani blocked the rule on both the law and the calendar, and a postal official has since described a system built in weeks instead of a year with its testing removed. Note what the batch rule would do if it holds: one unmatched record does not delay one ballot, it returns ten thousand. Whether the rule survives appeal matters less to November than whether the machinery behind it works at all, and the people building it are saying it does not.",
     "sources": [
@@ -305,6 +306,10 @@
       {
         "text": "Fox News: Obama-appointed judge ripped for blocking Trump mail ballot rule",
         "url": "https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock"
+      },
+      {
+        "text": "The Washington Post (via The Spokesman-Review): GOP secretaries of state ask Supreme Court to block Trump mail-in ballot rule",
+        "url": "https://www.spokesman.com/stories/2026/sep/10/gop-secretaries-of-state-ask-supreme-court-to-bloc/"
       }
     ],
     "trackerIds": [
@@ -1834,7 +1839,10 @@
       "He named no funding source or mechanism. Vice President Vance said within the hour that tariffs would pay for it and that it would be limited to the middle class, a limit Trump did not state. Sen. Bernie Moreno said he would have a bill ready \"immediately after the November 3rd election.\" Congress would have to appropriate the money.",
       "With roughly 240 to 245 million adult citizens, the promise costs about $1.2 trillion or more. Tariff revenue was about $154.5 billion in the first ten months of fiscal 2026, and the Supreme Court's February tariff ruling has forced more than $100 billion in refunds. The deficit is running near $1.8 trillion.",
       "Election-law scholar Rick Hasen wrote that the pledge is \"almost certainly protected by the First Amendment\" as a campaign promise delivered through the normal processes of government. Rep. Chip Roy asked how it would be paid for; former Freedom Caucus chairman Bob Good called it a \"socialist vote-buying scheme.\"",
-      "Trump's earlier $5,000 DOGE dividend (February 2025) and $2,000 tariff dividend (November 2025) were never paid."
+      "Trump's earlier $5,000 DOGE dividend (February 2025) and $2,000 tariff dividend (November 2025) were never paid.",
+      "Asked on September 10 by CBS News Texas whether Congress would have to approve the payments, Trump said: \"Well, we think not. I think they will do it if we needed it. But we think not.\" CBS reported it is not clear what legal authority a president would have to make payments that could cost upwards of a trillion dollars without Congress.",
+      "Asked the same night by Fox News host Laura Ingraham why he did not simply pay it now, Trump said: \"Because they can't. I'll tell you what, because the Democrats can't do it, because with them it's negative growth.\" Republicans currently control both chambers.",
+      "Asked by ABC's Rachel Scott why a strong economy would need \"an incentive for people to turn out to vote,\" Trump said it was \"a reward for people having to put up with five years and four years of a horrible situation caused by Biden.\" Two nights earlier he had tied it to the result: \"So if the Republicans win, you win with us, and you get $5,000.\""
     ],
     "take": "This is not vote-buying in the legal sense, and the tracker does not call it that. It is something the law has not had to think about: a sitting president conditioning a cash payment to the public on which party wins an election, with no money to pay it. Whether a voter believes the check is coming is the whole point, and the record on the last two dividends answers that. The card is here because the promise is itself an instrument aimed at the outcome, made by the man whose administration is also setting the rules for the count.",
     "sources": [
@@ -1847,8 +1855,8 @@
         "url": "https://www.cbsnews.com/news/trump-dividends-5000-checks-rnc-midterm-convention/"
       },
       {
-        "text": "Fast Company (Associated Press): Trump, hoping to salvage midterms, makes a dubious pledge to give every U.S. adult $5,000 if GOP wins",
-        "url": "https://www.fastcompany.com/91605181/trump-pledges-5000-every-american-gop-wins-midterms-legal"
+        "text": "WTOP (Associated Press): Trump, hoping to salvage midterms, makes a dubious pledge to give every US adult $5,000 if GOP wins",
+        "url": "https://wtop.com/national/2026/09/trump-hoping-to-salvage-midterms-makes-dubious-pledge-to-give-every-us-adult-5000-if-gop-wins/"
       },
       {
         "text": "Fox News: Trump makes stunning first-of-its-kind cash promise in bid to rally GOP voters at Dallas midterm convention",
@@ -1857,6 +1865,18 @@
       {
         "text": "Election Law Blog: Trump's hard-to-believe pledge to give every American adult $5,000 if Republicans win control of House and Senate is almost certainly protected by the First Amendment against bribery or vote-buying",
         "url": "https://electionlawblog.org/2026/trumps-hard-to-believe-pledge-to-give-every-american-adult-5000-if-republicans-win-control-of-house-and-senate-is-almost-certainly-protected-by-the-first-amendment-against-bribery-or-vote-buying/"
+      },
+      {
+        "text": "CBS News Texas: President Trump says he doesn't think $5,000 dividend payments would need to be approved by Congress",
+        "url": "https://www.cbsnews.com/news/president-donald-trump-dallas-texas-republican-midterm-convention-interview/"
+      },
+      {
+        "text": "The New Republic: live coverage including Trump on Fox's \"The Ingraham Angle\" (September 10, 2026)",
+        "url": "https://newrepublic.com/post/215288/navy-secretary-admits-iran-blew-hell-us-base"
+      },
+      {
+        "text": "The Daily Beast: Trump and ABC's Rachel Scott, on the $5,000 checks (September 11, 2026)",
+        "url": "https://www.thedailybeast.com/trump-explodes-at-female-reporter-rachel-scott-over-embarrassing-question/"
       }
     ],
     "trackerIds": [
