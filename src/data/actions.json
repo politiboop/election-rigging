@@ -235,7 +235,8 @@
       "On the timing she wrote that implementation \"less than seventy days before the November 2026 election threatens disenfranchisement of millions of United States citizens who seek to vote by mail,\" while \"the record includes no evidence relating to fraudulent mail voting to support the rushed implementation of the Final Rule.\"",
       "The administration moved twice in two days. On September 5 the Justice Department asked the First Circuit for a stay. On September 6 Solicitor General John Sauer took it to the Supreme Court, seeking a stay pending appeal and an administrative stay, describing the rule as imposing \"only modest envelope-design and addressee-information requirements for federal-election ballots sent via U.S. Mail.\" Justice Ketanji Brown Jackson ordered responses by 4 p.m. Eastern on Wednesday, September 9.",
       "North Carolina and Alabama began mailing ballots as early as September 4, 2026, which is the clock the filings are racing.",
-      "On September 9, the day responses were due, Republican secretaries of state from Kentucky, North Dakota, South Dakota, Georgia, New Hampshire and Kansas, with Utah Lt. Gov. Deidre Henderson and 26 local election officials in Georgia and Utah, asked the Supreme Court not to let the rule take effect for the midterms. They took no position on its legality, only on timing: \"late changes breed confusion, that confusion keeps eligible voters from voting, and that a chaotic election erodes confidence in the result,\" and \"in many respects, the election is already underway.\" Federal law requires states to send ballots to military and overseas voters by September 19."
+      "On September 9, the day responses were due, Republican secretaries of state from Kentucky, North Dakota, South Dakota, Georgia, New Hampshire and Kansas, with Utah Lt. Gov. Deidre Henderson and 26 local election officials in Georgia and Utah, asked the Supreme Court not to let the rule take effect for the midterms. They took no position on its legality, only on timing: \"late changes breed confusion, that confusion keeps eligible voters from voting, and that a chaotic election erodes confidence in the result,\" and \"in many respects, the election is already underway.\" Federal law requires states to send ballots to military and overseas voters by September 19.",
+      "A Florida county previewed the envelope review. Leon County voluntarily submitted its outgoing ballot envelope, and on September 2 USPS rejected it because two lines were 0.236 of an inch apart instead of a quarter inch. After an initial denial on appeal, USPS approved the design on September 10. The county had used the same envelopes for tens of thousands of ballots in 2024 and the 2026 primary, and plans to mail roughly 32,000 ballots by Florida's September 24 deadline. Supervisor of Elections Mark Earley: \"The chaos factor is the real problem.\""
     ],
     "take": "The legal fight and the practical one have separated, and the practical one now has a number attached. Talwani blocked the rule on both the law and the calendar, and a postal official has since described a system built in weeks instead of a year with its testing removed. Note what the batch rule would do if it holds: one unmatched record does not delay one ballot, it returns ten thousand. Whether the rule survives appeal matters less to November than whether the machinery behind it works at all, and the people building it are saying it does not.",
     "sources": [
@@ -310,6 +311,14 @@
       {
         "text": "The Washington Post (via The Spokesman-Review): GOP secretaries of state ask Supreme Court to block Trump mail-in ballot rule",
         "url": "https://www.spokesman.com/stories/2026/sep/10/gop-secretaries-of-state-ask-supreme-court-to-bloc/"
+      },
+      {
+        "text": "Tallahassee Democrat (via Yahoo): 'Ridiculous': Postal Service rejects Leon mail ballot envelopes",
+        "url": "https://www.yahoo.com/news/politics/articles/ridiculous-postal-rejects-leon-mail-135024647.html"
+      },
+      {
+        "text": "Democracy Docket: In ominous sign, USPS initially rejected Florida county's mail ballot over spacing issue",
+        "url": "https://www.democracydocket.com/news-alerts/in-ominous-sign-usps-initially-rejected-florida-countys-mail-ballot-over-spacing-issue/"
       }
     ],
     "trackerIds": [
