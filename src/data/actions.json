@@ -207,10 +207,10 @@
   },
   {
     "id": "usps-ballot-refusal",
-    "title": "The Post Office Finalizes Its Ballot-Refusal Rule While a Court Order Blocks It",
-    "date": "2026-09-06",
+    "title": "The Supreme Court Keeps the Post Office's Ballot-Refusal Rule Out of the Midterms",
+    "date": "2026-09-14",
     "category": "machinery",
-    "status": "court",
+    "status": "blocked",
     "facts": [
       "Under the rule implementing Trump's mail-voting order, USPS would deliver mail ballots only for states that hand over their voter lists 60 or more days before the election and put a unique tracking barcode on every ballot. USPS could refuse noncompliant ballots.",
       "On June 24, Postmaster General David Steiner confirmed under oath that USPS would not deliver ballots for states that refuse to hand over voter rolls: \"Under our proposed regulation? No.\"",
@@ -236,7 +236,9 @@
       "The administration moved twice in two days. On September 5 the Justice Department asked the First Circuit for a stay. On September 6 Solicitor General John Sauer took it to the Supreme Court, seeking a stay pending appeal and an administrative stay, describing the rule as imposing \"only modest envelope-design and addressee-information requirements for federal-election ballots sent via U.S. Mail.\" Justice Ketanji Brown Jackson ordered responses by 4 p.m. Eastern on Wednesday, September 9.",
       "North Carolina and Alabama began mailing ballots as early as September 4, 2026, which is the clock the filings are racing.",
       "On September 9, the day responses were due, Republican secretaries of state from Kentucky, North Dakota, South Dakota, Georgia, New Hampshire and Kansas, with Utah Lt. Gov. Deidre Henderson and 26 local election officials in Georgia and Utah, asked the Supreme Court not to let the rule take effect for the midterms. They took no position on its legality, only on timing: \"late changes breed confusion, that confusion keeps eligible voters from voting, and that a chaotic election erodes confidence in the result,\" and \"in many respects, the election is already underway.\" Federal law requires states to send ballots to military and overseas voters by September 19.",
-      "A Florida county previewed the envelope review. Leon County voluntarily submitted its outgoing ballot envelope, and on September 2 USPS rejected it because two lines were 0.236 of an inch apart instead of a quarter inch. After an initial denial on appeal, USPS approved the design on September 10. The county had used the same envelopes for tens of thousands of ballots in 2024 and the 2026 primary, and plans to mail roughly 32,000 ballots by Florida's September 24 deadline. Supervisor of Elections Mark Earley: \"The chaos factor is the real problem.\""
+      "A Florida county previewed the envelope review. Leon County voluntarily submitted its outgoing ballot envelope, and on September 2 USPS rejected it because two lines were 0.236 of an inch apart instead of a quarter inch. After an initial denial on appeal, USPS approved the design on September 10. The county had used the same envelopes for tens of thousands of ballots in 2024 and the 2026 primary, and plans to mail roughly 32,000 ballots by Florida's September 24 deadline. Supervisor of Elections Mark Earley: \"The chaos factor is the real problem.\"",
+      "On September 14, 2026, the Supreme Court denied the administration's request to let the rule take effect for November, saying \"The Government is unlikely to succeed on the merits of its challenge to the District Court's preliminary injunction.\" Justices Alito and Thomas dissented. Justice Kavanaugh wrote that the rule may fall within the Postal Service's authority, but that applying it in 2026 would be arbitrary and capricious \"because state and local election officials do not have sufficient time to reasonably implement the rule before the elections.\" The order covers only this year's elections.",
+      "Shortly before, Judge Carl Nichols, a Trump appointee in Washington, separately blocked the rule: \"No statute grants the Postal Service the power to issue key parts of the Rule.\" He found the government \"does not point to any record evidence that there will be significant fraud in the upcoming elections.\" Trump said the justices \"are merely a shell of their original selves.\""
     ],
     "take": "The legal fight and the practical one have separated, and the practical one now has a number attached. Talwani blocked the rule on both the law and the calendar, and a postal official has since described a system built in weeks instead of a year with its testing removed. Note what the batch rule would do if it holds: one unmatched record does not delay one ballot, it returns ten thousand. Whether the rule survives appeal matters less to November than whether the machinery behind it works at all, and the people building it are saying it does not.",
     "sources": [
@@ -319,6 +321,22 @@
       {
         "text": "Democracy Docket: In ominous sign, USPS initially rejected Florida county's mail ballot over spacing issue",
         "url": "https://www.democracydocket.com/news-alerts/in-ominous-sign-usps-initially-rejected-florida-countys-mail-ballot-over-spacing-issue/"
+      },
+      {
+        "text": "Supreme Court: Order in No. 26A305, United States Postal Service v. California (September 14, 2026)",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/26a305_4g15.pdf"
+      },
+      {
+        "text": "AP: Supreme Court rejects Trump mail ballot restrictions ahead of midterms",
+        "url": "https://apnews.com/article/trump-mail-voting-executive-order-lawsuit-78a4fbeb48d9c5fd27d1c865529fc65f"
+      },
+      {
+        "text": "Fox News: Supreme Court rejects Trump bid to revive strict mail-ballot rules before midterms",
+        "url": "https://www.foxnews.com/politics/supreme-court-rejects-trump-bid-revive-strict-mail-ballot-rules-before-midterms"
+      },
+      {
+        "text": "Washington Examiner: Trump-nominated judge blocks USPS mail-in ballot rule as Supreme Court weighs case",
+        "url": "https://www.washingtonexaminer.com/news/justice/4725698/trump-nominated-judge-blocks-usps-mail-in-ballot-rule/"
       }
     ],
     "trackerIds": [
@@ -326,11 +344,12 @@
       "usps-mail-ballot-delivery-conditioned-voter-lists",
       "scotus-lifts-mail-voting-injunction-states-lacked-standing",
       "trump-executive-order-mail-voting-federal-voter-lists",
-      "usps-whistleblower-ballot-portal-untested-court-defiance"
+      "usps-whistleblower-ballot-portal-untested-court-defiance",
+      "scotus-denies-stay-usps-mail-ballot-rule-midterms"
     ],
     "legal": {
       "level": "ruled",
-      "basis": "On September 4, 2026 a federal court preliminarily enjoined the rule, finding that \"Congress has never delegated its Elections Clause power to the USPS\" and that the rule is unconstitutional where it intrudes on Congress's Elections Clause powers and on the power left to the States. The administration has sought stays from the First Circuit and the Supreme Court."
+      "basis": "Judge Talwani preliminarily enjoined the rule on September 4, 2026, finding that \"Congress has never delegated its Elections Clause power to the USPS\"; Judge Carl Nichols separately found that \"No statute grants the Postal Service the power to issue key parts of the Rule\"; and on September 14 the Supreme Court denied a stay, finding the government \"unlikely to succeed on the merits.\""
     }
   },
   {
@@ -467,6 +486,39 @@
       "level": "ruled",
       "basis": "A federal court vacated the rebuilt SAVE system on June 22, 2026 as contrary to law and in violation of the Privacy Act, the Social Security Act and the Administrative Procedure Act. A conflicting order from another district followed, and the successor State Citizenship Lists are separately under challenge."
     }
+  },
+  {
+    "id": "dhs-unlawful-voter-initiative",
+    "title": "A Whistleblower Says DHS Officers Were Told to Pose as Voters to Search State Voter Records",
+    "date": "2026-09-14",
+    "category": "data",
+    "status": "active",
+    "facts": [
+      "A federal whistleblower's disclosure, published September 14, 2026 by Sens. Chuck Schumer and Alex Padilla, alleges that a DHS program called the \"Unlawful Voter Initiative\" directed USCIS employees to pose as individual voters to access their records on state voter-lookup websites. The report says the program \"has potentially already committed thousands of violations of state law.\"",
+      "According to the report, officers had a quota of 40 people a day, \"giving officers only twelve minutes to determine if a subject is a U.S. citizen,\" and training material acknowledged \"there will be U.S. citizens in this population.\" Officers who raised legal concerns were told they were \"not personally liable.\"",
+      "DHS said it \"accessed publicly available data from states' voter rolls and cross referenced them with known aliens in our systems.\" The claims are allegations; no court, inspector general or state has confirmed the searches broke state law."
+    ],
+    "sources": [
+      {
+        "text": "AP (via WSOC-TV): DHS voter probe may break state laws and wrongly implicate US citizens, whistleblower alleges",
+        "url": "https://www.wsoctv.com/news/politics/dhs-voter-probe-may/JQNMFL6FPQ3ATPELAY5AYE6MEE/"
+      },
+      {
+        "text": "NPR (via Houston Public Media): Federal agents may have broken state laws in voter fraud hunt, whistleblower claims",
+        "url": "https://www.houstonpublicmedia.org/npr/2026/09/14/nx-s1-5968892/federal-agents-may-have-broken-state-laws-in-voter-fraud-hunt-whistleblower-claims/"
+      },
+      {
+        "text": "CNN: DHS training materials instruct agents to potentially break laws, whistleblower says",
+        "url": "https://www.cnn.com/2026/09/14/politics/dhs-whistleblower-voter-database-padilla"
+      },
+      {
+        "text": "Sen. Alex Padilla: Padilla, Schumer announce DHS whistleblower report",
+        "url": "https://www.padilla.senate.gov/newsroom/press-releases/padilla-schumer-announce-dhs-whistleblower-report-revealing-trump-administration-directed-officers-to-break-state-laws-in-voter-fraud-hunt/"
+      }
+    ],
+    "trackerIds": [
+      "dhs-whistleblower-unlawful-voter-initiative-state-voter-portals"
+    ]
   },
   {
     "id": "alaska-voter-rolls",
@@ -606,11 +658,13 @@
     "title": "'You're Damn Right We're Going to Have ICE Surround the Polls'",
     "date": "2026-02-05",
     "category": "force",
-    "status": "threatened",
+    "status": "court",
     "facts": [
       "Steve Bannon, on his War Room podcast: \"You're damn right we're going to have ICE surround the polls come November.\"",
       "Asked about it the same day, White House Press Secretary Karoline Leavitt declined to rule it out: \"I can't guarantee that an ICE agent won't be around a polling location in November,\" adding only that there were \"no formal plans.\"",
-      "Federal and state laws prohibit federal law enforcement from patrolling polling places. Even the threat works as intimidation, deterring immigrant families and mixed-status households from voting."
+      "Federal law, 18 U.S.C. 592, makes it a felony for a federal officer to bring \"any troops or armed men\" to a place where an election is held unless the force is needed \"to repel armed enemies of the United States.\"",
+      "On September 1, 2026, Homeland Security Secretary Markwayne Mullin said \"ICE isn't there to patrol the polling places,\" but that \"The only reason why we would be at polling places is if there is a threat to that polling place or we're serving a warrant on someone that we have been actively tracking down.\"",
+      "On September 10, Denver and a coalition of immigrant rights and voting groups sued to keep armed federal officers away from polling places under that law, citing reports of agents at polling places in San Antonio, Ventura County and Syracuse this year. DHS said \"ICE is not planning operations targeting polling locations,\" and Tom Homan said \"there is no plan for enforcement action at polling places.\""
     ],
     "sources": [
       {
@@ -624,6 +678,22 @@
       {
         "text": "Newsweek: Warnings issued on nationalizing elections, ICE at polls: 'Huge danger'",
         "url": "https://www.newsweek.com/warnings-issued-on-nationalizing-elections-ice-at-polls-huge-danger-11467048"
+      },
+      {
+        "text": "Colorado Sun: Denver, Latino groups sue to keep ICE agents away from voting places",
+        "url": "https://coloradosun.com/2026/09/10/denver-sues-to-keep-ice-away-from-voters/"
+      },
+      {
+        "text": "Newsmax (via Yahoo News): Voting groups, Denver sue over armed ICE agents at polling places",
+        "url": "https://www.yahoo.com/news/politics/articles/voting-groups-denver-sue-over-193755814.html"
+      },
+      {
+        "text": "The Hill: ICE has no plans to 'sweep polling locations' for noncitizens, Homan says",
+        "url": "https://thehill.com/homenews/administration/6087947-tom-homan-ice-midterm-polls/"
+      },
+      {
+        "text": "Democracy Docket: DHS chief says ICE could make arrests at polling places",
+        "url": "https://www.democracydocket.com/news-alerts/dhs-chief-says-ice-could-make-arrests-at-polling-places-ignoring-federal-ban/"
       }
     ],
     "trackerIds": [
@@ -631,7 +701,7 @@
     ],
     "legal": {
       "level": "statute",
-      "basis": "Federal and state law prohibit federal law-enforcement agents from patrolling polling places."
+      "basis": "A September 10, 2026 lawsuit argues the policy violates 18 U.S.C. 592, which bars federal officers from bringing \"any troops or armed men\" to a place where an election is held unless needed \"to repel armed enemies of the United States.\""
     }
   },
   {
@@ -1940,6 +2010,36 @@
     ],
     "trackerIds": [
       "trump-convention-pledge-greatest-president-cheat-like-hell"
+    ],
+    "doubt": true
+  },
+  {
+    "id": "census-noncitizen-voting-report",
+    "title": "The Census Bureau Claims 24,000 Noncitizens Voted in 2020, and Trump Declares 'I WON THE ELECTION!'",
+    "date": "2026-08-18",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "On August 18, 2026, the Census Bureau released a report claiming more than 24,000 noncitizens illegally voted in 2020, from an analysis of 128 million voter records. Trump posted \"I WON THE ELECTION!\" and predicted the number would \"explode.\" Taken at face value, 24,000 votes would be less than 0.02 percent of the roughly 160 million ballots cast.",
+      "CNN, citing three former bureau officials who served under Trump, reported that the administration had installed partisan analysts from the Trump-aligned America First Policy Institute inside the bureau, and NPR reported the analysis was not done by career civil servants.",
+      "The next day, in a revision dated August 19, the Commerce Department removed language banning political interference from its scientific integrity policy, NPR reported."
+    ],
+    "sources": [
+      {
+        "text": "CNN: Experts slam Trump's unusual new census report as a 'hijack by the White House'",
+        "url": "https://www.cnn.com/2026/08/20/politics/flawed-census-report-alleged-noncitizen-voting"
+      },
+      {
+        "text": "NPR (via KSMU): A Census Bureau report on noncitizen voting has ties to a Trump-aligned think tank",
+        "url": "https://www.ksmu.org/2026-08-24/a-census-bureau-report-on-noncitizen-voting-has-ties-to-a-trump-aligned-think-tank"
+      },
+      {
+        "text": "NPR (via Houston Public Media): Trump officials cut political interference ban after unusual Census Bureau report",
+        "url": "https://www.houstonpublicmedia.org/npr/2026/08/31/nx-s1-5948057/trump-officials-cut-political-interference-ban-after-unusual-census-bureau-report/"
+      }
+    ],
+    "trackerIds": [
+      "census-report-24000-noncitizens-voted-afpi-team"
     ],
     "doubt": true
   },
