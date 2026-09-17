@@ -79,12 +79,15 @@
     "title": "Officials Tried to Ban the Voting Machines Half the Country Uses",
     "date": "2026-05-22",
     "category": "machinery",
-    "status": "blocked",
+    "status": "threatened",
     "facts": [
       "Reuters reported in May 2026 that Trump officials, led by White House election adviser Kurt Olsen, tried to ban Dominion voting machines used in roughly 27 states by having the Commerce Department declare their components a national security risk.",
       "The goal was to force much of the country onto hand-counted paper ballots, potentially before the 2026 midterms. Commerce Secretary Howard Lutnick was reportedly unaware of the discussions.",
       "The plan failed because officials could not find legal grounds to declare the machines a threat. No U.S. voting machine has ever been shown to have been hacked in an election, and about 98% of jurisdictions already produce auditable paper records.",
-      "Election-security expert Alex Halderman: switching to hand counting \"would be chaotic and might facilitate cheating.\""
+      "Election-security expert Alex Halderman: switching to hand counting \"would be chaotic and might facilitate cheating.\"",
+      "The push resumed before the midterms. CNN reported on September 10, 2026 that Trump allies, \"including some inside the administration,\" are pressing Commerce Secretary Howard Lutnick to use his supply-chain authority to ban certain voting machines over Chinese-made components. Emails obtained by American Oversight show activists Will Huff and Conrad Reynolds discussed election security with Chief of Staff Susie Wiles in August 2025; she connected them with Ed Martin at the Justice Department, and they sent him a \"Proposed Ban Plan.\"",
+      "Huff wrote to Martin: \"This can immediately force states to move to hand-marked and hand-counted ballots like the President wishes.\" The activists said on their podcast that Lutnick met them for more than two hours in August 2026 and \"said he would be getting on it.\" Commerce did not respond to CNN and has taken no action.",
+      "DHS Secretary Markwayne Mullin sent letters in August 2026 warning that foreign-made components could \"potentially compromise election infrastructure at any stage of the supply chain.\" Voting-system vendors told CNN that foreign parts are common across industries, and that paper records allow any result to be audited."
     ],
     "sources": [
       {
@@ -94,6 +97,10 @@
       {
         "text": "The New Republic: Trump moves to ban voting machines",
         "url": "https://newrepublic.com/post/210838/trump-ban-voting-machines"
+      },
+      {
+        "text": "CNN: Trump's Commerce Secretary under pressure to use his powers to block voting machines",
+        "url": "https://www.cnn.com/2026/09/10/politics/howard-lutnick-commerce-department-trumps-election-agenda"
       }
     ],
     "trackerIds": [
@@ -1785,7 +1792,10 @@
       "In mid-July 2026, DHS claimed more than 250,000 noncitizens were registered to vote across four states: 190,832 in California, 35,152 in New Jersey, 15,903 in Nevada, and 14,576 in Pennsylvania. Secretary Markwayne Mullin promoted the numbers.",
       "Snopes rated the claim false, finding zero evidence to support it. PolitiFact reported the figures were preliminary counts of the kind that shrink drastically after vetting.",
       "New Jersey Gov. Mikie Sherrill said a 2023-24 software error had registered about 6,600 noncitizens, who cast fewer than 400 ballots statewide in total. Nevada told the New York Times that just 138 of its 2.1 million active voters lacked a driver's license or Social Security number at registration.",
-      "The inflated figure has been used to justify federal intervention in state-run elections, while the vetted counts are small enough to change no outcome."
+      "The inflated figure has been used to justify federal intervention in state-run elections, while the vetted counts are small enough to change no outcome.",
+      "In Nevada, NPR reported, DHS called its figure of roughly 16,000 flagged registrants \"the ceiling\" on a recorded call, then sent the state a list of 185 voter IDs it was confident about. Deputy Secretary of State Mark Wlaschin: \"We are unable to conduct an analysis without real verifiable information.\"",
+      "In Pennsylvania, Secretary of the Commonwealth Al Schmidt wrote to DHS Secretary Markwayne Mullin that DHS staff \"did not have high confidence\" in their count of 14,576 flagged registrants. DHS called that a mischaracterization.",
+      "A September 9, 2026 DHS email obtained by Votebeat and Spotlight PA says a USCIS fraud unit matched Pennsylvania's public voter roll against DHS databases using first and last name, date of birth, phone number and address, and did not use Social Security numbers, though DHS had told the state in July that Social Security numbers were used in some matches. DHS wrote that \"Each one of the 14,576 individuals identified should be carefully reviewed by your state to determine eligibility for voting in a federal election.\" As of September 16 the state had not received the list."
     ],
     "take": "The number does not have to survive fact-checking to do its job. It has to exist long enough to justify the federal government reaching into four states' voter rolls.",
     "sources": [
@@ -1800,6 +1810,18 @@
       {
         "text": "CBS News: What to know about the administration's claim that 250K noncitizens are registered to vote in 4 states",
         "url": "https://www.cbsnews.com/news/trump-markwayne-mullin-non-citizens-registered-voters-california-new-jersey-nevada-pennsylvania/"
+      },
+      {
+        "text": "Votebeat: Trump administration explains how it identified potential noncitizen voters, says it will provide list to Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2026/09/16/noncitizen-voter-department-homeland-security-pennsylvania-methodology/"
+      },
+      {
+        "text": "NPR (via WITF): DHS acknowledges the noncitizen numbers it touted on voter rolls were inflated",
+        "url": "https://www.witf.org/2026/08/26/dhs-acknowledges-the-noncitizen-numbers-it-touted-on-voter-rolls-were-inflated/"
+      },
+      {
+        "text": "Philadelphia Inquirer: DHS staff lacks 'high confidence' in Trump's claims of noncitizen voters in Pa., Al Schmidt claims in letter to Mullin",
+        "url": "https://www.inquirer.com/politics/pennsylvania/al-schmidt-pa-noncitizen-voters-dhs-20260826.html"
       }
     ],
     "trackerIds": [
