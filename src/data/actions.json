@@ -247,7 +247,9 @@
       "On September 14, 2026, the Supreme Court denied the administration's request to let the rule take effect for November, saying \"The Government is unlikely to succeed on the merits of its challenge to the District Court's preliminary injunction.\" Justices Alito and Thomas dissented. Justice Kavanaugh wrote that the rule may fall within the Postal Service's authority, but that applying it in 2026 would be arbitrary and capricious \"because state and local election officials do not have sufficient time to reasonably implement the rule before the elections.\" The order covers only this year's elections.",
       "Shortly before, Judge Carl Nichols, a Trump appointee in Washington, separately blocked the rule: \"No statute grants the Postal Service the power to issue key parts of the Rule.\" He found the government \"does not point to any record evidence that there will be significant fraud in the upcoming elections.\" Trump said the justices \"are merely a shell of their original selves.\"",
       "Trump's fuller post the next morning called the order \"a big loss for Republicans, and America itself,\" saying it \"makes cheating by the Radical Left 'Dumocrats,' on Mail-In Ballots, a much easier thing to do,\" and that \"This Supreme Court is bullied and cajoled by the Radical Left.\" CBS News reported Trump himself voted by mail in Florida this year.",
-      "Attorney General Todd Blanche said the administration would comply, but that \"President Trump's efforts to make sure that we have free and fair elections are not going to stop just in November or after or thereafter. So I expect you're going to see that work continue.\""
+      "Attorney General Todd Blanche said the administration would comply, but that \"President Trump's efforts to make sure that we have free and fair elections are not going to stop just in November or after or thereafter. So I expect you're going to see that work continue.\"",
+      "On September 17, 2026, Postmaster General David Steiner told the Associated Press the Postal Service had stopped building the system. \"There's an injunction so we're not doing anything,\" he said. A memo to all postal employees the previous day said the agency would \"not be enforcing any of these new rules in the 2026 federal election,\" and that \"First and foremost, for Election Mail it is business as usual.\"",
+      "Steiner said he had planned to launch the citizenship-check portal around September 15. He also said the Postal Service will keep pushing states toward barcoded ballot envelopes in future cycles through pricing rather than a mandate: \"If you use the barcode in the envelope, we'll charge you a lower price. If you don't, we're going to charge you a higher price.\" The scheme is paused for this election, not abandoned."
     ],
     "take": "The legal fight and the practical one have separated, and the practical one now has a number attached. Talwani blocked the rule on both the law and the calendar, and a postal official has since described a system built in weeks instead of a year with its testing removed. Note what the batch rule would do if it holds: one unmatched record does not delay one ballot, it returns ten thousand. Whether the rule survives appeal matters less to November than whether the machinery behind it works at all, and the people building it are saying it does not.",
     "sources": [
@@ -358,6 +360,10 @@
       {
         "text": "CBS News: Supreme Court blocks new Postal Service rules for mail ballots in blow to Trump",
         "url": "https://www.cbsnews.com/news/supreme-court-blocks-new-postal-service-mail-ballots-trump/"
+      },
+      {
+        "text": "AP: Postal Service chief says work stopped on computer system key to Trump effort to limit mail voting",
+        "url": "https://apnews.com/article/trump-mail-ballot-us-postal-service-995f98147fbb49fb71696be824abff95"
       }
     ],
     "trackerIds": [
@@ -517,7 +523,9 @@
     "facts": [
       "A federal whistleblower's disclosure, published September 14, 2026 by Sens. Chuck Schumer and Alex Padilla, alleges that a DHS program called the \"Unlawful Voter Initiative\" directed USCIS employees to pose as individual voters to access their records on state voter-lookup websites. The report says the program \"has potentially already committed thousands of violations of state law.\"",
       "According to the report, officers had a quota of 40 people a day, \"giving officers only twelve minutes to determine if a subject is a U.S. citizen,\" and training material acknowledged \"there will be U.S. citizens in this population.\" Officers who raised legal concerns were told they were \"not personally liable.\"",
-      "DHS said it \"accessed publicly available data from states' voter rolls and cross referenced them with known aliens in our systems.\" The claims are allegations; no court, inspector general or state has confirmed the searches broke state law."
+      "DHS said it \"accessed publicly available data from states' voter rolls and cross referenced them with known aliens in our systems.\" The claims are allegations; no court, inspector general or state has confirmed the searches broke state law.",
+      "On September 17, 2026, Virginia Attorney General Jay Jones wrote to Homeland Security Secretary Markwayne Mullin saying the department may have violated several state laws, and demanded it preserve access logs, correspondence and training materials. Virginia's voter-lookup tool is limited to people who attest under penalty of law that they are searching their own record, and Jones wrote that \"Virginia Election Code does not permit disclosure of this protected information to the federal government without a court order.\"",
+      "The Associated Press reported that USCIS staff were made in late August to drop other work, complete a training of under two hours, and begin running department-supplied lists through state voter registration systems at roughly 40 people per day. DHS had not responded at publication, and no court has ruled."
     ],
     "sources": [
       {
@@ -535,10 +543,40 @@
       {
         "text": "Sen. Alex Padilla: Padilla, Schumer announce DHS whistleblower report",
         "url": "https://www.padilla.senate.gov/newsroom/press-releases/padilla-schumer-announce-dhs-whistleblower-report-revealing-trump-administration-directed-officers-to-break-state-laws-in-voter-fraud-hunt/"
+      },
+      {
+        "text": "AP: Virginia's attorney general says DHS may have violated state election law after whistleblower report",
+        "url": "https://apnews.com/article/trump-virginia-noncitizen-voting-homeland-security-whistleblower-20efdeabce03a1ae941f8e203d24d9e3"
       }
     ],
     "trackerIds": [
       "dhs-whistleblower-unlawful-voter-initiative-state-voter-portals"
+    ]
+  },
+  {
+    "id": "osce-observers-uninvited",
+    "title": "The International Observers Who Have Watched Every U.S. Election Since 2002 Say No Invitation Came",
+    "category": "referees",
+    "status": "active",
+    "date": "2026-09-16",
+    "trackerIds": [
+      "osce-odihr-election-observers-not-invited-2026-midterms"
+    ],
+    "facts": [
+      "The Organization for Security and Cooperation in Europe has observed every U.S. federal election since 2002, always after an invitation from the sitting administration. With the midterms set for November 3, its election-monitoring office says the invitation has not arrived. \"The Office sends a needs assessment mission upon receiving an invitation from the OSCE participating State where the elections are occurring,\" a spokesperson said on September 16, 2026. \"We are currently waiting on that invitation from the United States.\"",
+      "The obligation is mutual and comes from the 1990 OSCE Copenhagen Document, signed by 57 states. ODIHR begins with a needs assessment sent only once an invitation arrives, and in past cycles published that assessment far earlier than this. The absence was visible in July, when a commentary noted from ODIHR's public calendar that the midterms were listed with no assessment recorded.",
+      "This is an absence, not an announced decision. No U.S. official has said observers will not be invited, and the State Department did not respond to a request for comment."
+    ],
+    "take": "An invitation nobody sent is not proof of intent. But the United States spent two decades asking other countries to open their elections to the same scrutiny, on the theory that a government with nothing to hide has no reason to refuse. The silence is the whole story here, and it is a silence the State Department chose not to break.",
+    "sources": [
+      {
+        "text": "Democracy Docket: These international observers have monitored US elections for decades. This time, the Trump admin didn't invite them",
+        "url": "https://www.democracydocket.com/news-alerts/exclusive-these-international-observers-have-monitored-us-elections-for-decades-this-time-the-trump-admin-didnt-invite-them/"
+      },
+      {
+        "text": "The Fulcrum via IVN: No Watchdogs Allowed: How the U.S. Is Quietly Shutting Out Election Scrutiny",
+        "url": "https://ivn.us/no-watchdogs-allowed-how-the-u-s-is-quietly-shutting-out-election-scrutiny/"
+      }
     ]
   },
   {
@@ -734,7 +772,9 @@
     "facts": [
       "On May 10, 2026, Trump announced on Truth Social that Republicans will field an \"Election Integrity Army\" for the midterms, \"much bigger and stronger\" than 2024's poll-watching operation, without saying who would be in it or how large it would be.",
       "It is the third parallel route to force at the polls floated in 2026, alongside Bannon's ICE threat and Hegseth's refusal to rule out following an order to deploy troops.",
-      "Sen. Chuck Schumer: \"Donald Trump knows, his party knows, that they're at risk of losing this election in 2026, which is why they're working round the clock to tilt the scales unfairly in their favor.\""
+      "Sen. Chuck Schumer: \"Donald Trump knows, his party knows, that they're at risk of losing this election in 2026, which is why they're working round the clock to tilt the scales unfairly in their favor.\"",
+      "On September 17, 2026, Defense Undersecretary for Policy Elbridge Colby was asked in a closed Senate Armed Services briefing whether he had ever discussed deploying the National Guard for voter security on Election Day. He said he had heard of such discussions but was not leading on the issue. Sen. Kevin Cramer (R-ND) said he \"never once said 'yes' or 'no.'\"",
+      "The administration does have an answer on paper: Gen. Dan Caine wrote to Sen. Elissa Slotkin in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\" What Colby declined to do was repeat that under questioning."
     ],
     "sources": [
       {
@@ -744,10 +784,15 @@
       {
         "text": "The New Republic: Trump blurts vile plot to steal midterms as crushing new poll hits",
         "url": "https://newrepublic.com/article/210212/trump-blurts-vile-plot-steal-midterms-crushing-new-poll-hits"
+      },
+      {
+        "text": "AP: Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
+        "url": "https://apnews.com/article/pentagon-congress-colby-iran-war-troops-elections-e75c77fb1b6773ccc5f3c715de9359e5"
       }
     ],
     "trackerIds": [
-      "trump-election-integrity-army-2026-midterm-rigging-signal"
+      "trump-election-integrity-army-2026-midterm-rigging-signal",
+      "colby-nds-briefing-senators-both-parties-national-guard-polling-places"
     ]
   },
   {
@@ -2188,6 +2233,32 @@
     "trackerIds": [
       "kimmel-talarico-interview-youtube-only-fcc-threats",
       "cbs-colbert-fcc-censorship"
+    ]
+  },
+  {
+    "id": "redistricting-34-million",
+    "title": "The Redistricting War Has Moved 34.8 Million Americans Into New Districts",
+    "category": "maps",
+    "status": "record",
+    "date": "2026-09-17",
+    "trackerIds": [
+      "redistricting-war-34-8-million-americans-new-house-districts"
+    ],
+    "facts": [
+      "A September 17, 2026 report by the nonprofit Protect Democracy found that 34.8 million people, about one in ten Americans, now live in a different congressional district than they did during the 2024 cycle. About one-fifth of Americans live in a district where more than a quarter of the electorate is new.",
+      "Both the Associated Press and Democracy Docket trace the origin to Trump. AP wrote that the battle \"began when Trump urged the Republican-controlled legislature in Texas, the second most populous state, to redraw its congressional map to help the party.\" California responded in kind and the practice spread; Democracy Docket counts at least nine states that have redistricted since 2024.",
+      "Redrawing maps between censuses is legal but was close to taboo. Per Pew Research, in the past 50 years a state redrew its map outside the normal ten-year cycle only twice before this round."
+    ],
+    "take": "Gerrymandering is old and bipartisan. What is new is the tempo. When maps can be redrawn any time the party in power wants a better result, the district stops being a place and becomes a bid, and the voter stops choosing the representative. Protect Democracy calls it a doom loop; the arithmetic is that one in ten Americans had their district changed between elections without moving house.",
+    "sources": [
+      {
+        "text": "AP: The fight over congressional maps put nearly 35 million people into new House districts, report says",
+        "url": "https://indepthnh.org/2026/09/17/the-fight-over-congressional-maps-put-nearly-35-million-people-into-new-house-districts-report-says/"
+      },
+      {
+        "text": "Democracy Docket: Trump started a redistricting war. Now 1 in 10 Americans are in new House districts",
+        "url": "https://www.democracydocket.com/news-alerts/trump-redistricting-war/"
+      }
     ]
   }
 ]
