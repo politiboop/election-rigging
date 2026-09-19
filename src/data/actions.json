@@ -774,7 +774,9 @@
       "It is the third parallel route to force at the polls floated in 2026, alongside Bannon's ICE threat and Hegseth's refusal to rule out following an order to deploy troops.",
       "Sen. Chuck Schumer: \"Donald Trump knows, his party knows, that they're at risk of losing this election in 2026, which is why they're working round the clock to tilt the scales unfairly in their favor.\"",
       "On September 17, 2026, Defense Undersecretary for Policy Elbridge Colby was asked in a closed Senate Armed Services briefing whether he had ever discussed deploying the National Guard for voter security on Election Day. He said he had heard of such discussions but was not leading on the issue. Sen. Kevin Cramer (R-ND) said he \"never once said 'yes' or 'no.'\"",
-      "The administration does have an answer on paper: Gen. Dan Caine wrote to Sen. Elissa Slotkin in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\" What Colby declined to do was repeat that under questioning."
+      "The administration does have an answer on paper: Gen. Dan Caine wrote to Sen. Elissa Slotkin in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\" What Colby declined to do was repeat that under questioning.",
+      "Two federal suits are now pending, both in the District of Columbia before Judge Loren AliKhan. LULAC v. Department of Homeland Security, filed September 10, 2026, pleads Administrative Procedure Act claims premised on 18 U.S.C. § 592. NAACP v. Department of Homeland Security, filed September 18 by nine organizations, pleads a single claim under Section 11(b) of the Voting Rights Act.",
+      "Section 592 dates to an Act of February 25, 1865 and bars ordering troops or armed men to any place where an election is held. Congress repealed its exception for keeping the peace at the polls in 1909, leaving only the authority to repel armed enemies. Neither case had produced a ruling as of September 19."
     ],
     "sources": [
       {
@@ -788,11 +790,20 @@
       {
         "text": "AP: Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
         "url": "https://apnews.com/article/pentagon-congress-colby-iran-war-troops-elections-e75c77fb1b6773ccc5f3c715de9359e5"
+      },
+      {
+        "text": "NAACP v. Department of Homeland Security: complaint (D.D.C., September 18, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.296692/gov.uscourts.dcd.296692.1.0.pdf"
+      },
+      {
+        "text": "NPR: It's illegal for armed federal officers to be at polls. Lawsuits seek to ensure that",
+        "url": "https://www.npr.org/2026/09/18/nx-s1-5965823/ice-polling-places-concerns-lawsuits"
       }
     ],
     "trackerIds": [
       "trump-election-integrity-army-2026-midterm-rigging-signal",
-      "colby-nds-briefing-senators-both-parties-national-guard-polling-places"
+      "colby-nds-briefing-senators-both-parties-national-guard-polling-places",
+      "white-house-ice-polling-places-midterms"
     ]
   },
   {
@@ -1905,6 +1916,36 @@
     ]
   },
   {
+    "id": "white-house-press-ban-cnn-msnow-politico",
+    "title": "Six Weeks Before the Election, Three News Organizations Are Barred From the White House",
+    "category": "referees",
+    "status": "active",
+    "date": "2026-09-18",
+    "trackerIds": [
+      "trump-bans-cnn-ms-now-politico-white-house-hard-passes-confiscated"
+    ],
+    "facts": [
+      "On September 18, 2026 Trump posted that \"effective immediately, I am banning Fake News CNN, MSNOW... and Politico... from the White House as a result of their constant 'reporting' FAKE NEWS!\" He ended: \"Other Fake News Media Outlets to follow.\" In the Oval Office he described the scope himself: \"It's a very simple ban. I don't want them in my office. I don't want them here. I would say the ban would go as far as you can.\"",
+      "The next morning it was carried out. Hard passes were deactivated and physically confiscated at the security kiosk. Three named reporters and at least two camera operators were turned away, and CBS News witnessed part of it. No written notice or explanation was given, and the White House press office has issued no statement of its own.",
+      "Under Sherrill v. Knight, the 1977 case governing White House credentials, access cannot be denied based on the content of coverage, and any denial requires notice, a chance to respond and a decision in writing. Trump cited no specific article and said the ban could be lifted if the outlets \"could straighten themselves out.\" Asked whether it would survive court review, he said, \"I don't think that a court should allow fake news to be written day after day after day.\""
+    ],
+    "take": "Election coverage is the part of the press's job that most directly touches this page's subject. Removing three newsrooms from the building six weeks out does not stop them reporting, and courts reversed the two closest precedents. But the condition Trump attached is the part to keep hold of: the ban lifts if the coverage changes. That is not a dispute about access. It is a price quoted for favorable reporting during an election.",
+    "sources": [
+      {
+        "text": "Trump's Truth archive: September 18, 2026 post announcing the ban",
+        "url": "https://www.trumpstruth.org/statuses/41800"
+      },
+      {
+        "text": "CNN: CNN, MS NOW and Politico denied access to White House after Trump ban",
+        "url": "https://www.cnn.com/2026/09/19/media/trump-msnow-cnn-politico-white-house-ban"
+      },
+      {
+        "text": "CBS News: CNN, MS NOW and Politico staffers turned away from White House after Trump ban",
+        "url": "https://www.cbsnews.com/news/white-house-media-ban-ms-now-politico-cnn-trump/"
+      }
+    ]
+  },
+  {
     "id": "musk-georgia-ballot-applications",
     "title": "Georgia's Election Board Reprimands Musk's America PAC for Mailing Prefilled Absentee Ballot Applications",
     "date": "2026-02-19",
@@ -2258,6 +2299,32 @@
       {
         "text": "Democracy Docket: Trump started a redistricting war. Now 1 in 10 Americans are in new House districts",
         "url": "https://www.democracydocket.com/news-alerts/trump-redistricting-war/"
+      }
+    ]
+  },
+  {
+    "id": "maga-inc-my-money-fec-complaint",
+    "title": "The President Says the Super PAC's Billion Dollars Is 'My Money That I Control'",
+    "category": "machinery",
+    "status": "record",
+    "date": "2026-09-14",
+    "trackerIds": [
+      "campaign-legal-center-fec-complaint-trump-directing-maga-inc-soft-money"
+    ],
+    "facts": [
+      "Federal law bars a federal officeholder from directing the spending of an organization that accepts unlimited contributions. On September 14, 2026 the Campaign Legal Center filed a complaint with the Federal Election Commission against Trump, the super PAC MAGA Inc. and its treasurer under that provision, 52 U.S.C. § 30125(e)(1)(A).",
+      "The evidence is almost entirely Trump's own public statements. Corrected by an interviewer who described the money as belonging to his allies, he said, \"Not my allies, I control it.\" In the Oval Office on September 4 he said, \"I think I have like close to a billion dollars in the super PAC, and I'm allocating probably $400, $500 million,\" and, asked how he decides, \"How do I make it? I sit down and I say, 'let's do this, let's do that.'\" He also said: \"this is money from MAGA Inc. This is my money that I control.\"",
+      "MAGA Inc. calls the complaint \"frivolous\" and says it \"fully complies with the law.\" A complaint is an allegation, not a finding, and this one is unlikely to become either: the Federal Election Commission has two of six commissioners confirmed, too few to hold a formal meeting. Meanwhile MAGA Inc. has reported $10 million spent on the Texas Senate race, with nearly $140 million more reserved by related committees."
+    ],
+    "take": "The soft-money rule exists so that an officeholder cannot personally direct unlimited money into their own party's races. Whether Trump broke it is for an agency that cannot currently convene to decide. What is not in dispute is that he described the arrangement the rule forbids, out loud, more than once, in the belief that saying so cost him nothing.",
+    "sources": [
+      {
+        "text": "Campaign Legal Center: complaint to the Federal Election Commission regarding Donald J. Trump and Make America Great Again Inc.",
+        "url": "https://campaignlegal.org/sites/default/files/2026-09/MAGAIncSoftMoneyComplaint.pdf"
+      },
+      {
+        "text": "The Washington Sun: Trump Calling MAGA Inc. Funds 'My Money' Spurs FEC Complaint",
+        "url": "https://www.washingtonsun.com/money/trump-maga-inc-my-money-fec-complaint"
       }
     ]
   }
