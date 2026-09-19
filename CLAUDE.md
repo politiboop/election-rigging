@@ -157,6 +157,47 @@ It also checks that every `trackerId` resolves to a real entry file and that no 
 Exits non-zero, so it can gate a commit. Run it after any tracker-side correction too, not just when
 adding cards here: fixing a fabricated URL in `controversial-trump` can orphan a card that quoted it.
 
+## Style check (automatic)
+
+A `PostToolUse` hook wired in `.claude/settings.json` runs `.claude/hooks/style-check.mjs`
+after every Write or Edit. It only acts on `src/data/{actions,history,evidence}.json` and
+`src/pages/*.astro`; everything else exits 0 immediately.
+
+It reads the file **from disk**, not from the tool payload. PostToolUse fires after the write,
+so the file is already there — and an Edit, which carries only its replacement string, gets
+checked in full instead of passing vacuously. (That vacuous pass is a real defect in the
+sibling Civics Desk hook, which reads `.tool_input.content`.)
+
+What it enforces:
+
+| Rule | Threshold |
+|---|---|
+| Em dash in a card or section title | none allowed — this repo's headline rule |
+| Em dashes stacked in one fact, take or line | 3 or more fails |
+| Em dash density across our prose | fails below 1 per 80 words (target 150-200) |
+| AI phrases | the Civics Desk list of 43; any hit fails |
+| `let's` addressing the reader | more than 2 fails |
+| Emoji | none allowed |
+
+**Context matters, and the hook knows the difference.** Text inside `"…"` is a source's own
+words and is exempt from the phrase, `let's` and em-dash checks; `sources[].text` is an
+outlet's headline as published and is exempt too. Without that, the hook would fail on
+correct content every time somebody quotes Trump saying "let's do this, let's do that."
+Only `facts`, `take`, `unprecedented`, `legal.basis`, the evidence prose and the page copy
+count as ours.
+
+Run it by hand against any file:
+
+```bash
+echo '{"tool_input":{"file_path":"'$PWD'/src/data/actions.json"}}' | node .claude/hooks/style-check.mjs
+```
+
+It exits 2 with the offending locations on stderr, so it also works as a pre-commit gate.
+Deliberately not checked: the "X not Y" construction. It reads as an AI tell in rhetoric, but
+on this site it is almost always a precision caveat marking what the evidence does and does not
+support ("This is an absence, not an announced decision"), which is what the Method section
+promises. Flagging it would train the wrong instinct.
+
 ## Design notes
 
 - Dark theme only. Status palette is **validated** (dataviz six-checks, surface `#101318`):
