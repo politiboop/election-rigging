@@ -525,7 +525,8 @@
       "According to the report, officers had a quota of 40 people a day, \"giving officers only twelve minutes to determine if a subject is a U.S. citizen,\" and training material acknowledged \"there will be U.S. citizens in this population.\" Officers who raised legal concerns were told they were \"not personally liable.\"",
       "DHS said it \"accessed publicly available data from states' voter rolls and cross referenced them with known aliens in our systems.\" The claims are allegations; no court, inspector general or state has confirmed the searches broke state law.",
       "On September 17, 2026, Virginia Attorney General Jay Jones wrote to Homeland Security Secretary Markwayne Mullin saying the department may have violated several state laws, and demanded it preserve access logs, correspondence and training materials. Virginia's voter-lookup tool is limited to people who attest under penalty of law that they are searching their own record, and Jones wrote that \"Virginia Election Code does not permit disclosure of this protected information to the federal government without a court order.\"",
-      "The Associated Press reported that USCIS staff were made in late August to drop other work, complete a training of under two hours, and begin running department-supplied lists through state voter registration systems at roughly 40 people per day. DHS had not responded at publication, and no court has ruled."
+      "The Associated Press reported that USCIS staff were made in late August to drop other work, complete a training of under two hours, and begin running department-supplied lists through state voter registration systems at roughly 40 people per day. DHS had not responded at publication, and no court has ruled.",
+      "Part of the account now has sworn support. In a September 14 court filing, a senior official in the immigration agency's fraud unit swore that the unit \"has been investigating potential illegal voting by aliens who are not lawfully permitted to vote\" and had used Social Security Administration data to help determine \"whether illegal voting may have occurred.\" The filing does not address officers posing as voters on state websites. Eighteen senators asked the DHS inspector general to investigate immediately; DHS said the media was \"conjuring controversy out of commonplace law enforcement.\""
     ],
     "sources": [
       {
@@ -547,6 +548,14 @@
       {
         "text": "AP: Virginia's attorney general says DHS may have violated state election law after whistleblower report",
         "url": "https://apnews.com/article/trump-virginia-noncitizen-voting-homeland-security-whistleblower-20efdeabce03a1ae941f8e203d24d9e3"
+      },
+      {
+        "text": "League of Women Voters v. DHS (D.D.C.): Declaration of Nicolas S. Bartell, Doc. 146-1",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.285454/gov.uscourts.dcd.285454.146.1.pdf"
+      },
+      {
+        "text": "Sen. Padilla et al.: Letter to DHS Inspector General Cuffari (September 17, 2026)",
+        "url": "https://www.padilla.senate.gov/wp-content/uploads/09.17.26-DHS-OIG-investigation-request-letter-re-USCIS-whistleblower.pdf"
       }
     ],
     "trackerIds": [
@@ -1937,7 +1946,8 @@
       "On September 18, 2026 Trump posted that \"effective immediately, I am banning Fake News CNN, MSNOW... and Politico... from the White House as a result of their constant 'reporting' FAKE NEWS!\" He ended: \"Other Fake News Media Outlets to follow.\" In the Oval Office, asked what the ban would look like, he said, per the Roll Call Factbase transcript: \"Oh, the ban on the free press, right? Uh, a very simple ban. I don't want them in my office. I don't want them here. I would say the ban would go as far as you can.\"",
       "The next morning it was carried out. Hard passes were deactivated and physically confiscated at the security kiosk. Three named reporters and at least two camera operators were turned away, and CBS News witnessed part of it. No written notice or explanation was given, and the White House press office has issued no statement of its own.",
       "Under Sherrill v. Knight, the 1977 case governing White House credentials, access cannot be denied based on the content of coverage, and any denial requires notice, a chance to respond and a decision in writing. Trump cited no specific article and said the ban could be lifted if the outlets \"could straighten themselves out.\" Asked whether it would survive court review, he said, \"I don't think that a court should allow fake news to be written day after day after day.\"",
-      "On September 21 the three outlets said they were filing suit that day in federal court in Washington on due process and First Amendment grounds; the complaint they released had no case number yet, so the filing itself was not confirmed when this was written. The night before, at 10:55 p.m., the White House removed CNN as the next day's television pool network, including Trump's trip to the U.N. General Assembly. That morning Trump gave a rationale he had not used before, writing of what he calls the fake news, \"It is a threat to our National Security, and must be stopped, NOW!\""
+      "On September 21 the three outlets said they were filing suit that day in federal court in Washington on due process and First Amendment grounds; the case, Cable News Network, Inc. v. Trump, No. 1:26-cv-03287, was filed that day and assigned to Judge Timothy J. Kelly, a Trump appointee who ruled for CNN in the 2018 Jim Acosta pass case. A hearing on restoring the passes is set for September 23. The night before, at 10:55 p.m., the White House removed CNN as the next day's television pool network, including Trump's trip to the U.N. General Assembly. That morning Trump gave a rationale he had not used before, writing of what he calls the fake news, \"It is a threat to our National Security, and must be stopped, NOW!\"",
+      "The other networks declined to replace CNN. Fox News's Washington bureau chief, who chairs the television pool, told members that \"effective today, the TV pool will not be covering events designated as pool coverage of the President,\" and that \"There will be no replacement pool put in place.\" Fox News Media, ABC News, CBS News, CNN and NBC News said jointly, \"No administration should restrict a news organization because it objects to its reporting.\" Print, radio and photo pools continued, and the networks still cover open events with their own crews."
     ],
     "take": "Election coverage is the part of the press's job that most directly touches this page's subject. Removing three newsrooms from the building six weeks out does not stop them reporting, and courts reversed the two closest precedents. But the condition Trump attached is the part to keep hold of: the ban lifts if the coverage changes. That is not a dispute about access. It is a price quoted for favorable reporting during an election.",
     "sources": [
@@ -1964,6 +1974,18 @@
       {
         "text": "Trump's Truth archive: September 21, 2026 post calling the press 'a threat to our National Security'",
         "url": "https://www.trumpstruth.org/statuses/41826"
+      },
+      {
+        "text": "CourtListener: Cable News Network, Inc. v. Trump, No. 1:26-cv-03287 (D.D.C.), docket",
+        "url": "https://www.courtlistener.com/docket/74823502/cable-news-network-inc-v-trump/"
+      },
+      {
+        "text": "Fox News: White House TV pool to suspend coverage of Trump events",
+        "url": "https://www.foxnews.com/media/white-house-tv-pool-to-suspend-coverage-of-trump-events"
+      },
+      {
+        "text": "Politico: Major TV networks decline White House pool duties",
+        "url": "https://www.politico.com/news/2026/09/21/networks-white-house-pool-duty-01086044"
       }
     ]
   },
