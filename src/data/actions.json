@@ -1947,7 +1947,8 @@
       "The next morning it was carried out. Hard passes were deactivated and physically confiscated at the security kiosk. Three named reporters and at least two camera operators were turned away, and CBS News witnessed part of it. No written notice or explanation was given, and the White House press office has issued no statement of its own.",
       "Under Sherrill v. Knight, the 1977 case governing White House credentials, access cannot be denied based on the content of coverage, and any denial requires notice, a chance to respond and a decision in writing. Trump cited no specific article and said the ban could be lifted if the outlets \"could straighten themselves out.\" Asked whether it would survive court review, he said, \"I don't think that a court should allow fake news to be written day after day after day.\"",
       "On September 21 the three outlets said they were filing suit that day in federal court in Washington on due process and First Amendment grounds; the case, Cable News Network, Inc. v. Trump, No. 1:26-cv-03287, was filed that day and assigned to Judge Timothy J. Kelly, a Trump appointee who ruled for CNN in the 2018 Jim Acosta pass case. A hearing on restoring the passes is set for September 23. The night before, at 10:55 p.m., the White House removed CNN as the next day's television pool network, including Trump's trip to the U.N. General Assembly. That morning Trump gave a rationale he had not used before, writing of what he calls the fake news, \"It is a threat to our National Security, and must be stopped, NOW!\"",
-      "The other networks declined to replace CNN. Fox News's Washington bureau chief, who chairs the television pool, told members that \"effective today, the TV pool will not be covering events designated as pool coverage of the President,\" and that \"There will be no replacement pool put in place.\" Fox News Media, ABC News, CBS News, CNN and NBC News said jointly, \"No administration should restrict a news organization because it objects to its reporting.\" Print, radio and photo pools continued, and the networks still cover open events with their own crews."
+      "The other networks declined to replace CNN. Fox News's Washington bureau chief, who chairs the television pool, told members that \"effective today, the TV pool will not be covering events designated as pool coverage of the President,\" and that \"There will be no replacement pool put in place.\" Fox News Media, ABC News, CBS News, CNN and NBC News said jointly, \"No administration should restrict a news organization because it objects to its reporting.\" Print, radio and photo pools continued, and the networks still cover open events with their own crews.",
+      "Before the judge had ruled, Trump wrote that Kelly \"was, sadly, appointed by 'TRUMP.' In other words, almost without question and, as usual, we'll go for appeal.\" The White House published a defense titled \"White House Access Is a Privilege, Not a Right.\" Photographers for the Washington Post, the New York Times, AP, Reuters, Getty and AFP held their pictures of his September 21 events, and NPR said it would not use White House audio. That evening the White House launched \"Trump TV,\" a 24-hour stream of its own past clips, which opened with a two-month-old speech at Mount Rushmore."
     ],
     "take": "Election coverage is the part of the press's job that most directly touches this page's subject. Removing three newsrooms from the building six weeks out does not stop them reporting, and courts reversed the two closest precedents. But the condition Trump attached is the part to keep hold of: the ban lifts if the coverage changes. That is not a dispute about access. It is a price quoted for favorable reporting during an election.",
     "sources": [
@@ -1986,6 +1987,22 @@
       {
         "text": "Politico: Major TV networks decline White House pool duties",
         "url": "https://www.politico.com/news/2026/09/21/networks-white-house-pool-duty-01086044"
+      },
+      {
+        "text": "Trump's Truth archive: September 21, 2026 post on the lawsuit and Judge Kelly",
+        "url": "https://www.trumpstruth.org/statuses/41836"
+      },
+      {
+        "text": "The White House: White House Access Is a Privilege, Not a Right",
+        "url": "https://www.whitehouse.gov/releases/2026/09/white-house-access-is-a-privilege-not-a-right/"
+      },
+      {
+        "text": "CNN: Trump's press ban prompts widespread solidarity, and fewer images of the president",
+        "url": "https://www.cnn.com/2026/09/22/media/trump-cnn-msnow-politico-white-house-ban-solidarity-media"
+      },
+      {
+        "text": "NOTUS: Days After Press Ban, White House Launches 'Trump TV', a 24/7 Clip Show",
+        "url": "https://www.notus.org/trump-white-house/white-house-announces-trump-tv"
       }
     ]
   },
@@ -2327,13 +2344,14 @@
     "status": "record",
     "date": "2026-09-17",
     "trackerIds": [
-      "redistricting-war-34-8-million-americans-new-house-districts"
+      "redistricting-war-34-8-million-americans-new-house-districts",
+      "eighth-circuit-orders-missouri-use-trump-backed-2025-map"
     ],
     "facts": [
       "A September 17, 2026 report by the nonprofit Protect Democracy found that 34.8 million people, about one in ten Americans, now live in a different congressional district than they did during the 2024 cycle. About one-fifth of Americans live in a district where more than a quarter of the electorate is new.",
       "Both the Associated Press and Democracy Docket trace the origin to Trump. AP wrote that the battle \"began when Trump urged the Republican-controlled legislature in Texas, the second most populous state, to redraw its congressional map to help the party.\" California responded in kind and the practice spread; Democracy Docket counts at least nine states that have redistricted since 2024.",
       "Redrawing maps between censuses is legal but was close to taboo. Per Pew Research, in the past 50 years a state redrew its map outside the normal ten-year cycle only twice before this round.",
-      "Missouri shows how unsettled the maps still are. As of September 19, overseas ballots had gone out under the state's 2022 map while Republicans asked the Eighth Circuit to restore the 2025 map drawn at Trump's urging; the court had not ruled, the Missouri Independent reported."
+      "Missouri shows how unsettled the maps still are. The state held its August primaries under the 2025 map drawn at Trump's urging, and on September 3 the Missouri Supreme Court ruled it could not be used in November; overseas ballots then went out under the 2022 map. On September 21 a panel of the Eighth Circuit ordered the 2025 map used anyway, holding that \"Only use of the 2025 map complies with the Constitution and federal law,\" and stayed its order until September 28 so the Supreme Court can weigh in. Trump's Justice Department had urged the justices to side with the map's Republican backers."
     ],
     "take": "Gerrymandering is old and bipartisan. What is new is the tempo. When maps can be redrawn any time the party in power wants a better result, the district stops being a place and becomes a bid, and the voter stops choosing the representative. Protect Democracy calls it a doom loop; the arithmetic is that one in ten Americans had their district changed between elections without moving house.",
     "sources": [
@@ -2348,6 +2366,14 @@
       {
         "text": "Missouri Independent: Missouri election officials begin mailing ballots as they await ruling on congressional map",
         "url": "https://missouriindependent.com/2026/09/19/missouri-election-officials-begin-mailing-ballots-as-they-await-ruling-on-congressional-map/"
+      },
+      {
+        "text": "AP: Appeals court favors Trump-backed Missouri congressional map, but Supreme Court will have final say",
+        "url": "https://www.click2houston.com/news/politics/2026/09/21/appeals-court-favors-trump-backed-missouri-congressional-map-but-supreme-court-will-have-final-say/"
+      },
+      {
+        "text": "CNN: Supreme Court deals another blow to GOP hopes of capturing extra congressional seat",
+        "url": "https://www.cnn.com/2026/09/10/politics/supreme-court-missouri-congressional-map-republicans"
       }
     ]
   },
@@ -2363,7 +2389,8 @@
     "facts": [
       "Federal law bars a federal officeholder from directing the spending of an organization that accepts unlimited contributions. On September 14, 2026 the Campaign Legal Center filed a complaint with the Federal Election Commission against Trump, the super PAC MAGA Inc. and its treasurer under that provision, 52 U.S.C. § 30125(e)(1)(A).",
       "The evidence is almost entirely Trump's own public statements. Corrected by an interviewer who described the money as belonging to his allies, he said, \"Not my allies, I control it.\" In the Oval Office on September 4 he said, \"I think I have like close to a billion dollars in the super PAC, and I'm allocating probably $400, $500 million,\" and, asked how he decides, \"How do I make it? I sit down and I say, 'let's do this, let's do that.'\" He also said: \"this is money from MAGA Inc. This is my money that I control.\"",
-      "MAGA Inc. calls the complaint \"frivolous\" and says it \"fully complies with the law.\" A complaint is an allegation, not a finding, and this one is unlikely to become either: the Federal Election Commission has two of six commissioners confirmed, too few to hold a formal meeting. Meanwhile MAGA Inc. has reported $10 million spent on the Texas Senate race, with nearly $140 million more reserved by related committees."
+      "MAGA Inc. calls the complaint \"frivolous\" and says it \"fully complies with the law.\" A complaint is an allegation, not a finding, and this one is unlikely to become either: the Federal Election Commission has two of six commissioners confirmed, too few to hold a formal meeting. Meanwhile MAGA Inc. has reported $10 million spent on the Texas Senate race, with nearly $140 million more reserved by related committees.",
+      "MAGA Inc.'s report for August, received by the FEC on September 20, showed $415.8 million in cash, less than half the \"close to a billion dollars\" Trump described. Against his promised $400 million to $500 million, CNBC found the super PAC had disclosed about $15 million in September spending, while two new Trump-linked super PACs that share a treasurer and address with MAGA Inc. had reserved about $126 million in ads."
     ],
     "take": "The soft-money rule exists so that an officeholder cannot personally direct unlimited money into their own party's races. Whether Trump broke it is for an agency that cannot currently convene to decide. What is not in dispute is that he described the arrangement the rule forbids, out loud, more than once, in the belief that saying so cost him nothing.",
     "sources": [
@@ -2374,6 +2401,14 @@
       {
         "text": "The Washington Sun: Trump Calling MAGA Inc. Funds 'My Money' Spurs FEC Complaint",
         "url": "https://www.washingtonsun.com/money/trump-maga-inc-my-money-fec-complaint"
+      },
+      {
+        "text": "CNBC: Trump super PAC MAGA Inc. has $415.8 million in new FEC filing",
+        "url": "https://www.cnbc.com/2026/09/21/trump-maga-midterm-spending-war-chest.html"
+      },
+      {
+        "text": "Federal Election Commission: MAGA Inc. monthly report covering August 2026",
+        "url": "https://docquery.fec.gov/pdf/749/202609209908324749/202609209908324749.pdf"
       }
     ]
   }
