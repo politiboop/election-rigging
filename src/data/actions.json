@@ -2342,7 +2342,7 @@
     "title": "The Redistricting War Has Moved 34.8 Million Americans Into New Districts",
     "category": "maps",
     "status": "record",
-    "date": "2026-09-17",
+    "date": "2026-09-23",
     "trackerIds": [
       "redistricting-war-34-8-million-americans-new-house-districts",
       "eighth-circuit-orders-missouri-use-trump-backed-2025-map"
@@ -2351,7 +2351,7 @@
       "A September 17, 2026 report by the nonprofit Protect Democracy found that 34.8 million people, about one in ten Americans, now live in a different congressional district than they did during the 2024 cycle. About one-fifth of Americans live in a district where more than a quarter of the electorate is new.",
       "Both the Associated Press and Democracy Docket trace the origin to Trump. AP wrote that the battle \"began when Trump urged the Republican-controlled legislature in Texas, the second most populous state, to redraw its congressional map to help the party.\" California responded in kind and the practice spread; Democracy Docket counts at least nine states that have redistricted since 2024.",
       "Redrawing maps between censuses is legal but was close to taboo. Per Pew Research, in the past 50 years a state redrew its map outside the normal ten-year cycle only twice before this round.",
-      "Missouri shows how unsettled the maps still are. The state held its August primaries under the 2025 map drawn at Trump's urging, and on September 3 the Missouri Supreme Court ruled it could not be used in November; overseas ballots then went out under the 2022 map. On September 21 a panel of the Eighth Circuit ordered the 2025 map used anyway, holding that \"Only use of the 2025 map complies with the Constitution and federal law,\" and stayed its order until September 28 so the Supreme Court can weigh in. Trump's Justice Department had urged the justices to side with the map's Republican backers."
+      "Missouri shows how unsettled the maps still are. The state held its August primaries under the 2025 map drawn at Trump's urging, and on September 3 the Missouri Supreme Court ruled it could not be used in November; overseas ballots then went out under the 2022 map. On September 21 a panel of the Eighth Circuit ordered the 2025 map used anyway, holding that \"Only use of the 2025 map complies with the Constitution and federal law,\" and stayed its order until September 28 so the Supreme Court can weigh in. Trump's Justice Department had urged the justices to side with the map's Republican backers. Late on September 22 the referendum group went back to the Supreme Court for the third time in three weeks, asking it to clarify that its own September 10 stay already blocks the replacement injunction: \"This Court's stays are not invitations for a lower court to repackage the same relief and try again.\" Justice Kavanaugh asked for a response by 2 p.m. Eastern on September 23. Missouri's county clerks, representing all 116 local election jurisdictions, had told the Eighth Circuit that \"at this point, it is practically impossible to revert to the HB 1 map\"; the panel acknowledged it did not know how many jurisdictions, how much cost or how much time would be involved, then wrote that \"[p]resumably, local election authorities needed only a few days.\" Absentee voting opened September 22."
     ],
     "take": "Gerrymandering is old and bipartisan. What is new is the tempo. When maps can be redrawn any time the party in power wants a better result, the district stops being a place and becomes a bid, and the voter stops choosing the representative. Protect Democracy calls it a doom loop; the arithmetic is that one in ten Americans had their district changed between elections without moving house.",
     "sources": [
@@ -2374,6 +2374,18 @@
       {
         "text": "CNN: Supreme Court deals another blow to GOP hopes of capturing extra congressional seat",
         "url": "https://www.cnn.com/2026/09/10/politics/supreme-court-missouri-congressional-map-republicans"
+      },
+      {
+        "text": "Supreme Court: Emergency Motion to Clarify and Alternative Application for Stay, People Not Politicians v. Onder, No. 26A388 (September 22, 2026)",
+        "url": "https://www.supremecourt.gov/DocketPDF/26/26A388/425276/20260922233012092_2026.09.22%20Von%20Glahn%20v.%20Hoskins_%20Emergency%20Stay%20Application.pdf"
+      },
+      {
+        "text": "Democracy Docket: Missouri election workers warned switching maps this late is 'practically impossible' but the 8th Circuit ordered it anyway (September 22, 2026)",
+        "url": "https://www.democracydocket.com/news-alerts/missouri-election-workers-warned-switching-maps-this-late-is-practically-impossible-but-the-8th-circuit-ordered-it-anyway/"
+      },
+      {
+        "text": "CNN: Missouri's embattled, Trump-backed congressional map returns to Supreme Court for a third time (September 23, 2026)",
+        "url": "https://www.cnn.com/2026/09/23/politics/missouri-redistricting-map-scotus-third-time"
       }
     ]
   },
