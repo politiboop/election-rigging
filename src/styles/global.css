@@ -9,7 +9,10 @@
 
   --text: #e8eaed;
   --text-2: #9aa3ad;
-  --text-3: #6b7480;
+  /* Tertiary text carries source links, dates and labels, mostly at 10-12px.
+     #7f8894 is 5.4:1 on --bg and 5.2:1 on --surface, over the 4.5:1 floor for
+     small text. (The earlier #6b7480 measured 4.1:1 and 3.9:1.) */
+  --text-3: #7f8894;
 
   --brand: #d03b3b;
   --brand-bright: #e5484d;
