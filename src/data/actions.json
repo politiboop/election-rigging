@@ -929,14 +929,15 @@
   {
     "id": "patel-fbi-at-polls",
     "title": "The FBI Director Won't Commit to Keeping Agents Away From the Polls",
-    "date": "2026-09-15",
+    "date": "2026-09-24",
     "category": "force",
     "status": "threatened",
     "facts": [
       "At a Senate Judiciary Committee hearing on September 15, 2026, Sen. Richard Blumenthal asked Kash Patel, \"Can you commit to this committee that you will not send FBI agents to the polls on Election Day?\" Patel said the FBI \"will follow the law,\" and asked whether deploying agents there would be contrary to law, said, \"I don't know that we can't legally do it.\"",
       "Earlier, Sen. Amy Klobuchar asked whether he knew of the Justice Department's long-standing guidance that FBI agents cannot conduct investigations inside polling places on Election Day. Patel answered, \"I'm aware.\"",
       "Later, Sen. Peter Welch read him Rep. John James's claim that \"my friend Kash Patel\" had said the FBI would have a presence in Michigan leading up to Election Day. Patel pointed to election crimes coordinators in all 56 field offices, \"so you bet we're going to have them there,\" then called the suggestion that he had contradicted himself \"just another lie.\"",
-      "Patel did agree, when Sen. Alex Padilla asked, that the FBI has no plans to seize ballots, voting machines or other election material in the midterms. Democracy Docket and Roll Call noted that federal law prohibits armed federal officers at election sites. No FBI clarification of his remarks was reported."
+      "Patel did agree, when Sen. Alex Padilla asked, that the FBI has no plans to seize ballots, voting machines or other election material in the midterms. Democracy Docket and Roll Call noted that federal law prohibits armed federal officers at election sites. No FBI clarification of his remarks was reported.",
+      "On the evening of September 23, 2026 the Democratic Party committees sued. DSCC, DCCC, the Democratic Governors Association, Chuck Schumer and Hakeem Jeffries filed against ICE, DHS, the FBI and their directors in federal court in Washington, pleading the Administrative Procedure Act and Section 11(b) of the Voting Rights Act. It is the third suit in that courthouse on these theories. Their argument is that a written order is not needed for the harm to exist: \"dispatching armed federal agents to the polls, or even threatening to do so, is forbidden by federal law,\" because \"voters need not actually be arrested, questioned, or even approached in order for such threats to intimidate them from exercising the franchise.\" The complaint says the policy \"chills voting everywhere, not only where ICE and FBI agents actually appear.\" The one document it points to is one nobody outside government has read: a withheld ICE file titled \"Checklist for Law Enforcement Voter Integrity 9.15.25 - FINAL DRAFT.\" ICE says a records request turned up 11,103 potentially responsive documents needing about 22 months to process, which is well past the election. No emergency motion has been filed and no judge had been assigned."
     ],
     "take": "Patel did not announce a deployment, and the card does not claim one. What he declined to do is the thing a director who intended no presence at the polls could have done in one sentence. Paired with an FBI that has already seized 2020 ballots in Fulton County and knocked on the doors of Wisconsin election officials, the refusal to say no is itself the signal voters will hear.",
     "sources": [
@@ -959,10 +960,19 @@
       {
         "text": "CBS News: FBI Director Kash Patel pushed on lower hiring standards at FBI, Olympic celebration and Trump-ordered investigations (live updates)",
         "url": "https://www.cbsnews.com/live-updates/fbi-director-kash-patel-testify-senate-panel/"
+      },
+      {
+        "text": "DSCC v. U.S. Immigration and Customs Enforcement, No. 1:26-cv-03330 (D.D.C.): Complaint (September 23, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.296909/gov.uscourts.dcd.296909.1.0.pdf"
+      },
+      {
+        "text": "Democracy Docket: Democrats sue Trump admin to keep armed agents from polls during midterms (September 24, 2026)",
+        "url": "https://www.democracydocket.com/news-alerts/democrats-sue-trump-admin-to-keep-armed-agents-from-polls-during-midterms/"
       }
     ],
     "trackerIds": [
-      "patel-wont-rule-out-fbi-agents-at-polls-senate-hearing"
+      "patel-wont-rule-out-fbi-agents-at-polls-senate-hearing",
+      "white-house-ice-polling-places-midterms"
     ]
   },
   {
