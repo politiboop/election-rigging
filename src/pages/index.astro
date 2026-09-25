@@ -104,7 +104,13 @@ const description = `A sourced, single-page record of ${total} documented action
     <header class="topbar">
       <div class="wrap topbar-inner">
         <a class="wordmark" href="#top">Rigged <em>Before</em> the Vote</a>
-        <nav class="topnav" aria-label="Sections">
+        <span class="countdown-chip" id="countdown-chip"><strong id="days-out">—</strong> days<span class="cd-long"> to the midterms</span></span>
+      </div>
+      <!-- Nine section links never fit beside the wordmark and the chip, even at the
+           widest container, so they get a row of their own that scrolls sideways
+           when the window is too narrow to show them all. -->
+      <nav class="subnav" aria-label="Sections">
+        <div class="wrap subnav-inner">
           <a href="#record">The Record</a>
           <a href="#prehistory">The Prehistory</a>
           <a href="#sequence">The Sequence</a>
@@ -114,9 +120,8 @@ const description = `A sourced, single-page record of ${total} documented action
           <a href="#watch">What to Watch</a>
           <a href="#protect">Protect the Vote</a>
           <a href="#method">Method</a>
-        </nav>
-        <span class="countdown-chip" id="countdown-chip"><strong id="days-out">—</strong> days<span class="cd-long"> to the midterms</span></span>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <main id="top">
@@ -885,6 +890,18 @@ const description = `A sourced, single-page record of ${total} documented action
         syncToViewport();
       })();
 
+      // ── card jump offset ──
+      // Cards sit below the sticky filter bar, whose height changes with the
+      // width (its chip rows wrap) and with the phone collapse. Publish its live
+      // height so a card's scroll-margin clears it at every width.
+      (() => {
+        const bar = document.getElementById('filterbar');
+        if (!bar) return;
+        const publish = () => document.documentElement.style.setProperty('--filter-h', bar.offsetHeight + 'px');
+        publish();
+        new ResizeObserver(publish).observe(bar, { box: 'border-box' });
+      })();
+
       // flag tiles jump + filter
       document.querySelectorAll('[data-goto-flag]').forEach((tile) => {
         tile.addEventListener('click', () => {
@@ -969,13 +986,17 @@ const description = `A sourced, single-page record of ${total} documented action
       window.addEventListener('hashchange', openFromHash);
       if (location.hash) openFromHash();
 
-      // ── scroll-spy topbar ──
-      const navLinks = [...document.querySelectorAll('.topnav a')];
+      // ── scroll-spy on the section row ──
+      const rail = document.querySelector('.subnav-inner');
+      const navLinks = [...document.querySelectorAll('.subnav a')];
       const spy = new IntersectionObserver((entries) => {
         entries.forEach((e) => {
-          if (e.isIntersecting) {
-            navLinks.forEach((l) => l.classList.toggle('is-active', l.getAttribute('href') === '#' + e.target.id));
-          }
+          if (!e.isIntersecting) return;
+          navLinks.forEach((l) => l.classList.toggle('is-active', l.getAttribute('href') === '#' + e.target.id));
+          // When the row is too narrow to show every link, keep the active one in
+          // view. Scroll the row itself, never the page.
+          const on = rail?.querySelector(`a[href="#${e.target.id}"]`);
+          if (rail && on) rail.scrollTo({ left: on.offsetLeft - 16, behavior: reduce ? 'auto' : 'smooth' });
         });
       }, { rootMargin: '-30% 0px -60% 0px' });
       ['record', 'prehistory', 'sequence', 'premise', 'saveact', 'pattern', 'watch', 'protect', 'method'].forEach((id) => {

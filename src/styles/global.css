@@ -30,6 +30,9 @@
   --font-mono: "IBM Plex Mono", "SF Mono", monospace;
 
   --container: 1120px;
+  /* Height of the sticky header: the 54px topbar row plus the 41px section row.
+     The filter bar sticks below it, and every jump target offsets by it. */
+  --head-h: 95px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -66,22 +69,13 @@ a { color: inherit; }
   text-transform: uppercase; text-decoration: none; white-space: nowrap;
 }
 .wordmark em { font-style: normal; color: var(--brand-bright); }
-.topnav { display: flex; gap: 4px; margin-left: auto; }
-.topnav a {
-  font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.04em;
-  text-decoration: none; color: var(--text-2);
-  padding: 6px 10px; border-radius: 4px;
-}
-.topnav a:hover { color: var(--text); background: var(--raised); }
-.topnav a.is-active { color: var(--brand-bright); }
 .countdown-chip {
   font-family: var(--font-mono); font-size: 11.5px; white-space: nowrap;
   color: var(--text); background: var(--raised);
   border: 1px solid var(--line); border-radius: 4px;
-  padding: 5px 10px;
+  padding: 5px 10px; margin-left: auto;
 }
 .countdown-chip strong { color: var(--brand-bright); font-weight: 600; }
-@media (max-width: 860px) { .topnav { display: none; } }
 
 /* On a phone the nowrap wordmark and the full countdown label together exceed
    the viewport, and the chip runs off the right edge. Shorten both: the chip
@@ -90,10 +84,29 @@ a { color: inherit; }
   .topbar-inner { gap: 12px; }
   .wordmark { font-size: 16px; letter-spacing: 0.04em; }
   .cd-long { display: none; }
-  /* .topnav normally carries the margin-left:auto that pushes the chip right,
-     but it is hidden at this width, so the chip has to claim the space. */
-  .countdown-chip { margin-left: auto; }
 }
+
+/* The section links take the header's second row at every width: nine of them
+   never fit on one line beside the wordmark and the chip, and wrapped they
+   overflowed the bar. Sized so all nine fit from about 1000px; narrower, the
+   row scrolls sideways. */
+.subnav { border-top: 1px solid var(--line-soft); }
+.subnav-inner {
+  display: flex; align-items: center; gap: 2px; height: 40px;
+  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.subnav-inner::-webkit-scrollbar { display: none; }
+/* Scroll containers drop their end padding; this keeps the last link off the edge. */
+.subnav-inner::after { content: ""; flex: 0 0 14px; }
+.subnav a {
+  flex: 0 0 auto; white-space: nowrap;
+  font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.04em;
+  text-decoration: none; color: var(--text-2);
+  padding: 6px 8px; border-radius: 4px;
+}
+.subnav a:first-child { margin-left: -8px; }
+.subnav a:hover { color: var(--text); background: var(--raised); }
+.subnav a.is-active { color: var(--brand-bright); background: var(--raised); }
 
 /* ── hero ───────────────────────────────────────────────────────────────── */
 .hero { padding: 72px 0 40px; border-bottom: 1px solid var(--line-soft); }
@@ -270,7 +283,7 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
 .cat-tile .t { font-size: 12.5px; color: var(--text-2); margin-top: 6px; line-height: 1.35; }
 
 /* ── filters ───────────────────────────────────────────────────────────── */
-.filterbar { position: sticky; top: 54px; z-index: 40; background: rgba(11,13,16,0.97); padding: 14px 0; border-bottom: 1px solid var(--line-soft); margin-bottom: 28px; }
+.filterbar { position: sticky; top: var(--head-h); z-index: 40; background: rgba(11,13,16,0.97); padding: 14px 0; border-bottom: 1px solid var(--line-soft); margin-bottom: 28px; }
 .chiprow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .chiprow + .chiprow { margin-top: 8px; }
 .chiprow .rowlbl {
@@ -337,9 +350,6 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
   /* Collapsed state: rows animate to zero height. */
   .filterbar.is-collapsed .filter-rows { grid-template-rows: 0fr; }
   .filterbar.is-collapsed .filter-rows-inner { overflow: hidden; padding-top: 0; }
-
-  /* Cards sit under a shorter bar when collapsed, so tighten the jump offset. */
-  .filterbar.is-collapsed ~ .wrap .card { scroll-margin-top: 110px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -354,9 +364,11 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
   background: var(--surface); border: 1px solid var(--line-soft);
   border-radius: 8px; overflow: hidden;
   border-top: 3px solid var(--card-c, var(--line));
-  scroll-margin-top: 170px;
+  /* Clear the header and the filter bar under it. The page script publishes the
+     bar's live height as --filter-h; 161px is its desktop height, for before it runs. */
+  scroll-margin-top: calc(var(--head-h) + var(--filter-h, 161px) + 16px);
 }
-section { scroll-margin-top: 40px; }
+section { scroll-margin-top: calc(var(--head-h) - 14px); }
 .card[data-status="active"] { --card-c: var(--st-active); }
 .card[data-status="court"] { --card-c: var(--st-court); }
 .card[data-status="threatened"] { --card-c: var(--st-threat); }
