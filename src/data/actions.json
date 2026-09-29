@@ -160,7 +160,8 @@
       "On August 24, 2026, the Supreme Court granted emergency applications from the DOJ and a dozen Republican-led states and lifted, 6-3, Judge Talwani's June injunction blocking the order in the 23 states and D.C. that sued.",
       "The majority ruled on standing, not legality: any injury would come from \"the downstream action that the Secretary might take in the future,\" which was \"no more than conjecture.\" It added that its ruling \"does not mean that any measure taken by the Government to implement the Order will necessarily be lawful.\"",
       "A second, nationwide injunction Talwani issued August 11 in the League of Women Voters case was not before the Court and remains in force, so the order still cannot be implemented for November as of this update.",
-      "Sotomayor and Kagan dissented together, saying the decision \"merely postpones adjudication.\" Jackson dissented separately: the ruling \"needlessly injects chaos and uncertainty into the upcoming midterm elections.\""
+      "Sotomayor and Kagan dissented together, saying the decision \"merely postpones adjudication.\" Jackson dissented separately: the ruling \"needlessly injects chaos and uncertainty into the upcoming midterm elections.\"",
+      "ProPublica reported on September 28, citing several people knowledgeable about the discussions, that the administration first floated requiring every mail ballot to be delivered by certified mail, so voters would have to be home to sign for it, and dropped the idea after Postal Service objections. A top postal official: \"It was just, for many reasons, a terrible idea.\" The White House disputed that the idea was unworkable. The account rests on one outlet and anonymous sources."
     ],
     "sources": [
       {
@@ -198,6 +199,10 @@
       {
         "text": "CBS News: Supreme Court allows Trump to implement key parts of order restricting mail voting ahead of midterms",
         "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"
+      },
+      {
+        "text": "ProPublica: The Untold Origins of Trump's Plan to Sharply Restrict Mail-In Voting",
+        "url": "https://www.propublica.org/article/trumps-plan-to-restrict-mail-voting"
       }
     ],
     "trackerIds": [
@@ -475,7 +480,8 @@
       "EPIC deputy director John Davisson: \"Building a database containing the identities, Social Security numbers, addresses, and citizenship information of every U.S. citizen is an extraordinary illegal overreach.\"",
       "No ruling had issued as of September 3, 2026.",
       "On September 25, 2026, the Supreme Court stayed the June ruling 6-3, letting the government use the rebuilt SAVE system while the appeal goes on. The majority found the administration likely to prevail under a 1996 law and noted that federal law bars systematic purges within 90 days of an election. Justice Ketanji Brown Jackson, dissenting for three: \"[T]he harm caused by burdening or disenfranchising even a few lawful voters outweighs the nonexistent harm that the Government experiences when it is prevented from taking an action that it likely lacks the authority to take.\" At least 67 million registrations have been run through SAVE, the AP reported; in Travis County, Texas, at least 10% of 97 voters it flagged as apparent noncitizens were citizens.",
-      "DHS says election officials in 25 states have run their rolls through SAVE; in Texas it flagged hundreds of people who had registered through the Department of Public Safety, which requires proof of citizenship, Votebeat reported. Georgia will not use it before the midterms. At a September 25 hearing on the separate citizenship-lists portal, a Justice Department attorney told Judge Paula Xinis, \"I can't tell you we won't have a live portal before the midterms,\" Democracy Docket reported; she ordered briefs by October 2."
+      "DHS says election officials in 25 states have run their rolls through SAVE; in Texas it flagged hundreds of people who had registered through the Department of Public Safety, which requires proof of citizenship, Votebeat reported. Georgia will not use it before the midterms. At a September 25 hearing on the separate citizenship-lists portal, a Justice Department attorney told Judge Paula Xinis, \"I can't tell you we won't have a live portal before the midterms,\" Democracy Docket reported; she ordered briefs by October 2.",
+      "After the September 25 hearing, Judge Paula Xinis ordered the government to \"file a NOTICE with this Court thirty (30) days in advance of any activation of the portal or provision of state citizenship lists,\" or immediately if it plans to act sooner. It is a notice requirement, not a bar; her ruling on whether the lists are lawful is pending. Separately, the State Department has told Congress it plans to let passport records be shared through federal verification platforms for checking \"voter eligibility.\""
     ],
     "sources": [
       {
@@ -521,6 +527,14 @@
       {
         "text": "Democracy Docket: 'That is very concerning': Trump admin says it might release voter eligibility lists before midterms (September 25, 2026)",
         "url": "https://www.democracydocket.com/news-alerts/that-is-very-concerning-trump-admin-says-it-might-release-voter-eligibility-lists-before-midterms/"
+      },
+      {
+        "text": "Order, EPIC v. USCIS, No. 8:26-cv-03457 (D. Md., Sept. 25, 2026)",
+        "url": "https://www.courtlistener.com/docket/74728821/electronic-privacy-information-center-v-us-citizenship-and-immigration/"
+      },
+      {
+        "text": "Reuters via WIKY: Trump continues voter data push despite repeated setbacks",
+        "url": "https://wiky.com/2026/09/25/trump-continues-voter-data-push-despite-repeated-setbacks/"
       }
     ],
     "trackerIds": [
@@ -738,15 +752,16 @@
   },
   {
     "id": "dhs-grants-leverage",
-    "title": "Homeland Security Money Becomes Election Leverage",
+    "title": "Homeland Security Money Became Election Leverage, and a Judge Threw the Conditions Out",
     "date": "2026-06-22",
     "category": "data",
-    "status": "active",
+    "status": "court",
     "facts": [
       "In June 2026 the administration moved to condition more than $1 billion in DHS grants, money that funds state and local terrorism prevention, infrastructure protection, and disaster preparedness, on states adopting its election changes.",
       "To keep the funding, states would have to switch to hand-marked paper ballots and run their voter rolls through the contested DHS citizenship database. Refusers reportedly face roughly a 20% cut.",
       "Jurisdictions forced to change include Delaware, Georgia, Nevada, South Carolina, and Los Angeles County. A former DOJ lawyer predicted the requirements \"will be blocked in the courts.\"",
-      "On July 23, 2026, more than two dozen states sued in federal court in Rhode Island over the conditions, which by then extended to FEMA disaster aid: to keep the money, states would have to verify voter citizenship through a federal database, move toward hand-marked paper ballots, run federally prescribed election audits, and cooperate with ICE. The states argue conditioning appropriated funds this way violates the Administrative Procedure Act and the Constitution's Spending Clause."
+      "On July 23, 2026, more than two dozen states sued in federal court in Rhode Island over the conditions, which by then extended to FEMA disaster aid: to keep the money, states would have to verify voter citizenship through a federal database, move toward hand-marked paper ballots, run federally prescribed election audits, and cooperate with ICE. The states argue conditioning appropriated funds this way violates the Administrative Procedure Act and the Constitution's Spending Clause.",
+      "On September 28, 2026, U.S. District Judge Amir Ali vacated the election conditions and the 20 percent holdback in the FY2026 Homeland Security Grant Program, which affected over $200 million, in a suit by Nashville, Columbus and four Texas counties, and refused to limit the relief to those plaintiffs. \"The statute does not authorize FEMA to withhold counterterrorism grants until states and high-risk urban areas achieve policy objectives on their own dime,\" he wrote. The states' separate suit over conditions on disaster aid is still pending."
     ],
     "sources": [
       {
@@ -760,12 +775,24 @@
       {
         "text": "CBS News: 25 states sue FEMA and DHS, accusing Trump administration of withholding funding",
         "url": "https://www.cbsnews.com/news/states-sue-fema-dhs-trump-administration-funding/"
+      },
+      {
+        "text": "AP: Trump can't force election changes by blocking counterterrorism funds to states, judge says",
+        "url": "https://apnews.com/article/trump-voting-threat-states-ede327cf2d9d71869dd82cc9536b4a4c"
+      },
+      {
+        "text": "Memorandum Opinion, Metropolitan Government of Nashville and Davidson County v. DHS (D.D.C., Sept. 28, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295627/gov.uscourts.dcd.295627.42.0.pdf"
       }
     ],
     "trackerIds": [
       "dhs-grants-conditioned-election-changes-paper-ballots-citizenship",
       "two-dozen-states-sue-fema-dhs-election-immigration-conditions"
-    ]
+    ],
+    "legal": {
+      "level": "ruled",
+      "basis": "On September 28, 2026 a federal judge held that FEMA exceeded its statutory authority by conditioning counterterrorism grants on election-administration changes, and vacated the conditions."
+    }
   },
   {
     "id": "bondi-minnesota-letter",
@@ -2055,7 +2082,8 @@
       "In court on September 22 the Justice Department argued that \"access to the White House is a privilege—not a right.\" On the 1977 case it did not argue compliance. It argued \"that decision is wrong and should be overruled,\" and said the same of a 2020 appeals-court decision that built on it. The White House's letters to the outlets, emailed that night, gave notice that the passes had been revoked, and the brief called that \"sufficient post-deprivation process.\" On September 23 the Reporters Committee for Freedom of the Press, the White House Correspondents' Association and 49 news organizations, Fox News Network among them, filed a brief calling the stated reasons \"transparently viewpoint discriminatory.\"",
       "On September 24 Judge Kelly granted a temporary restraining order and directed that the passes be restored immediately. To the argument that the precedents were wrongly decided, the order answers: \"Maybe—but this Court is bound by D.C. Circuit precedent, full stop.\" He found that \"[N]othing in the record that predates this suit suggests that the revocation of Plaintiffs' hard passes was motivated by national security concerns.\" Reporters from all three outlets were turned away that morning despite the order. After the judge demanded an answer, the White House filed a sworn timeline, and CNN and MS NOW journalists were admitted at noon, Politico's that afternoon. The order runs fourteen days, to October 8, and the outlets' motion for a preliminary injunction is due September 28.",
       "That evening CNN and MS NOW reporters were kept out of Xi Jinping's state-dinner arrival, an event open to pre-credentialed media, and the White House said the outlets \"don't just get to have free rein into every part of the White House, every event, and every press call.\" The network television pool, suspended since September 21, resumed on September 25.",
-      "On September 26 the White House kept CNN, the scheduled TV pool network, off Air Force One for Trump's trip to a college football game; the AP reported the guidance included Real America's Voice, which is not part of the network pool. The networks resumed pool coverage the next day, leaving CNN's slot unfilled when the White House blocks it, the New York Times reported. Attorney General Todd Blanche on ABC: \"It is a privilege and not a right to be there.\" Trump posted that day: \"FAKE NEWS SHOULD NOT BE ALLOWED IN THE WHITE HOUSE!!!\""
+      "On September 26 the White House kept CNN, the scheduled TV pool network, off Air Force One for Trump's trip to a college football game; the AP reported the guidance included Real America's Voice, which is not part of the network pool. The networks resumed pool coverage the next day, leaving CNN's slot unfilled when the White House blocks it, the New York Times reported. Attorney General Todd Blanche on ABC: \"It is a privilege and not a right to be there.\" Trump posted that day: \"FAKE NEWS SHOULD NOT BE ALLOWED IN THE WHITE HOUSE!!!\"",
+      "On September 28 the three outlets asked Judge Kelly for a preliminary injunction to keep their access until the case is decided; the restraining order expires October 8. Their filing: \"The White House's words and actions leave little doubt that it will immediately reinstitute a complete ban of CNN, MS NOW, and POLITICO if allowed the opportunity.\""
     ],
     "take": "Election coverage is the part of the press's job that most directly touches this page's subject. Removing three newsrooms from the building six weeks out did not stop them reporting, and a court has put them back for now, as courts did in the two closest precedents. But the condition Trump attached is the part to keep hold of: the ban lifts if the coverage changes. That is not a dispute about access. It is a price quoted for favorable reporting during an election.",
     "sources": [
@@ -2162,6 +2190,10 @@
       {
         "text": "ABC News: 'This Week' Transcript 9-27-26: Attorney General Todd Blanche & Sen. Mark Kelly (September 27, 2026)",
         "url": "https://abcnews.com/Politics/week-transcript-9-27-26-attorney-general-todd/story?id=136781292"
+      },
+      {
+        "text": "AP: CNN, MS NOW and Politico ask a court to block Trump from enforcing his White House media ban",
+        "url": "https://apnews.com/article/trump-media-networks-pool-ea7fbf9c0a0506dde6f95738922640d4"
       }
     ]
   },
