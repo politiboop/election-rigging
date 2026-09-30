@@ -1162,7 +1162,8 @@
       "To force it through, Trump shut down DHS for 40+ days over it (Sen. John Kennedy revealed Trump personally killed a bipartisan deal to pay TSA workers), had Sen. Cornyn reverse his career-long filibuster position, and in June canceled the signing of the biggest housing-affordability bill in a generation an hour before the ceremony, writing that it stays \"cancelled until such time as we pass the desperately needed SAVE AMERICA ACT.\"",
       "Trump privately told Republicans that banning mail ballots would \"guarantee the midterms.\"",
       "July 23, 2026: with the bill still stalled in the Senate, Trump pressed for as much of the SAVE Act as possible before the August recess. Leavitt said his \"patience is running out\" and named Majority Leader John Thune, who fired back that the White House should get the votes itself.",
-      "July 27, 2026: Trump escalated, posting that Thune should not let the Senate \"leave town\" until it passes the SAVE Act \"or, far better still, TERMINATES THE FILIBUSTER.\" Thune again said he does not have the votes for either."
+      "July 27, 2026: Trump escalated, posting that Thune should not let the Senate \"leave town\" until it passes the SAVE Act \"or, far better still, TERMINATES THE FILIBUSTER.\" Thune again said he does not have the votes for either.",
+      "September 30, 2026: Senate Republicans attached a photo-ID-to-vote requirement, which The Hill calls \"a core element\" of the SAVE America Act, to a bill banning members of Congress from buying new stocks. Cloture failed 53-47 on a party-line vote, short of the 60 needed. The day before, Trump said, \"We must pass, and now can pass in theory very easily, the SAVE America Act.\""
     ],
     "take": "You don't hold airport security and housing policy hostage for an election-administration bill unless the bill is the point. By the administration's own private framing, it is: fewer people registering means better Republican math.",
     "sources": [
@@ -1193,6 +1194,14 @@
       {
         "text": "The Hill: Trump, Thune clash over cancelling August recess to debate SAVE America Act (July 27, 2026)",
         "url": "https://thehill.com/homenews/senate/5993113-save-america-act-recess-fight/"
+      },
+      {
+        "text": "U.S. Senate: Roll Call Vote 253, 119th Congress, 2nd Session (September 30, 2026)",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm"
+      },
+      {
+        "text": "The Hill: John Thune sets data center, stock trading votes to shore up incumbents",
+        "url": "https://thehill.com/homenews/senate/6119236-senate-republicans-thune-stock-data-center-votes/"
       }
     ],
     "trackerIds": [
@@ -2346,7 +2355,8 @@
       "Asked the same night by Fox News host Laura Ingraham why he did not simply pay it now, Trump said: \"Because they can't. I'll tell you what, because the Democrats can't do it, because with them it's negative growth.\" Republicans currently control both chambers.",
       "Asked by ABC's Rachel Scott why a strong economy would need \"an incentive for people to turn out to vote,\" Trump said it was \"a reward for people having to put up with five years and four years of a horrible situation caused by Biden.\" Two nights earlier he had tied it to the result: \"So if the Republicans win, you win with us, and you get $5,000.\"",
       "On September 13, outside Air Force One, Trump said, \"The $5,000 is going to happen 100 percent,\" and explained why it would not come sooner: \"I don't want to do it now, because if the Democrats get it, our country will be in shambles and they won't be able to do it.\" Commerce Secretary Howard Lutnick said the administration could \"earn the money that Donald Trump wants to pay out, not from the deficit and not from taxpayers,\" while National Economic Council Director Kevin Hassett suggested it could move through a reconciliation package in Congress.",
-      "Asked on September 10 where the money would come from, Commerce Secretary Howard Lutnick pointed to the Trump Platinum Card, a $5 million visa program that has not launched: \"We have a waitlist of more than 100,000 people who want to come. That's $500 billion.\" Newsweek noted a place on the waitlist is not revenue and that 100,000 payments would cover about 41 percent of the estimated $1.23 trillion cost."
+      "Asked on September 10 where the money would come from, Commerce Secretary Howard Lutnick pointed to the Trump Platinum Card, a $5 million visa program that has not launched: \"We have a waitlist of more than 100,000 people who want to come. That's $500 billion.\" Newsweek noted a place on the waitlist is not revenue and that 100,000 payments would cover about 41 percent of the estimated $1.23 trillion cost.",
+      "September 30, 2026: the administration began sending the separate $500 ACA payments to more than 950,000 people in 30 states, five weeks before the election, with a letter signed by Trump: \"That money belongs to hard-working Americans, not the Government, and now I'm returning it to you!\" STAT reported it is unclear what legal authority lets the administration pay only some ACA enrollees."
     ],
     "take": "This is not vote-buying in the legal sense, and the tracker does not call it that. It is something the law has not had to think about: a sitting president conditioning a cash payment to the public on which party wins an election, with no money to pay it. Whether a voter believes the check is coming is the whole point, and the record on the last two dividends answers that. The card is here because the promise is itself an instrument aimed at the outcome, made by the man whose administration is also setting the rules for the count.",
     "sources": [
@@ -2393,6 +2403,14 @@
       {
         "text": "Newsweek: Trump's $5,000 checks may rely on wealthy visas. Will enough sign up?",
         "url": "https://www.newsweek.com/trumps-5000-checks-may-rely-on-wealthy-visas-will-enough-sign-up-12434798"
+      },
+      {
+        "text": "USA Today: Trump to begin sending $500 ACA refund checks to 1 million Americans (September 30, 2026)",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/30/trump-obamacare-500-aca-refund-checks-letters/92011695007/"
+      },
+      {
+        "text": "STAT: Right before midterms, Trump dangles $500 refunds for select ACA enrollees",
+        "url": "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/"
       }
     ],
     "trackerIds": [
