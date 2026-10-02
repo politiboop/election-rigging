@@ -1593,9 +1593,9 @@
     "category": "referees",
     "status": "active",
     "facts": [
-      "A States United Action analysis found at least 53 election-denying candidates running in 23 states for the statewide offices that certify elections, governor, secretary of state, attorney general, including in five presidential swing states.",
-      "In Arizona, deniers are running for all three certification roles at once. The Republican gubernatorial front-runner, Andy Biggs, voted against certifying the 2020 election in Congress.",
-      "In 2020, certification held because officials like Georgia's Brad Raffensperger and Arizona's Doug Ducey refused Trump's pressure. The 2026 ballot decides who holds those chairs in 2028."
+      "A States United Action analysis reported by NPR found at least 53 election-denying candidates running in 23 states (24 in States United's own release) for the statewide offices that certify elections, governor, secretary of state and attorney general, including in five presidential swing states.",
+      "In Arizona, deniers are running for all three certification roles at once. Andy Biggs, who won the Republican primary for governor, voted for the objection to Arizona's electors in Congress on January 6, 2021, and then-Arizona House Speaker Rusty Bowers testified that Biggs asked him that morning to support decertifying the state's electors.",
+      "In 2020, officials including Georgia's Brad Raffensperger and Arizona's Doug Ducey declined Trump's pressure. States United's CEO, Joanna Lydgate, told NPR, \"it's incredibly important that we elect people who believe in our system and who believe in free and fair elections.\""
     ],
     "sources": [
       {
@@ -1603,8 +1603,20 @@
         "url": "https://www.npr.org/2026/05/04/nx-s1-5803149/election-denial-2026-candidates"
       },
       {
-        "text": "States United Action: analysis and tracker",
-        "url": "https://statesuniteddemocracy.org/"
+        "text": "States United Democracy Center: NEW RESEARCH: States United Launches ElectionDeniers.org Tracking for 2026 Midterm Elections",
+        "url": "https://statesunited.org/press-release-2026-election-deniers/"
+      },
+      {
+        "text": "States United Action: Election Denial in Arizona (ElectionDeniers.org)",
+        "url": "https://electiondeniers.org/arizona"
+      },
+      {
+        "text": "C-SPAN: Arizona Speaker Says Rep. Andy Biggs Asked Him to Support Decertification of State's Electors",
+        "url": "https://www.c-span.org/clip/house-committee/arizona-speaker-says-rep-andy-biggs-asked-him-to-support-decertification-of-states-electors/5020671"
+      },
+      {
+        "text": "Office of the Clerk, U.S. House: Roll Call 10, On Agreeing to the Objection (January 6, 2021)",
+        "url": "https://clerk.house.gov/Votes/202110"
       }
     ],
     "trackerIds": [
