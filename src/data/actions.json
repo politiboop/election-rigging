@@ -2662,5 +2662,39 @@
         "url": "https://docquery.fec.gov/pdf/749/202609209908324749/202609209908324749.pdf"
       }
     ]
+  },
+  {
+    "id": "overseas-voter-form-never-resided",
+    "title": "The Pentagon Quietly Removed the Checkbox for Americans Born Abroad From the Overseas Voter Form",
+    "date": "2026-08-28",
+    "category": "ballot",
+    "status": "court",
+    "facts": [
+      "Weeks before the September 19 deadline for states to send midterm ballots to overseas voters, the Pentagon used an \"emergency\" request to change the federal overseas voter forms, removing the checkbox for a U.S. citizen abroad who has \"never lived in the United States.\" Some version of it had been on the forms since 2013.",
+      "OMB approved the second emergency request on August 28, 2026, two days after receiving it; the public comment period opened afterward. The Pentagon says the change will \"reduce confusion and avoid the use of the form by those who are ineligible under UOCAVA,\" and that states can keep processing older forms.",
+      "Thirty-eight states and D.C. let these citizens vote; the Pentagon's own voting program estimated about 11,590 were registered in 2016. The change tracks an RNC legal campaign whose filings say such voters \"largely favor Democratic candidates.\"",
+      "The DNC sued the Defense Department and OMB on October 1, 2026, alleging a \"transparently false 'emergency'\" to change the forms without notice and comment. No court has ruled."
+    ],
+    "legal": {
+      "level": "statute",
+      "basis": "The DNC alleges the change violated the Administrative Procedure Act and the Paperwork Reduction Act's notice-and-comment process."
+    },
+    "sources": [
+      {
+        "text": "DNC v. U.S. Department of Defense, Complaint (D.D.C., filed October 1, 2026)",
+        "url": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-01-Complaint.pdf"
+      },
+      {
+        "text": "NPR: Trump officials changed forms for overseas voters amid a GOP push to restrict voting",
+        "url": "https://www.npr.org/2026/09/30/nx-s1-5978976/military-voter-registration-overseas-citizens-absentee-voting"
+      },
+      {
+        "text": "The Epoch Times: DNC Sues Over Pentagon Change to Overseas Voter Form",
+        "url": "https://www.theepochtimes.com/us/dnc-sues-over-pentagon-change-to-overseas-voter-form-6097655"
+      }
+    ],
+    "trackerIds": [
+      "pentagon-removes-never-resided-checkbox-overseas-voter-form-dnc-lawsuit"
+    ]
   }
 ]
