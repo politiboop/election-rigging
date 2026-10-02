@@ -721,14 +721,14 @@
   },
   {
     "id": "fulton-worker-subpoena",
-    "title": "A Subpoena for the Names and Home Addresses of 3,000 Election Workers",
+    "title": "A Subpoena for the Home Addresses of 3,000 Election Workers",
     "date": "2026-04-17",
     "category": "data",
     "status": "blocked",
     "facts": [
-      "In April 2026 the DOJ subpoenaed Fulton County for its full 2020 election staff roster: names, home addresses, email addresses, and personal phone numbers for nearly 3,000 employees, temporary poll workers, and volunteers.",
-      "Fulton County Commission Chair Robb Pitts said the purpose was \"to intimidate workers in our county, to discourage people from voting,\" and the county filed a 27-page motion to block it. A federal judge later rejected the DOJ's demand for election workers' names as \"unreasonable.\"",
-      "Poll worker rosters are not historically material to fraud investigations. The likely operational effect is a chilling one: many of the same people would be staffing the November midterms."
+      "In April 2026 the Justice Department served a grand jury subpoena on Fulton County for its full 2020 election staff roster, \"including names, home addresses, email addresses, and personal phone numbers,\" as The New Republic described it, reaching nearly 3,000 employees, temporary poll workers and volunteers.",
+      "Fulton County Commission Chair Robb Pitts said the purpose was \"to intimidate workers in our county, to discourage people from voting.\" The county moved to quash it, arguing the demand could make poll workers less likely to serve in future elections. The Justice Department called the subpoena the \"next step in the normal investigative process.\"",
+      "On July 7, 2026, U.S. District Judge William Ray, a Trump appointee, quashed it: \"Given the low need for the subpoenaed information and the highly burdensome nature of the disclosure of the same, the Subpoena is unreasonable and must be quashed.\""
     ],
     "sources": [
       {
@@ -738,6 +738,10 @@
       {
         "text": "MS NOW: FBI analysts fired after refusing to join Georgia 2020 election probe (notes the subpoena's rejection)",
         "url": "https://www.ms.now/news/fbi-kash-patel-trump-georgia-2020-election"
+      },
+      {
+        "text": "CBS News Atlanta: Judge rejects Justice Department attempt to get names of 2020 election workers in Fulton County",
+        "url": "https://www.cbsnews.com/atlanta/news/judge-rejects-justice-department-attempt-to-get-names-of-2020-election-workers-in-fulton-county/"
       }
     ],
     "trackerIds": [
@@ -746,7 +750,7 @@
     ],
     "legal": {
       "level": "ruled",
-      "basis": "A federal judge rejected the DOJ's demand for election workers' names as 'unreasonable.'"
+      "basis": "A federal judge quashed the subpoena as \"unreasonable,\" calling its scope \"staggering.\""
     }
   },
   {
@@ -888,7 +892,7 @@
   },
   {
     "id": "election-integrity-army",
-    "title": "Trump Promises an 'Election Integrity Army' at Every Polling Place",
+    "title": "Trump Promises an 'Election Integrity Army' in Every State",
     "date": "2026-05-10",
     "category": "force",
     "status": "threatened",
@@ -903,8 +907,8 @@
     ],
     "sources": [
       {
-        "text": "The Independent: Trump announces 'Election Integrity Army' for 2026 midterms",
-        "url": "https://www.the-independent.com/news/world/americas/us-politics/trump-election-integrity-army-midterms-b2973934.html"
+        "text": "The Independent: Trump says he will send an 'Election Integrity Army' into every state for midterms",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-election-integrity-army-midterms-b2974050.html"
       },
       {
         "text": "The New Republic: Trump blurts vile plot to steal midterms as crushing new poll hits",
@@ -940,9 +944,9 @@
     "category": "force",
     "status": "record",
     "facts": [
-      "Asked in April 2026 congressional testimony whether he would follow a hypothetical Trump order to deploy troops to polling places, an order that would violate federal law, Defense Secretary Pete Hegseth declined to rule it out and instead claimed Biden \"deployed troops to polling locations in 15 states\" in 2024.",
-      "He repeated the claim in both chambers. CNN contacted all 15 states; the 11 that responded all said no troops were at polling locations. Guard activity in 2024 was cybersecurity support or liaison work, ordered by governors, not Biden.",
-      "The false claim matters because of what it builds: a fabricated precedent that would normalize exactly the deployment he was asked about."
+      "Asked in April 2026 House testimony whether he would follow a hypothetical Trump order to deploy troops to polling places during the midterms, which Rep. Jill Tokuda noted would violate federal law, Defense Secretary Pete Hegseth did not answer directly and instead claimed that under Biden, troops \"were deployed to polling locations in 15 states\" in 2024.",
+      "He repeated the claim to the Senate the next day. CNN contacted all 15 states; the 13 that responded all said none of their troops were at polling locations. Guard support for the 2024 election was cybersecurity or liaison work, ordered by governors, not by Biden.",
+      "CNN noted that Trump has not said he plans to send troops to polling locations in any future election."
     ],
     "sources": [
       {
@@ -955,8 +959,9 @@
     ],
     "legal": {
       "level": "statute",
-      "basis": "The deployment he was asked about would violate the Posse Comitatus Act and 18 U.S.C. § 592, which bar armed federal forces at the polls."
-    }
+      "basis": "The deployment he was asked about would violate the federal law that bars sending troops to voting locations unless necessary to repel armed enemies of the United States."
+    },
+    "take": "The claim invents a precedent for exactly the deployment he was asked about. A false precedent offered under oath does work for whoever wants to cite it later."
   },
   {
     "id": "syracuse-poll-worker",
@@ -1112,20 +1117,28 @@
   },
   {
     "id": "lucas-raid",
-    "title": "The FBI Raids the 82-Year-Old Legislator Behind a Redistricting Win",
+    "title": "The FBI Searches the Office of the 82-Year-Old Legislator Behind a Redistricting Referendum",
     "date": "2026-05-06",
     "category": "force",
     "status": "active",
     "facts": [
-      "On May 6, 2026, the FBI raided the Portsmouth office of Sen. L. Louise Lucas, the 82-year-old president pro tempore of the Virginia Senate and the legislative architect of the redistricting referendum voters had approved two weeks earlier.",
-      "The stated cause was \"corruption allegations\" tied to a state cannabis regulatory matter, the kind of issue not normally subject to federal raids.",
-      "The sequence: April 21, the referendum passes. April 22, Trump declares it \"RIGGED.\" May 6, the FBI raids the legislator who championed it. May 8, the Virginia Supreme Court strikes it down 4-3.",
-      "It is the first publicly reported FBI raid on a sitting Democratic state legislator's office of the second term."
+      "On May 6, 2026, the FBI searched the Portsmouth district office of Sen. L. Louise Lucas, the 82-year-old Democratic president pro tempore of the Virginia Senate and one of the Democratic architects of the redistricting referendum voters approved in April. Agents also went into a cannabis store she opened in 2021.",
+      "The FBI said only that it was conducting a court-authorized search. A person familiar with the matter told the AP it was part of a corruption investigation.",
+      "Lucas said the raid could be political retribution for her role in the redistricting effort. Rep. Bobby Scott said, \"it must be acknowledged that this FBI raid occurs in the broader context of President Trump's repeated abuse of the Department of Justice to target his perceived political opponents.\"",
+      "The investigation predates the vote. The Virginian-Pilot reported in July that, according to court records, a federal judge authorized the FBI to monitor Lucas's phone from March 6 to April 5, 2026, and that the intercepted communications included correspondence with journalists."
     ],
     "sources": [
       {
-        "text": "The New Republic: FBI raids office of top Democratic leader in Virginia redistricting wars",
-        "url": "https://newrepublic.com/post/210025/fbi-raids-home-democratic-leader-lucas-virginia-redistricting-wars"
+        "text": "The New Republic: FBI Raids Office of Top Democratic Leader in Redistricting Wars",
+        "url": "https://newrepublic.com/post/210025/fbi-raids-democratic-leader-lucas-virginia-redistricting-wars"
+      },
+      {
+        "text": "AP (via Spectrum News): FBI searches Virginia Senate leader's office as part of corruption probe, source says",
+        "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/05/06/fbi-search-virginia-state-senate-leader-l--louise-lucas-office"
+      },
+      {
+        "text": "The Virginian-Pilot: Louise Lucas' phone was wiretapped by FBI, journalist's records intercepted, court records show",
+        "url": "https://www.pilotonline.com/2026/07/13/louise-lucass-phone-wiretapped-by-fbi/"
       }
     ],
     "trackerIds": [
@@ -1454,15 +1467,14 @@
   },
   {
     "id": "florida-24-of-28",
-    "title": "Florida's Mid-Decade Map Hands Republicans 24 of 28 Seats",
+    "title": "Florida's Mid-Decade Map Favors Republicans in 24 of 28 Seats",
     "date": "2026-05-04",
     "category": "maps",
     "status": "court",
     "facts": [
-      "On May 4, 2026, Gov. Ron DeSantis signed a mid-decade congressional map giving Republicans the advantage in 24 of Florida's 28 districts, 86% of the delegation.",
-      "Voters sued the same day under Florida's Fair Districts Amendment, which voters added to the state constitution in 2010 and which bars drawing districts with partisan intent.",
-      "The plaintiffs have unusual direct evidence: the map's drawer, DeSantis aide Jason Poreda, testified to the legislature that he used partisan data \"mixed in\" across the map during \"final balancing.\" Under Florida law, any partisan intent is enough to strike a map.",
-      "Callais removed a federal floor, but it did not touch Florida's own constitutional ban, which is what the case will turn on."
+      "On May 4, 2026, Gov. Ron DeSantis signed a mid-decade congressional map drafted by his office, with 24 districts Trump carried in 2024 and four that Harris carried. The prior map elected 20 Republicans and eight Democrats.",
+      "Voters sued within two hours under Florida's Fair Districts Amendment, approved by voters in 2010, which bars drawing districts with intent to favor a party. The map's drawer, Jason Poreda, had told the Legislature, \"Partisan or electoral performance data was considered, but certainly not at the exclusion of all of the other standards.\" The complaint says partisan metrics were \"mixed in\" across the map.",
+      "The courts let the map stand for 2026: a circuit judge denied an injunction, an appeals court declined to reverse, and on June 10 the Florida Supreme Court, 6-1, refused to intervene. The merits case was not decided."
     ],
     "sources": [
       {
@@ -1472,6 +1484,14 @@
       {
         "text": "Bloomberg Law: Florida sued over new GOP-favoring congressional map",
         "url": "https://news.bloomberglaw.com/litigation/florida-sued-over-new-gop-favoring-congressional-map"
+      },
+      {
+        "text": "Florida Politics: Ron DeSantis signs Florida's new congressional map",
+        "url": "https://floridapolitics.com/archives/794576-ron-desantis-signs-floridas-new-congressional-map/"
+      },
+      {
+        "text": "Florida Politics: Florida Supreme Court rules new congressional map can stand for 2026 Midterms",
+        "url": "https://floridapolitics.com/archives/801292-florida-supreme-court-rules-new-congressional-map-can-stand-for-2026-midterms/"
       }
     ],
     "trackerIds": [
@@ -1479,34 +1499,38 @@
     ],
     "legal": {
       "level": "constitution",
-      "basis": "Florida's voter-enacted Fair Districts Amendment bars drawing maps with partisan intent; the map's own drawer testified he used partisan data 'mixed in' during 'final balancing.'"
+      "basis": "Florida's voter-enacted Fair Districts Amendment bars drawing maps with partisan intent; the map's drawer testified that partisan data \"was considered.\""
     }
   },
   {
     "id": "alabama-districts",
-    "title": "Alabama Moves to Eliminate Both Majority-Black Districts, and Says So Out Loud",
+    "title": "Alabama Moves to Undo Its Second Majority-Black District, and Says the Goal Out Loud",
     "date": "2026-05-04",
     "category": "maps",
-    "status": "court",
+    "status": "active",
     "facts": [
-      "Alabama's governor called a special session to redraw the congressional map mid-decade, with legislative leaders openly stating the goal: eliminating both congressional seats currently held by Black Democrats.",
-      "The state is under court order to use its existing two-majority-Black-district map, the result of the Supreme Court's own 2023 Allen v. Milligan ruling, until 2030. Callais is the hook for revisiting it.",
-      "The May 19 primary went forward during the redistricting fight, meaning voters may have cast ballots in districts that no longer exist by November.",
-      "Three Republican-led Southern states moved within five days of each other to redraw maps reducing Black representation."
+      "Two days after the Supreme Court's April 29 Callais ruling, Gov. Kay Ivey called a special session so Alabama could switch congressional maps. House Speaker Nathaniel Ledbetter and Senate President Pro Tem Garlan Gudger said, \"we have a responsibility to give our state a fighting chance to send seven Republican members to Congress.\"",
+      "The map in place, with two Democrat-held seats, came out of the 2023 Allen v. Milligan litigation, and a court had barred Alabama from changing it before 2030. Gudger thanked senators for working to \"do our part to help President Trump, Speaker Mike Johnson, and the Republican Party maintain control of Congress.\"",
+      "After the Supreme Court vacated the court-ordered map, Ivey switched to the Legislature's 2023 map and set an August 11 special primary in four districts, and lawmakers nullified the May primary results there. Rep. Shomari Figures's district fell from 48% to 40% Black voting-age population.",
+      "Alabama was one of three states, with Louisiana and Tennessee, racing to change maps after Callais."
     ],
     "sources": [
       {
         "text": "Democracy Docket: Alabama prepares to eliminate majority-Black districts while moving forward with elections it may annul",
         "url": "https://www.democracydocket.com/news-alerts/chaos-alabama-prepares-to-eliminate-majority-black-districts-while-moving-forward-with-elections-it-may-annul/"
+      },
+      {
+        "text": "Office of the Governor of Alabama: Governor Ivey Celebrates Major Court Victory in State's Redistricting Battle, Calls Special Election for Alabama-Drawn Congressional Map",
+        "url": "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/"
+      },
+      {
+        "text": "AP via OPB: Democratic incumbents win US House primaries in Alabama districts redrawn after Supreme Court ruling",
+        "url": "https://www.opb.org/article/2026/08/11/democratic-incumbents-win-us-house-primaries-in-alabama-districts-redrawn-after-supreme-court-ruling/"
       }
     ],
     "trackerIds": [
       "alabama-special-session-eliminate-majority-black-districts"
-    ],
-    "legal": {
-      "level": "statute",
-      "basis": "Alabama is under federal court order, from the Supreme Court's own Allen v. Milligan line, to keep its two majority-Black districts until 2030."
-    }
+    ]
   },
   {
     "id": "virginia-sequence",
@@ -1542,14 +1566,14 @@
   },
   {
     "id": "guardrails-gone",
-    "title": "The 75 People Who Protected the 2020 Election Are Gone",
+    "title": "Nearly All of the 75 People Who Protected the 2020 Election Are Gone",
     "date": "2026-04-13",
     "category": "referees",
     "status": "active",
     "facts": [
-      "A ProPublica investigation found that 75 federal officials who defended the integrity of the 2020 election have been fired, resigned, or been reassigned, and that roughly 24 Trump loyalists now hold election-affecting positions, including about 10 who actively worked to overturn the 2020 result.",
-      "Officials have been hired directly from election-denial activist groups; ProPublica describes the movement as having \"merged with the federal government.\" The CISA specialists who debunked the Antrim County conspiracy are all gone.",
-      "ProPublica's conclusion: 2026 will be \"an unprecedented stress test of the integrity of American elections.\""
+      "A ProPublica investigation found that at least 75 federal officials were involved in safeguarding the 2020 result and that nearly all have resigned, been fired or been reassigned. They include the CISA specialists who established that the Antrim County voting-machine allegations were false.",
+      "They have been replaced by roughly two dozen people in positions that could affect elections. Ten actively worked to reverse the 2020 vote; the rest are their associates. Some were hired from activist groups that are pillars of the election denial movement, and experts told ProPublica the movement has \"merged with the federal government.\"",
+      "ProPublica concluded that the guardrails and people that held in 2020 \"would largely be missing\" today, though a few have endured: judges blocked key parts of a March 2025 executive order on voting, and some Republican state officials have fought DOJ demands for voter rolls."
     ],
     "sources": [
       {
@@ -1560,7 +1584,7 @@
     "trackerIds": [
       "propublica-trump-midterm-elections-takeover"
     ],
-    "unprecedented": "ProPublica's conclusion: 2026 will be 'an unprecedented stress test of the integrity of American elections.'"
+    "unprecedented": "Experts told ProPublica that 2026 will serve as \"an unprecedented stress test of the integrity of American elections.\""
   },
   {
     "id": "election-deniers-running",
@@ -1705,25 +1729,30 @@
   },
   {
     "id": "blanche-ton-of-evidence",
-    "title": "The Acting Attorney General's 'Ton of Evidence' He Can't Produce",
+    "title": "The Acting Attorney General's 'Ton of Evidence' That the 2020 Election Was Rigged",
     "date": "2026-05-17",
     "category": "referees",
     "status": "record",
     "facts": [
-      "In May 2026, Acting Attorney General Todd Blanche told Fox News there is \"a ton of evidence\" the 2020 election was stolen, while conceding the DOJ has not released it and hedging: \"I'm not going to promise there's going to be a definitive answer.\"",
-      "He confirmed \"multiple investigations going on in Arizona, in Fulton County, Georgia.\"",
-      "The nation's top law enforcement officer asserting a stolen election on television, while declining to promise his department can demonstrate it, is itself the message: the claim does not need to be proven to be useful."
+      "On May 17, 2026, Acting Attorney General Todd Blanche told Fox News, \"there's a ton of evidence that the election was rigged,\" adding, \"That's not something that DOJ needs to tell you about.\" Asked whether there would be a definitive answer on whether 2020 was stolen, he said, \"I'm not going to promise there's going to be a definitive answer.\"",
+      "He said, \"we have multiple investigations going on in Arizona, in Georgia — in Fulton County, Georgia.\" Democracy Docket reported that he could not explain why the Justice Department had not released the evidence.",
+      "As The Independent noted, the court cases, recounts and investigations that followed 2020 \"have not yielded any proof\" of Trump's claims that he won."
     ],
     "sources": [
       {
         "text": "Democracy Docket: Attorney General says 'ton of evidence exists' of stolen election in 2020, also says he can't promise a definitive answer",
         "url": "https://www.democracydocket.com/news-alerts/attorney-general-ton-of-evidence-exists-of-stolen-election-in-2020-also-says-he-cant-promise-a-definitive-answer-it-was-stolen/"
+      },
+      {
+        "text": "The Independent: Trump's acting AG Todd Blanche can't give 'definitive answer' as to whether 2020 election was stolen",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/todd-blanche-trump-2020-election-investigation-b2978343.html"
       }
     ],
     "trackerIds": [
       "blanche-2020-stolen-ton-of-evidence-bartiromo-fox-news"
     ],
-    "doubt": true
+    "doubt": true,
+    "take": "The nation's top law enforcement officer asserting a rigged election on television, while declining to promise his department can show it, is the message in itself: the claim does not need to be proven to be useful."
   },
   {
     "id": "tina-peters-commutation",
