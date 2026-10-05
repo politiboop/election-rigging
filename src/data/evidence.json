@@ -558,5 +558,767 @@
       }
     ],
     "take": "Voter suppression is a strong phrase, so here is the standard we hold it to: a rule that stops far more eligible citizens than ineligible ones, adopted with that ratio in plain view. Kansas ran the experiment. It blocked 31,089 registrations to catch a few dozen noncitizens over two decades, and a federal appeals court called the noncitizen share statistically indistinguishable from zero. The SAVE Act is the Kansas rule for the whole country, effective the day it is signed, with a federal crime attached for the clerk who lets someone through. The people most likely to lack a passport or a matching birth certificate are the young, the poor, the rural, women who changed their name, and voters of color. The president has told Republican lawmakers what the package is for: to \"guarantee the midterms.\" We take him at his word."
+  },
+  "asked": {
+    "kicker": "In their own words",
+    "title": "Asked, and wouldn't rule it out",
+    "sub": "When officials have been asked directly whether armed agents, troops or emergency powers will be used around the midterms, these are the answers. Declining to rule something out is not a plan, so the last column records the denials and assurances the administration has given on the same question.",
+    "rows": [
+      {
+        "when": "Feb. 4",
+        "who": "Donald Trump",
+        "role": "President",
+        "asked": "NBC's Tom Llamas asked whether he would trust the results of the midterms if Republicans lose control of Congress.",
+        "answer": "\"I will if the elections are honest.\" Moments earlier, of the states that count votes: \"If they can't do it honestly and it can't be done properly and timely, then something else has to happen.\"",
+        "card": "nationalize-voting",
+        "sources": [
+          {
+            "text": "NBC News: Read the full transcript: President Donald Trump interviewed by 'NBC Nightly News' anchor Tom Llamas",
+            "url": "https://www.nbcnews.com/politics/trump-administration/trump-interview-nbc-news-extend-transcript-tom-llamas-super-bowl-2026-rcna257410"
+          },
+          {
+            "text": "The Independent: Trump says he will only accept the midterm results 'if the elections are honest'",
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-election-results-voting-nationalize-b2914259.html"
+          }
+        ],
+        "trackerIds": [
+          "nationalize-elections-conditional-acceptance"
+        ]
+      },
+      {
+        "when": "Feb. 5",
+        "who": "Karoline Leavitt",
+        "role": "White House press secretary",
+        "asked": "Whether ICE agents will be at polling places in November.",
+        "answer": "\"I can't guarantee that an ICE agent won't be around a polling location in November. There are no formal plans.\"",
+        "also": "Border czar Tom Homan, Sept. 13: \"there is no plan for enforcement action at polling places.\"",
+        "card": "ice-surround-polls",
+        "sources": [
+          {
+            "text": "IBTimes UK: 2026 Midterms Could See ICE at Polls, Leavitt Tells Press",
+            "url": "https://www.ibtimes.co.uk/2026-midterms-could-see-ice-polls-leavitt-tells-pressvoter-concerns-rise-1776811"
+          },
+          {
+            "text": "The Hill: ICE has no plans to 'sweep polling locations' for noncitizens, Homan says",
+            "url": "https://thehill.com/homenews/administration/6087947-tom-homan-ice-midterm-polls/"
+          }
+        ],
+        "trackerIds": [
+          "white-house-ice-polling-places-midterms"
+        ]
+      },
+      {
+        "when": "Apr. 29",
+        "who": "Pete Hegseth",
+        "role": "Defense secretary",
+        "asked": "Rep. Jill Tokuda asked whether he would follow an order to deploy troops to polling places during the midterms.",
+        "answer": "He did not say. Instead: \"2024 – Joe Biden – troops deployed to polling locations in 15 states. Explain that one to me.\" CNN found that none of the 13 states that answered had sent troops to polling places.",
+        "also": "Gen. Dan Caine, chairman of the Joint Chiefs, wrote to a senator in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\"",
+        "card": "hegseth-troops-claim",
+        "sources": [
+          {
+            "text": "CNN (Daniel Dale): Hegseth twice made a false claim to Congress about troops being sent to voting places under Biden",
+            "url": "https://www.cnn.com/2026/05/04/politics/hegseth-biden-2024-troops-voting-locations-fact-check"
+          },
+          {
+            "text": "AP: Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
+            "url": "https://apnews.com/article/pentagon-congress-colby-iran-war-troops-elections-e75c77fb1b6773ccc5f3c715de9359e5"
+          }
+        ],
+        "trackerIds": [
+          "hegseth-false-2024-troops-polling-locations-claim",
+          "colby-nds-briefing-senators-both-parties-national-guard-polling-places"
+        ]
+      },
+      {
+        "when": "May",
+        "who": "Donald Trump",
+        "role": "President",
+        "asked": "Whether he would send National Guard troops or DHS agents to voting locations, as quoted in the NAACP's lawsuit.",
+        "answer": "\"I'd do anything necessary to make sure we have honest elections.\"",
+        "also": "Gen. Dan Caine, chairman of the Joint Chiefs, wrote to a senator in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\"",
+        "card": "election-integrity-army",
+        "sources": [
+          {
+            "text": "NAACP v. Department of Homeland Security: complaint (D.D.C., September 18, 2026)",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.296692/gov.uscourts.dcd.296692.1.0.pdf"
+          },
+          {
+            "text": "AP: Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
+            "url": "https://apnews.com/article/pentagon-congress-colby-iran-war-troops-elections-e75c77fb1b6773ccc5f3c715de9359e5"
+          }
+        ],
+        "trackerIds": [
+          "white-house-ice-polling-places-midterms",
+          "colby-nds-briefing-senators-both-parties-national-guard-polling-places"
+        ]
+      },
+      {
+        "when": "June 14",
+        "who": "Markwayne Mullin",
+        "role": "Homeland security secretary",
+        "asked": "On CNN: \"Are you willing to rule out sending ICE agents?\" Then: \"So, you're not ruling it out?\"",
+        "answer": "\"No, what I said is that we would only be there if a threat\" arose. Then: \"No, keep in mind, why would ICE be there? Because only people that should be voting there is American citizens. There shouldn't be any immigration enforcement.\"",
+        "card": "mullin-throw-out-constitution",
+        "sources": [
+          {
+            "text": "The Hill: Mullin says ICE 'only' deployed at midterm polls if 'threat' arises",
+            "url": "https://thehill.com/policy/national-security/5923403-mullin-ice-agents-midterms-polls/"
+          },
+          {
+            "text": "Fox News: DHS chief Mullin refuses to rule out ICE at polls",
+            "url": "https://www.foxnews.com/media/dhs-chief-mullin-refuses-rule-ice-polls-claims-american-citizens-line"
+          }
+        ],
+        "trackerIds": [
+          "dhs-mullin-throw-out-constitution-voter-rolls-ice-polls"
+        ]
+      },
+      {
+        "when": "Aug. 11",
+        "who": "Donald Trump",
+        "role": "President",
+        "asked": "A Real America's Voice host urged him to declare a national emergency to get photo ID, proof of citizenship and limits on mail ballots if the Senate cannot pass the SAVE America Act.",
+        "answer": "\"Let me just say that stranger things have happened, OK? I'll leave it at that.\"",
+        "also": "In late July, Trump said he was not considering declaring a national emergency ahead of the midterms.",
+        "card": "draft-emergency-eo",
+        "sources": [
+          {
+            "text": "HuffPost: Trump Entertains Plot To Declare A 'National Emergency' Over Elections",
+            "url": "https://www.huffpost.com/entry/trump-national-emergency-elections-midterms-stranger-things-happened_n_6a7af375e4b07b8d6224c871"
+          },
+          {
+            "text": "Yahoo/AOL: Trump says he's not considering declaring a national emergency ahead of midterms",
+            "url": "https://www.yahoo.com/news/articles/trump-says-not-considering-declaring-192340022.html"
+          }
+        ],
+        "trackerIds": [
+          "trump-noncommittal-national-security-emergency-elections",
+          "trump-emergency-powers-midterm-elections"
+        ]
+      },
+      {
+        "when": "Sept. 1",
+        "who": "Markwayne Mullin",
+        "role": "Homeland security secretary",
+        "asked": "When ICE would be at polling places.",
+        "answer": "\"The only reason why we would be at polling places is if there is a threat to that polling place or we're serving a warrant on someone that we have been actively tracking down.\"",
+        "also": "In the same remarks, he said agents are not there to patrol polling places.",
+        "card": "ice-surround-polls",
+        "sources": [
+          {
+            "text": "Democracy Docket: DHS chief says ICE could make arrests at polling places",
+            "url": "https://www.democracydocket.com/news-alerts/dhs-chief-says-ice-could-make-arrests-at-polling-places-ignoring-federal-ban/"
+          }
+        ],
+        "trackerIds": [
+          "white-house-ice-polling-places-midterms"
+        ]
+      },
+      {
+        "when": "Sept. 15",
+        "who": "Kash Patel",
+        "role": "FBI director",
+        "asked": "Sen. Richard Blumenthal asked whether he thought sending FBI agents to the polls would be against the law.",
+        "answer": "\"I don't know that we can't legally do it.\"",
+        "also": "In the same hearing: \"We will always follow the law and the guidelines.\"",
+        "card": "patel-fbi-at-polls",
+        "sources": [
+          {
+            "text": "ABC News: Kash Patel clashes with Dems about possibly sending FBI agents to polling places",
+            "url": "https://abcnews.com/Politics/kash-patel-testify-fbi-oversight-senate-committee/story?id=136428159"
+          },
+          {
+            "text": "Roll Call: Patel won't rule out FBI at the polls on Election Day",
+            "url": "https://rollcall.com/2026/09/15/patel-wont-rule-out-fbi-at-the-polls-on-election-day/"
+          }
+        ],
+        "trackerIds": [
+          "patel-wont-rule-out-fbi-agents-at-polls-senate-hearing"
+        ]
+      },
+      {
+        "when": "Sept. 17",
+        "who": "Elbridge Colby",
+        "role": "Under secretary of defense for policy",
+        "asked": "In a closed Senate briefing, whether he had ever discussed deploying the National Guard for voter security on Election Day.",
+        "answer": "He said he had heard about such discussions but was not leading on the issue. \"Never once said 'yes' or 'no,'\" said Sen. Kevin Cramer, a Republican.",
+        "also": "Gen. Dan Caine, chairman of the Joint Chiefs, wrote to a senator in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\"",
+        "card": "election-integrity-army",
+        "sources": [
+          {
+            "text": "AP: Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
+            "url": "https://apnews.com/article/pentagon-congress-colby-iran-war-troops-elections-e75c77fb1b6773ccc5f3c715de9359e5"
+          }
+        ],
+        "trackerIds": [
+          "colby-nds-briefing-senators-both-parties-national-guard-polling-places"
+        ]
+      },
+      {
+        "when": "Sept. 25",
+        "who": "Joshua Schopf",
+        "role": "Justice Department attorney",
+        "asked": "Judge Paula Xinis asked for advance notice before the government's portal for sending states lists of citizens goes live.",
+        "answer": "\"I cannot say. I can't tell you we won't have a live portal before the midterms.\" Democracy Docket alone reported the exchange; Reuters confirmed he did not rule out activating it before the election.",
+        "also": "Xinis then ordered 30 days' notice before the portal is activated or any list is sent.",
+        "card": "national-voter-database",
+        "sources": [
+          {
+            "text": "Democracy Docket: 'That is very concerning': Trump admin says it might release voter eligibility lists before midterms",
+            "url": "https://www.democracydocket.com/news-alerts/that-is-very-concerning-trump-admin-says-it-might-release-voter-eligibility-lists-before-midterms/"
+          },
+          {
+            "text": "Reuters via WIKY: Trump continues voter data push despite repeated setbacks",
+            "url": "https://wiky.com/2026/09/25/trump-continues-voter-data-push-despite-repeated-setbacks/"
+          },
+          {
+            "text": "U.S. District Court for the District of Maryland: Order, EPIC v. USCIS, No. 8:26-cv-03457, ECF 48",
+            "url": "https://www.courtlistener.com/docket/74728821/electronic-privacy-information-center-v-us-citizenship-and-immigration/"
+          }
+        ],
+        "trackerIds": [
+          "trump-voter-database-dhs-doj-data-sharing"
+        ]
+      },
+      {
+        "when": "Sept. 28",
+        "who": "Donald Trump",
+        "role": "President",
+        "asked": "TIME: \"Do you plan to dispatch ICE agents to polling places in the midterms?\"",
+        "answer": "\"Haven't thought of it.\"",
+        "card": "ice-surround-polls",
+        "sources": [
+          {
+            "text": "TIME: Read TIME's 'What Trump Has Built' Interview Transcript",
+            "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/"
+          }
+        ],
+        "trackerIds": [
+          "trump-noncommittal-national-security-emergency-elections"
+        ]
+      },
+      {
+        "when": "Sept. 28",
+        "who": "Donald Trump",
+        "role": "President",
+        "asked": "TIME: \"Would you rule out declaring a state of emergency in the lead up to the midterms unless there's widespread violence in the streets?\"",
+        "answer": "\"I don't rule anything out or in. We'll see. You mean the Insurrection Act?\" Then: \"No, I've never used it. I could use it.\"",
+        "also": "He has threatened to invoke the Insurrection Act before, over protests in Los Angeles and Portland, and has not used it.",
+        "card": "draft-emergency-eo",
+        "sources": [
+          {
+            "text": "TIME: Read TIME's 'What Trump Has Built' Interview Transcript",
+            "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/"
+          },
+          {
+            "text": "The Hill: Trump not ruling out invoking Insurrection Act around midterms",
+            "url": "https://thehill.com/homenews/administration/6122559-trump-midterm-election-insurrection-act/"
+          }
+        ],
+        "trackerIds": [
+          "trump-noncommittal-national-security-emergency-elections"
+        ]
+      }
+    ],
+    "take": "Several of these questions already have a one-line answer on paper, like General Caine's letter. The officials asked in person have mostly declined to repeat it. A threat does not need to be carried out to keep a voter home, which is why three lawsuits now argue that refusing to rule out armed agents at the polls is itself the harm."
+  },
+  "heard": {
+    "kicker": "Predictions you may hear that we can't yet substantiate",
+    "title": "What you may have heard",
+    "sub": "Some fears about the midterms run ahead of the record. Each one is stated here the way people put it, then set against what is documented, what stands in the way, and what would have to happen for us to report it as fact. We hold these to the same standard as a claim of voter fraud.",
+    "items": [
+      {
+        "id": "cancel-midterms",
+        "claim": "Trump will cancel or postpone the midterms.",
+        "verdict": "No evidence",
+        "record": "The fear has a source. In January Trump told Reuters, \"when you think of it, we shouldn't even have an election,\" and the White House said he was \"simply joking.\" Asked in August and September about declaring an election emergency, he said \"stranger things have happened\" and \"I don't rule anything out or in.\" The emergency proposals on the record would change the rules of the vote, such as voter ID and mail ballots, not its date, and we have found no reported order, draft or bill that would move it. One state did stop a federal election midway: Louisiana's governor suspended its U.S. House primaries in May to redraw the map, discarding ballots already cast. Those voters, he said, \"will vote again in November.\"",
+        "stands": "Federal law sets the date: \"The Tuesday next after the 1st Monday in November, in every even numbered year\" (2 U.S.C. 7). The Constitution gives the rules for congressional elections to state legislatures and to Congress (Art. I, Sec. 4), not to the president. The 20th Amendment ends House terms \"at noon on the 3d day of January\" whether or not anyone has been elected, so a delay would keep nobody in office. The Congressional Research Service: \"there is no current constitutional authority residing in the President of the United States, nor the executive branch of government, to postpone, cancel, or reschedule elections for federal office in the various states.\"",
+        "would": "A presidential order or proclamation that tries to change when or whether the election is held, or a bill in Congress to move it.",
+        "cards": [
+          "draft-emergency-eo",
+          "louisiana-primary-suspended"
+        ],
+        "sources": [
+          {
+            "text": "Democracy Docket: Trump: 'We shouldn't even have an election'",
+            "url": "https://www.democracydocket.com/news-alerts/trump-we-shouldnt-even-have-an-election/"
+          },
+          {
+            "text": "Democracy Docket: White House claims Trump was 'joking' when he talked about canceling election",
+            "url": "https://www.democracydocket.com/news-alerts/white-house-claims-trump-was-joking-when-he-talked-about-canceling-election/"
+          },
+          {
+            "text": "HuffPost: Trump Entertains Plot To Declare A 'National Emergency' Over Elections",
+            "url": "https://www.huffpost.com/entry/trump-national-emergency-elections-midterms-stranger-things-happened_n_6a7af375e4b07b8d6224c871"
+          },
+          {
+            "text": "TIME: Read TIME's 'What Trump Has Built' Interview Transcript",
+            "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/"
+          },
+          {
+            "text": "HuffPost: Jeff Landry says Louisiana voters whose primary ballots were discarded 'will vote again'",
+            "url": "https://www.huffpost.com/entry/jeff-landry-louisiana-elections-suspended-60-minutes_n_6a0263b5e4b088000126c859"
+          },
+          {
+            "text": "ACLU: Civil rights groups file emergency challenge to Louisiana governor's attempt to suspend election already underway",
+            "url": "https://www.aclu.org/press-releases/civil-rights-groups-file-emergency-challenge-to-louisiana-governors-attempt-to-suspend-election-already-underway"
+          }
+        ],
+        "refSources": [
+          {
+            "text": "2 U.S.C. 7: Time of election (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/2/7"
+          },
+          {
+            "text": "U.S. Constitution, transcript (National Archives)",
+            "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+          },
+          {
+            "text": "U.S. Constitution, Amendments 11-27 (National Archives)",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+          },
+          {
+            "text": "Congressional Research Service: Postponement and Rescheduling of Elections to Federal Office (RL32623)",
+            "url": "https://www.everycrsreport.com/reports/RL32623.html"
+          }
+        ],
+        "trackerIds": [
+          "trump-tells-reuters-we-shouldnt-even-have-an-election",
+          "trump-noncommittal-national-security-emergency-elections",
+          "louisiana-governor-suspends-house-primaries-callais"
+        ]
+      },
+      {
+        "id": "martial-law",
+        "claim": "He'll declare martial law, or use the Insurrection Act to stop the vote.",
+        "verdict": "Possible, not documented",
+        "record": "Asked by TIME on September 28 whether he would rule out a state of emergency before the midterms, Trump said, \"I don't rule anything out or in,\" brought up the Insurrection Act himself, and said, \"I've never used it. I could use it.\" National Guard troops are scheduled to stay on the streets of Washington, D.C., through Inauguration Day 2029. No invocation of the Insurrection Act and no order sending troops to polling places has been documented. Gen. Dan Caine, chairman of the Joint Chiefs, wrote to a senator in August that there are \"no plans to send Federal military personnel or Federalized members of the National Guard to polling places during the 2026 elections.\"",
+        "stands": "No law lets a president declare martial law. The Brennan Center: \"There are no existing federal statutes that authorize the president to declare martial law,\" and \"The Insurrection Act does not authorize martial law.\" That Act lets a president use troops \"to enforce those laws or to suppress the rebellion\" (10 U.S.C. 252), and first requires a proclamation ordering insurgents \"to disperse and retire peaceably to their abodes within a limited time\" (10 U.S.C. 254). It says nothing about elections. Separately, bringing \"any troops or armed men\" to a polling place is a federal crime \"unless such force be necessary to repel armed enemies of the United States\" (18 U.S.C. 592).",
+        "would": "A proclamation under 10 U.S.C. 254, which must come before troops are used, or an order sending federal troops or federalized Guard into a state near Election Day.",
+        "cards": [
+          "draft-emergency-eo",
+          "dc-guard-2029",
+          "election-integrity-army"
+        ],
+        "sources": [
+          {
+            "text": "TIME: Read TIME's 'What Trump Has Built' Interview Transcript",
+            "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview-transcript/"
+          },
+          {
+            "text": "The Hill: Trump not ruling out invoking Insurrection Act around midterms",
+            "url": "https://thehill.com/homenews/administration/6122559-trump-midterm-election-insurrection-act/"
+          },
+          {
+            "text": "NPR: Trump's National Guard deployment in D.C. has been extended until 2029",
+            "url": "https://www.npr.org/2026/07/14/nx-s1-5892498/national-guard-deployment-dc-2029"
+          },
+          {
+            "text": "AP: Senators from both parties voice criticism about Pentagon briefing on US defense strategy",
+            "url": "https://apnews.com/article/pentagon-congress-colby-iran-war-troops-elections-e75c77fb1b6773ccc5f3c715de9359e5"
+          }
+        ],
+        "refSources": [
+          {
+            "text": "Brennan Center for Justice: Martial Law, Explained",
+            "url": "https://www.brennancenter.org/our-work/research-reports/martial-law-explained"
+          },
+          {
+            "text": "Brennan Center for Justice: The Insurrection Act, Explained",
+            "url": "https://www.brennancenter.org/our-work/research-reports/insurrection-act-explained"
+          },
+          {
+            "text": "10 U.S.C. 252: Use of militia and armed forces to enforce Federal authority (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/10/252"
+          },
+          {
+            "text": "10 U.S.C. 254: Proclamation to disperse (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/10/254"
+          },
+          {
+            "text": "18 U.S.C. 592: Troops at polls (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/18/592"
+          }
+        ],
+        "trackerIds": [
+          "trump-noncommittal-national-security-emergency-elections",
+          "dc-national-guard-deployment-extended-2029",
+          "colby-nds-briefing-senators-both-parties-national-guard-polling-places"
+        ]
+      },
+      {
+        "id": "military-purge",
+        "claim": "Hegseth is purging the generals to set up a military coup.",
+        "verdict": "No evidence of that purpose",
+        "record": "The purge is real. Hegseth has fired or blocked the promotions of \"more than 80 generals and admirals,\" about 10 percent of the military's top officers, the New York Times reported. The reasons on the record point elsewhere: the Army secretary resigned after objecting to Hegseth \"firing the generals who were responsible\" for his modernization plans. And in August the leaders of three combatant commands and the Chief of Naval Operations formally objected, in writing, to orders extending the Iran war. We have found no reporting that ties the firings to the election.",
+        "stands": "The officers themselves are bound by law. It is a federal crime for \"an officer or member of the Armed Forces\" to prevent \"any qualified voter\" from voting or to interfere with an election officer's duties (18 U.S.C. 593). The Posse Comitatus Act bars using the military \"to execute the laws\" except where the Constitution or Congress expressly allows it (18 U.S.C. 1385).",
+        "would": "An officer removed or disciplined for refusing an election-related order, or a written order placing troops at or near polling places.",
+        "cards": [],
+        "sources": [
+          {
+            "text": "The New York Times (via The Seattle Times): Hegseth targets 7 more officers as his frustrated Army secretary quits",
+            "url": "https://www.seattletimes.com/nation-world/nation-politics/hegseth-targets-7-more-officers-as-his-frustrated-army-secretary-quits/"
+          },
+          {
+            "text": "Al Jazeera: US Army Secretary Daniel Driscoll submits resignation, media reports say",
+            "url": "https://www.aljazeera.com/news/2026/8/31/us-army-secretary-daniel-driscoll-submits-resignation-media-reports-say"
+          },
+          {
+            "text": "NPR: Army Secretary Dan Driscoll resigns after clashes with Defense Secretary Hegseth",
+            "url": "https://www.npr.org/2026/09/01/g-s1-141337/army-secretary-stepping-down"
+          },
+          {
+            "text": "The Washington Post (via The Spokesman-Review): Military leaders warn Hegseth against extending Iran war operations",
+            "url": "https://www.spokesman.com/stories/2026/aug/30/military-leaders-warn-hegseth-against-extending-ir/"
+          }
+        ],
+        "refSources": [
+          {
+            "text": "18 U.S.C. 593: Interference by armed forces (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/18/593"
+          },
+          {
+            "text": "18 U.S.C. 1385: Use of Army, Navy, Marine Corps, Air Force, and Space Force as posse comitatus (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/18/1385"
+          }
+        ],
+        "trackerIds": [
+          "driscoll-resigns-hegseth-blocks-80-generals-army-leaderless",
+          "military-chiefs-nonconcur-iran-sdob-trump-little-war"
+        ]
+      },
+      {
+        "id": "musk-machines",
+        "claim": "Musk will help rig the voting machines.",
+        "verdict": "No evidence",
+        "record": "The fear draws on a real remark. The day before his 2025 inauguration, Trump said Musk \"knows those computers better than anybody, all those computers, those vote counting computers, and we ended up winning Pennsylvania, like, in a landslide.\" Snopes confirmed the quote and found no evidence he meant the win was due to Musk. Claims that Musk's Starlink network was used to steal the 2024 election were checked by AP, which called them \"unfounded\": election officials said their voting equipment does not use Starlink and is not connected to the internet. Musk's documented role in the midterms is money. His super PAC, which spent more than $260 million to help elect Trump in 2024, is back with a door-knocking and advertising push for Republicans. We have found no reporting or official finding that Musk, his companies, DOGE or America PAC had access to the equipment that counts or reports votes.",
+        "stands": "Most votes cast in November will leave a paper record. In Verified Voting's 2026 survey, 69.5 percent of registered voters live where most voters mark paper ballots by hand, which the group calls \"a tangible, tamper-evident and auditable record,\" and 1.3 percent live where every voter uses a machine with no paper record.",
+        "would": "Documented access by Musk, his companies or DOGE to equipment or systems that count or report votes.",
+        "cards": [
+          "musk-america-pac-midterm-spending",
+          "musk-wisconsin-bribery",
+          "musk-georgia-ballot-applications"
+        ],
+        "sources": [
+          {
+            "text": "Axios (via Yahoo): Exclusive: Musk plans massive push for GOP in midterms",
+            "url": "https://www.yahoo.com/news/politics/articles/exclusive-musk-plans-massive-push-230005221.html"
+          },
+          {
+            "text": "Newsweek: Map Shows States Elon Musk's Midterm Money Machine Could Impact Most",
+            "url": "https://www.newsweek.com/map-elon-musk-midterm-america-pac-12264200"
+          }
+        ],
+        "refSources": [
+          {
+            "text": "Snopes (via Yahoo News): Fact Check: Yes, Trump said Musk knows vote-counting computers 'better than anybody'",
+            "url": "https://www.yahoo.com/news/fact-check-yes-trump-said-130000430.html"
+          },
+          {
+            "text": "AP: FACT FOCUS: Election officials knock down Starlink vote rigging conspiracy theories",
+            "url": "https://apnews.com/article/fact-check-election-starlink-musk-steal-trump-38757341656d4f44243076d6356cb68b"
+          },
+          {
+            "text": "Verified Voting: The Verifier, national data for 2026",
+            "url": "https://verifiedvoting.org/verifier/"
+          }
+        ],
+        "trackerIds": [
+          "musk-america-pac-100-million-midterm-turnout-2026"
+        ]
+      },
+      {
+        "id": "false-flag",
+        "claim": "They'll stage an attack to justify a crackdown.",
+        "verdict": "No evidence",
+        "record": "We know of no evidence for this, and we will not speculate about it. What is documented is the use of real conditions, stretched: the \"crime emergency\" that put the National Guard on Washington's streets was declared while violent crime in the city was at a 30-year low, and it is now scheduled to run through January 2029.",
+        "stands": "The limits in the two items above apply however an emergency begins: no law authorizes martial law, and troops at a polling place are a crime except to repel armed enemies of the United States.",
+        "would": "We would report any emergency declaration and the basis it gives, and say plainly when the basis is exaggerated, as we have with the D.C. deployment.",
+        "cards": [
+          "dc-guard-2029",
+          "emergency-powers-track"
+        ],
+        "sources": [
+          {
+            "text": "NPR: Trump's National Guard deployment in D.C. has been extended until 2029",
+            "url": "https://www.npr.org/2026/07/14/nx-s1-5892498/national-guard-deployment-dc-2029"
+          },
+          {
+            "text": "The Hill: National Guard deployment in DC extended until next presidential inauguration",
+            "url": "https://thehill.com/policy/defense/5967829-national-guard-deployment-in-dc-extended-until-next-presidential-inauguration/"
+          }
+        ],
+        "refSources": [],
+        "trackerIds": [
+          "dc-national-guard-deployment-extended-2029"
+        ]
+      },
+      {
+        "id": "ice-arrests",
+        "claim": "ICE will arrest people waiting in line to vote.",
+        "verdict": "Partly documented",
+        "record": "Officials will not rule out agents at polling places (see the table above), and Homeland Security Secretary Markwayne Mullin has said agents could be there if they are \"serving a warrant on someone that we have been actively tracking down.\" A lawsuit by Denver and voting groups cites reports of agents at or near polling places in San Antonio, Ventura County and Syracuse this year. Border czar Tom Homan says \"there is no plan for enforcement action at polling places.\" We have found no documented arrest of a voter at a polling place.",
+        "stands": "Bringing \"any troops or armed men\" to a polling place is a federal felony unless needed \"to repel armed enemies of the United States\" (18 U.S.C. 592), and intimidating anyone \"for the purpose of interfering with the right of such other person to vote\" is a federal crime (18 U.S.C. 594). Three federal lawsuits ask the courts to keep armed federal agents away from polling places.",
+        "would": "Armed federal agents posted at polling places on Election Day, or an arrest of a voter at one.",
+        "cards": [
+          "ice-surround-polls",
+          "syracuse-poll-worker",
+          "patel-fbi-at-polls"
+        ],
+        "sources": [
+          {
+            "text": "Democracy Docket: DHS chief says ICE could make arrests at polling places",
+            "url": "https://www.democracydocket.com/news-alerts/dhs-chief-says-ice-could-make-arrests-at-polling-places-ignoring-federal-ban/"
+          },
+          {
+            "text": "Colorado Sun: Denver, Latino groups sue to keep ICE agents away from voting places",
+            "url": "https://coloradosun.com/2026/09/10/denver-sues-to-keep-ice-away-from-voters/"
+          },
+          {
+            "text": "The Hill: ICE has no plans to 'sweep polling locations' for noncitizens, Homan says",
+            "url": "https://thehill.com/homenews/administration/6087947-tom-homan-ice-midterm-polls/"
+          },
+          {
+            "text": "NAACP v. Department of Homeland Security: complaint (D.D.C., September 18, 2026)",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.296692/gov.uscourts.dcd.296692.1.0.pdf"
+          },
+          {
+            "text": "Democracy Docket: Democrats sue Trump admin to keep armed agents from polls during midterms",
+            "url": "https://www.democracydocket.com/news-alerts/democrats-sue-trump-admin-to-keep-armed-agents-from-polls-during-midterms/"
+          }
+        ],
+        "refSources": [
+          {
+            "text": "18 U.S.C. 592: Troops at polls (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/18/592"
+          },
+          {
+            "text": "18 U.S.C. 594: Intimidation of voters (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/18/594"
+          }
+        ],
+        "trackerIds": [
+          "white-house-ice-polling-places-midterms"
+        ]
+      }
+    ],
+    "take": "Most of these fears come from people alarmed by the record above, and some of them may yet come true. We hold them to the same standard as a fraud claim anyway, because a prediction that fails costs the same credibility as a claim that falls apart. There is a second reason. Telling people the outcome is already fixed does the work of the effort this page documents: it keeps them home."
+  },
+  "after": {
+    "kicker": "November 3 to January 3",
+    "title": "After the vote",
+    "sub": "Election night does not decide who serves. Counties certify their counts, then states certify theirs, and the new House is seated on January 3. These are the steps, what to watch at each one, and the legal deadlines in ten states.",
+    "rows": [
+      {
+        "when": "Nov. 5 to Nov. 24",
+        "step": "Counties certify",
+        "what": "Each county or local board reviews its count, a step called the canvass, and certifies the result by a deadline set in state law.",
+        "watch": "A board that refuses or delays. Courts have treated the duty as mandatory: an Arizona judge ruled in 2022 that the Cochise County board \"exceeded its lawful authority in delaying the canvass,\" and a Georgia judge ruled in 2024 that the county role in certifying is \"ministerial and mandatory.\" Michigan's law calls it \"the ministerial, clerical, and nondiscretionary duty\" of county canvassers. Voting groups counted \"at least 17 attempts to interfere with certification during the 2024 election cycle alone,\" and every one of those elections was ultimately certified.",
+        "card": "election-deniers-running",
+        "sources": [
+          {
+            "text": "NPR: Arizona's Cochise County finally certifies its election results after a court order (Dec. 1, 2022)",
+            "url": "https://www.npr.org/2022/12/01/1140086777/midterm-elections-cochise-county-arizona-ruling"
+          },
+          {
+            "text": "Georgia Recorder: Fulton judge says Georgia law requires county election officials to certify results (Oct. 15, 2024)",
+            "url": "https://georgiarecorder.com/2024/10/15/fulton-judge-says-georgia-law-requires-county-election-officials-to-certify-results/"
+          },
+          {
+            "text": "Michigan Compiled Laws 168.822",
+            "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-168-822"
+          },
+          {
+            "text": "Democracy Docket: How rogue counties could help Trump and throw the midterms into chaos after Election Day (Sept. 21, 2026)",
+            "url": "https://www.democracydocket.com/news-alerts/how-rogue-counties-could-help-trump-and-throw-the-midterms-into-chaos-after-election-day/"
+          },
+          {
+            "text": "NCSL: Canvass Deadlines (updated July 9, 2025)",
+            "url": "https://www.ncsl.org/elections-and-campaigns/canvass-deadlines"
+          }
+        ]
+      },
+      {
+        "when": "Nov. 20 to early Dec.",
+        "step": "States certify",
+        "what": "A state board or official certifies the statewide result. Most of the ten states below set a fixed date. Texas lets its secretary of state pick a day within a window, and Pennsylvania's law sets no statewide deadline.",
+        "watch": "A state official who delays past the state's own deadline.",
+        "sources": [
+          {
+            "text": "NCSL: Canvass Deadlines (updated July 9, 2025)",
+            "url": "https://www.ncsl.org/elections-and-campaigns/canvass-deadlines"
+          },
+          {
+            "text": "Tex. Elec. Code ch. 67",
+            "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.67.htm"
+          }
+        ]
+      },
+      {
+        "when": "Within 30 days",
+        "step": "Contests",
+        "what": "A losing House candidate who wants to challenge the result must file notice with the House Clerk \"within thirty days after the result of such election shall have been declared\" (2 U.S.C. 382).",
+        "sources": [
+          {
+            "text": "2 U.S.C. 382: Notice of contest (Cornell LII)",
+            "url": "https://www.law.cornell.edu/uscode/text/2/382"
+          }
+        ]
+      },
+      {
+        "when": "Jan. 3, 2027",
+        "step": "The new House",
+        "what": "The 20th Amendment ends House terms at noon on January 3, and Congress meets that day \"unless they shall by law appoint a different day.\" The House Clerk lists as members-elect only those \"whose credentials show that they were regularly elected in accordance with the laws of their States respectively, or the laws of the United States\" (2 U.S.C. 26).",
+        "watch": "Any attempt to keep a certified winner off the roll. Each House is \"the Judge of the Elections, Returns and Qualifications of its own Members\" (Art. I, Sec. 5), so the House itself rules on contested seats.",
+        "sources": [
+          {
+            "text": "U.S. Constitution, Amendments 11-27 (National Archives)",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+          },
+          {
+            "text": "2 U.S.C. 26: Roll of Representatives-elect (GPO, U.S. Code 2024)",
+            "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title2/html/USCODE-2024-title2-chap2-sec26.htm"
+          },
+          {
+            "text": "U.S. Constitution, transcript (National Archives)",
+            "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+          }
+        ]
+      }
+    ],
+    "states": [
+      {
+        "state": "Arizona",
+        "county": "Nov. 19",
+        "statewide": "Nov. 23",
+        "sources": [
+          {
+            "text": "A.R.S. 16-642",
+            "url": "https://www.azleg.gov/ars/16/00642.htm"
+          }
+        ]
+      },
+      {
+        "state": "Georgia",
+        "county": "Nov. 9, 5 p.m.",
+        "statewide": "Nov. 20",
+        "sources": [
+          {
+            "text": "Georgia Secretary of State: 2026 Elections Calendar",
+            "url": "https://sos.ga.gov/sites/default/files/forms/2026%20Elections%20Calendar.pdf"
+          }
+        ]
+      },
+      {
+        "state": "Maine",
+        "county": "Nov. 5 (town returns)",
+        "statewide": "Nov. 23",
+        "sources": [
+          {
+            "text": "21-A M.R.S. 711",
+            "url": "https://legislature.maine.gov/statutes/21-A/title21-Asec711.html"
+          },
+          {
+            "text": "21-A M.R.S. 722",
+            "url": "https://legislature.maine.gov/statutes/21-A/title21-Asec722.html"
+          }
+        ]
+      },
+      {
+        "state": "Michigan",
+        "county": "Nov. 17",
+        "statewide": "Nov. 23",
+        "sources": [
+          {
+            "text": "Michigan Compiled Laws 168.822",
+            "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-168-822"
+          },
+          {
+            "text": "Michigan Compiled Laws 168.842",
+            "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-168-842"
+          }
+        ]
+      },
+      {
+        "state": "Nevada",
+        "county": "Nov. 13",
+        "statewide": "Nov. 24",
+        "sources": [
+          {
+            "text": "NRS 293.387 and 293.395",
+            "url": "https://www.leg.state.nv.us/nrs/nrs-293.html"
+          }
+        ]
+      },
+      {
+        "state": "North Carolina",
+        "county": "Nov. 13",
+        "statewide": "Nov. 24",
+        "sources": [
+          {
+            "text": "N.C. Gen. Stat. 163-182.5",
+            "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_163/GS_163-182.5.html"
+          }
+        ]
+      },
+      {
+        "state": "Ohio",
+        "county": "Nov. 24",
+        "statewide": "Within 10 days of the last county's results",
+        "sources": [
+          {
+            "text": "Ohio Rev. Code 3505.32",
+            "url": "https://codes.ohio.gov/ohio-revised-code/section-3505.32"
+          },
+          {
+            "text": "Ohio Rev. Code 3505.35",
+            "url": "https://codes.ohio.gov/ohio-revised-code/section-3505.35"
+          }
+        ]
+      },
+      {
+        "state": "Pennsylvania",
+        "county": "Nov. 23",
+        "statewide": "No date set in law",
+        "sources": [
+          {
+            "text": "Pennsylvania Department of State: 2026 General Election Calendar",
+            "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/voting-and-elections/running-for-office/2026/2026-general-election-calendar.pdf"
+          },
+          {
+            "text": "NCSL: Canvass Deadlines (updated July 9, 2025)",
+            "url": "https://www.ncsl.org/elections-and-campaigns/canvass-deadlines"
+          }
+        ]
+      },
+      {
+        "state": "Texas",
+        "county": "Nov. 17",
+        "statewide": "Nov. 21 to Dec. 6, date set by the secretary of state",
+        "sources": [
+          {
+            "text": "Tex. Elec. Code ch. 67",
+            "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.67.htm"
+          }
+        ]
+      },
+      {
+        "state": "Wisconsin",
+        "county": "Nov. 17",
+        "statewide": "Dec. 1",
+        "sources": [
+          {
+            "text": "Wis. Stat. 7.60",
+            "url": "https://docs.legis.wisconsin.gov/statutes/statutes/7/II/60"
+          },
+          {
+            "text": "Wis. Stat. 7.70",
+            "url": "https://docs.legis.wisconsin.gov/statutes/statutes/7/II/70"
+          }
+        ]
+      }
+    ],
+    "note": "Dates are computed from each state's law or official 2026 calendar for an election on Tuesday, Nov. 3, and are the latest the law allows. Many counties finish sooner."
   }
 }

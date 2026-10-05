@@ -1241,7 +1241,7 @@
       "The draft would mandate voter ID for the midterms, ban mail-in ballots, and require hand-counted paper ballots, by presidential decree.",
       "Sources told ABC that Trump reviewed the draft and that the attorneys were coordinating with the White House. Trump denied knowing about it.",
       "Five months later, his primetime address made the same Chinese-interference claim the draft order was built on.",
-      "On August 10, 2026, asked directly whether he would declare a \"national security emergency for elections\" to impose citizenship, photo-ID, and mail-in rules without Congress, a plan pushed by a Real America's Voice host, Trump did not rule it out: \"Let me just say that stranger things have happened, OK? I'll leave it at that.\" Asked by TIME on September 28 whether he would rule out declaring a state of emergency before the midterms, he answered, \"I don't rule anything out or in. We'll see. You mean the Insurrection Act?\" and then, \"No, I've never used it. I could use it.\""
+      "On August 11, 2026, asked directly whether he would declare a \"national security emergency for elections\" to impose citizenship, photo-ID, and mail-in rules without Congress, a plan pushed by a Real America's Voice host, Trump did not rule it out: \"Let me just say that stranger things have happened, OK? I'll leave it at that.\" Asked by TIME on September 28 whether he would rule out declaring a state of emergency before the midterms, he answered, \"I don't rule anything out or in. We'll see. You mean the Insurrection Act?\" and then, \"No, I've never used it. I could use it.\""
     ],
     "sources": [
       {
@@ -1808,9 +1808,9 @@
     "category": "narrative",
     "status": "record",
     "facts": [
-      "On February 2, 2026, Trump said on the Dan Bongino Show: \"We should take over the voting in at least — many, 15 places. The Republicans ought to nationalize the voting,\" naming Detroit, Philadelphia, and Atlanta as \"extremely corrupt\" without evidence. The Constitution assigns election administration to the states.",
-      "Three days later, asked whether he would accept the midterm results: \"I will, if the elections are honest. If the elections aren't honest, then something else has to happen.\"",
-      "In the same interview he denied having used the word \"nationalize,\" despite the recording.",
+      "On February 2, 2026, Trump said on the Dan Bongino Show: \"We should take over the voting in at least — many, 15 places. The Republicans ought to nationalize the voting.\" The Constitution assigns election administration to the states.",
+      "Two days later, on NBC, he said of the states that count votes, \"If they can't do it honestly and it can't be done properly and timely, then something else has to happen.\" Asked next whether he would trust the midterm results if Republicans lost Congress: \"I will if the elections are honest.\"",
+      "In the same interview he denied having used the word \"nationalize,\" despite the recording, and named Detroit, Philadelphia and Atlanta: \"There are some areas that are unbelievably corrupt.\" He offered no evidence.",
       "Dartmouth election scholar Brendan Nyhan: \"The last time he started talking like this, his allies minimized the risks and we ended up with Jan 6... These comments are a five-alarm fire for democracy.\""
     ],
     "sources": [
@@ -1825,6 +1825,10 @@
       {
         "text": "NPR: Trump says he wants Republicans to 'nationalize' elections",
         "url": "https://www.npr.org/2026/02/03/nx-s1-5698095/trump-says-he-wants-republicans-to-nationalize-elections"
+      },
+      {
+        "text": "NBC News: Read the full transcript: President Donald Trump interviewed by 'NBC Nightly News' anchor Tom Llamas",
+        "url": "https://www.nbcnews.com/politics/trump-administration/trump-interview-nbc-news-extend-transcript-tom-llamas-super-bowl-2026-rcna257410"
       }
     ],
     "trackerIds": [
@@ -2011,7 +2015,7 @@
     "facts": [
       "On June 14, 2026, DHS Secretary Markwayne Mullin told CNN he would \"throw out the Constitution\" to ensure that only citizens vote, then walked it back moments later: \"Throw it out as an argument.\"",
       "He said DHS is scrubbing state voter rolls and claimed it sees \"thousands\" registered with mail-out ballots, without naming a single state or roll.",
-      "Asked whether ICE agents would be at polling places for the midterms, he would not rule it out, saying officers \"would only be there if a threat is arised.\"",
+      "Asked on CNN, \"Are you willing to rule out sending ICE agents?\", he answered, \"No, what I said is that we would only be there if a threat\" arose. Pressed, \"So, you're not ruling it out?\", he said, \"No, keep in mind, why would ICE be there? Because only people that should be voting there is American citizens. There shouldn't be any immigration enforcement.\"",
       "Every major study has found noncitizen voting to be vanishingly rare, and the Constitution assigns the administration of elections to the states."
     ],
     "take": "The cabinet secretary who runs immigration enforcement floated putting his agents near polling places, and named the Constitution as the obstacle. Federal officers at a polling place do not have to arrest anyone to change who feels safe walking in.",
@@ -2021,7 +2025,7 @@
     },
     "sources": [
       {
-        "text": "The Hill: Mullin won't rule out ICE agents near polls for the midterms",
+        "text": "The Hill: Mullin says ICE 'only' deployed at midterm polls if 'threat' arises",
         "url": "https://thehill.com/policy/national-security/5923403-mullin-ice-agents-midterms-polls/"
       },
       {

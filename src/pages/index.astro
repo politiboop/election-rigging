@@ -14,7 +14,7 @@ import actions from '../data/actions.json';
 import history from '../data/history.json';
 import evidence from '../data/evidence.json';
 
-const LAST_UPDATED = 'October 4, 2026';
+const LAST_UPDATED = 'October 5, 2026';
 
 const STATUS = {
   active:     { label: 'In Effect',     color: 'var(--st-active)' },
@@ -38,6 +38,8 @@ const CATS = {
 const sorted = [...actions].sort((a, b) => b.date.localeCompare(a.date));
 const chrono = [...actions].sort((a, b) => a.date.localeCompare(b.date));
 const total = actions.length;
+const VERDICT_TONE = { 'No evidence': 'none', 'No evidence of that purpose': 'none', 'Possible, not documented': 'possible', 'Partly documented': 'partly' };
+const cardTitle = Object.fromEntries(actions.map((a) => [a.id, a.title]));
 const evidenceSourceCount = [evidence.baseline, evidence.saveact].reduce((n, sec) => n + [...sec.stats, ...sec.rows].reduce((m, x) => m + (x.sources || []).length, 0), 0);
 
 const MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -106,7 +108,7 @@ const description = `A sourced, single-page record of ${total} documented action
         <a class="wordmark" href="#top">Rigged <em>Before</em> the Vote</a>
         <span class="countdown-chip" id="countdown-chip"><strong id="days-out">—</strong> days<span class="cd-long"> to the midterms</span></span>
       </div>
-      <!-- Nine section links never fit beside the wordmark and the chip, even at the
+      <!-- Twelve section links never fit beside the wordmark and the chip, even at the
            widest container, so they get a row of their own that scrolls sideways
            when the window is too narrow to show them all. -->
       <nav class="subnav" aria-label="Sections">
@@ -118,6 +120,9 @@ const description = `A sourced, single-page record of ${total} documented action
           <a href="#saveact">The SAVE Act</a>
           <a href="#pattern">The Pattern</a>
           <a href="#watch">What to Watch</a>
+          <a href="#after">After the Vote</a>
+          <a href="#asked">Wouldn't Rule It Out</a>
+          <a href="#heard">What You May Have Heard</a>
           <a href="#protect">Protect the Vote</a>
           <a href="#method">Method</a>
         </div>
@@ -561,7 +566,7 @@ const description = `A sourced, single-page record of ${total} documented action
             </li>
             <li>
               <span class="watch-when">Bannon's date passed</span>
-              <span class="watch-what"><strong>The "national emergency" watch.</strong> Steve Bannon said in late July he believes Trump will declare a national emergency by late August, claiming there will be "enough evidence by mid-August" of election fraud, the fraud courts, Barr, and CISA all found does not exist. Trump denied considering it in July. On August 10, asked directly whether he would declare a "national security emergency for elections," he answered: "Stranger things have happened, OK? I'll leave it at that." Bannon's late-August window passed without a declaration, and as of this update none has been made. Trump has not ruled it out. <a href="#draft-emergency-eo">See the card</a>.</span>
+              <span class="watch-what"><strong>The "national emergency" watch.</strong> Steve Bannon said in late July he believes Trump will declare a national emergency by late August, claiming there will be "enough evidence by mid-August" of election fraud, the fraud courts, Barr, and CISA all found does not exist. Trump denied considering it in July. On August 11, asked directly whether he would declare a "national security emergency for elections," he answered: "Let me just say that stranger things have happened, OK? I'll leave it at that." Bannon's late-August window passed without a declaration, and as of this update none has been made. Trump has not ruled it out. <a href="#draft-emergency-eo">See the card</a>.</span>
             </li>
             <li>
               <span class="watch-when">Ruling pending</span>
@@ -609,9 +614,132 @@ const description = `A sourced, single-page record of ${total} documented action
             </li>
             <li>
               <span class="watch-when">Nov 3, 2026</span>
-              <span class="watch-what"><strong>Election Day.</strong> Trump has said he will accept the results "if they are honest" — and that if not, "something else has to happen." <a href="#nationalize-voting">See the card</a>.</span>
+              <span class="watch-what"><strong>Election Day.</strong> Asked whether he would trust the results if Republicans lose Congress, Trump said, "I will if the elections are honest." Of states that cannot count votes honestly, he said, "something else has to happen." <a href="#nationalize-voting">See the card</a>.</span>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <!-- ── AFTER THE VOTE ───────────────────────────────────────────── -->
+      <section id="after" aria-label="After the vote">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">{evidence.after.kicker}</p>
+            <h2>{evidence.after.title}</h2>
+            <p class="sub">{evidence.after.sub}</p>
+          </div>
+          <ol class="after-steps">
+            {evidence.after.rows.map((r) => (
+              <li>
+                <span class="watch-when">{r.when}</span>
+                <div class="after-body">
+                  <h3>{r.step}</h3>
+                  <p>{r.what}</p>
+                  {r.watch && <p class="after-watch"><span class="after-lbl">Watch for</span> {r.watch}</p>}
+                  {r.card && <p class="after-card"><a href={'#' + r.card}>See the card: {cardTitle[r.card]}</a></p>}
+                  <p class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <div class="ev-table is-states" role="table" aria-label="Certification deadlines by state">
+            <div class="ev-row ev-head" role="row">
+              <span role="columnheader">State</span>
+              <span role="columnheader">Counties certify by</span>
+              <span role="columnheader">State certifies by</span>
+            </div>
+            {evidence.after.states.map((r) => (
+              <div class="ev-row" role="row">
+                <span class="ev-who" role="cell"><strong>{r.state}</strong></span>
+                <span class="st-date" role="cell" data-lbl="Counties">{r.county}</span>
+                <span class="st-date" role="cell" data-lbl="State">
+                  {r.statewide}
+                  <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
+                </span>
+              </div>
+            ))}
+          </div>
+          <p class="ev-foot">{evidence.after.note}</p>
+        </div>
+      </section>
+
+      <!-- ── ASKED, AND WOULDN'T RULE IT OUT ──────────────────────────── -->
+      <section id="asked" aria-label="Asked, and wouldn't rule it out">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">{evidence.asked.kicker}</p>
+            <h2>{evidence.asked.title}</h2>
+            <p class="sub">{evidence.asked.sub}</p>
+          </div>
+          <div class="ask-table" role="table" aria-label="Questions and answers">
+            <div class="ask-row ask-head" role="row">
+              <span role="columnheader">Who</span>
+              <span role="columnheader">The question</span>
+              <span role="columnheader">The answer</span>
+              <span role="columnheader">Also on the record</span>
+            </div>
+            {evidence.asked.rows.map((r) => (
+              <div class="ask-row" role="row">
+                <span class="ask-who" role="cell"><strong>{r.who}</strong><span class="ev-when">{r.role} · {r.when}</span></span>
+                <span class="ask-q" role="cell">{r.asked}</span>
+                <span class="ask-a" role="cell">
+                  {r.answer}
+                  <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}{r.card && <> · <a class="to-card" href={'#' + r.card}>See the card</a></>}</span>
+                </span>
+                <span class="ask-also" role="cell">{r.also || '—'}</span>
+              </div>
+            ))}
+          </div>
+          <div class="ev-take">
+            <p class="take-lbl">Our take — opinion, not reporting</p>
+            <p>{evidence.asked.take}</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── WHAT YOU MAY HAVE HEARD ──────────────────────────────────── -->
+      <section id="heard" aria-label="What you may have heard">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="kicker">{evidence.heard.kicker}</p>
+            <h2>{evidence.heard.title}</h2>
+            <p class="sub">{evidence.heard.sub}</p>
+          </div>
+          <div class="heard-list">
+            {evidence.heard.items.map((h) => (
+              <article class="heard" id={'heard-' + h.id} data-tone={VERDICT_TONE[h.verdict] || 'none'}>
+                <div class="heard-head">
+                  <span class="verdict-chip">{h.verdict}</span>
+                  <h3>&ldquo;{h.claim}&rdquo;</h3>
+                </div>
+                <div class="heard-grid">
+                  <div>
+                    <p class="heard-lbl">On the record</p>
+                    <p>{h.record}</p>
+                    {h.cards.length > 0 && (
+                      <p class="heard-cards">{h.cards.map((c, i) => (<><a href={'#' + c}>{cardTitle[c]}</a>{i < h.cards.length - 1 ? ' · ' : ''}</>))}</p>
+                    )}
+                  </div>
+                  <div>
+                    <p class="heard-lbl">What stands in the way</p>
+                    <p>{h.stands}</p>
+                  </div>
+                  <div class="heard-would">
+                    <p class="heard-lbl">What would have to happen</p>
+                    <p>{h.would}</p>
+                  </div>
+                </div>
+                <p class="ev-src heard-src">
+                  <span class="heard-src-lbl">Reporting</span> {h.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < h.sources.length - 1 ? ' · ' : ''}</>))}
+                  {h.refSources.length > 0 && (<><br /><span class="heard-src-lbl">Law, analysis and fact-checks</span> {h.refSources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < h.refSources.length - 1 ? ' · ' : ''}</>))}</>)}
+                </p>
+              </article>
+            ))}
+          </div>
+          <div class="ev-take">
+            <p class="take-lbl">Our take — opinion, not reporting</p>
+            <p>{evidence.heard.take}</p>
+          </div>
         </div>
       </section>
 
@@ -688,6 +816,15 @@ const description = `A sourced, single-page record of ${total} documented action
                 <li><strong>Prohibited by Law</strong> means the action conflicts with explicit statute or a standing court order.</li>
                 <li><strong>Constitutional Conflict</strong> means the action collides with constitutional text or the Constitution's allocation of power, per the litigation and experts cited. Courts may not have ruled yet, and we say so.</li>
                 <li><strong>The trust counter</strong> in the header totals entries, {history.length} from the 2020–2025 prehistory plus {doubtCount} from the 2026 record, in which Trump or his administration publicly asserted that American elections are rigged, fraudulent, or illegitimate, or acted publicly to delegitimize a result. One entry can bundle many statements, so the count is conservative.</li>
+              </ul>
+            </div>
+            <div class="method-card">
+              <h3>Predictions we can't substantiate</h3>
+              <ul>
+                <li><strong>No evidence</strong>: nothing on the record supports the prediction.</li>
+                <li><strong>Possible, not documented</strong>: the legal means or a stated willingness exist, but no step toward it has been documented.</li>
+                <li><strong>Partly documented</strong>: some of it has happened; the rest has not.</li>
+                <li>Statutes and the Constitution are quoted from the official text, and every "what stands in the way" line links to it.</li>
               </ul>
             </div>
             <div class="method-card">

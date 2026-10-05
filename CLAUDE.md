@@ -109,6 +109,34 @@ applies exactly as on cards: `take` is the only place for opinion, and it render
 "OUR TAKE — opinion, not reporting" label. Keep the claim column in the SAVE Act table to the
 sponsors' strongest version of the argument, quoted, so the comparison is fair.
 
+## After the vote, wouldn't rule it out, what you may have heard (`evidence.json`)
+
+Three sections sit between What to Watch and Protect the Vote, all rendered from `evidence.json`:
+
+- **`after`** (`#after`): the steps from Election Day to the new House on January 3 (`rows`:
+  `when`, `step`, `what`, `watch`, optional `card`, `sources`), and county and statewide
+  certification deadlines for ten states (`states`). Every date is computed from the state's
+  statute or official 2026 calendar, which the row links to; `note` says they are the latest the
+  law allows. Re-check against the state calendars if a deadline moves.
+- **`asked`** (`#asked`): officials asked directly whether agents, troops or emergency powers will
+  be used, and what they answered (`rows`: `when`, `who`, `role`, `asked`, `answer`, optional
+  `also`, `card`, `sources`, `trackerIds`). `also` holds the denials and assurances on the same
+  question, so a refusal to rule something out is never shown without them.
+- **`heard`** (`#heard`): fears on our own side that the record does not support (`items`:
+  `id`, `claim`, `verdict`, `record`, `stands`, `would`, `cards`, `sources`, `refSources`,
+  `trackerIds`). `verdict` is one of "No evidence", "No evidence of that purpose", "Possible, not
+  documented" or "Partly documented" (defined in Method). `stands` quotes the statute or
+  Constitution from the official text; `would` names the documented step that would move the
+  item into the record. Never add an item that the record above already proves: it belongs on a
+  card instead.
+
+Sources split in two. Rows and items with `trackerIds` must have every `sources` URL in one of
+those tracker entries, and `verify-sources.js` checks them exactly as it checks cards. Statute,
+Constitution, expert-analysis and fact-check links go in `refSources` (or in `after`, which has no
+`trackerIds`), and `verify-evidence.js` checks that each answers with a real page. Quote the law
+only from text you loaded: uscode.house.gov was down on 2026-10-05, so Cornell LII and GPO's
+govinfo copy stood in, and the Constitution is quoted from the National Archives transcript.
+
 ## The prehistory (`src/data/history.json`)
 
 A dedicated Prehistory section (between The Record and The Sequence) shows the 2020–2025 record:
@@ -139,7 +167,8 @@ When processing news batches in the tracker, for every new/updated election-rela
    that card's `facts` and may change its `status`. Distinct actions get new cards.
 3. Bump the `LAST_UPDATED` constant in `index.astro`.
 4. Check the **What to Watch** list in `index.astro` — retire dates that passed (note what
-   happened), add new dated triggers.
+   happened), add new dated triggers. Check **Asked** and **What You May Have Heard** too: a new
+   non-denial gets a row, and a fear that becomes documented fact leaves `heard` for a card.
 5. Run `node verify-sources.js` (see below) and, if `evidence.json` changed, `node verify-evidence.js`;
    then `npm run build`, verify, commit (ask the user before pushing, per workspace convention).
 

@@ -42,7 +42,21 @@ if (!fs.existsSync(trackerDir)) {
 const norm = (u) => String(u).replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/+$/, '').toLowerCase();
 
 const actions = JSON.parse(fs.readFileSync(actionsPath, 'utf8'));
-const cards = Array.isArray(actions) ? actions : actions.actions || [];
+const actionCards = Array.isArray(actions) ? actions : actions.actions || [];
+
+// The evidence sections built from tracker entries ("Asked, and wouldn't rule it
+// out", "What you may have heard") carry trackerIds on each row or item, and are
+// held to the same rule as cards. Rows without trackerIds cite primary documents
+// and are checked for liveness by verify-evidence.js instead.
+const evidence = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'evidence.json'), 'utf8'));
+const evidenceUnits = [];
+for (const [name, sec] of Object.entries(evidence)) {
+  [...(sec.rows || []), ...(sec.items || [])].forEach((item, i) => {
+    if (!item.trackerIds) return;
+    evidenceUnits.push({ id: `evidence.${name}[${i}]${item.id ? ' ' + item.id : ''}`, trackerIds: item.trackerIds, sources: item.sources || [] });
+  });
+}
+const cards = [...actionCards, ...evidenceUnits];
 
 const missingEntries = [];
 const untraceable = [];
@@ -72,7 +86,7 @@ for (const card of cards) {
   if (verbose) console.log(`   ${card.id}: ${sources.length} sources / ${ids.length} seed entries`);
 }
 
-console.log(`\nChecked ${cards.length} cards / ${urlCount} source URLs against ${trackerDir.replace(process.env.HOME, '~')}\n`);
+console.log(`\nChecked ${actionCards.length} cards and ${evidenceUnits.length} evidence rows / ${urlCount} source URLs against ${trackerDir.replace(process.env.HOME, '~')}\n`);
 
 if (missingEntries.length) {
   console.log(`❌ ${missingEntries.length} trackerId(s) do not resolve to a tracker entry:\n`);

@@ -616,6 +616,104 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
 .watch-what a { color: var(--st-court); text-decoration: none; }
 .watch-what a:hover { text-decoration: underline; }
 
+/* ── after the vote ────────────────────────────────────────────────────── */
+.after-steps { list-style: none; max-width: 900px; margin-bottom: 30px; }
+.after-steps li {
+  display: grid; grid-template-columns: 150px 1fr; gap: 18px;
+  padding: 18px 0; border-bottom: 1px solid var(--line-soft);
+}
+@media (max-width: 640px) { .after-steps li { grid-template-columns: 1fr; gap: 6px; } }
+.after-body h3 {
+  font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+  font-size: 21px; line-height: 1.1; margin-bottom: 6px;
+}
+.after-body > p { font-size: 15px; color: var(--text-2); line-height: 1.6; }
+.after-watch {
+  margin-top: 10px; padding: 10px 14px; border-left: 3px solid var(--st-threat);
+  background: var(--raised); border-radius: 0 5px 5px 0; font-size: 14px !important;
+}
+.after-lbl {
+  display: block; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--st-threat); margin-bottom: 4px;
+}
+.after-card { margin-top: 8px; font-size: 13.5px !important; }
+.after-card a, .heard-cards a, .to-card { color: var(--st-court); text-decoration: none; }
+.after-card a:hover, .heard-cards a:hover, .to-card:hover { text-decoration: underline; }
+.ev-table.is-states .ev-row { grid-template-columns: 180px 200px 1fr; }
+.st-date { font-size: 15px; color: var(--text); line-height: 1.45; }
+.st-date .ev-src { padding-top: 4px; }
+@media (max-width: 800px) {
+  .ev-table.is-states .ev-row { grid-template-columns: 1fr; gap: 4px; }
+  .st-date::before {
+    content: attr(data-lbl) ": "; font-family: var(--font-mono); font-size: 10.5px;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3);
+  }
+}
+
+/* ── asked, and wouldn't rule it out ───────────────────────────────────── */
+.ask-table { border-top: 1px solid var(--line); margin-bottom: 28px; }
+.ask-row {
+  display: grid; grid-template-columns: 170px 1.1fr 1.4fr 1fr; gap: 18px;
+  padding: 16px 0; border-bottom: 1px solid var(--line-soft);
+}
+.ask-head {
+  padding: 10px 0; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-3);
+}
+.ask-who strong { display: block; color: var(--text); font-weight: 600; font-size: 15px; line-height: 1.35; }
+.ask-q { font-size: 14.5px; color: var(--text-2); line-height: 1.5; }
+.ask-a { font-family: var(--font-serif); font-style: italic; font-size: 15.5px; color: var(--text); line-height: 1.55; }
+.ask-a .ev-src { font-style: normal; padding-top: 8px; }
+.ask-also { font-size: 13.5px; color: var(--text-2); line-height: 1.5; }
+@media (max-width: 900px) {
+  .ask-row { grid-template-columns: 1fr; gap: 8px; }
+  .ask-head { display: none; }
+  .ask-q::before, .ask-also::before {
+    display: block; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text-3); margin-bottom: 2px;
+  }
+  .ask-q::before { content: "The question"; }
+  .ask-also::before { content: "Also on the record"; }
+}
+
+/* ── what you may have heard ───────────────────────────────────────────── */
+.heard-list { display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px; }
+.heard {
+  --verdict-c: var(--text-3);
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-top: 3px solid var(--verdict-c); border-radius: 8px; padding: 22px 24px 18px;
+  scroll-margin-top: calc(var(--head-h) + 16px);
+}
+.heard[data-tone="possible"] { --verdict-c: var(--st-threat); }
+.heard[data-tone="partly"] { --verdict-c: var(--st-active); }
+.heard-head { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.verdict-chip {
+  align-self: flex-start; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em;
+  text-transform: uppercase; font-weight: 500; color: var(--verdict-c);
+  border: 1px solid color-mix(in srgb, var(--verdict-c) 55%, transparent);
+  background: color-mix(in srgb, var(--verdict-c) 12%, transparent);
+  border-radius: 3px; padding: 2px 7px;
+}
+.heard-head h3 {
+  font-family: var(--font-serif); font-style: italic; font-weight: 400;
+  font-size: clamp(20px, 2.2vw, 25px); line-height: 1.3; color: var(--text);
+}
+.heard-grid { display: grid; grid-template-columns: 1.25fr 1.25fr 0.9fr; gap: 22px; }
+@media (max-width: 900px) { .heard-grid { grid-template-columns: 1fr; gap: 14px; } }
+.heard-grid p:not(.heard-lbl) { font-size: 14.5px; color: var(--text-2); line-height: 1.6; }
+.heard-lbl {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-3); margin-bottom: 6px;
+}
+.heard-would { border-left: 2px solid var(--verdict-c); padding-left: 16px; }
+.heard-would .heard-lbl { color: var(--verdict-c); }
+.heard-cards { margin-top: 8px; font-size: 13.5px !important; }
+.heard-src { margin-top: 16px; border-top: 1px solid var(--line-soft); padding-top: 12px; }
+.heard-src-lbl {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--text-2); margin-right: 6px;
+}
+
 /* ── share button (on cards) ───────────────────────────────────────────── */
 .share-btn {
   margin-top: 16px;

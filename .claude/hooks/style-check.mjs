@@ -99,8 +99,13 @@ if (rel.endsWith('actions.json')) {
       (st.sources || []).forEach((s, j) => add(`evidence.${name}.stats[${i}].sources[${j}]`, s.text, 'headline'));
     });
     (sec.rows || []).forEach((r, i) => {
-      for (const k of ['who', 'when', 'looked', 'found', 'detail', 'claim']) add(`evidence.${name}.rows[${i}].${k}`, r[k], 'prose');
+      for (const k of ['who', 'when', 'looked', 'found', 'detail', 'claim', 'role', 'asked', 'answer', 'also', 'step', 'what', 'watch']) add(`evidence.${name}.rows[${i}].${k}`, r[k], 'prose');
       (r.sources || []).forEach((s, j) => add(`evidence.${name}.rows[${i}].sources[${j}]`, s.text, 'headline'));
+    });
+    (sec.items || []).forEach((it, i) => {
+      add(`evidence.${name}.items[${i}].claim`, it.claim, 'title');
+      for (const k of ['verdict', 'record', 'stands', 'would']) add(`evidence.${name}.items[${i}].${k}`, it[k], 'prose');
+      [...(it.sources || []), ...(it.refSources || [])].forEach((s, j) => add(`evidence.${name}.items[${i}].sources[${j}]`, s.text, 'headline'));
     });
   }
 } else {
