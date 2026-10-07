@@ -402,7 +402,8 @@
       "The audit did find errors: about 2,570 potential noncitizens had at some point been placed in active or inactive status, 407 of them with a voting history. Auditors traced the cause to coding mistakes in the Department of Driver Services licensing process and to county verification failures, not to intentional registration by noncitizens.",
       "Georgia joins nearly two dozen states that have run similar reviews over the past two years and found scant evidence of noncitizen voting at a scale capable of changing outcomes.",
       "On September 1 and 2, 2026, reporting described a planned federal voter fraud inquiry in Georgia, and DHS subpoenaed voter files from Secretary of State Brad Raffensperger. The subpoena sought 13 files. Gabe Sterling, Raffensperger's director of special projects, called that relatively modest against Georgia's eight million-plus voters and said other states had received similar requests.",
-      "DHS cited more than 24,000 cases flagged by the SAVE system as potential noncitizens on voter rolls since April 2025. A federal court vacated the rebuilt SAVE system as unlawful in June 2026, and when Virginia checked its own SAVE flags, 94% of the people identified as noncitizens were U.S. citizens."
+      "DHS cited more than 24,000 cases flagged by the SAVE system as potential noncitizens on voter rolls since April 2025. A federal court vacated the rebuilt SAVE system as unlawful in June 2026, and when Virginia checked its own SAVE flags, 94% of the people identified as noncitizens were U.S. citizens.",
+      "Utah is among the states being sued: its Republican lieutenant governor, Deidre Henderson, offered the public voter list but refused the unredacted one, and the department sued on February 26, 2026 (United States v. Henderson). Utah's own audit had confirmed the citizenship of 99.72% of registered voters. There has been no ruling."
     ],
     "sources": [
       {
@@ -448,6 +449,14 @@
       {
         "text": "WRDW: Feds plan to launch voter fraud inquiry in Georgia",
         "url": "https://www.wrdw.com/2026/09/01/feds-plan-launch-voter-fraud-inquiry-georgia/"
+      },
+      {
+        "text": "United States v. Henderson, No. 2:26-cv-00166 (D. Utah): Complaint (February 26, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.utd.162696/gov.uscourts.utd.162696.1.0.pdf"
+      },
+      {
+        "text": "KSL: New audit finds 'small handful' of noncitizens on Utah voter rolls",
+        "url": "https://www.ksl.com/article/51503158/new-audit-finds-small-handful-of-noncitizens-on-utah-voter-rolls"
       }
     ],
     "trackerIds": [
@@ -2920,6 +2929,39 @@
     ],
     "trackerIds": [
       "pentagon-removes-never-resided-checkbox-overseas-voter-form-dnc-lawsuit"
+    ]
+  },
+  {
+    "id": "doj-prosecution-letters",
+    "title": "The Justice Department Warns Every State's Election Officials They Could Be Prosecuted",
+    "date": "2026-07-07",
+    "category": "referees",
+    "status": "record",
+    "facts": [
+      "On July 7, 2026, Assistant Attorney General Harmeet Dhillon wrote to election officials in all 50 states and D.C. that any election officer who \"knowingly retains noncitizens\" on the rolls \"could be subject to criminal liability,\" giving each state five days to respond. The department called it a request for \"voluntary compliance in a timely manner.\"",
+      "In September the department sent litigation-hold letters to the 29 states and D.C. it is suing for voter data, warning of \"civil and criminal sanctions\" if records are not preserved. The letter to Utah's Republican lieutenant governor, Deidre Henderson, told her she is \"under investigation\"; the department would not say for what.",
+      "Dhillon called the letters \"standard litigation practice.\" No election official has been charged."
+    ],
+    "sources": [
+      {
+        "text": "CBS News: DOJ threatens criminal action against states that allow noncitizens to vote",
+        "url": "https://www.cbsnews.com/news/doj-threatens-criminal-action-against-states-that-allow-non-citizens-to-vote/"
+      },
+      {
+        "text": "Votebeat: Department of Justice warns election officials they could be criminally charged over noncitizen voters",
+        "url": "https://www.votebeat.org/national/2026/07/07/trump-department-justice-letter-noncitizens-voter-rolls-election-officials/"
+      },
+      {
+        "text": "AP: Justice Department directs states to hold on to 2024 election records as it seeks their voter data",
+        "url": "https://www.ap.org/news-highlights/elections/2026/justice-department-directs-states-to-hold-on-to-2024-election-records-as-it-seeks-their-voter-data/"
+      },
+      {
+        "text": "Salt Lake Tribune: Trump's DOJ is investigating Utah's election chief for refusing to hand over voter data, it says in letter",
+        "url": "https://www.sltrib.com/news/politics/2026/09/09/trumps-doj-is-investigating-utahs/"
+      }
+    ],
+    "trackerIds": [
+      "doj-letters-election-officials-criminal-prosecution-noncitizens-under-investigation"
     ]
   }
 ]
