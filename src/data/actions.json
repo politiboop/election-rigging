@@ -618,7 +618,8 @@
       "Voting opens in seven of the nine states before mid-October. Long-standing Justice Department policy discourages \"overt\" investigative steps as an election approaches, because doing otherwise \"runs the risk of chilling legitimate voting and campaign activities.\" DHS is not bound by that policy, and CNN reported the guidance makes no reference to the timing. A DHS spokesperson said HSI \"is actively rooting out and investigating election fraud wherever it can be found.\"",
       "The results, in the administration's own numbers: at a September 22 briefing an HSI official cited about 1,600 cases and 160 arrests, and the Justice Department said it had charged 70 people with \"unlawful voting and registration offenses\" since January 2025. A department spokesperson said many HSI arrests \"result in charges for related offenses, such as false claims to citizenship or false statements, rather than the voting statute itself.\" ProPublica found 41 alleged noncitizen voters charged from January 2025 to May 2026.",
       "On September 18 San Francisco, Santa Clara County, the California Nurses Association, National Nurses United and the Voto Latino Foundation sued under Section 11(b) of the Voting Rights Act, which bars voter intimidation. The complaint alleges that \"DHS is now deploying armed and often militarized agents to homes to interrogate residents about whether they are eligible to vote,\" and cites a September 11 post from HSI's San Francisco office showing agents knocking on residential doors. One plaintiff nurse, a naturalized citizen, has switched from voting in person to voting by mail out of fear of being targeted.",
-      "On September 23 Judge Araceli Martinez-Olguin set an expedited schedule: the government's opposition is due September 28 and a preliminary-injunction hearing is set for October 1. No court has ruled, and the guidance itself is not public. Asked about the lawsuit, DHS told Reason it needed more time to respond."
+      "On September 23 Judge Araceli Martinez-Olguin set an expedited schedule: the government's opposition is due September 28 and a preliminary-injunction hearing is set for October 1. No court has ruled, and the guidance itself is not public. Asked about the lawsuit, DHS told Reason it needed more time to respond.",
+      "Internal records released October 7 show HSI investigators ingested 50.6 million records from a Justice Department dataset and 48.4 million more obtained by a senior counselor to Secretary Mullin from unidentified sources, adopted a \"network-based investigative approach\" aimed at registration groups, and explored using undercover agents. By late May there were 418 cases and 64 administrative arrests; 318 cases had not been referred for prosecution."
     ],
     "take": "The Justice Department's own manual says why investigators keep quiet as an election nears: the visit itself can chill voting. DHS wrote a plan for the opposite, interviews in the weeks ballots go out, and its own figures show how few cases there are to find. A knock on the door reaches every voter who hears about it, whether or not it ends in a charge.",
     "sources": [
@@ -653,10 +654,15 @@
       {
         "text": "Reason: Homeland Security Agents Are Harassing American Voters of Foreign Origin (September 24, 2026)",
         "url": "https://reason.com/2026/09/24/homeland-security-agents-are-harassing-american-voters-of-foreign-origin/"
+      },
+      {
+        "text": "CNN: ICE reviewed tens of millions of voter records looking for noncitizen voters, records show",
+        "url": "https://www.cnn.com/2026/10/07/politics/dhs-ice-voter-fraud-investigation-undercover"
       }
     ],
     "trackerIds": [
-      "dhs-hsi-nine-state-voter-fraud-surge-field-interviews"
+      "dhs-hsi-nine-state-voter-fraud-surge-field-interviews",
+      "ice-hsi-voter-fraud-probe-tens-of-millions-records-undercover-agents-considered"
     ]
   },
   {
@@ -856,7 +862,8 @@
       "Federal law, 18 U.S.C. 592, makes it a felony for a federal officer to bring \"any troops or armed men\" to a place where an election is held unless the force is needed \"to repel armed enemies of the United States.\"",
       "On September 1, 2026, Homeland Security Secretary Markwayne Mullin said \"ICE isn't there to patrol the polling places,\" but that \"The only reason why we would be at polling places is if there is a threat to that polling place or we're serving a warrant on someone that we have been actively tracking down.\"",
       "On September 10, Denver and a coalition of immigrant rights and voting groups sued to keep armed federal officers away from polling places under that law, citing reports of agents at polling places in San Antonio, Ventura County and Syracuse this year. DHS said \"ICE is not planning operations targeting polling locations,\" and Tom Homan said \"there is no plan for enforcement action at polling places.\"",
-      "A second suit, NAACP v. Department of Homeland Security (No. 1:26-cv-03263), was filed September 18 by nine organizations under Section 11(b) of the Voting Rights Act, naming Mullin, Attorney General Todd Blanche, FBI Director Kash Patel and Tom Homan among its defendants. The Justice Department's response: \"The DOJ has never said it would send federal law enforcement to polling locations... Any suggestion otherwise is fearmongering.\" No deployment order has been documented; what is documented is officials declining to rule one out. A third suit followed on September 23 from the Democratic Party committees, Chuck Schumer and Hakeem Jeffries, against ICE, DHS, the FBI and their directors. Trump is not a defendant in any of them."
+      "A second suit, NAACP v. Department of Homeland Security (No. 1:26-cv-03263), was filed September 18 by nine organizations under Section 11(b) of the Voting Rights Act, naming Mullin, Attorney General Todd Blanche, FBI Director Kash Patel and Tom Homan among its defendants. The Justice Department's response: \"The DOJ has never said it would send federal law enforcement to polling locations... Any suggestion otherwise is fearmongering.\" No deployment order has been documented; what is documented is officials declining to rule one out. A third suit followed on September 23 from the Democratic Party committees, Chuck Schumer and Hakeem Jeffries, against ICE, DHS, the FBI and their directors. Trump is not a defendant in any of them.",
+      "On October 7 the LULAC plaintiffs amended their complaint to add Hennepin County, the Justice Department and the FBI, and a Voting Rights Act claim, alleging that on October 5, the first day California drop boxes opened, ICE detained a man in a college parking lot next to a ballot drop-off location in Santa Maria. DHS confirmed the arrest but called claims it happened on campus \"FALSE\"."
     ],
     "sources": [
       {
@@ -898,6 +905,14 @@
       {
         "text": "Democracy Docket: Democrats sue Trump admin to keep armed agents from polls during midterms (September 24, 2026)",
         "url": "https://www.democracydocket.com/news-alerts/democrats-sue-trump-admin-to-keep-armed-agents-from-polls-during-midterms/"
+      },
+      {
+        "text": "LULAC v. DHS, No. 1:26-cv-03157 (D.D.C.): Amended Complaint, ECF 22 (October 7, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.296369/gov.uscourts.dcd.296369.22.0.pdf"
+      },
+      {
+        "text": "San Luis Obispo Tribune: DHS denies ICE agents arrested father on Central Coast college campus",
+        "url": "https://www.sanluisobispo.com/news/local/crime/article317533722.html"
       }
     ],
     "trackerIds": [
