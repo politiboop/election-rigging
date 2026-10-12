@@ -1187,7 +1187,8 @@
     "facts": [
       "The Pentagon confirmed in July 2026 that the D.C. National Guard deployment will run through Inauguration Day 2029 unless Trump decides otherwise, keeping troops in the capital through the 2026 midterms and the 2028 election.",
       "The force has roughly doubled to nearly 5,000 troops from more than 20 states, at a cost the Congressional Budget Office puts above $3 million per day. It was created by a \"crime emergency\" declared while D.C. violent crime sat at a 30-year low.",
-      "A nonpartisan Niskanen Center study found no measurable effect on violent crime. The Brennan Center's Elizabeth Goitein: announcing an emergency will last another two and a half years means it is not an emergency."
+      "A nonpartisan Niskanen Center study found no measurable effect on violent crime. The Brennan Center's Elizabeth Goitein: announcing an emergency will last another two and a half years means it is not an emergency.",
+      "On October 8, 2026, Guard troops were filmed standing beside a ballot drop box in Foggy Bottom before the boxes opened. The D.C. Board of Elections asked the Guard to \"impose limitations on the placement of National Guard service members near drop boxes and other voting locations,\" and the joint task force said its members \"are directed not to monitor or secure polling locations\" and that it was \"actively addressing this specific instance.\""
     ],
     "sources": [
       {
@@ -1197,6 +1198,14 @@
       {
         "text": "The Hill: National Guard deployment in DC extended until next presidential inauguration",
         "url": "https://thehill.com/policy/defense/5967829-national-guard-deployment-in-dc-extended-until-next-presidential-inauguration/"
+      },
+      {
+        "text": "Task & Purpose: National Guard says it is 'actively addressing' incident of troops near DC ballot drop box",
+        "url": "https://taskandpurpose.com/news/national-guard-washington-dc-ballot-drop-box/"
+      },
+      {
+        "text": "The Washington Sun: D.C. Elections Board Asks National Guard to Stay Away From Ballot Drop Boxes",
+        "url": "https://www.washingtonsun.com/metro/national-guard-dc-ballot-boxes"
       }
     ],
     "trackerIds": [
@@ -2363,7 +2372,8 @@
       "Since his confirmation on August 8, 2026 by a 50-49 Senate vote, Attorney General Todd Blanche, Trump's former personal defense lawyer, has praised the Republican candidate for governor of New York at a rally-style event on Long Island, spoken at the Republican Party's midterm convention, and on September 16 spoken at Trump's Gastonia, North Carolina rally for Senate candidate Michael Whatley. The day before, from the White House podium, he called Democratic concerns about artificial intelligence \"nothing but an effort to influence the midterms.\"",
       "The New York Times reported that the principle of an apolitical Justice Department \"took root after Watergate,\" when Richard Nixon's attorney general John Mitchell resigned to run his reelection campaign. Merrick Garland's 2022 memorandum barring political appointees from partisan activity was rescinded by Pam Bondi in March 2026, and the department fired its senior career ethics official, Joseph Tirrell, in July 2025.",
       "Tirrell on what he would have advised: \"That rally sounds like a Hatch Act violation to me, and I'd advise you not to do it.\" Former Attorney General Eric Holder: \"It's unprecedented, and it's disgraceful.\" NYU legal ethics professor Stephen Gillers: \"Any attempt to discipline him will fail.\"",
-      "The department says the conduct is lawful. It called a Public Citizen Hatch Act complaint over the Long Island remarks \"baseless\" and said the convention appearance \"is legal (and has been approved by ethics).\" No violation has been adjudicated."
+      "The department says the conduct is lawful. It called a Public Citizen Hatch Act complaint over the Long Island remarks \"baseless\" and said the convention appearance \"is legal (and has been approved by ethics).\" No violation has been adjudicated.",
+      "In October, a memo from Assistant Attorney General Jolene Ann Laurie loosened the rules further, letting Senate-confirmed Justice Department appointees, including the attorney general, the FBI director and U.S. attorneys, speak at rallies, canvass and serve as party delegates \"in their personal capacities,\" CBS News reported. The memo has not been published."
     ],
     "unprecedented": "Former Attorney General Eric Holder called the convention appearance \"unprecedented,\" and the New York Times traced the norm it departs from to John Mitchell's resignation after Watergate.",
     "sources": [
@@ -2382,6 +2392,10 @@
       {
         "text": "U.S. Senate: Roll Call Vote 230, confirmation of Todd Blanche as Attorney General, 50-49 (August 8, 2026)",
         "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+      },
+      {
+        "text": "CBS News: AG Blanche, other high-level DOJ appointees can take part in political campaigns, memo says",
+        "url": "https://www.cbsnews.com/news/ag-blanche-other-high-level-doj-appointees-can-take-part-in-political-campaigns-memo/"
       }
     ],
     "trackerIds": [
@@ -2430,7 +2444,8 @@
       "The initial Senate targets are Alaska, Iowa, Maine, Michigan, and Ohio, with talks about North Carolina, Georgia, and Texas, plus House races in California, Wisconsin, and Washington. The program is door-knocking, digital advertising, and direct mail aimed at turning out irregular conservative voters.",
       "It revives the vehicle Musk used to spend more than $260 million backing Trump in 2024, again run by his top political adviser, Chris Young. The group intends to align its canvassing with the Koch network's Americans for Prosperity under recently loosened coordination rules.",
       "Axios reported that Musk has been in talks with Trump's political team about how he can help; an America PAC spokesman, Andrew Romeo, said, \"we're excited to again be part of the team.\"",
-      "This is legal super-PAC spending. What is documented here is its scale and the reported coordination with the president's political operation."
+      "This is legal super-PAC spending. What is documented here is its scale and the reported coordination with the president's political operation.",
+      "By October, Musk had given more than $276 million since July, including $158 million to the Senate Leadership Fund, the New York Times reported and his super PAC's spokesperson confirmed to AP."
     ],
     "take": "This card is the boundary of our own standard. Spending money to persuade voters is legal, and we do not call it rigging. We include it because the same donor already drew an adjudicated ballot-law violation in Georgia and a bribery referral in Wisconsin, and because a nine-figure operation coordinating with the White House political team is context a reader deserves when weighing everything else on this page. Judge it as spending, not as fraud.",
     "sources": [
@@ -2441,6 +2456,10 @@
       {
         "text": "Axios (via Yahoo): Exclusive: Musk plans massive push for GOP in midterms",
         "url": "https://www.yahoo.com/news/politics/articles/exclusive-musk-plans-massive-push-230005221.html"
+      },
+      {
+        "text": "AP: Elon Musk quietly becomes biggest known donor in midterm contests as he tries to save Republicans",
+        "url": "https://apnews.com/article/elon-musk-midterms-republicans-donors-c06efc774a2e7c5d345e0d46641eb510"
       }
     ],
     "trackerIds": [
@@ -3000,6 +3019,40 @@
     ],
     "trackerIds": [
       "doj-letters-election-officials-criminal-prosecution-noncitizens-under-investigation"
+    ]
+  },
+  {
+    "id": "omar-home-search",
+    "title": "Federal Agents Search a Democratic Congresswoman's Home 22 Days Before the Election",
+    "date": "2026-10-12",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "On October 12, 2026, Homeland Security Investigations agents searched the Washington-area home of Rep. Ilhan Omar (D-Minn.), who is on the ballot, under what the Justice Department called \"a judicially authorized search warrant\" in \"an ongoing federal criminal investigation.\" The department did not say what the probe concerns; anonymous sources tied it to her immigration paperwork. No charges have been filed.",
+      "Two days earlier, at a rally in Tennessee, Trump said, \"How about Ilhan Omar? She comes from Somalia,\" and, \"And let's see what happens. JD Vance and our people are looking at it very strongly,\" NBC News reported.",
+      "There is no written rule barring Justice Department action within 60 days of an election, but restraint near an election has long been an unwritten practice, NBC noted. A source told CNN that top department leadership signed off after weighing the timing."
+    ],
+    "take": "We do not know what the warrant says, and a judge approved it. What we can say is that the president publicly previewed action against a named opponent, and two days later his administration searched her home while voting was under way. Whatever the investigation finds, the timing is the kind of choice the old norm existed to prevent.",
+    "sources": [
+      {
+        "text": "AP: Agents search Rep. Omar's Washington home in criminal probe as she vows she won't 'be silenced'",
+        "url": "https://apnews.com/article/ilhan-omar-home-searched-8e18c2aea948bd90f4d7a4eb32b9ec3a"
+      },
+      {
+        "text": "NBC News: Rep. Ilhan Omar's home searched by federal agents in criminal probe",
+        "url": "https://www.nbcnews.com/politics/trump-administration/rep-ilhan-omar-home-searched-federal-agents-criminal-probe-dhs-rcna602950"
+      },
+      {
+        "text": "CNN: Rep. Ilhan Omar responds after federal officers search her home",
+        "url": "https://www.cnn.com/2026/10/12/politics/ilhan-omar-search"
+      },
+      {
+        "text": "Fox News: Federal agents raid Ilhan Omar's DC home amid immigration fraud investigation",
+        "url": "https://www.foxnews.com/politics/ilhan-omars-home-dc-searched-hsi-pre-dawn-raid"
+      }
+    ],
+    "trackerIds": [
+      "hsi-searches-ilhan-omar-home-weeks-before-election"
     ]
   }
 ]
