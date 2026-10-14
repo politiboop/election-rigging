@@ -555,6 +555,40 @@
     }
   },
   {
+    "id": "doj-california-mail-ballots",
+    "title": "The Justice Department Gives California 48 Hours to Set Aside Ballots of Voters on an Unexplained Noncitizen List",
+    "date": "2026-10-13",
+    "category": "data",
+    "status": "threatened",
+    "facts": [
+      "On October 13, 2026, Acting Deputy Attorney General R. Trent McCotter asked California's secretary of state and Los Angeles County's registrar to \"segregate — not cancel — those individuals' vote-by-mail ballots\" for people on a list, delivered on a password-protected thumb drive, of those the administration \"believes are likely noncitizens.\" He gave them 48 hours, or the department would \"have no choice but to seek emergency relief.\"",
+      "The letters do not explain how the list was built or how many names it contains, Politico reported. Experts told the Los Angeles Times the demand is \"legally questionable.\" In Nevada, DHS cut an initial claim of 15,900 noncitizen registrants to 185 it said it had confirmed, which Nevada officials disputed, CNN reported.",
+      "The Justice Department's position: \"This should not be controversial, as the criminal statute is clear: only American citizens may vote in federal elections.\""
+    ],
+    "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But a federal demand to hold back ballots, on a list nobody outside the government can check, with ballots already in the mail, puts the burden on voters to prove themselves to a list that in Nevada did not hold up.",
+    "sources": [
+      {
+        "text": "CBS News: Top U.S. DOJ official orders California to review list of possible noncitizens who received mail ballots",
+        "url": "https://www.cbsnews.com/news/justice-department-california-noncitizens-mail-ballots/"
+      },
+      {
+        "text": "Politico: DOJ demands California review voting rolls in two days, threatens legal action",
+        "url": "https://www.politico.com/news/2026/10/14/department-of-justice-california-voter-rolls-demand-01118028"
+      },
+      {
+        "text": "Los Angeles Times: Justice Dept. demands California prove citizenship for lists of voters or withhold ballots",
+        "url": "https://www.latimes.com/politics/story/2026-10-14/justice-dept-demands-california-prove-citizenship-for-lists-of-voters-or-withhold-ballots"
+      },
+      {
+        "text": "CNN: Trump administration escalates voter roll fight with threats against California election officials",
+        "url": "https://www.cnn.com/2026/10/14/politics/justice-department-threats-california-election-officials"
+      }
+    ],
+    "trackerIds": [
+      "doj-48-hours-california-segregate-mail-ballots-noncitizen-list"
+    ]
+  },
+  {
     "id": "dhs-unlawful-voter-initiative",
     "title": "A Whistleblower Says DHS Officers Were Told to Pose as Voters to Search State Voter Records",
     "date": "2026-09-14",
@@ -3036,7 +3070,8 @@
       "On October 12, 2026, Homeland Security Investigations agents searched the Washington-area home of Rep. Ilhan Omar (D-Minn.), who is on the ballot, under what the Justice Department called \"a judicially authorized search warrant\" in \"an ongoing federal criminal investigation.\" The department did not say what the probe concerns; anonymous sources tied it to her immigration paperwork. No charges have been filed.",
       "Two days earlier, at a rally in Tennessee, Trump said, \"How about Ilhan Omar? She comes from Somalia,\" and, \"And let's see what happens. JD Vance and our people are looking at it very strongly,\" NBC News reported.",
       "There is no written rule barring Justice Department action within 60 days of an election, but restraint near an election has long been an unwritten practice, NBC noted. A source told CNN that top department leadership signed off after weighing the timing.",
-      "Asked about the search the same day, Trump said, \"I've always found her to be totally crooked personally, but that has nothing to do with me,\" and, \"I think she's a terrible person, but that's really up to the DOJ.\" Vice President Vance said, \"I did not have advance notice that her home was being raided.\" Speaker Mike Johnson said, \"Maybe the timing's unfortunate for her or others, but this is the legal system, and it operates independently of the political system.\""
+      "Asked about the search the same day, Trump said, \"I've always found her to be totally crooked personally, but that has nothing to do with me,\" and, \"I think she's a terrible person, but that's really up to the DOJ.\" Vice President Vance said, \"I did not have advance notice that her home was being raided.\" Speaker Mike Johnson said, \"Maybe the timing's unfortunate for her or others, but this is the legal system, and it operates independently of the political system.\"",
+      "Two people familiar with the investigation told NBC News that agents seized Omar's phone during the search and that roughly a dozen subpoenas have gone out, including to family members, tied to a federal grand jury in Minnesota. No charges have been filed."
     ],
     "take": "We do not know what the warrant says, and a judge approved it. What we can say is that the president publicly previewed action against a named opponent, and two days later his administration searched her home while voting was under way. Whatever the investigation finds, the timing is the kind of choice the old norm existed to prevent.",
     "sources": [
@@ -3063,6 +3098,10 @@
       {
         "text": "ABC News: Trump blasts Rep. Ilhan Omar but says he doesn't 'take a position' on whether she, a US citizen, should be deported",
         "url": "https://abcnews.com/Politics/trump-blasts-rep-ilhan-omar-position-us-citizen/story?id=137218882"
+      },
+      {
+        "text": "NBC News: DOJ seized Rep. Ilhan Omar's phone, subpoenaed family members in immigration status probe",
+        "url": "https://www.nbcnews.com/politics/trump-administration/doj-issues-subpoenas-probe-rep-ilhan-omars-immigration-status-family-m-rcna603444"
       }
     ],
     "trackerIds": [
