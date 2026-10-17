@@ -386,13 +386,13 @@
   },
   {
     "id": "voter-roll-lawsuits",
-    "title": "The DOJ Sues 30 States for Voter Files and Loses Twenty-One Straight Times",
+    "title": "The DOJ Sues 30 States and D.C. for Voter Files and Loses All 26 Cases Decided So Far",
     "date": "2026-09-03",
     "category": "data",
     "status": "court",
     "facts": [
       "Trump's DOJ has filed roughly 30 lawsuits against 29 states plus D.C. demanding voter registration data: names, addresses, birthdates, partial Social Security numbers, and driver's license numbers, using a Civil Rights Act provision written to protect Black voters.",
-      "It is 0-for-21 in court, with no wins, losing every resolved case. Twelve of the losses came from judges appointed by Republican presidents, eight of them Trump's own. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
+      "By August 2026 it was 0-for-21 in court, with no wins, losing every resolved case. Twelve of the losses came from judges appointed by Republican presidents, eight of them Trump's own. Trump appointee Judge Mary McElroy called the Rhode Island demand a \"fishing expedition\"; Judge Lance Walker in Maine noted an executive order contradicted DOJ assurances that no national database was being built.",
       "Twelve Republican-led states complied voluntarily, so the data campaign advances even as it loses in court.",
       "An NBC News review found the DOJ still cannot substantiate Trump's claims of widespread voter fraud months before the midterms.",
       "On July 29, 2026, U.S. District Judge Zahid Quraishi dismissed the DOJ's demand for New Jersey's unredacted voter rolls, its eighteenth straight loss, noting that judges in more than a dozen other states had reached the same conclusion.",
@@ -403,7 +403,8 @@
       "Georgia joins nearly two dozen states that have run similar reviews over the past two years and found scant evidence of noncitizen voting at a scale capable of changing outcomes.",
       "On September 1 and 2, 2026, reporting described a planned federal voter fraud inquiry in Georgia, and DHS subpoenaed voter files from Secretary of State Brad Raffensperger. The subpoena sought 13 files. Gabe Sterling, Raffensperger's director of special projects, called that relatively modest against Georgia's eight million-plus voters and said other states had received similar requests.",
       "DHS cited more than 24,000 cases flagged by the SAVE system as potential noncitizens on voter rolls since April 2025. A federal court vacated the rebuilt SAVE system as unlawful in June 2026, and when Virginia checked its own SAVE flags, 94% of the people identified as noncitizens were U.S. citizens.",
-      "Utah is among the states being sued: its Republican lieutenant governor, Deidre Henderson, offered the public voter list but refused the unredacted one, and the department sued on February 26, 2026 (United States v. Henderson). Utah's own audit had confirmed the citizenship of 99.72% of registered voters. There has been no ruling."
+      "Utah is among the states being sued: its Republican lieutenant governor, Deidre Henderson, offered the public voter list but refused the unredacted one, and the department sued on February 26, 2026 (United States v. Henderson). Utah's own audit had confirmed the citizenship of 99.72% of registered voters. There has been no ruling.",
+      "As of October 16, 2026, ProPublica counted 31 voter-data suits and 26 final rulings, all against the department; four were pending and one state settled. The 26 judges include eight Trump appointees. West Virginia Judge Thomas Johnston, a George W. Bush appointee, wrote, \"Clearly, this demand is devoid of any factual basis.\""
     ],
     "sources": [
       {
@@ -457,6 +458,10 @@
       {
         "text": "KSL: New audit finds 'small handful' of noncitizens on Utah voter rolls",
         "url": "https://www.ksl.com/article/51503158/new-audit-finds-small-handful-of-noncitizens-on-utah-voter-rolls"
+      },
+      {
+        "text": "ProPublica: 'Devoid of Any Factual Basis': Again and Again, Judges Have Dismissed Trump's Voter Data Lawsuits",
+        "url": "https://projects.propublica.org/trump-doj-voter-data-lawsuits/"
       }
     ],
     "trackerIds": [
@@ -559,13 +564,15 @@
     "title": "The Justice Department Gives California 48 Hours to Set Aside Ballots of Voters on an Unexplained Noncitizen List",
     "date": "2026-10-13",
     "category": "data",
-    "status": "threatened",
+    "status": "court",
     "facts": [
       "On October 13, 2026, Acting Deputy Attorney General R. Trent McCotter asked California's secretary of state and Los Angeles County's registrar to \"segregate — not cancel — those individuals' vote-by-mail ballots\" for people on a list, delivered on a password-protected thumb drive, of those the administration \"believes are likely noncitizens.\" He gave them 48 hours, or the department would \"have no choice but to seek emergency relief.\"",
       "The letters do not explain how the list was built or how many names it contains, Politico reported. Experts told the Los Angeles Times the demand is \"legally questionable.\" In Nevada, DHS cut an initial claim of 15,900 noncitizen registrants to 185 it said it had confirmed, which Nevada officials disputed, CNN reported.",
-      "The Justice Department's position: \"This should not be controversial, as the criminal statute is clear: only American citizens may vote in federal elections.\""
+      "The Justice Department's position: \"This should not be controversial, as the criminal statute is clear: only American citizens may vote in federal elections.\"",
+      "California did not comply. Los Angeles County Registrar Dean Logan said, \"We cannot withhold or refuse to count ballots based solely on unverified allegations,\" and Secretary of State Shirley Weber called it \"an emergency of the DOJ's creation.\" Attorney General Rob Bonta noted the flagged count had fallen from the 190,000 DHS flagged over the summer: \"What happened to those 170,000? They just got those wrong.\"",
+      "On October 15 the Justice Department sued in United States v. California (C.D. Cal.), describing \"a list of over 20,000 names.\" In an October 16 letter McCotter warned officials who knowingly count such ballots of \"becoming aiders and abettors to a federal crime.\" That evening Trump posted: \"They will all go to jail for a long period of time!!!\""
     ],
-    "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But a federal demand to hold back ballots, on a list nobody outside the government can check, with ballots already in the mail, puts the burden on voters to prove themselves to a list that in Nevada did not hold up.",
+    "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But the list has shrunk from 190,000 to about 20,000 without anyone outside the government being able to check it, and the president has now said the officials who count those ballots will go to jail. Election officials are being told to choose between a court process and a prison threat.",
     "sources": [
       {
         "text": "CBS News: Top U.S. DOJ official orders California to review list of possible noncitizens who received mail ballots",
@@ -582,6 +589,22 @@
       {
         "text": "CNN: Trump administration escalates voter roll fight with threats against California election officials",
         "url": "https://www.cnn.com/2026/10/14/politics/justice-department-threats-california-election-officials"
+      },
+      {
+        "text": "United States v. California, No. 2:26-cv-12025 (C.D. Cal.): complaint",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.1043513/gov.uscourts.cacd.1043513.1.0_2.pdf"
+      },
+      {
+        "text": "AP (via 6abc): Trump administration sues CA to block state from counting alleged noncitizen mail-in ballots",
+        "url": "https://6abc.com/story/trump-administration-sues-california-block-state-counting-alleged-noncitizen-mail-ballots/19941240/"
+      },
+      {
+        "text": "Truth Social (archive): Trump post on California election officials, October 16, 2026",
+        "url": "https://www.trumpstruth.org/statuses/42393"
+      },
+      {
+        "text": "Reuters (via HuffPost): Trump Threatens California Officials With Imprisonment Over Stance On Mail Ballots",
+        "url": "https://www.huffpost.com/entry/trump-threat-california-mail-ballots_n_6ad2ea43e4b0dccf572c26a1"
       }
     ],
     "trackerIds": [
@@ -2547,7 +2570,8 @@
       "DOJ has sent more than 80 monitors to seven states for primaries this year, and says it plans to send about 1,000 monitors to polling sites in November. The administration says the deployments follow decades-old federal monitoring practice.",
       "On September 21, 2026, Assistant Attorney General Harmeet Dhillon said of November: \"This is going to be the biggest DOJ election observer effort in history,\" and, \"I've called for, and plan to send, 1,000 to the general election jurisdictions that we're selecting.\" CNN reported that some monitors sent during the primaries were recently hired attorneys who had helped challenge Trump's 2020 loss, according to records obtained by Democracy Forward, and that DOJ first sent its Wyoming notice to election officials in Wisconsin.",
       "On October 2 the NAACP sued the Justice Department for records on the 1,000-monitor plan (NAACP v. Dhillon, No. 1:26-cv-03461) and on October 5 asked for emergency processing, calling it an \"unprecedented deployment of federal officials\" that \"stands to jeopardize the election.\" The suit seeks records, not an order stopping the deployment.",
-      "Department records show David Michael Levin, who pleaded guilty in 2016 to two misdemeanors for accessing a Florida county elections website, was credentialed as a Justice Department observer in Maricopa County's July primary. The department says prosecutors will serve as monitors and that monitors will not identify themselves as prosecutors; at least seven monitored Arizona's primary."
+      "Department records show David Michael Levin, who pleaded guilty in 2016 to two misdemeanors for accessing a Florida county elections website, was credentialed as a Justice Department observer in Maricopa County's July primary. The department says prosecutors will serve as monitors and that monitors will not identify themselves as prosecutors; at least seven monitored Arizona's primary.",
+      "On October 16 the NAACP and three voters sued Attorney General Todd Blanche, Dhillon and the department in NAACP v. Blanche (D.D.C.), claiming voter intimidation under Section 11(b) of the Voting Rights Act. \"There is no federal statute that gives Defendants the authority to turn polling places into interrogation rooms,\" the complaint says. It asks the court to bar using prosecutors or agents as monitors."
     ],
     "take": "Voting-rights groups warned for a year that the monitor program could be used to pressure local officials rather than protect voters, and that warning was easy to file as partisan. This complaint is not. It comes from a Republican governor in one of the reddest states in the country, who volunteered that his own election was run well and that he has no objection to monitors in principle. That narrows the dispute to the one question worth watching: what these observers actually do when they arrive. Wyoming is a two-attorney, one-county sample. November is roughly 1,000 of them.",
     "sources": [
@@ -2590,6 +2614,14 @@
       {
         "text": "The Washington Sun: DOJ Is Recruiting Prosecutors to Monitor Polling Places",
         "url": "https://www.washingtonsun.com/policy/doj-recruiting-prosecutors-polls"
+      },
+      {
+        "text": "NAACP v. Blanche, No. 1:26-cv-03626 (D.D.C.): complaint",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297730/gov.uscourts.dcd.297730.1.0_1.pdf"
+      },
+      {
+        "text": "Democracy Docket: NAACP sues Justice Department to block plan for 1,000 poll monitors nationwide",
+        "url": "https://www.democracydocket.com/news-alerts/naacp-sues-justice-department-to-block-plan-for-1000-poll-monitors-nationwide/"
       }
     ],
     "trackerIds": [
@@ -3071,7 +3103,9 @@
       "Two days earlier, at a rally in Tennessee, Trump said, \"How about Ilhan Omar? She comes from Somalia,\" and, \"And let's see what happens. JD Vance and our people are looking at it very strongly,\" NBC News reported.",
       "There is no written rule barring Justice Department action within 60 days of an election, but restraint near an election has long been an unwritten practice, NBC noted. A source told CNN that top department leadership signed off after weighing the timing.",
       "Asked about the search the same day, Trump said, \"I've always found her to be totally crooked personally, but that has nothing to do with me,\" and, \"I think she's a terrible person, but that's really up to the DOJ.\" Vice President Vance said, \"I did not have advance notice that her home was being raided.\" Speaker Mike Johnson said, \"Maybe the timing's unfortunate for her or others, but this is the legal system, and it operates independently of the political system.\"",
-      "Two people familiar with the investigation told NBC News that agents seized Omar's phone during the search and that roughly a dozen subpoenas have gone out, including to family members, tied to a federal grand jury in Minnesota. No charges have been filed."
+      "Two people familiar with the investigation told NBC News that agents seized Omar's phone during the search and that roughly a dozen subpoenas have gone out, including to family members, tied to a federal grand jury in Minnesota. No charges have been filed.",
+      "USA Today (two unnamed sources) and Reuters (three unnamed sources) reported the investigation is aimed at revoking Omar's citizenship and deporting her; the Justice Department has not said so. In January, asked by the New York Times whether Omar should lose her citizenship, Trump said, \"Oh, absolutely,\" Reuters noted. The Washington Post reported that a 2019 HSI review found \"insufficient evidence of wrongdoing.\"",
+      "DHS Secretary Markwayne Mullin said on October 16, \"There was multiple other warrants served on that same day,\" and that \"President Trump didn't want to move forward either, unless we knew that it couldn't be politically driven,\" CBS News reported. Omar's lawyers wrote that the search \"was neither justified nor lawful\"; the department called their letter \"riddled with false allegations and inaccuracies.\""
     ],
     "take": "We do not know what the warrant says, and a judge approved it. What we can say is that the president publicly previewed action against a named opponent, and two days later his administration searched her home while voting was under way. Whatever the investigation finds, the timing is the kind of choice the old norm existed to prevent.",
     "sources": [
@@ -3102,6 +3136,22 @@
       {
         "text": "NBC News: DOJ seized Rep. Ilhan Omar's phone, subpoenaed family members in immigration status probe",
         "url": "https://www.nbcnews.com/politics/trump-administration/doj-issues-subpoenas-probe-rep-ilhan-omars-immigration-status-family-m-rcna603444"
+      },
+      {
+        "text": "USA Today: Federal probe of Ilhan Omar aimed at revoking citizenship, deporting her",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/15/ilhan-omar-deportation-federal-probe-trump/92264070007/"
+      },
+      {
+        "text": "Reuters (via Devdiscourse): US probes Omar's decades-old immigration paperwork with eye toward deportation, sources say",
+        "url": "https://www.devdiscourse.com/article/international/3993318-us-probes-omars-decades-old-immigration-paperwork-with-eye-toward-deportation-sources-say"
+      },
+      {
+        "text": "CBS News: DHS Secretary Mullin calls Ilhan Omar probe a 'strong case,' says agents executed multiple search warrants",
+        "url": "https://www.cbsnews.com/news/dhs-markwayne-mullin-ilhan-omar-strong-case/"
+      },
+      {
+        "text": "Washington Post: Trump officials scrutinized Omar in 2019. They didn't find citizenship issues.",
+        "url": "https://www.washingtonpost.com/national-security/2026/10/15/trump-officials-scrutinized-omar-2019-they-didnt-find-citizenship-issues/"
       }
     ],
     "trackerIds": [
