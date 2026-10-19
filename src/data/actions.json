@@ -1723,6 +1723,42 @@
     "unprecedented": "Experts told ProPublica that 2026 will serve as \"an unprecedented stress test of the integrity of American elections.\""
   },
   {
+    "id": "foreign-interference-watch-dismantled",
+    "title": "The Offices That Watched for Foreign Election Interference Were Shut Down or Cut",
+    "date": "2026-10-19",
+    "category": "referees",
+    "status": "active",
+    "facts": [
+      "On February 5, 2025, Attorney General Pam Bondi ordered that \"the Foreign Influence Task Force shall be disbanded,\" ending the FBI unit created after Russia's 2016 interference. In April 2025 the State Department closed its office countering foreign disinformation, formerly the Global Engagement Center, and the intelligence director's restructuring cut the Foreign Malign Influence Center.",
+      "The Cybersecurity and Infrastructure Security Agency, which works with states to secure voting systems, lost nearly a third of its workforce by mid-2025, CBS News reported, and the 2027 budget proposes cuts that \"could necessitate 900 additional layoffs,\" ProPublica reported. Arizona's secretary of state said the agency had \"basically cut us off and left us on our own.\"",
+      "ProPublica, citing two former officials, reported that DHS political appointees asked the agency to \"Secretly acquire a voting machine and hack it\" without telling the manufacturer; the request was not carried out. That account has not been independently confirmed.",
+      "The White House says \"President Trump has done more than any other President to ensure we have free and fair elections.\""
+    ],
+    "take": "Foreign interference in American elections is not a partisan worry; the FBI unit Bondi disbanded was built after Russia's 2016 operation. Taking apart the offices that watch for it, in the run-up to a midterm, leaves states with less warning and the public with fewer independent referees.",
+    "sources": [
+      {
+        "text": "NBC News: Pam Bondi ends FBI effort to combat foreign influence in U.S. politics",
+        "url": "https://www.nbcnews.com/politics/national-security/bondi-ends-fbi-effort-combat-foreign-influence-us-politics-rcna191012"
+      },
+      {
+        "text": "U.S. Department of State: Protecting and Championing Free Speech at the State Department",
+        "url": "https://www.state.gov/protecting-and-championing-free-speech-at-the-state-department"
+      },
+      {
+        "text": "CBS News: Trump zeroes in on election security. His team has cut thousands of election-focused federal workers.",
+        "url": "https://www.cbsnews.com/news/trump-election-security-cisa-justice-department-fbi-federal-worker-cuts/"
+      },
+      {
+        "text": "ProPublica: How the Trump Administration Politicized the Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.propublica.org/article/cisa-election-security-donald-trump"
+      }
+    ],
+    "trackerIds": [
+      "trump-dismantles-foreign-election-interference-units-cisa-hack-request",
+      "propublica-trump-midterm-elections-takeover"
+    ]
+  },
+  {
     "id": "election-deniers-running",
     "title": "53 Election Deniers Are Running to Referee the Next Election",
     "date": "2026-05-04",
@@ -2526,7 +2562,8 @@
       "Axios reported that Musk has been in talks with Trump's political team about how he can help; an America PAC spokesman, Andrew Romeo, said, \"we're excited to again be part of the team.\"",
       "This is legal super-PAC spending. What is documented here is its scale and the reported coordination with the president's political operation.",
       "By October, Musk had given more than $276 million since July, including $158 million to the Senate Leadership Fund, the New York Times reported and his super PAC's spokesperson confirmed to AP.",
-      "FEC filings show Musk gave the Senate Leadership Fund $75 million on September 9 and $83 million on September 23, and \"Both times, the SLF transferred the exact same amount to Texas PAC the following day,\" CNBC reported. Texas PAC, which backs Ken Paxton, reported no other donors through September."
+      "FEC filings show Musk gave the Senate Leadership Fund $75 million on September 9 and $83 million on September 23, and \"Both times, the SLF transferred the exact same amount to Texas PAC the following day,\" CNBC reported. Texas PAC, which backs Ken Paxton, reported no other donors through September.",
+      "By mid-October Musk had also put more than $7 million into independent groups backing Sen. Jon Husted of Ohio, according to an advocacy group's analysis of federal data reported by the Ohio Capital Journal."
     ],
     "take": "This card is the boundary of our own standard. Spending money to persuade voters is legal, and we do not call it rigging. We include it because the same donor already drew an adjudicated ballot-law violation in Georgia and a bribery referral in Wisconsin, and because a nine-figure operation coordinating with the White House political team is context a reader deserves when weighing everything else on this page. Judge it as spending, not as fraud.",
     "sources": [
@@ -2545,6 +2582,10 @@
       {
         "text": "CNBC: 5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
         "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html"
+      },
+      {
+        "text": "Ohio Capital Journal: Elon Musk donates $7 million to help incumbent Ohio Republican US Sen. Jon Husted",
+        "url": "https://ohiocapitaljournal.com/2026/10/19/elon-musk-donates-7-million-to-help-incumbent-ohio-republican-us-sen-jon-husted/"
       }
     ],
     "trackerIds": [
@@ -3101,6 +3142,7 @@
     "facts": [
       "On July 7, 2026, Assistant Attorney General Harmeet Dhillon wrote to election officials in all 50 states and D.C. that any election officer who \"knowingly retains noncitizens\" on the rolls \"could be subject to criminal liability,\" giving each state five days to respond. The department called it a request for \"voluntary compliance in a timely manner.\"",
       "In September the department sent litigation-hold letters to the 29 states and D.C. it is suing for voter data, warning of \"civil and criminal sanctions\" if records are not preserved. The letter to Utah's Republican lieutenant governor, Deidre Henderson, told her she is \"under investigation\"; the department would not say for what.",
+      "Henderson told 60 Minutes in October: \"In the past two elections that I oversaw as lieutenant governor the threats were all external. Non-state actors, cyber security threats and other things. But now we also have threats coming from within our own government.\" Dhillon told the program, \"It's not to sow distrust. The distrust is there.\"",
       "Dhillon called the letters \"standard litigation practice.\" No election official has been charged."
     ],
     "sources": [
@@ -3119,6 +3161,10 @@
       {
         "text": "Salt Lake Tribune: Trump's DOJ is investigating Utah's election chief for refusing to hand over voter data, it says in letter",
         "url": "https://www.sltrib.com/news/politics/2026/09/09/trumps-doj-is-investigating-utahs/"
+      },
+      {
+        "text": "CBS News: 60 Minutes Transcript: Election officials describe impacts of federal actions on voting",
+        "url": "https://www.cbsnews.com/news/election-officials-voting-system-investigations-60-minutes-transcript/"
       }
     ],
     "trackerIds": [
@@ -3139,7 +3185,8 @@
       "Two people familiar with the investigation told NBC News that agents seized Omar's phone during the search and that roughly a dozen subpoenas have gone out, including to family members, tied to a federal grand jury in Minnesota. No charges have been filed.",
       "USA Today (two unnamed sources) and Reuters (three unnamed sources) reported the investigation is aimed at revoking Omar's citizenship and deporting her; the Justice Department has not said so. In January, asked by the New York Times whether Omar should lose her citizenship, Trump said, \"Oh, absolutely,\" Reuters noted. The Washington Post reported that a 2019 HSI review found \"insufficient evidence of wrongdoing.\"",
       "DHS Secretary Markwayne Mullin said on October 16, \"There was multiple other warrants served on that same day,\" and that \"President Trump didn't want to move forward either, unless we knew that it couldn't be politically driven,\" CBS News reported. Omar's lawyers wrote that the search \"was neither justified nor lawful\"; the department called their letter \"riddled with false allegations and inaccuracies.\"",
-      "Omar's lawyers say agents broke protocols a magistrate judge required to protect her rights as a member of Congress: they did not notify her or the House Office of General Counsel when they executed the warrant, and kept her from her attorney for more than an hour, CBS News reported. The Justice Department said its attorneys and agents \"complied with all court orders and legal obligations.\" U.S. Attorney Jeanine Pirro has said \"there are several investigations going on\" related to Omar, the AP reported."
+      "Omar's lawyers say agents broke protocols a magistrate judge required to protect her rights as a member of Congress: they did not notify her or the House Office of General Counsel when they executed the warrant, and kept her from her attorney for more than an hour, CBS News reported. The Justice Department said its attorneys and agents \"complied with all court orders and legal obligations.\" U.S. Attorney Jeanine Pirro has said \"there are several investigations going on\" related to Omar, the AP reported.",
+      "Border czar Tom Homan said he was told investigators have a \"strong case\" and, asked whether denaturalization or deportation was possible, answered \"of course,\" the Star Tribune reported. No charges have been filed."
     ],
     "take": "We do not know what the warrant says, and a judge approved it. What we can say is that the president publicly previewed action against a named opponent, and two days later his administration searched her home while voting was under way. Whatever the investigation finds, the timing is the kind of choice the old norm existed to prevent.",
     "sources": [
@@ -3194,6 +3241,10 @@
       {
         "text": "AP: Rep. Ilhan Omar's attorneys demand return of property seized in federal search of her home",
         "url": "https://apnews.com/article/ilhan-omar-justice-department-investigation-search-42c86bdbd54679e974e32ac4a924b402"
+      },
+      {
+        "text": "Star Tribune: Border czar Tom Homan says Rep. Ilhan Omar could be denaturalized depending on investigation",
+        "url": "https://www.startribune.com/under-fire-rep-ilhan-omar-demands-return-of-seized-items-including-sisters-phone/601902327"
       }
     ],
     "trackerIds": [
