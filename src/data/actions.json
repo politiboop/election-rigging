@@ -570,7 +570,9 @@
       "The letters do not explain how the list was built or how many names it contains, Politico reported. Experts told the Los Angeles Times the demand is \"legally questionable.\" In Nevada, DHS cut an initial claim of 15,900 noncitizen registrants to 185 it said it had confirmed, which Nevada officials disputed, CNN reported.",
       "The Justice Department's position: \"This should not be controversial, as the criminal statute is clear: only American citizens may vote in federal elections.\"",
       "California did not comply. Los Angeles County Registrar Dean Logan said, \"We cannot withhold or refuse to count ballots based solely on unverified allegations,\" and Secretary of State Shirley Weber called it \"an emergency of the DOJ's creation.\" Attorney General Rob Bonta noted the flagged count had fallen from the 190,000 DHS flagged over the summer: \"What happened to those 170,000? They just got those wrong.\"",
-      "On October 15 the Justice Department sued in United States v. California (C.D. Cal.), describing \"a list of over 20,000 names.\" In an October 16 letter McCotter warned officials who knowingly count such ballots of \"becoming aiders and abettors to a federal crime.\" That evening Trump posted: \"They will all go to jail for a long period of time!!!\""
+      "On October 15 the Justice Department sued in United States v. California (C.D. Cal.), describing \"a list of over 20,000 names.\" In an October 16 letter McCotter warned officials who knowingly count such ballots of \"becoming aiders and abettors to a federal crime.\" That evening Trump posted: \"They will all go to jail for a long period of time!!!\"",
+      "On October 19 the department charged 28 green card holders in California, mostly with lying on naturalization applications, some with fraudulent registration; 11 were arrested. \"Each of the 28 defendants charged today appears on the list of more than 20,000 likely noncitizen registrants we provided to California election officials last week,\" McCotter said. Not all are accused of voting.",
+      "The same day the department asked the court to order the ballots held, calling its list \"the floor.\" Los Angeles County told the court that in a sample of names on the list, \"25.8% of the sampled voters record a place of birth in the United States.\" No ruling had been issued as of October 20."
     ],
     "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But the list has shrunk from 190,000 to about 20,000 without anyone outside the government being able to check it, and the president has now said the officials who count those ballots will go to jail. Election officials are being told to choose between a court process and a prison threat.",
     "sources": [
@@ -605,10 +607,19 @@
       {
         "text": "Reuters (via HuffPost): Trump Threatens California Officials With Imprisonment Over Stance On Mail Ballots",
         "url": "https://www.huffpost.com/entry/trump-threat-california-mail-ballots_n_6ad2ea43e4b0dccf572c26a1"
+      },
+      {
+        "text": "U.S. Department of Justice: Justice Department Charges 28 Foreign Nationals in California for Election Crimes",
+        "url": "https://www.justice.gov/opa/pr/justice-department-charges-28-foreign-nationals-california-election-crimes"
+      },
+      {
+        "text": "United States v. California, No. 2:26-cv-12025 (C.D. Cal.): Los Angeles County's opposition (Dkt. 32)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.1043513/gov.uscourts.cacd.1043513.32.1_1.pdf"
       }
     ],
     "trackerIds": [
-      "doj-48-hours-california-segregate-mail-ballots-noncitizen-list"
+      "doj-48-hours-california-segregate-mail-ballots-noncitizen-list",
+      "doj-charges-28-california-green-card-holders-operation-protect-the-vote"
     ]
   },
   {
@@ -2713,7 +2724,8 @@
       "September 30, 2026: the administration began sending the separate $500 ACA payments to more than 950,000 people in 30 states, five weeks before the election, with a letter signed by Trump: \"That money belongs to hard-working Americans, not the Government, and now I'm returning it to you!\" Only the 30 states on the federal HealthCare.gov marketplace qualify, and a Reuters analysis found they hold eight of the nine Senate races nonpartisan analysts rate most competitive and 10 of the 12 most competitive governor's races; 71% of the payments, $339 million, go to people in those 13 states. \"The White House did not respond to accusations they are trying to influence the election,\" Reuters reported, and noted a precedent on the other side: Biden's $2,000 promise in the 2021 Georgia runoffs.",
       "On October 2, Trump announced one-time $90 payments to about 20.8 million seniors in Original Medicare from the Medicare Improvement Fund, which the White House says no administration has ever used; CMS says most will arrive by direct deposit \"on or around October 8 followed by an email or a letter from the President in mid-October.\" Politico noted that money from the fund \"is generally appropriated by Congress, and not given out by presidential fiat.\" The next day Trump said of earlier payments to troops, \"Maybe I should have waited a year.\"",
       "Who would be paid keeps changing. On September 11 Trump posted that the dividend would be \"given to all Adults in the United States\"; on October 2, that it \"will be distributed to every U.S. Citizen if, and when, the Republicans win the Midterm Elections!\"; on October 3, \"I'm going to give all Adult Citizens in the United States of America, $5,000.\" Asked by Fortune who would be eligible, White House spokesperson Davis Ingle said, \"President Trump has consistently proven his doubters wrong.\" An Economist/YouGov poll taken September 11-14 found 21 percent of registered voters thought he would follow through and 57 percent thought he would not.",
-      "The conditional promises have extended to specific places. At an October 17 rally in Kentucky, Trump said, \"If the Republicans win, the Department of War will be investing $100 million in the pharmaceutical company Antheia to revitalize a gigantic drug manufacturing facility in Winchester, Kentucky,\" a town in the state's most competitive House district. The Pentagon's actual commitment is a conditional loan of \"up to $80 million,\" and the company's release does not tie it to the election."
+      "The conditional promises have extended to specific places. At an October 17 rally in Kentucky, Trump said, \"If the Republicans win, the Department of War will be investing $100 million in the pharmaceutical company Antheia to revitalize a gigantic drug manufacturing facility in Winchester, Kentucky,\" a town in the state's most competitive House district. The Pentagon's actual commitment is a conditional loan of \"up to $80 million,\" and the company's release does not tie it to the election.",
+      "On October 19, at a rally for Sen. Roger Marshall in Kansas, Trump announced $8 billion in fuel-cost payments to farmers, paid under existing Agriculture Department authority, and posted, \"When Republicans win, we will pass even more funding for our Great Farmers.\" At the rally he said, \"when you're president, you have a little bit of an advantage.\""
     ],
     "take": "This is not vote-buying in the legal sense, and the tracker does not call it that. It is something the law has not had to think about: a sitting president conditioning a cash payment to the public on which party wins an election, with no money to pay it. Whether a voter believes the check is coming is the whole point, and the record on the last two dividends answers that. The card is here because the promise is itself an instrument aimed at the outcome, made by the man whose administration is also setting the rules for the count.",
     "sources": [
@@ -2800,6 +2812,14 @@
       {
         "text": "Antheia (PR Newswire): Antheia Secures $80 Million Conditional Funding Commitment from Department of War's Office of Strategic Capital",
         "url": "https://www.prnewswire.com/news-releases/antheia-secures-80-million-conditional-funding-commitment-from-department-of-wars-office-of-strategic-capital-302911991.html"
+      },
+      {
+        "text": "U.S. Department of Agriculture: Trump Administration Announces $8 Billion Harvest Fuel Relief Program",
+        "url": "https://www.usda.gov/about-usda/news/press-releases/2026/10/19/trump-administration-announces-8-billion-harvest-fuel-relief-program"
+      },
+      {
+        "text": "Truth Social (archive): Trump post on farm aid, October 19, 2026",
+        "url": "https://www.trumpstruth.org/statuses/42462"
       }
     ],
     "trackerIds": [
@@ -2807,7 +2827,8 @@
       "doge-tariff-checks-broken-promises",
       "trump-500-aca-checks-signed-letter-battleground-states-before-midterms",
       "trump-90-medicare-payments-20-million-seniors-improvement-fund-before-midterms",
-      "trump-kentucky-pentagon-100-million-antheia-if-republicans-win"
+      "trump-kentucky-pentagon-100-million-antheia-if-republicans-win",
+      "trump-8-billion-harvest-fuel-relief-farmers-kansas-rally-when-republicans-win"
     ]
   },
   {
@@ -3143,6 +3164,7 @@
       "On July 7, 2026, Assistant Attorney General Harmeet Dhillon wrote to election officials in all 50 states and D.C. that any election officer who \"knowingly retains noncitizens\" on the rolls \"could be subject to criminal liability,\" giving each state five days to respond. The department called it a request for \"voluntary compliance in a timely manner.\"",
       "In September the department sent litigation-hold letters to the 29 states and D.C. it is suing for voter data, warning of \"civil and criminal sanctions\" if records are not preserved. The letter to Utah's Republican lieutenant governor, Deidre Henderson, told her she is \"under investigation\"; the department would not say for what.",
       "Henderson told 60 Minutes in October: \"In the past two elections that I oversaw as lieutenant governor the threats were all external. Non-state actors, cyber security threats and other things. But now we also have threats coming from within our own government.\" Dhillon told the program, \"It's not to sow distrust. The distrust is there.\"",
+      "As early voting opened in Texas on October 19, U.S. Attorney Aaron Reitz of the Southern District said federal monitors meant \"no crooked local election administrators,\" and, \"If you violate federal election law, I will hunt you down and prosecute you.\" He did not identify any specific violation, the Houston Chronicle reported.",
       "Dhillon called the letters \"standard litigation practice.\" No election official has been charged."
     ],
     "sources": [
@@ -3165,10 +3187,19 @@
       {
         "text": "CBS News: 60 Minutes Transcript: Election officials describe impacts of federal actions on voting",
         "url": "https://www.cbsnews.com/news/election-officials-voting-system-investigations-60-minutes-transcript/"
+      },
+      {
+        "text": "U.S. Attorney's Office, Southern District of Texas: U.S. Attorney Aaron Reitz statement on election season and federal election law",
+        "url": "https://www.justice.gov/usao-sdtx/pr/us-attorney-aaron-reitz-statement-election-season-and-federal-election-law"
+      },
+      {
+        "text": "Houston Chronicle: Federal prosecutor vows to 'hunt down' Texas election lawbreakers",
+        "url": "https://www.chron.com/texas/article/aaron-reitz-texas-election-monitoring-22484028.php"
       }
     ],
     "trackerIds": [
-      "doj-letters-election-officials-criminal-prosecution-noncitizens-under-investigation"
+      "doj-letters-election-officials-criminal-prosecution-noncitizens-under-investigation",
+      "doj-1000-election-monitors-dhillon-biggest-observer-effort-in-history"
     ]
   },
   {
