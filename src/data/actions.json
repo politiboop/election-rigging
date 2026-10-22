@@ -573,7 +573,8 @@
       "On October 15 the Justice Department sued in United States v. California (C.D. Cal.), describing \"a list of over 20,000 names.\" In an October 16 letter McCotter warned officials who knowingly count such ballots of \"becoming aiders and abettors to a federal crime.\" That evening Trump posted: \"They will all go to jail for a long period of time!!!\"",
       "On October 19 the department charged 28 green card holders in California, mostly with lying on naturalization applications, some with fraudulent registration; 11 were arrested. \"Each of the 28 defendants charged today appears on the list of more than 20,000 likely noncitizen registrants we provided to California election officials last week,\" McCotter said. Not all are accused of voting.",
       "The same day the department asked the court to order the ballots held, calling its list \"the floor.\" Los Angeles County told the court that in a sample of names on the list, \"25.8% of the sampled voters record a place of birth in the United States.\" No ruling had been issued as of October 20.",
-      "A Los Angeles County declaration says that among sampled records with a meaningful birthplace, 38.9 percent listed the United States. Acting Deputy Attorney General R. Trent McCotter said, \"There may be some names on there who it turns out ultimately are citizens,\" and, \"We're not perfect,\" CalMatters reported."
+      "A Los Angeles County declaration says that among sampled records with a meaningful birthplace, 38.9 percent listed the United States. Acting Deputy Attorney General R. Trent McCotter said, \"There may be some names on there who it turns out ultimately are citizens,\" and, \"We're not perfect,\" CalMatters reported.",
+      "On October 20, 2026, the Democratic Senate, House and governors' committees, Chuck Schumer, Hakeem Jeffries and the Nevada Democratic Party sued Trump, the Justice Department, Blanche, DHS and Mullin in federal court in Washington (DSCC v. Trump), asking the court to enjoin federal demands that states purge voters, withhold ballots, or segregate and not count them, and to stop threats against election officials. No ruling yet."
     ],
     "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But the list has shrunk from 190,000 to about 20,000 without anyone outside the government being able to check it, and the president has now said the officials who count those ballots will go to jail. Election officials are being told to choose between a court process and a prison threat.",
     "sources": [
@@ -624,11 +625,20 @@
       {
         "text": "CalMatters: California calls Trump's election voting claims 'absurd'",
         "url": "https://calmatters.org/politics/2026/10/california-noncitizen-voter-suit/"
+      },
+      {
+        "text": "DSCC et al. v. Trump et al., No. 1:26-cv-03674 (D.D.C.): complaint for declaratory and injunctive relief",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297829/gov.uscourts.dcd.297829.1.0.pdf"
+      },
+      {
+        "text": "AP (via NBC News): Democrats sue to block the Trump administration from usurping states' authority to administer elections",
+        "url": "https://www.nbcnews.com/politics/2026-election/democrats-sue-trump-administration-usurping-state-authority-elections-rcna604915"
       }
     ],
     "trackerIds": [
       "doj-48-hours-california-segregate-mail-ballots-noncitizen-list",
-      "doj-charges-28-california-green-card-holders-operation-protect-the-vote"
+      "doj-charges-28-california-green-card-holders-operation-protect-the-vote",
+      "democrats-sue-trump-doj-dhs-threats-election-officials-purge-voters"
     ]
   },
   {
@@ -696,7 +706,8 @@
       "The results, in the administration's own numbers: at a September 22 briefing an HSI official cited about 1,600 cases and 160 arrests, and the Justice Department said it had charged 70 people with \"unlawful voting and registration offenses\" since January 2025. A department spokesperson said many HSI arrests \"result in charges for related offenses, such as false claims to citizenship or false statements, rather than the voting statute itself.\" ProPublica found 41 alleged noncitizen voters charged from January 2025 to May 2026.",
       "On September 18 San Francisco, Santa Clara County, the California Nurses Association, National Nurses United and the Voto Latino Foundation sued under Section 11(b) of the Voting Rights Act, which bars voter intimidation. The complaint alleges that \"DHS is now deploying armed and often militarized agents to homes to interrogate residents about whether they are eligible to vote,\" and cites a September 11 post from HSI's San Francisco office showing agents knocking on residential doors. One plaintiff nurse, a naturalized citizen, has switched from voting in person to voting by mail out of fear of being targeted.",
       "On September 23 Judge Araceli Martinez-Olguin set an expedited schedule: the government's opposition is due September 28 and a preliminary-injunction hearing is set for October 1. No court has ruled, and the guidance itself is not public. Asked about the lawsuit, DHS told Reason it needed more time to respond.",
-      "Internal records released October 7 show HSI investigators ingested 50.6 million records from a Justice Department dataset and 48.4 million more obtained by a senior counselor to Secretary Mullin from unidentified sources, adopted a \"network-based investigative approach\" aimed at registration groups, and explored using undercover agents. By late May there were 418 cases and 64 administrative arrests; 318 cases had not been referred for prosecution."
+      "Internal records released October 7 show HSI investigators ingested 50.6 million records from a Justice Department dataset and 48.4 million more obtained by a senior counselor to Secretary Mullin from unidentified sources, adopted a \"network-based investigative approach\" aimed at registration groups, and explored using undercover agents. By late May there were 418 cases and 64 administrative arrests; 318 cases had not been referred for prosecution.",
+      "On October 21, 2026, U.S. District Judge Araceli Martinez-Olguin granted a preliminary injunction barring DHS \"elections-related field operations and field interviews\" in the nine surge states against people the agencies \"know, suspect, or should reasonably know or suspect are U.S. citizens,\" through Election Day. The court called the matching data \"voluminous and unreliable.\" The order is stayed until 5 p.m. October 23 and does not bar investigations of unlawful voting as such; no appeal had been filed as of October 22."
     ],
     "take": "The Justice Department's own manual says why investigators keep quiet as an election nears: the visit itself can chill voting. DHS wrote a plan for the opposite, interviews in the weeks ballots go out, and its own figures show how few cases there are to find. A knock on the door reaches every voter who hears about it, whether or not it ends in a charge.",
     "sources": [
@@ -735,6 +746,14 @@
       {
         "text": "CNN: ICE reviewed tens of millions of voter records looking for noncitizen voters, records show",
         "url": "https://www.cnn.com/2026/10/07/politics/dhs-ice-voter-fraud-investigation-undercover"
+      },
+      {
+        "text": "California Nurses Association v. Mullin, No. 4:26-cv-10680 (N.D. Cal.): order granting preliminary injunction (Dkt. 87)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_2.pdf"
+      },
+      {
+        "text": "Courthouse News: Judge curtails DHS crackdown on 'unlawful voters' during midterm elections",
+        "url": "https://www.courthousenews.com/judge-curtails-dhs-crackdown-on-unlawful-voters-during-midterm-elections/"
       }
     ],
     "trackerIds": [
@@ -789,11 +808,12 @@
     "category": "data",
     "status": "court",
     "facts": [
-      "Under a memorandum of understanding signed in August 2025, Alaska's Republican lieutenant governor transferred the state's complete unredacted voter list, including full names, birth dates, home addresses, and driver's license or partial Social Security numbers, to the Trump DOJ.",
+      "Under a memorandum of understanding signed in December 2025, Alaska's Republican lieutenant governor transferred the state's complete unredacted voter list, including full names, birth dates, home addresses, and driver's license or partial Social Security numbers, to the Trump DOJ.",
       "The ACLU, the Electronic Privacy Information Center, the League of Women Voters of Alaska, and the Alaska Black Caucus sued in April 2026, asking a court to void the MOU, order the DOJ to destroy all copies, and bar future transfers.",
       "ACLU attorney Theresa J. Lee: the state \"has put both privacy and democracy at serious risk.\" Civil rights groups argue the program is designed to engineer purges of Democratic-leaning voters, voters with immigrant-sounding names, and voters of color.",
       "Alaska is small, but the MOU is a template: if it survives, other Republican-led states can copy it before November.",
-      "The purge then arrived. On July 23, 2026, the state removed 3,048 people from its active voter list, many of them U.S. citizens wrongly flagged as noncitizens by the Alaska DMV. Elections director Carol Beecher blamed \"old data\" and said a normal annual check flags \"more like 200 names,\" not 3,000. Those removed can vote only by producing extra documentation, the exact citizenship-flagging harm this data campaign was warned would cause."
+      "The purge then arrived. On July 23, 2026, the state removed 3,048 people from its active voter list, many of them U.S. citizens wrongly flagged as noncitizens by the Alaska DMV. Elections director Carol Beecher blamed \"old data\" and said a normal annual check flags \"more like 200 names,\" not 3,000. Those removed can vote only by producing extra documentation, the exact citizenship-flagging harm this data campaign was warned would cause.",
+      "On October 16, 2026, Alaska Superior Court Judge Adolf Zeman refused to dismiss the suit, writing that the state \"has given DOJ carte blanche to submit whenever it pleases, a list of whosoever names it decides, for whatever reason DOJ determines, for any number of eligible voters.\" The memo also lets DOJ share the data with a private contractor. The claims now go to discovery; DOJ has asked Alaska to remove no voters."
     ],
     "sources": [
       {
@@ -815,6 +835,14 @@
       {
         "text": "Anchorage Daily News: Alaska removes thousands from its active voter list, erroneously flagging some citizens (July 24, 2026)",
         "url": "https://www.adn.com/politics/2026/07/24/alaska-removes-thousands-from-states-active-voter-list-erroneously-flagging-some-citizens/"
+      },
+      {
+        "text": "Alaska Beacon: Alaska voters' privacy could be at risk from state's handling of voter rolls, judge says",
+        "url": "https://alaskabeacon.com/2026/10/20/alaska-voters-privacy-could-be-at-risk-from-states-handling-of-voter-rolls-judge-says/"
+      },
+      {
+        "text": "Alaska Beacon: Federal government may seek removal of individual Alaskans from state voter rolls (February 13, 2026)",
+        "url": "https://alaskabeacon.com/2026/02/13/alaska-permits-federal-government-to-purge-individual-alaskans-from-voter-list/"
       }
     ],
     "trackerIds": [
@@ -2326,7 +2354,8 @@
       "He announced the poll would be added to his $15 billion lawsuit against the New York Times, saying the paper \"will be held fully responsible for all of their Radical Left lies and wrongdoing.\"",
       "The 40 percent figure was consistent with other polling at the time; the RealClearPolitics average stood at about 42.5 percent.",
       "On February 11, 2026, Gallup announced it would stop tracking presidential approval after roughly eight decades.",
-      "Trump's December 2024 suit against Iowa pollster J. Ann Selzer and the Des Moines Register, over a final 2024 poll showing Kamala Harris ahead in Iowa 47 to 44, was the first of these cases to reach a decision. On September 23, 2026, Judge Scott J. Beattie dismissed it with prejudice, holding it would fail even assuming the poll had been faked: \"A poll is simply an estimate.\" A Trump spokesman said the case will be appealed to the Iowa Supreme Court."
+      "Trump's December 2024 suit against Iowa pollster J. Ann Selzer and the Des Moines Register, over a final 2024 poll showing Kamala Harris ahead in Iowa 47 to 44, was the first of these cases to reach a decision. On September 23, 2026, Judge Scott J. Beattie dismissed it with prejudice, holding it would fail even assuming the poll had been faked: \"A poll is simply an estimate.\" A Trump spokesman said the case will be appealed to the Iowa Supreme Court.",
+      "On October 21, 2026, FCC Chairman Brendan Carr posted that broadcasters \"are advised to avoid engaging in News Distortions or running Broadcast Hoaxes by airing Polls that would violate their regulatory obligations.\" He named no poll and announced no investigation, and no formal guidance has been published, Politico reported. The FCC's news-distortion policy reaches only deliberate distortion by licensed over-the-air stations."
     ],
     "take": "Polling is not election machinery. It is the instrument the public uses to know where it stands before a vote, and a president threatening to criminalize the unflattering readings is trying to take that instrument away.",
     "sources": [
@@ -2349,11 +2378,24 @@
       {
         "text": "CNN Business: Judge dismisses Trump's lawsuit against Des Moines Register and pollster J. Ann Selzer (September 23, 2026)",
         "url": "https://www.cnn.com/2026/09/23/media/trump-j-ann-selzer-des-moines-register-lawsuit-dismissed"
+      },
+      {
+        "text": "Brendan Carr (@BrendanCarrFCC): X post, October 21, 2026",
+        "url": "https://x.com/BrendanCarrFCC/status/2112913475705934326"
+      },
+      {
+        "text": "Reuters (via Yahoo): FCC chair says broadcast networks could violate regulatory obligations by airing 'fake polls'",
+        "url": "https://www.yahoo.com/news/politics/articles/fcc-chair-says-broadcast-networks-152250405.html"
+      },
+      {
+        "text": "Politico: Brendan Carr takes up Trump's 'fake polls' fight",
+        "url": "https://www.politico.com/news/2026/10/21/carr-broadcasters-political-polls-01129194"
       }
     ],
     "trackerIds": [
       "trump-war-on-polling",
-      "iowa-judge-dismisses-trump-suit-des-moines-register-selzer"
+      "iowa-judge-dismisses-trump-suit-des-moines-register-selzer",
+      "fcc-carr-warns-broadcasters-fake-polls-regulatory-obligations"
     ]
   },
   {
@@ -3198,6 +3240,7 @@
       "In September the department sent litigation-hold letters to the 29 states and D.C. it is suing for voter data, warning of \"civil and criminal sanctions\" if records are not preserved. The letter to Utah's Republican lieutenant governor, Deidre Henderson, told her she is \"under investigation\"; the department would not say for what.",
       "Henderson told 60 Minutes in October: \"In the past two elections that I oversaw as lieutenant governor the threats were all external. Non-state actors, cyber security threats and other things. But now we also have threats coming from within our own government.\" Dhillon told the program, \"It's not to sow distrust. The distrust is there.\"",
       "As early voting opened in Texas on October 19, U.S. Attorney Aaron Reitz of the Southern District said federal monitors meant \"no crooked local election administrators,\" and, \"If you violate federal election law, I will hunt you down and prosecute you.\" He did not identify any specific violation, the Houston Chronicle reported.",
+      "On October 20, 2026, the Democratic Senate, House and governors' committees, Chuck Schumer, Hakeem Jeffries and the Nevada Democratic Party sued Trump, the Justice Department, Blanche, DHS and Mullin in federal court in Washington (DSCC v. Trump), asking the court to enjoin federal demands that states purge voters, withhold ballots, or segregate and not count them, and to stop threats against election officials. No ruling yet.",
       "Dhillon called the letters \"standard litigation practice.\" No election official has been charged."
     ],
     "sources": [
@@ -3228,11 +3271,20 @@
       {
         "text": "Houston Chronicle: Federal prosecutor vows to 'hunt down' Texas election lawbreakers",
         "url": "https://www.chron.com/texas/article/aaron-reitz-texas-election-monitoring-22484028.php"
+      },
+      {
+        "text": "DSCC et al. v. Trump et al., No. 1:26-cv-03674 (D.D.C.): complaint for declaratory and injunctive relief",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297829/gov.uscourts.dcd.297829.1.0.pdf"
+      },
+      {
+        "text": "AP (via NBC News): Democrats sue to block the Trump administration from usurping states' authority to administer elections",
+        "url": "https://www.nbcnews.com/politics/2026-election/democrats-sue-trump-administration-usurping-state-authority-elections-rcna604915"
       }
     ],
     "trackerIds": [
       "doj-letters-election-officials-criminal-prosecution-noncitizens-under-investigation",
-      "doj-1000-election-monitors-dhillon-biggest-observer-effort-in-history"
+      "doj-1000-election-monitors-dhillon-biggest-observer-effort-in-history",
+      "democrats-sue-trump-doj-dhs-threats-election-officials-purge-voters"
     ]
   },
   {
@@ -3250,7 +3302,8 @@
       "USA Today (two unnamed sources) and Reuters (three unnamed sources) reported the investigation is aimed at revoking Omar's citizenship and deporting her; the Justice Department has not said so. In January, asked by the New York Times whether Omar should lose her citizenship, Trump said, \"Oh, absolutely,\" Reuters noted. The Washington Post reported that a 2019 HSI review found \"insufficient evidence of wrongdoing.\"",
       "DHS Secretary Markwayne Mullin said on October 16, \"There was multiple other warrants served on that same day,\" and that \"President Trump didn't want to move forward either, unless we knew that it couldn't be politically driven,\" CBS News reported. Omar's lawyers wrote that the search \"was neither justified nor lawful\"; the department called their letter \"riddled with false allegations and inaccuracies.\"",
       "Omar's lawyers say agents broke protocols a magistrate judge required to protect her rights as a member of Congress: they did not notify her or the House Office of General Counsel when they executed the warrant, and kept her from her attorney for more than an hour, CBS News reported. The Justice Department said its attorneys and agents \"complied with all court orders and legal obligations.\" U.S. Attorney Jeanine Pirro has said \"there are several investigations going on\" related to Omar, the AP reported.",
-      "Border czar Tom Homan said he was told investigators have a \"strong case\" and, asked whether denaturalization or deportation was possible, answered \"of course,\" the Star Tribune reported. No charges have been filed."
+      "Border czar Tom Homan said he was told investigators have a \"strong case\" and, asked whether denaturalization or deportation was possible, answered \"of course,\" the Star Tribune reported. No charges have been filed.",
+      "Asked on October 20 whether Omar could be deported, Trump said, \"Well, she could be. She could also go to jail,\" according to the Roll Call Factbase transcript. Omar said she will move out of her Washington home because of threats."
     ],
     "take": "We do not know what the warrant says, and a judge approved it. What we can say is that the president publicly previewed action against a named opponent, and two days later his administration searched her home while voting was under way. Whatever the investigation finds, the timing is the kind of choice the old norm existed to prevent.",
     "sources": [
@@ -3309,6 +3362,14 @@
       {
         "text": "Star Tribune: Border czar Tom Homan says Rep. Ilhan Omar could be denaturalized depending on investigation",
         "url": "https://www.startribune.com/under-fire-rep-ilhan-omar-demands-return-of-seized-items-including-sisters-phone/601902327"
+      },
+      {
+        "text": "Roll Call Factbase: Donald Trump remarks on the fraud whistleblower initiative, October 20, 2026 (transcript)",
+        "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fraud-whistleblower-initiative-october-20-2026/"
+      },
+      {
+        "text": "AP: Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search",
+        "url": "https://apnews.com/article/ilhan-omar-home-search-immigration-probe-21e4b07a2c3a18addc751e4535f2954f"
       }
     ],
     "trackerIds": [
