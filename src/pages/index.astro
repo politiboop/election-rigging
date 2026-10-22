@@ -83,6 +83,9 @@ const fmtDate = (d) => {
 };
 
 const description = `A sourced, single-page record of ${total} documented actions to tilt the 2026 midterm elections before they happen: who counts the votes, who certifies them, who can cast them, and who is watching.`;
+
+// The page's own address on the production host, from `site` in astro.config.mjs.
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
 ---
 
 <html lang="en">
@@ -94,6 +97,8 @@ const description = `A sourced, single-page record of ${total} documented action
     <meta property="og:title" content="Rigged Before the Vote" />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <script>
       import { inject } from '@vercel/analytics';

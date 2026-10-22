@@ -241,5 +241,12 @@ promises. Flagging it would train the wrong instinct.
 
 ## Deployment
 
-Static build (`dist/`), intended for Vercel like the other politiboop sites. `.nvmrc` pins
-Node 22.12.0+. The `site` URL in `astro.config.mjs` is a placeholder until a domain is chosen.
+Deployed on Vercel like the other politiboop sites (project `election-rigging`). The config is
+`output: 'server'` with the Vercel adapter, so the deployable build is `.vercel/output` (`dist/`
+holds intermediates) and `/` is rendered on demand. `.nvmrc` pins Node 22.12.0+.
+
+The production site is `https://riggingelections.com`, and `site` in `astro.config.mjs` is set to
+it. `riggedbeforethevote.com` was never registered; do not use it. `site` feeds the sitemap
+(`@astrojs/sitemap` writes `sitemap-index.xml` and `sitemap-0.xml` into `.vercel/output/static`
+and lists `/`) and the `rel="canonical"` and `og:url` tags in the page head. Change it only if the
+production domain changes.
