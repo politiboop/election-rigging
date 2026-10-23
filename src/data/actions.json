@@ -574,7 +574,8 @@
       "On October 19 the department charged 28 green card holders in California, mostly with lying on naturalization applications, some with fraudulent registration; 11 were arrested. \"Each of the 28 defendants charged today appears on the list of more than 20,000 likely noncitizen registrants we provided to California election officials last week,\" McCotter said. Not all are accused of voting.",
       "The same day the department asked the court to order the ballots held, calling its list \"the floor.\" Los Angeles County told the court that in a sample of names on the list, \"25.8% of the sampled voters record a place of birth in the United States.\" No ruling had been issued as of October 20.",
       "A Los Angeles County declaration says that among sampled records with a meaningful birthplace, 38.9 percent listed the United States. Acting Deputy Attorney General R. Trent McCotter said, \"There may be some names on there who it turns out ultimately are citizens,\" and, \"We're not perfect,\" CalMatters reported.",
-      "On October 20, 2026, the Democratic Senate, House and governors' committees, Chuck Schumer, Hakeem Jeffries and the Nevada Democratic Party sued Trump, the Justice Department, Blanche, DHS and Mullin in federal court in Washington (DSCC v. Trump), asking the court to enjoin federal demands that states purge voters, withhold ballots, or segregate and not count them, and to stop threats against election officials. No ruling yet."
+      "On October 20, 2026, the Democratic Senate, House and governors' committees, Chuck Schumer, Hakeem Jeffries and the Nevada Democratic Party sued Trump, the Justice Department, Blanche, DHS and Mullin in federal court in Washington (DSCC v. Trump), asking the court to enjoin federal demands that states purge voters, withhold ballots, or segregate and not count them, and to stop threats against election officials. No ruling yet.",
+      "One of the 28 green-card holders charged, 72-year-old Omar Muñoz, told the Guardian he was taken from his Los Angeles home before dawn on October 19 in his pajama pants, in shackles, past six vehicles, cameras and a helicopter: \"It was staged and I'm the patsy ... They wanted to make a scene.\" The Justice Department posted an edited, music-scored video of the arrest to X captioned \"OPERATION PROTECT THE VOTE.\" Former deputy assistant attorney general Justin Levitt called it \"disgusting.\""
     ],
     "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But the list has shrunk from 190,000 to about 20,000 without anyone outside the government being able to check it, and the president has now said the officials who count those ballots will go to jail. Election officials are being told to choose between a court process and a prison threat.",
     "sources": [
@@ -633,6 +634,10 @@
       {
         "text": "AP (via NBC News): Democrats sue to block the Trump administration from usurping states' authority to administer elections",
         "url": "https://www.nbcnews.com/politics/2026-election/democrats-sue-trump-administration-usurping-state-authority-elections-rcna604915"
+      },
+      {
+        "text": "The Guardian: 'They wanted to make a scene': the 72-year-old paraded in dramatic arrest for 'voter fraud'",
+        "url": "https://www.theguardian.com/us-news/2026/oct/23/california-voter-fraud-arrest"
       }
     ],
     "trackerIds": [
@@ -736,8 +741,8 @@
         "url": "https://www.courtlistener.com/docket/74815064/california-nurses-association-v-mullin/"
       },
       {
-        "text": "Associated Press (via ABC News): Administration's focus on noncitizen voting has led to 160 arrests. Experts say that shows it's rare (September 2026)",
-        "url": "https://abcnews.com/Politics/wireStory/administrations-focus-noncitizen-voting-led-160-arrests-experts-136667964"
+        "text": "AP: Administration's focus on noncitizen voting has led to 160 arrests. Experts say that shows it's rare",
+        "url": "https://apnews.com/article/noncitizen-voting-trump-administration-midterms-9cebf968f72e6209a09a5d4adce2c155"
       },
       {
         "text": "Reason: Homeland Security Agents Are Harassing American Voters of Foreign Origin (September 24, 2026)",
@@ -3303,7 +3308,8 @@
       "DHS Secretary Markwayne Mullin said on October 16, \"There was multiple other warrants served on that same day,\" and that \"President Trump didn't want to move forward either, unless we knew that it couldn't be politically driven,\" CBS News reported. Omar's lawyers wrote that the search \"was neither justified nor lawful\"; the department called their letter \"riddled with false allegations and inaccuracies.\"",
       "Omar's lawyers say agents broke protocols a magistrate judge required to protect her rights as a member of Congress: they did not notify her or the House Office of General Counsel when they executed the warrant, and kept her from her attorney for more than an hour, CBS News reported. The Justice Department said its attorneys and agents \"complied with all court orders and legal obligations.\" U.S. Attorney Jeanine Pirro has said \"there are several investigations going on\" related to Omar, the AP reported.",
       "Border czar Tom Homan said he was told investigators have a \"strong case\" and, asked whether denaturalization or deportation was possible, answered \"of course,\" the Star Tribune reported. No charges have been filed.",
-      "Asked on October 20 whether Omar could be deported, Trump said, \"Well, she could be. She could also go to jail,\" according to the Roll Call Factbase transcript. Omar said she will move out of her Washington home because of threats."
+      "Asked on October 20 whether Omar could be deported, Trump said, \"Well, she could be. She could also go to jail,\" according to the Roll Call Factbase transcript. Omar said she will move out of her Washington home because of threats.",
+      "On October 22, after a Justice Department filing listed her as \"Ilhan Nur Said Elmi, a/k/a Ilhan Abdullahi Omar\" without explanation, Trump posted that she \"must IMMEDIATELY resign from Congress\" and that the Democratic Party \"has just conceded her seat.\" No court has made any such finding. Her spokesperson said, \"This is completely false. Ilhan Omar is her real name.\""
     ],
     "take": "We do not know what the warrant says, and a judge approved it. What we can say is that the president publicly previewed action against a named opponent, and two days later his administration searched her home while voting was under way. Whatever the investigation finds, the timing is the kind of choice the old norm existed to prevent.",
     "sources": [
@@ -3370,10 +3376,66 @@
       {
         "text": "AP: Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search",
         "url": "https://apnews.com/article/ilhan-omar-home-search-immigration-probe-21e4b07a2c3a18addc751e4535f2954f"
+      },
+      {
+        "text": "The Hill: Trump suggests Omar resign 'immediately' over 'fake name'",
+        "url": "https://thehill.com/homenews/administration/6167516-trump-demands-omar-resignation-name/"
+      },
+      {
+        "text": "The News International: Trump accuses Ilhan Omar of identity fraud: 'Congresswoman openly admitted to FRAUD'",
+        "url": "https://www.thenews.com.pk/latest/1420973-trump-accuses-ilhan-omar-of-identity-fraud-congresswoman-openly-admitted-to-fraud"
       }
     ],
     "trackerIds": [
       "hsi-searches-ilhan-omar-home-weeks-before-election"
+    ]
+  },
+  {
+    "id": "alaska-certification-suit",
+    "title": "The Justice Department Sues to Stop Alaska From Certifying Its Senate Race, but Only if the Republican Loses",
+    "date": "2026-10-22",
+    "category": "referees",
+    "status": "court",
+    "facts": [
+      "On October 22, 2026, twelve days before the election, the Justice Department sued Alaska, its elections director and its ballot-counting boards in federal court (United States v. State of Alaska, 3:26-cv-00376), asking a judge to bar the state from certifying its U.S. Senate race. The complaint was signed by Associate Attorney General Stanley Woodward Jr., not the Civil Rights Division that normally brings federal election cases.",
+      "The suit rests on a second candidate, Daniel J. Sullivan, who shares a name with Republican Sen. Dan S. Sullivan and whom the Alaska Supreme Court kept on the ballot in June over the state's objection. It asks the court to bar certifying \"any result that may be impacted by voter confusion ... pending an investigation to determine whether votes cast for Daniel J. Sullivan were meant to be cast for Senator Sullivan.\" The complaint defines a result as \"impacted\" only if Sen. Sullivan loses and would have won with every Daniel J. Sullivan vote. A Sullivan win would be certified; a narrow win by Democrat Mary Peltola would not.",
+      "The filing followed Trump's October 21 Truth Social post that \"We are looking at powerful legal options to remove the fraudulent Daniel J. Sullivan Jr. from the Ballot.\" The same day it was filed, Attorney General Todd Blanche, asked whether he could rule out DOJ action to delay the count, said, \"Of course, I'm not going to say that,\" while adding, \"am I planning my days around the election to be somewhere to not certify? Of course not.\"",
+      "Election-law scholars across the spectrum dismissed the theory. Notre Dame's Derek Muller called it \"one of the worst ones I've ever seen\" and \"designed to win the press release rather than the litigation.\" Ben Ginsberg, the Republican National Committee's former top election lawyer, told CNN a federal court had many reasons to refuse it. The case is before Judge Sharon Gleason; as of October 23 the department had sought no emergency relief, and Alaska expects to begin ranked-choice tabulation on November 18."
+    ],
+    "take": "A federal lawsuit that asks a court to refuse certification in one direction only, when the government's candidate loses, is not an election-integrity measure. It is a pre-written objection to a result that has not happened yet. The theory may well fail, as the experts quoted expect. The point is that the Justice Department now files it, and that the attorney general will not say the department would never do the same elsewhere.",
+    "sources": [
+      {
+        "text": "Complaint, United States v. State of Alaska, 3:26-cv-00376 (D. Alaska, filed October 22, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.akd.80263/gov.uscourts.akd.80263.1.0_2.pdf"
+      },
+      {
+        "text": "AP (via WTOP): Trump administration sues to block Alaska Senate race certification if Republican loses, citing candidate name confusion",
+        "url": "https://wtop.com/national/2026/10/trump-administration-sues-to-block-alaska-senate-race-certification-if-republican-loses-citing-candidate-name-confusion/"
+      },
+      {
+        "text": "CNN: Trump DOJ sues to block Alaska US Senate results if Republican incumbent loses",
+        "url": "https://www.cnn.com/2026/10/23/politics/doj-sues-alaska-dan-sullivan-us-senate"
+      },
+      {
+        "text": "Politico: DOJ sues to block election certification in Alaska if Republicans lose Senate race",
+        "url": "https://www.politico.com/news/2026/10/23/trump-administration-alaska-election-certification"
+      },
+      {
+        "text": "USA Today: DOJ sues to block Alaska from certifying Senate race if Republican loses",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/23/justice-department-sues-to-block-alaska-senate-certification/92397199007/"
+      },
+      {
+        "text": "NBC News: Blanche won't rule out DOJ post-election action in a 'doomsday' scenario",
+        "url": "https://www.nbcnews.com/politics/justice-department/blanche-wont-rule-doj-post-election-action-doomsday-scenario-rcna605035"
+      },
+      {
+        "text": "Fox News: Blanche won't rule out DOJ blocking election certification in 'doomsday' scenario",
+        "url": "https://www.foxnews.com/politics/blanche-wont-rule-out-doj-blocking-election-certification-doomsday-scenario"
+      }
+    ],
+    "trackerIds": [
+      "doj-sues-alaska-block-senate-certification-if-sullivan-loses-two-sullivans",
+      "blanche-wont-rule-out-doj-blocking-certification-doomsday-scenario"
     ]
   }
 ]
