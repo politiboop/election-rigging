@@ -13,6 +13,8 @@ import SpeedInsights from '@vercel/speed-insights/astro';
 import actions from '../data/actions.json';
 import history from '../data/history.json';
 import evidence from '../data/evidence.json';
+import AfterVote from '../components/AfterVote.astro';
+import { electionClock, chipHtml } from '../lib/election-clock.js';
 
 const LAST_UPDATED = 'October 23, 2026';
 
@@ -86,6 +88,82 @@ const description = `A sourced, single-page record of ${total} documented action
 
 // The page's own address on the production host, from `site` in astro.config.mjs.
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+// ── Election Day clock ────────────────────────────────────────────────────────
+// Worked out per request (the page renders on demand), in New York days; see
+// src/lib/election-clock.js. The browser repeats the calculation on load, so a
+// cached or prerendered copy of this HTML still corrects itself.
+const clock = electionClock(new Date());
+// Once the vote has passed, "After the Vote" leaves its place in the middle of the
+// page and leads it (below the live-status block, when that has anything in it).
+const promoted = clock.votePassed;
+
+// ── AFTER THE VOTE: LIVE STATUS ───────────────────────────────────────────────
+// PLACEHOLDERS. The rows below are blank on purpose; fill them in by hand after
+// November 3. A blank row renders nothing, and while every row is blank the whole
+// block stays out of the page (no heading, no table). The first row filled in brings
+// the block to the top of the page, above the hero.
+//
+// To add a row, copy a line. Keep these rules, which are the rest of the page's rules:
+//   - Nothing here is estimated. A date, a deadline or a suit goes in only when a
+//     document says so, and that document is the row's source.
+//   - A row renders only if it has text AND at least one source. Paste the source's
+//     own URL; never type one from memory. (verify-sources.js and verify-evidence.js
+//     do not read these rows, so open each link before you commit.)
+//   - Facts only. Opinion belongs in an "Our take" block, not in these cells.
+//
+//   asOf           optional, shown in the heading, e.g. 'November 6, 2026, 9 a.m. ET'
+//   certifications { state, deadline, status, note, sources: [{ text, url }] }
+//                  status is a short word such as Certified, Pending or Contested
+//   suits          { caption, court, status, note, sources: [{ text, url }] }
+//                  caption is the case name; status is where it stands today
+const AFTER_STATUS = {
+  asOf: '',
+  certifications: [
+    // PLACEHOLDER ROWS (certification deadlines by state): fill in or leave blank
+    { state: '', deadline: '', status: '', note: '', sources: [] },
+    { state: '', deadline: '', status: '', note: '', sources: [] },
+    { state: '', deadline: '', status: '', note: '', sources: [] },
+  ],
+  suits: [
+    // PLACEHOLDER ROWS (pending suits): fill in or leave blank
+    { caption: '', court: '', status: '', note: '', sources: [] },
+    { caption: '', court: '', status: '', note: '', sources: [] },
+    { caption: '', court: '', status: '', note: '', sources: [] },
+  ],
+};
+const hasText = (row) => ['state', 'caption', 'deadline', 'court', 'status', 'note'].some((k) => String(row[k] || '').trim());
+const ready = (row) => {
+  if (!hasText(row)) return false;                           // a blank placeholder renders nothing
+  if (!(row.sources || []).length) {                         // text without a source is not publishable
+    console.warn(`[after-the-vote status] "${row.state || row.caption || 'untitled row'}" has no sources, so it is not shown`);
+    return false;
+  }
+  return true;
+};
+const certRows = AFTER_STATUS.certifications.filter(ready);
+const suitRows = AFTER_STATUS.suits.filter(ready);
+const showStatus = certRows.length + suitRows.length > 0;
+
+// ── section nav ───────────────────────────────────────────────────────────────
+// One list feeds both the link row (wider than 900px) and the "Jump to" select
+// (900px and narrower), in page order.
+const NAV = [
+  ['record', 'The Record'],
+  ['prehistory', 'The Prehistory'],
+  ['sequence', 'The Sequence'],
+  ['premise', 'The Premise'],
+  ['saveact', 'The SAVE Act'],
+  ['pattern', 'The Pattern'],
+  ['watch', 'What to Watch'],
+  ['after', 'After the Vote'],
+  ['asked', "Wouldn't Rule It Out"],
+  ['heard', 'What You May Have Heard'],
+  ['protect', 'Protect the Vote'],
+  ['method', 'Method'],
+].map(([id, label]) => ({ id, label }));
+if (promoted) NAV.unshift(...NAV.splice(NAV.findIndex((n) => n.id === 'after'), 1));
+if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
 ---
 
 <html lang="en">
@@ -105,36 +183,102 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
       inject();
     </script>
     <SpeedInsights />
+    <!-- Without scripts the "Jump to" select cannot navigate, so give narrow screens the
+         scrolling link row back. is:inline keeps Astro from hoisting and scoping this. -->
+    <noscript><style is:inline>@media (max-width: 900px) { .subnav-inner { display: flex !important; } .subnav-jump { display: none !important; } }</style></noscript>
   </head>
   <body>
 
     <header class="topbar">
       <div class="wrap topbar-inner">
         <a class="wordmark" href="#top">Rigged <em>Before</em> the Vote</a>
-        <span class="countdown-chip" id="countdown-chip"><strong id="days-out">—</strong> days<span class="cd-long"> to the midterms</span></span>
+        {clock.chip && <span class="countdown-chip" id="countdown-chip" set:html={chipHtml(clock.chip)} />}
       </div>
-      <!-- Twelve section links never fit beside the wordmark and the chip, even at the
-           widest container, so they get a row of their own that scrolls sideways
-           when the window is too narrow to show them all. -->
+      <!-- Twelve section links never fit beside the wordmark and the chip, so they get a row
+           of their own that scrolls sideways when the window is too narrow to show them all.
+           At 900px and narrower that row would only clip, so it gives way to a "Jump to"
+           select that stays in the sticky header. Both read the same NAV list. -->
       <nav class="subnav" aria-label="Sections">
         <div class="wrap subnav-inner">
-          <a href="#record">The Record</a>
-          <a href="#prehistory">The Prehistory</a>
-          <a href="#sequence">The Sequence</a>
-          <a href="#premise">The Premise</a>
-          <a href="#saveact">The SAVE Act</a>
-          <a href="#pattern">The Pattern</a>
-          <a href="#watch">What to Watch</a>
-          <a href="#after">After the Vote</a>
-          <a href="#asked">Wouldn't Rule It Out</a>
-          <a href="#heard">What You May Have Heard</a>
-          <a href="#protect">Protect the Vote</a>
-          <a href="#method">Method</a>
+          {NAV.map((n) => <a href={'#' + n.id}>{n.label}</a>)}
+        </div>
+        <div class="wrap subnav-jump">
+          <label for="jump-to">Jump to</label>
+          <span class="jump-select">
+            <select id="jump-to">
+              <option value="" selected>Choose a section</option>
+              {NAV.map((n) => <option value={n.id}>{n.label}</option>)}
+            </select>
+          </span>
         </div>
       </nav>
     </header>
 
     <main id="top">
+
+      <!-- ── AFTER THE VOTE: LIVE STATUS ──────────────────────────────── -->
+      <!-- Rendered only when a row of AFTER_STATUS (page frontmatter) is filled in. -->
+      {showStatus && (
+        <section id="status" class="afterstatus" aria-labelledby="status-title">
+          <div class="wrap">
+            <div class="sec-head">
+              <p class="kicker">After the vote{AFTER_STATUS.asOf ? ` · as of ${AFTER_STATUS.asOf}` : ''}</p>
+              <h2 id="status-title">Where things stand</h2>
+              <p class="sub">Certification by state and the suits still pending, each row linked to the record it comes from.</p>
+            </div>
+            {certRows.length > 0 && (
+              <div class="status-part">
+                <h3 class="status-h">Certification, by state</h3>
+                <div class="ev-table is-states" role="table" aria-label="Certification by state">
+                  <div class="ev-row ev-head" role="row">
+                    <span role="columnheader">State</span>
+                    <span role="columnheader">Deadline</span>
+                    <span role="columnheader">Status</span>
+                  </div>
+                  {certRows.map((r) => (
+                    <div class="ev-row" role="row">
+                      <span class="ev-who" role="cell"><strong>{r.state}</strong></span>
+                      <span class="st-date" role="cell" data-lbl="Deadline">{r.deadline || '—'}</span>
+                      <span class="ev-found" role="cell">
+                        {r.status && <strong>{r.status}</strong>}
+                        {r.note && <span class="ev-detail">{r.note}</span>}
+                        <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            {suitRows.length > 0 && (
+              <div class="status-part">
+                <h3 class="status-h">Suits still pending</h3>
+                <div class="ev-table is-states" role="table" aria-label="Pending suits">
+                  <div class="ev-row ev-head" role="row">
+                    <span role="columnheader">Case</span>
+                    <span role="columnheader">Court</span>
+                    <span role="columnheader">Where it stands</span>
+                  </div>
+                  {suitRows.map((r) => (
+                    <div class="ev-row" role="row">
+                      <span class="ev-who" role="cell"><strong>{r.caption}</strong></span>
+                      <span class="st-date" role="cell" data-lbl="Court">{r.court || '—'}</span>
+                      <span class="ev-found" role="cell">
+                        {r.status && <strong>{r.status}</strong>}
+                        {r.note && <span class="ev-detail">{r.note}</span>}
+                        <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      <!-- Once the vote has passed, this leads the page; before that it sits between
+           What to Watch and Wouldn't Rule It Out (see below). -->
+      {promoted && <AfterVote after={evidence.after} cardTitle={cardTitle} />}
 
       <!-- ── HERO ─────────────────────────────────────────────────────── -->
       <div class="hero">
@@ -154,17 +298,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
           </p>
 
           <div class="statrow">
-            <button class="stat stat-btn" data-goto-all><div class="num" data-count={total}>0</div><div class="lbl">Documented actions</div></button>
-            <button class="stat stat-btn" data-tone="active" data-goto-status="active"><div class="num" data-count={statusCounts.active}>0</div><div class="lbl">In effect now</div></button>
-            <button class="stat stat-btn" data-tone="court" data-goto-status="court"><div class="num" data-count={statusCounts.court}>0</div><div class="lbl">Being fought in court</div></button>
-            <button class="stat stat-btn" data-tone="blocked" data-goto-status="blocked"><div class="num" data-count={statusCounts.blocked}>0</div><div class="lbl">Blocked or failed</div></button>
-            <button class="stat stat-btn" data-tone="unprec" data-goto-flag="unprec"><div class="num" data-count={unprecCount}>0</div><div class="lbl">Without historical precedent</div></button>
-            <button class="stat stat-btn" data-tone="legal" data-goto-flag="legal"><div class="num" data-count={legalCount}>0</div><div class="lbl">Unlawful or in constitutional conflict</div></button>
-            <div class="stat" data-tone="countdown"><div class="num" id="days-out-big">—</div><div class="lbl">Days until Nov 3, 2026</div></div>
+            <button class="stat stat-btn" data-goto-all><div class="num" data-count={total}>{total}</div><div class="lbl">Documented actions</div></button>
+            <button class="stat stat-btn" data-tone="active" data-goto-status="active"><div class="num" data-count={statusCounts.active}>{statusCounts.active}</div><div class="lbl">In effect now</div></button>
+            <button class="stat stat-btn" data-tone="court" data-goto-status="court"><div class="num" data-count={statusCounts.court}>{statusCounts.court}</div><div class="lbl">Being fought in court</div></button>
+            <button class="stat stat-btn" data-tone="blocked" data-goto-status="blocked"><div class="num" data-count={statusCounts.blocked}>{statusCounts.blocked}</div><div class="lbl">Blocked or failed</div></button>
+            <button class="stat stat-btn" data-tone="unprec" data-goto-flag="unprec"><div class="num" data-count={unprecCount}>{unprecCount}</div><div class="lbl">Without historical precedent</div></button>
+            <button class="stat stat-btn" data-tone="legal" data-goto-flag="legal"><div class="num" data-count={legalCount}>{legalCount}</div><div class="lbl">Unlawful or in constitutional conflict</div></button>
+            <div class="stat" data-tone="countdown"><div class="num" id="days-out-big">{clock.tile.value}</div><div class="lbl" id="days-out-lbl">{clock.tile.label}</div></div>
           </div>
 
           <div class="doubt-band">
-            <div class="doubt-num" data-count={doubtTotal}>0</div>
+            <div class="doubt-num" data-count={doubtTotal}>{doubtTotal}</div>
             <div class="doubt-copy">
               <strong>Documented instances of Trump publicly undermining trust in American elections.</strong>
               <span>
@@ -625,48 +769,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
         </div>
       </section>
 
-      <!-- ── AFTER THE VOTE ───────────────────────────────────────────── -->
-      <section id="after" aria-label="After the vote">
-        <div class="wrap">
-          <div class="sec-head">
-            <p class="kicker">{evidence.after.kicker}</p>
-            <h2>{evidence.after.title}</h2>
-            <p class="sub">{evidence.after.sub}</p>
-          </div>
-          <ol class="after-steps">
-            {evidence.after.rows.map((r) => (
-              <li>
-                <span class="watch-when">{r.when}</span>
-                <div class="after-body">
-                  <h3>{r.step}</h3>
-                  <p>{r.what}</p>
-                  {r.watch && <p class="after-watch"><span class="after-lbl">Watch for</span> {r.watch}</p>}
-                  {r.card && <p class="after-card"><a href={'#' + r.card}>See the card: {cardTitle[r.card]}</a></p>}
-                  <p class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-          <div class="ev-table is-states" role="table" aria-label="Certification deadlines by state">
-            <div class="ev-row ev-head" role="row">
-              <span role="columnheader">State</span>
-              <span role="columnheader">Counties certify by</span>
-              <span role="columnheader">State certifies by</span>
-            </div>
-            {evidence.after.states.map((r) => (
-              <div class="ev-row" role="row">
-                <span class="ev-who" role="cell"><strong>{r.state}</strong></span>
-                <span class="st-date" role="cell" data-lbl="Counties">{r.county}</span>
-                <span class="st-date" role="cell" data-lbl="State">
-                  {r.statewide}
-                  <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
-                </span>
-              </div>
-            ))}
-          </div>
-          <p class="ev-foot">{evidence.after.note}</p>
-        </div>
-      </section>
+      {!promoted && <AfterVote after={evidence.after} cardTitle={cardTitle} />}
 
       <!-- ── ASKED, AND WOULDN'T RULE IT OUT ──────────────────────────── -->
       <section id="asked" aria-label="Asked, and wouldn't rule it out">
@@ -862,17 +965,63 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
     </footer>
 
     <script>
-      // ── countdown to Election Day (Nov 3, 2026) ──
-      const eday = new Date(2026, 10, 3);
-      const days = Math.max(0, Math.ceil((eday - new Date()) / 86400000));
-      document.getElementById('days-out').textContent = days;
-      document.getElementById('days-out-big').textContent = days;
-      // The chip sheds "to the midterms" on narrow screens, so carry the full
-      // phrase in the label rather than announcing a bare number.
-      document.getElementById('countdown-chip')
-        .setAttribute('aria-label', days + ' days to the midterms');
+      import { electionClock, chipHtml } from '../lib/election-clock.js';
 
-      // ── count-up animation on hero stats ──
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // ── Election Day clock ──
+      // The server drew these from its own clock. Run the same calculation here, on the
+      // reader's clock, so a cached or prerendered copy of the HTML corrects itself.
+      (() => {
+        const clock = electionClock(new Date());
+
+        // Header chip: redraw it if the state has moved on, drop it once it has expired.
+        let chip = document.getElementById('countdown-chip');
+        if (!clock.chip) {
+          chip?.remove();
+        } else {
+          if (!chip) {
+            chip = document.createElement('span');
+            chip.id = 'countdown-chip';
+            chip.className = 'countdown-chip';
+            document.querySelector('.topbar-inner')?.append(chip);
+          }
+          const html = chipHtml(clock.chip);
+          if (chip.innerHTML !== html) chip.innerHTML = html;
+        }
+
+        // The hero tile that read "Days until Nov 3, 2026".
+        const big = document.getElementById('days-out-big');
+        const lbl = document.getElementById('days-out-lbl');
+        if (big && big.textContent !== clock.tile.value) big.textContent = clock.tile.value;
+        if (lbl && lbl.textContent !== clock.tile.label) lbl.textContent = clock.tile.label;
+
+        // Once the vote has passed, "After the Vote" leads the page. The server already
+        // does this; this catches HTML that was cached or prerendered before the vote.
+        const main = document.getElementById('top');
+        const after = document.getElementById('after');
+        if (clock.votePassed && main && after) {
+          const status = document.getElementById('status');
+          const leads = status ? status.nextElementSibling === after : main.firstElementChild === after;
+          if (!leads) {
+            status ? status.after(after) : main.prepend(after);
+            // Keep the section links and the jump list in page order as well.
+            const link = document.querySelector('.subnav-inner a[href="#after"]');
+            const opt = document.querySelector('#jump-to option[value="after"]');
+            const statusLink = document.querySelector('.subnav-inner a[href="#status"]');
+            const statusOpt = document.querySelector('#jump-to option[value="status"]');
+            if (link) statusLink ? statusLink.after(link) : document.querySelector('.subnav-inner')?.prepend(link);
+            if (opt) statusOpt ? statusOpt.after(opt) : document.querySelector('#jump-to option')?.after(opt);   // first option is the prompt
+          }
+        }
+      })();
+
+      // ── count-up on the hero numbers ──
+      // The HTML already carries every final number, so the page is right with scripts
+      // off, with reduced motion on, and in a screenshot or link preview taken at load.
+      // Everyone else sees a number that starts below the fold count up once, as it scrolls
+      // into view. A number already on screen at load is left alone: animating it would put
+      // wrong counts in front of the first thing a reader (or a preview bot) sees.
       const animate = (el) => {
         const target = +el.dataset.count;
         const dur = 900;
@@ -884,13 +1033,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
         };
         requestAnimationFrame(tick);
       };
-      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-      const io = new IntersectionObserver((entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) { reduce ? (e.target.textContent = e.target.dataset.count) : animate(e.target); io.unobserve(e.target); }
+      if (!reduce) {
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) { animate(e.target); io.unobserve(e.target); }
+          });
+        }, { rootMargin: '0px 0px -12% 0px' });
+        document.querySelectorAll('[data-count]').forEach((el) => {
+          if (el.getBoundingClientRect().top > window.innerHeight) io.observe(el);
         });
-      });
-      document.querySelectorAll('[data-count]').forEach((el) => io.observe(el));
+      }
 
       // ── filtering ──
       let activeCat = 'all';
@@ -1030,6 +1182,19 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
         mq.addEventListener('change', syncToViewport);
         window.addEventListener('resize', syncToViewport, { passive: true });
         syncToViewport();
+
+        // A jump to a section below the record (the "Jump to" select) crosses this bar.
+        // If the bar is still open it collapses mid-scroll, the page under it shrinks, and
+        // the jump lands a few hundred pixels past the section. So settle the bar first,
+        // without the animation, and let the scroll start from the page's final height.
+        window.addEventListener('rigged:jump', (e) => {
+          if (!mq.matches || pinnedOpen || bar.classList.contains('is-collapsed')) return;
+          if (!(record.compareDocumentPosition(e.detail) & Node.DOCUMENT_POSITION_FOLLOWING)) return;
+          bar.classList.add('is-settling');
+          setCollapsed(true);
+          bar.getBoundingClientRect();                 // lay the page out at its new height now
+          requestAnimationFrame(() => bar.classList.remove('is-settling'));
+        });
       })();
 
       // ── card jump offset ──
@@ -1129,21 +1294,42 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
       if (location.hash) openFromHash();
 
       // ── scroll-spy on the section row ──
+      // Watches every section the nav links to (it used to hard-code nine of the twelve).
       const rail = document.querySelector('.subnav-inner');
-      const navLinks = [...document.querySelectorAll('.subnav a')];
+      const navLinks = [...document.querySelectorAll('.subnav-inner a')];
       const spy = new IntersectionObserver((entries) => {
         entries.forEach((e) => {
           if (!e.isIntersecting) return;
           navLinks.forEach((l) => l.classList.toggle('is-active', l.getAttribute('href') === '#' + e.target.id));
           // When the row is too narrow to show every link, keep the active one in
-          // view. Scroll the row itself, never the page.
+          // view. Scroll the row itself, never the page. The link's position is measured
+          // from the row's own edge: offsetLeft is measured from the sticky header, which
+          // added the row's 80px margin to the scroll and cut the first link in half.
           const on = rail?.querySelector(`a[href="#${e.target.id}"]`);
-          if (rail && on) rail.scrollTo({ left: on.offsetLeft - 16, behavior: reduce ? 'auto' : 'smooth' });
+          if (rail && on) {
+            const left = on.getBoundingClientRect().left - rail.getBoundingClientRect().left + rail.scrollLeft - 16;
+            rail.scrollTo({ left, behavior: reduce ? 'auto' : 'smooth' });
+          }
         });
       }, { rootMargin: '-30% 0px -60% 0px' });
-      ['record', 'prehistory', 'sequence', 'premise', 'saveact', 'pattern', 'watch', 'protect', 'method'].forEach((id) => {
-        const el = document.getElementById(id);
+      navLinks.forEach((l) => {
+        const el = document.getElementById(l.getAttribute('href').slice(1));
         if (el) spy.observe(el);
+      });
+
+      // ── "Jump to" select (900px and narrower, where the link row would clip) ──
+      // Changing it goes to the section the way clicking its link does, then the select
+      // returns to its prompt so the same section can be chosen again.
+      const jump = document.getElementById('jump-to');
+      jump?.addEventListener('change', () => {
+        const id = jump.value;
+        jump.value = '';
+        const el = id && document.getElementById(id);
+        if (!el) return;
+        window.dispatchEvent(new CustomEvent('rigged:jump', { detail: el }));   // see the filter bar above
+        // Setting the hash it already has scrolls nowhere, so scroll by hand in that case.
+        if (location.hash === '#' + id) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+        else location.hash = id;
       });
     </script>
   </body>

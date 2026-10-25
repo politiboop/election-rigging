@@ -1,0 +1,52 @@
+---
+// "After the Vote": the steps from Election Day to the new House, and the latest
+// certification date each of ten states' laws allows. Fed by `evidence.after`.
+//
+// A component, not inline in the page, because it has two homes: where it always sat
+// (between What to Watch and Wouldn't Rule It Out) until the vote has passed, then
+// the top of the page. See `promoted` in src/pages/index.astro.
+const { after, cardTitle } = Astro.props;
+---
+
+<!-- ── AFTER THE VOTE ───────────────────────────────────────────── -->
+<section id="after" aria-label="After the vote">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">{after.kicker}</p>
+      <h2>{after.title}</h2>
+      <p class="sub">{after.sub}</p>
+    </div>
+    <ol class="after-steps">
+      {after.rows.map((r) => (
+        <li>
+          <span class="watch-when">{r.when}</span>
+          <div class="after-body">
+            <h3>{r.step}</h3>
+            <p>{r.what}</p>
+            {r.watch && <p class="after-watch"><span class="after-lbl">Watch for</span> {r.watch}</p>}
+            {r.card && <p class="after-card"><a href={'#' + r.card}>See the card: {cardTitle[r.card]}</a></p>}
+            <p class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+    <div class="ev-table is-states" role="table" aria-label="Certification deadlines by state">
+      <div class="ev-row ev-head" role="row">
+        <span role="columnheader">State</span>
+        <span role="columnheader">Counties certify by</span>
+        <span role="columnheader">State certifies by</span>
+      </div>
+      {after.states.map((r) => (
+        <div class="ev-row" role="row">
+          <span class="ev-who" role="cell"><strong>{r.state}</strong></span>
+          <span class="st-date" role="cell" data-lbl="Counties">{r.county}</span>
+          <span class="st-date" role="cell" data-lbl="State">
+            {r.statewide}
+            <span class="ev-src">{r.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < r.sources.length - 1 ? ' · ' : ''}</>))}</span>
+          </span>
+        </div>
+      ))}
+    </div>
+    <p class="ev-foot">{after.note}</p>
+  </div>
+</section>

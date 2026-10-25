@@ -23,6 +23,15 @@
   --st-threat: #b5820c;
   --st-record: #9085e9;
   --st-blocked: #0ca30c;
+  /* Text-safe tints. The red and the blue above are fine as fills, borders and dots, but
+     as 10-12px label text on a chip tinted with their own color they measured 3.5:1 and
+     4.46:1. These two are the same hues lifted to 4.6:1 on the worst surface they sit on
+     (the chip tint, the page and the card). The other three status colors already clear
+     4.7:1 as text, so they have no variant. */
+  --st-active-text: #d85e5e;
+  --st-court-text: #3e8ae6;
+  /* --brand-bright lifted to 4.6:1 on --raised (it is 4.4:1 there). */
+  --brand-text: #e64f54;
 
   --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --font-body: "Barlow", "Helvetica Neue", sans-serif;
@@ -70,34 +79,51 @@ a { color: inherit; }
 }
 .wordmark em { font-style: normal; color: var(--brand-bright); }
 .countdown-chip {
+  position: relative;
   font-family: var(--font-mono); font-size: 11.5px; white-space: nowrap;
   color: var(--text); background: var(--raised);
   border: 1px solid var(--line); border-radius: 4px;
   padding: 5px 10px; margin-left: auto;
 }
-.countdown-chip strong { color: var(--brand-bright); font-weight: 600; }
+.countdown-chip strong { color: var(--brand-text); font-weight: 600; }
+/* The chip's text comes from src/lib/election-clock.js in two lengths: a short one for
+   phones and the full phrase ("62 days to the midterms", "Election Day was November 3").
+   The short form of the after-vote sentence stacks on two lines (.cd-l). */
+.cd-short { display: none; }
+.cd-l { display: block; line-height: 1.3; }
 
-/* On a phone the nowrap wordmark and the full countdown label together exceed
-   the viewport, and the chip runs off the right edge. Shorten both: the chip
-   drops to "62 days" and keeps the full phrase as its aria-label. */
+/* On a phone the nowrap wordmark and the full chip text together exceed the
+   viewport, and the chip runs off the right edge. Shorten both: the chip drops
+   to "62 days" (or "Election Day was Nov 3"). The full phrase stays in the page,
+   clipped out of sight, so a screen reader still hears it. */
 @media (max-width: 560px) {
   .topbar-inner { gap: 12px; }
   .wordmark { font-size: 16px; letter-spacing: 0.04em; }
-  .cd-long { display: none; }
+  .cd-short { display: inline; }
+  .cd-long {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+  }
 }
 
-/* The section links take the header's second row at every width: nine of them
-   never fit on one line beside the wordmark and the chip, and wrapped they
-   overflowed the bar. Sized so all nine fit from about 1000px; narrower, the
-   row scrolls sideways. */
+/* The section links take the header's second row: twelve of them never fit on one
+   line beside the wordmark and the chip, and wrapped they overflowed the bar. Even
+   alone on the row they run past the container, so the row scrolls sideways and the
+   page script keeps the active link in view. At 900px and narrower sideways scrolling
+   only clips them, so the row gives way to a "Jump to" select (below). The select row
+   is as tall as the link row (40px plus the border), so --head-h holds at every width. */
 .subnav { border-top: 1px solid var(--line-soft); }
 .subnav-inner {
   display: flex; align-items: center; gap: 2px; height: 40px;
   overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  /* The twelve links always run past the 1120px container, so the right edge fades
+     to say there is more instead of cutting a link in half. */
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 56px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 56px), transparent);
 }
 .subnav-inner::-webkit-scrollbar { display: none; }
-/* Scroll containers drop their end padding; this keeps the last link off the edge. */
-.subnav-inner::after { content: ""; flex: 0 0 14px; }
+/* Scroll containers drop their end padding; this keeps the last link clear of the fade. */
+.subnav-inner::after { content: ""; flex: 0 0 56px; }
 .subnav a {
   flex: 0 0 auto; white-space: nowrap;
   font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.04em;
@@ -106,7 +132,36 @@ a { color: inherit; }
 }
 .subnav a:first-child { margin-left: -8px; }
 .subnav a:hover { color: var(--text); background: var(--raised); }
-.subnav a.is-active { color: var(--brand-bright); background: var(--raised); }
+.subnav a.is-active { color: var(--brand-text); background: var(--raised); }
+
+.subnav-jump { display: none; }
+.subnav-jump label {
+  flex: 0 0 auto;
+  font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--text-3);
+}
+.jump-select { position: relative; flex: 1 1 auto; min-width: 0; }
+.jump-select::after {
+  content: ""; position: absolute; right: 14px; top: 50%; width: 7px; height: 7px;
+  border-right: 1.5px solid var(--text-2); border-bottom: 1.5px solid var(--text-2);
+  transform: translateY(-70%) rotate(45deg); pointer-events: none;
+}
+.subnav-jump select {
+  display: block; width: 100%; height: 32px;
+  /* 16px keeps iOS from zooming the page when the select takes focus. */
+  font: 500 16px/1 var(--font-body); color: var(--text);
+  background-color: var(--raised);
+  border: 1px solid var(--line); border-radius: 4px;
+  padding: 0 34px 0 10px;
+  -webkit-appearance: none; appearance: none; cursor: pointer;
+}
+.subnav-jump select:hover { border-color: var(--text-3); }
+.subnav-jump select:focus-visible { outline: 2px solid var(--st-court); outline-offset: 2px; }
+
+@media (max-width: 900px) {
+  .subnav-inner { display: none; }
+  .subnav-jump { display: flex; align-items: center; gap: 12px; height: 40px; }
+}
 
 /* ── hero ───────────────────────────────────────────────────────────────── */
 .hero { padding: 72px 0 40px; border-bottom: 1px solid var(--line-soft); }
@@ -299,6 +354,8 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
 .chip:hover { color: var(--text); border-color: var(--text-3); }
 .chip.is-on { background: var(--text); color: var(--bg); border-color: var(--text); font-weight: 600; }
 .chip[data-status].is-on { background: var(--chip-c, var(--text)); border-color: var(--chip-c, var(--text)); color: #0b0d10; }
+/* Dark text on the red fill is 4.0:1; white on it is 5.2:1. The other four fills take dark text. */
+.chip[data-status="active"].is-on { color: #fff; }
 .result-count {
   margin-left: auto; font-family: var(--font-mono); font-size: 11.5px; color: var(--text-3);
 }
@@ -355,6 +412,8 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
 @media (prefers-reduced-motion: reduce) {
   .filter-rows, .ft-caret, .filterbar { transition: none; }
 }
+/* Set for one frame by the page script when it settles the bar before a jump past it. */
+.filterbar.is-settling, .filterbar.is-settling .filter-rows, .filterbar.is-settling .ft-caret { transition: none; }
 
 /* ── record cards ──────────────────────────────────────────────────────── */
 .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
@@ -369,8 +428,8 @@ section { padding: 64px 0; border-bottom: 1px solid var(--line-soft); }
   scroll-margin-top: calc(var(--head-h) + var(--filter-h, 161px) + 16px);
 }
 section { scroll-margin-top: calc(var(--head-h) - 14px); }
-.card[data-status="active"] { --card-c: var(--st-active); }
-.card[data-status="court"] { --card-c: var(--st-court); }
+.card[data-status="active"] { --card-c: var(--st-active); --card-t: var(--st-active-text); }
+.card[data-status="court"] { --card-c: var(--st-court); --card-t: var(--st-court-text); }
 .card[data-status="threatened"] { --card-c: var(--st-threat); }
 .card[data-status="record"] { --card-c: var(--st-record); }
 .card[data-status="blocked"] { --card-c: var(--st-blocked); }
@@ -386,7 +445,7 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
 }
 .card-meta .date { color: var(--text-3); }
 .status-chip {
-  color: var(--card-c); border: 1px solid color-mix(in srgb, var(--card-c) 55%, transparent);
+  color: var(--card-t, var(--card-c)); border: 1px solid color-mix(in srgb, var(--card-c) 55%, transparent);
   border-radius: 3px; padding: 2px 7px;
   text-transform: uppercase; font-weight: 500;
   background: color-mix(in srgb, var(--card-c) 12%, transparent);
@@ -410,7 +469,7 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
 }
 .flag-line strong { color: var(--text); font-weight: 600; font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.04em; }
 .flag-line.legal { border-left: 3px solid var(--brand); }
-.flag-line.legal strong { color: var(--brand-bright); }
+.flag-line.legal strong { color: var(--brand-text); }
 .flag-line.unprec { border-left: 3px solid var(--text-3); }
 .card h3 {
   font-family: var(--font-display); font-weight: 600;
@@ -501,8 +560,8 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
   background: var(--tl-c, var(--text-3));
   border: 2px solid var(--bg);
 }
-.tl-item[data-status="active"] { --tl-c: var(--st-active); }
-.tl-item[data-status="court"] { --tl-c: var(--st-court); }
+.tl-item[data-status="active"] { --tl-c: var(--st-active); --tl-t: var(--st-active-text); }
+.tl-item[data-status="court"] { --tl-c: var(--st-court); --tl-t: var(--st-court-text); }
 .tl-item[data-status="threatened"] { --tl-c: var(--st-threat); }
 .tl-item[data-status="record"] { --tl-c: var(--st-record); }
 .tl-item[data-status="blocked"] { --tl-c: var(--st-blocked); }
@@ -517,7 +576,7 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
 .tl-title:hover { border-bottom-color: var(--brand-bright); }
 .tl-status {
   font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--tl-c, var(--text-3)); white-space: nowrap;
+  text-transform: uppercase; color: var(--tl-t, var(--tl-c, var(--text-3))); white-space: nowrap;
 }
 @media (max-width: 640px) {
   .tl-item { grid-template-columns: 1fr; gap: 3px; }
@@ -650,6 +709,15 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
   }
 }
 
+/* ── after the vote: live status (top of page; absent until a row is filled in) ── */
+.afterstatus { border-top: 3px solid var(--brand); }
+.status-part + .status-part { margin-top: 36px; }
+.status-h {
+  font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+  font-size: 21px; line-height: 1.1; margin-bottom: 12px;
+}
+.afterstatus .ev-table { margin-bottom: 0; }
+
 /* ── asked, and wouldn't rule it out ───────────────────────────────────── */
 .ask-table { border-top: 1px solid var(--line); margin-bottom: 28px; }
 .ask-row {
@@ -685,11 +753,11 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
   scroll-margin-top: calc(var(--head-h) + 16px);
 }
 .heard[data-tone="possible"] { --verdict-c: var(--st-threat); }
-.heard[data-tone="partly"] { --verdict-c: var(--st-active); }
+.heard[data-tone="partly"] { --verdict-c: var(--st-active); --verdict-t: var(--st-active-text); }
 .heard-head { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
 .verdict-chip {
   align-self: flex-start; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em;
-  text-transform: uppercase; font-weight: 500; color: var(--verdict-c);
+  text-transform: uppercase; font-weight: 500; color: var(--verdict-t, var(--verdict-c));
   border: 1px solid color-mix(in srgb, var(--verdict-c) 55%, transparent);
   background: color-mix(in srgb, var(--verdict-c) 12%, transparent);
   border-radius: 3px; padding: 2px 7px;
@@ -706,7 +774,7 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
   text-transform: uppercase; color: var(--text-3); margin-bottom: 6px;
 }
 .heard-would { border-left: 2px solid var(--verdict-c); padding-left: 16px; }
-.heard-would .heard-lbl { color: var(--verdict-c); }
+.heard-would .heard-lbl { color: var(--verdict-t, var(--verdict-c)); }
 .heard-cards { margin-top: 8px; font-size: 13.5px !important; }
 .heard-src { margin-top: 16px; border-top: 1px solid var(--line-soft); padding-top: 12px; }
 .heard-src-lbl {
@@ -750,7 +818,7 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
   font-family: var(--font-mono); font-size: 15px; line-height: 1.9;
   background: var(--raised); border-radius: 6px; padding: 12px 14px;
 }
-.protect-hotline strong { color: var(--brand-bright); }
+.protect-hotline strong { color: var(--brand-text); }
 .protect-hotline span { color: var(--text-3); font-size: 12px; }
 
 /* ── method ────────────────────────────────────────────────────────────── */

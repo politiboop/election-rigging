@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check:clock": "node check-election-clock.js"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

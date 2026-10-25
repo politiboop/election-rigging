@@ -12,8 +12,11 @@ for git identity, validation protocols, and the batch workflow).
   in the page that can be computed from the data.
 - Styles: `src/styles/global.css`. Fonts via @fontsource: Barlow Condensed (display),
   Barlow (body), Lora italic (labeled takes), IBM Plex Mono (metadata).
-- Vanilla JS in the page handles filtering, sorting, count-up animation, the Election Day
-  countdown, deep-linking (`#card-id` opens the card), and scroll-spy.
+- Vanilla JS in the page handles filtering, sorting, the count-up on hero numbers, the Election Day
+  clock (`src/lib/election-clock.js`, see "After the vote" below), deep-linking (`#card-id` opens
+  the card), the section scroll-spy, and the "Jump to" select that replaces the link row at 900px
+  and narrower. Every hero number is in the HTML at build time; the count-up runs only for numbers
+  that start below the fold, and never under `prefers-reduced-motion`.
 
 ### Dev / build
 
@@ -227,11 +230,42 @@ on this site it is almost always a precision caveat marking what the evidence do
 support ("This is an absence, not an announced decision"), which is what the Method section
 promises. Flagging it would train the wrong instinct.
 
+## After the vote (the clock, the order of the page, the live-status block)
+
+Written for November 3, 2026. The page changes by itself when the New York date passes Election
+Day, and needs one hand-filled block afterwards.
+
+- **The clock.** `src/lib/election-clock.js` is the only place that knows the date logic, in New York
+  calendar days. It is pure, and `node check-election-clock.js` (also `npm run check:clock`) prints
+  what the page does on Nov 2, 3, 9 and 11, the exact midnight boundaries, and an hourly sweep across
+  the Nov 1 daylight-saving change, without touching the system clock. The page runs it on the server
+  (per request) and again in the browser, so a cached or prerendered copy corrects itself. Header
+  chip: "N days to the midterms" until Nov 3, "Election Day is today" on the day, "Election Day was
+  November 3" for Nov 4 through Nov 10, then not rendered. The hero tile follows: "Days until Nov 3,
+  2026", "Today", then "Days since Nov 3, 2026".
+- **Order.** From Nov 4, "After the Vote" (`#after`, markup in `src/components/AfterVote.astro`) leaves
+  its place between What to Watch and Wouldn't Rule It Out and leads the page (`promoted` in
+  `index.astro`). The section nav reorders with it. The status block below, when it has content, sits
+  above it.
+- **Live status block.** `AFTER_STATUS` in the `index.astro` frontmatter holds blank placeholder rows
+  for certification deadlines by state and for pending suits. Blank rows render nothing, and while
+  every row is blank the block is not in the page at all. The first row with text and at least one
+  source brings `#status` ("Where things stand") to the very top. A row with text but no source is
+  skipped and logged. These rows are not covered by `verify-sources.js` or `verify-evidence.js`, so
+  open each link before committing. Facts only, from the document the row cites; never estimate a
+  deadline.
+- **Not changed, and now stale after Nov 3:** the hero deck, What to Watch, the eyebrow and the Protect
+  the Vote section are written for the run-up. They are editorial copy; revisit them after the vote.
+
 ## Design notes
 
 - Dark theme only. Status palette is **validated** (dataviz six-checks, surface `#101318`):
   in effect `#d03b3b`, in court `#3987e5`, threatened `#b5820c`, on the record `#9085e9`,
-  blocked `#0ca30c`. In the breakdown bar, keep the display order
+  blocked `#0ca30c`. Those are for fills, borders, dots and bars. As 10-12px label text the red
+  and the blue fall under 4.5:1, so chips, verdict labels and timeline status text use
+  `--st-active-text` and `--st-court-text`, and brand red as text on `--raised` uses `--brand-text`
+  (axe: zero `color-contrast` violations, checked with every card open and every filter on).
+  In the breakdown bar, keep the display order
   active → court → threatened → record → blocked (adjacent pairs validated for CVD;
   amber must not sit next to green or red). Status color never appears without its text label.
 - No emojis anywhere. Card titles follow the tracker's headline rules: organic,
