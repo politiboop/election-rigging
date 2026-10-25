@@ -3,7 +3,7 @@
 A single-page, sourced record of documented actions to tilt the 2026 midterm elections before
 they happen — who counts the votes, who certifies them, who can cast them, and who is watching.
 
-- **44 documented actions** across seven categories, each with dates, direct quotes, and sources
+- **Dozens of documented actions** across seven categories (the live count is at `/stats.json`), each with dates, direct quotes, and sources
 - **Facts and opinions are separated by design** — editorial takes appear only in labeled
   "OUR TAKE" blocks
 - Status tracking: In Effect · In Court · Threatened · On the Record · Blocked
