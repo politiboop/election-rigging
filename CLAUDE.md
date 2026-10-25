@@ -257,6 +257,28 @@ Day, and needs one hand-filled block afterwards.
 - **Not changed, and now stale after Nov 3:** the hero deck, What to Watch, the eyebrow and the Protect
   the Vote section are written for the run-up. They are editorial copy; revisit them after the vote.
 
+## The network strip, the footer line and `/stats.json`
+
+The roadmap's WP4 (`UI-ROADMAP.md` in the workspace repo), shared with the tracker, Research and Deep
+Dives.
+
+- **The strip.** `src/components/NetworkStrip.astro` is the 36px line above the header: Tracker,
+  Research, Deep Dives, Rigged Before the Vote, with this site underlined in `--brand-bright`. It
+  scrolls away with the page and the sticky header stays. It has no midterms chip here, because the
+  header's own chip (the clock above) is the only one this page should carry. The other copies live
+  in the tracker (`NetworkStrip.jsx`), Research and `deep-dives`, and should look the same.
+- **The list.** `src/lib/network.js` holds the five sites. The strip shows four of them; the
+  footer's "Also from this team" line (`src/components/AlsoFromTeam.astro`) shows all five. When a
+  site moves (Deep Dives is planned for `dives.thetrumptracker.com`), change it there and in the
+  other three copies.
+- **`/stats.json`.** `src/pages/stats.json.js` publishes `{ site, actions, lastUpdated, generatedAt }`.
+  It is `prerender = true`, so it is a static file next to the sitemap even though the page itself is
+  rendered on demand. `actions` is the number of cards in `actions.json`. `lastUpdated` is the
+  `LAST_UPDATED` constant in `index.astro`, read from that file's text by `src/lib/site-stats.js`, so
+  the news sweep still bumps it in one place. If that line is moved or reworded, the build fails with
+  a message instead of publishing a stale date. The tracker's "Elsewhere" panels read this file when
+  they build, so a count here can reach them a few minutes after a deploy, not instantly.
+
 ## Design notes
 
 - Dark theme only. Status palette is **validated** (dataviz six-checks, surface `#101318`):

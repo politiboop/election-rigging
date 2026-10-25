@@ -14,6 +14,8 @@ import actions from '../data/actions.json';
 import history from '../data/history.json';
 import evidence from '../data/evidence.json';
 import AfterVote from '../components/AfterVote.astro';
+import NetworkStrip from '../components/NetworkStrip.astro';
+import AlsoFromTeam from '../components/AlsoFromTeam.astro';
 import { electionClock, chipHtml } from '../lib/election-clock.js';
 
 const LAST_UPDATED = 'October 23, 2026';
@@ -188,6 +190,8 @@ if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
     <noscript><style is:inline>@media (max-width: 900px) { .subnav-inner { display: flex !important; } .subnav-jump { display: none !important; } }</style></noscript>
   </head>
   <body>
+
+    <NetworkStrip />
 
     <header class="topbar">
       <div class="wrap topbar-inner">
@@ -958,10 +962,10 @@ if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
           so you can check us.
         </p>
         <div class="foot-links">
-          <a href="https://thetrumptracker.com" target="_blank" rel="noopener noreferrer">From the team behind The Trump Tracker ↗</a>
           <a href="#top">Back to top ↑</a>
         </div>
       </div>
+      <AlsoFromTeam />
     </footer>
 
     <script>

@@ -1,0 +1,57 @@
+---
+// The network strip: one 36px line above the header that links the team's dark sites
+// (UI-ROADMAP.md WP4, part B). The current site is underlined in --brand-bright. The
+// strip scrolls away with the page; the sticky header below it stays put.
+//
+// Each of the four dark sites carries its own copy of this component. The copies differ
+// in one line (`CURRENT`) and in the midterms chip: the Deep Dives copy has one, this
+// one does not, because this site's own header already carries a countdown chip
+// (src/lib/election-clock.js) and two on one screen would be noise.
+import { NETWORK } from '../lib/network.js';
+
+const CURRENT = 'rigged';
+const sites = NETWORK.filter((s) => s.strip);
+---
+
+<nav class="netstrip" aria-label="Sites in this network">
+  <div class="wrap netstrip-inner">
+    <span class="netstrip-label">The network</span>
+    {sites.map((s) => (
+      <a href={s.id === CURRENT ? '/' : s.href} aria-current={s.id === CURRENT ? 'true' : undefined}>{s.label}</a>
+    ))}
+  </div>
+</nav>
+
+<style>
+  .netstrip {
+    height: 36px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+  /* .wrap supplies the container width and side padding, so the strip lines up with the
+     header under it. The row scrolls sideways on a phone and hides its scrollbar. */
+  .netstrip-inner {
+    height: 100%;
+    display: flex; align-items: center; gap: 22px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .netstrip-inner::-webkit-scrollbar { display: none; }
+  .netstrip-label,
+  .netstrip a {
+    font-family: var(--font-mono); font-size: 12px; line-height: 1;
+    letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap;
+  }
+  .netstrip-label { color: var(--text-3); }
+  .netstrip a {
+    position: relative;
+    color: var(--text-2); text-decoration: none;
+    padding: 4px 0 3px;
+    border-bottom: 2px solid transparent;
+  }
+  /* The link text is 12px, which is a small target for a thumb. This widens the area that
+     answers a tap without changing how the strip looks. */
+  .netstrip a::before { content: ""; position: absolute; inset: -7px -8px; }
+  .netstrip a:hover { color: var(--text); border-bottom-color: var(--line); }
+  .netstrip a:focus-visible { outline: 2px solid var(--brand-bright); outline-offset: 2px; }
+  .netstrip a[aria-current] { color: var(--text); border-bottom-color: var(--brand-bright); }
+</style>

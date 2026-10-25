@@ -1,0 +1,35 @@
+---
+// The footer's one-line "Also from this team" list: all five sites, the current one
+// marked. Same list and same look on every site that carries it (UI-ROADMAP.md WP4).
+import { NETWORK } from '../lib/network.js';
+
+const CURRENT = 'rigged';
+---
+
+<div class="wrap">
+  <div class="also">
+    <p class="also-label">Also from this team</p>
+    <ul class="also-list">
+      {NETWORK.map((s) => (
+        <li><a href={s.id === CURRENT ? '/' : s.href} aria-current={s.id === CURRENT ? 'true' : undefined}>{s.name}</a></li>
+      ))}
+    </ul>
+  </div>
+</div>
+
+<style>
+  /* Same rhythm as the strip above the header: a mono label, then the names, 22px apart. */
+  .also {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 22px;
+    margin-top: 28px; padding-top: 20px;
+    border-top: 1px solid var(--line-soft);
+    font-family: var(--font-mono); font-size: 12px; line-height: 1.5; letter-spacing: 0.04em;
+  }
+  .also-label { color: var(--text-3); text-transform: uppercase; }
+  /* Rows touch, and each link is 24px tall with its padding, so the names are easy to hit on a phone. */
+  .also-list { list-style: none; display: flex; flex-wrap: wrap; gap: 0 22px; }
+  .also-list a { display: inline-block; padding: 3px 0; color: var(--text-2); text-decoration: none; }
+  .also-list a:hover { color: var(--text); text-decoration: underline; }
+  .also-list a:focus-visible { outline: 2px solid var(--brand-bright); outline-offset: 2px; }
+  .also-list a[aria-current] { color: var(--text); }
+</style>
