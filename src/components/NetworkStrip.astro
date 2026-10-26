@@ -42,6 +42,12 @@ const sites = NETWORK.filter((s) => s.strip);
     letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap;
   }
   .netstrip-label { color: var(--text-3); }
+  /* Below 480px the "The network" label goes, so the site links start at the left edge and
+     this site's own link is on screen at 375px without scrolling (UI-ROADMAP.md WP4; the
+     tracker, Research and the other dark site hide it at the same width). */
+  @media (max-width: 479.98px) {
+    .netstrip-label { display: none; }
+  }
   .netstrip a {
     position: relative;
     color: var(--text-2); text-decoration: none;
