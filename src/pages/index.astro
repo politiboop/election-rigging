@@ -16,7 +16,9 @@ import evidence from '../data/evidence.json';
 import AfterVote from '../components/AfterVote.astro';
 import NetworkStrip from '../components/NetworkStrip.astro';
 import AlsoFromTeam from '../components/AlsoFromTeam.astro';
+import TrackerLinks from '../components/TrackerLinks.astro';
 import { electionClock, chipHtml } from '../lib/election-clock.js';
+import { cardAnchor, heardAnchor } from '../lib/crosslinks.js';
 
 const LAST_UPDATED = 'October 23, 2026';
 
@@ -460,7 +462,7 @@ if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
         <div class="wrap">
           <div class="cards" id="cards">
             {sorted.map((a) => (
-              <details class="card" id={a.id} data-status={a.status} data-cat={a.category} data-date={a.date} data-unprec={a.unprecedented ? '1' : undefined} data-legal={a.legal ? '1' : undefined} data-doubt={a.doubt ? '1' : undefined}>
+              <details class="card" id={cardAnchor(a)} data-status={a.status} data-cat={a.category} data-date={a.date} data-unprec={a.unprecedented ? '1' : undefined} data-legal={a.legal ? '1' : undefined} data-doubt={a.doubt ? '1' : undefined}>
                 <summary>
                   <div class="card-meta">
                     <span class="status-chip">{STATUS[a.status].label}</span>
@@ -498,6 +500,7 @@ if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
                       <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.text} ↗</a></li>
                     ))}
                   </ul>
+                  <TrackerLinks ids={a.trackerIds} />
                   <button class="share-btn" data-share={a.id} type="button">Copy link to this entry</button>
                 </div>
               </details>
@@ -819,7 +822,7 @@ if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
           </div>
           <div class="heard-list">
             {evidence.heard.items.map((h) => (
-              <article class="heard" id={'heard-' + h.id} data-tone={VERDICT_TONE[h.verdict] || 'none'}>
+              <article class="heard" id={heardAnchor(h)} data-tone={VERDICT_TONE[h.verdict] || 'none'}>
                 <div class="heard-head">
                   <span class="verdict-chip">{h.verdict}</span>
                   <h3>&ldquo;{h.claim}&rdquo;</h3>
@@ -845,6 +848,7 @@ if (showStatus) NAV.unshift({ id: 'status', label: 'Status' });
                   <span class="heard-src-lbl">Reporting</span> {h.sources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < h.sources.length - 1 ? ' · ' : ''}</>))}
                   {h.refSources.length > 0 && (<><br /><span class="heard-src-lbl">Law, analysis and fact-checks</span> {h.refSources.map((src, i) => (<><a href={src.url} target="_blank" rel="noopener noreferrer">{src.text}</a>{i < h.refSources.length - 1 ? ' · ' : ''}</>))}</>)}
                 </p>
+                <TrackerLinks ids={h.trackerIds} />
               </article>
             ))}
           </div>

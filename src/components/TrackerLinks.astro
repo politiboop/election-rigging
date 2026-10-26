@@ -1,0 +1,26 @@
+---
+// "Tracker entry" links: one per tracker entry a card or an item was seeded from
+// (UI-ROADMAP.md WP5). The ids come straight from `trackerIds` in the data, the address
+// is the entry's page on the tracker, and the label is the entry's title from
+// src/generated/tracker-titles.json (see src/lib/crosslinks.js). Nothing here is typed in.
+//
+// It sits in the expanded part of a card, under the sources, and under the sources of an
+// item in "What you may have heard". It never appears in a card's collapsed summary.
+import titles from '../generated/tracker-titles.json';
+import { trackerEntryUrl, trackerLabel } from '../lib/crosslinks.js';
+
+interface Props { ids: string[]; }
+const { ids = [] } = Astro.props;
+---
+
+{ids.length > 0 && (
+  <ul class="src-list trk-list" aria-label="Tracker entries">
+    {ids.map((id) => (
+      <li>
+        <a href={trackerEntryUrl(id)} target="_blank" rel="noopener">
+          <span class="trk-lbl">Tracker entry →</span>{' '}{trackerLabel(titles, id)}
+        </a>
+      </li>
+    ))}
+  </ul>
+)}

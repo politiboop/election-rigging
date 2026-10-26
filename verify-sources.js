@@ -16,6 +16,11 @@
  * Also checks: trackerIds resolve to real entry files, and cards carry at least
  * one source.
  *
+ * And one more, for the "Tracker entry" links (UI-ROADMAP.md WP5): each link is labeled
+ * with the entry's title, copied into src/generated/tracker-titles.json by
+ * sync-tracker-titles.js because neither Vercel's build nor the on-demand page can reach
+ * the tracker's data folder. The copy must match the tracker now, entry for entry.
+ *
  * Usage:
  *   node verify-sources.js            # integrity audit
  *   node verify-sources.js --verbose  # also list every card as it passes
@@ -26,6 +31,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { linkedTrackerIds } from './src/lib/crosslinks.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -86,6 +92,22 @@ for (const card of cards) {
   if (verbose) console.log(`   ${card.id}: ${sources.length} sources / ${ids.length} seed entries`);
 }
 
+// The titles snapshot behind the "Tracker entry" links.
+const titlesPath = path.join(__dirname, 'src', 'generated', 'tracker-titles.json');
+const snapshot = fs.existsSync(titlesPath) ? JSON.parse(fs.readFileSync(titlesPath, 'utf8')) : {};
+const linked = linkedTrackerIds({ actions: actionCards, evidence });
+const titleProblems = [];
+for (const id of linked) {
+  const file = path.join(trackerDir, `${id}.json`);
+  if (!fs.existsSync(file)) continue;   // reported above as a missing entry
+  const now = JSON.parse(fs.readFileSync(file, 'utf8')).title;
+  if (!(id in snapshot)) titleProblems.push({ id, why: 'has no title in the snapshot' });
+  else if (snapshot[id] !== now) titleProblems.push({ id, why: 'has a different title in the tracker now', had: snapshot[id], now });
+}
+for (const id of Object.keys(snapshot)) {
+  if (!linked.includes(id)) titleProblems.push({ id, why: 'is in the snapshot but no card or item links to it any more' });
+}
+
 console.log(`\nChecked ${actionCards.length} cards and ${evidenceUnits.length} evidence rows / ${urlCount} source URLs against ${trackerDir.replace(process.env.HOME, '~')}\n`);
 
 if (missingEntries.length) {
@@ -112,8 +134,17 @@ if (untraceable.length) {
   console.log('   either restore a real source or remove the card text that relied on it.\n');
 }
 
-if (!missingEntries.length && !untraceable.length && !sourceless.length) {
-  console.log(`🎉 Clean — all ${tracedCount}/${urlCount} URLs trace to a seed tracker entry.`);
+if (titleProblems.length) {
+  console.log(`❌ ${titleProblems.length} tracker title(s) in src/generated/tracker-titles.json are out of step with the data or the tracker:\n`);
+  for (const p of titleProblems) {
+    console.log(`   ${p.id} ${p.why}`);
+    if (p.had) console.log(`      snapshot: ${p.had}\n      tracker:  ${p.now}`);
+  }
+  console.log('\n   Run `node sync-tracker-titles.js` and commit the result.\n');
+}
+
+if (!missingEntries.length && !untraceable.length && !sourceless.length && !titleProblems.length) {
+  console.log(`🎉 Clean — all ${tracedCount}/${urlCount} URLs trace to a seed tracker entry, and all ${linked.length} tracker titles match.`);
 } else {
   console.log('Exit code 1 — non-zero so this can gate a commit.');
   process.exit(1);

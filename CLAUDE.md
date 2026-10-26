@@ -172,7 +172,9 @@ When processing news batches in the tracker, for every new/updated election-rela
 4. Check the **What to Watch** list in `index.astro` — retire dates that passed (note what
    happened), add new dated triggers. Check **Asked** and **What You May Have Heard** too: a new
    non-denial gets a row, and a fear that becomes documented fact leaves `heard` for a card.
-5. Run `node verify-sources.js` (see below) and, if `evidence.json` changed, `node verify-evidence.js`;
+5. If any `trackerIds` list changed, run `node sync-tracker-titles.js` (it refreshes the titles the
+   "Tracker entry" links are labeled with; see "Cross-links with the tracker" below). Then run
+   `node verify-sources.js` (see below) and, if `evidence.json` changed, `node verify-evidence.js`;
    then `npm run build`, verify, commit (ask the user before pushing, per workspace convention).
 
 ## Source-integrity check
@@ -186,8 +188,13 @@ of at least one of that card's own `trackerIds`.** A URL that traces to nothing 
 memory or orphaned when the tracker entry it came from was corrected. Both fail, and both need a look.
 It also checks that every `trackerId` resolves to a real entry file and that no card is sourceless.
 
+It also holds the titles snapshot behind the "Tracker entry" links to the tracker's entry files (see
+"Cross-links with the tracker" below): a title that differs, an id with no title, or a title nothing
+links to any more fails, and `node sync-tracker-titles.js` fixes all three.
+
 Exits non-zero, so it can gate a commit. Run it after any tracker-side correction too, not just when
-adding cards here: fixing a fabricated URL in `controversial-trump` can orphan a card that quoted it.
+adding cards here: fixing a fabricated URL in `controversial-trump` can orphan a card that quoted it,
+and correcting a title there leaves the snapshot behind.
 
 ## Style check (automatic)
 
@@ -278,6 +285,38 @@ Dives.
   the news sweep still bumps it in one place. If that line is moved or reworded, the build fails with
   a message instead of publishing a stale date. The tracker's "Elsewhere" panels read this file when
   they build, so a count here can reach them a few minutes after a deploy, not instantly.
+
+## Cross-links with the tracker (`/crosslinks.json` and the "Tracker entry" links)
+
+The roadmap's WP5 (`UI-ROADMAP.md` in the workspace repo): every tracker entry that appears on this
+page links to it, and the tracker links back. All of it is generated from `trackerIds`; nothing is
+typed in.
+
+- **"Tracker entry" links.** Every card, and every item under "What you may have heard", shows one
+  "Tracker entry →" link per id in its `trackerIds`, in the expanded part under its sources
+  (`src/components/TrackerLinks.astro`), never in a card's collapsed summary. The address is
+  `https://thetrumptracker.com/controversy/<id>/` (`trackerEntryUrl` in `src/lib/crosslinks.js`, which
+  takes the tracker's host from `network.js`) and the label is the entry's title. The rows under
+  "Asked, and wouldn't rule it out" have no links: they have no anchor of their own, and every entry
+  they cite is also the seed of a card.
+- **The titles snapshot.** The page renders on demand and Vercel builds this repo on its own, so
+  neither can read `controversial-trump/data/controversies/`. `node sync-tracker-titles.js` copies
+  each linked entry's title into `src/generated/tracker-titles.json`, and the build bundles that copy.
+  If an id is missing from it the link is labeled with the bare id and the build logs a warning.
+  `node verify-sources.js` fails when the copy and the tracker disagree. Run the sync after any change
+  to a `trackerIds` list and after a title is corrected in the tracker, and commit the result with the
+  data change.
+- **`/crosslinks.json`.** `src/pages/crosslinks.json.js` publishes
+  `{ "<entryId>": [{ "site": "rigged", "title", "url" }] }` at build time (`prerender = true`, like
+  `/stats.json`): one row per card that lists the entry (title: the card's title; url:
+  `https://riggingelections.com/#<card id>`; newest card first) and one per "What you may have heard"
+  item that lists it (url: `#heard-<id>`). An item's title carries its verdict, as
+  `What you may have heard: “<claim>” (<verdict>)`, so the tracker never lists a fear without its
+  rating. Keys are sorted. The tracker reads the file when it builds, so a new card can take a few
+  minutes after a deploy here to show on the entry's page there.
+- **Anchors.** `cardAnchor` and `heardAnchor` in `src/lib/crosslinks.js` are the only definitions of a
+  card's and an item's DOM id; the page and the endpoint both call them, so a link in the file cannot
+  drift from the id on the page. A link to `#<card id>` opens that card (the page's deep-link script).
 
 ## Design notes
 

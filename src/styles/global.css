@@ -523,6 +523,15 @@ section { scroll-margin-top: calc(var(--head-h) - 14px); }
 }
 .src-list a:hover { color: var(--st-court); border-color: var(--st-court); }
 
+/* The tracker entries a card (or an item under "What you may have heard") was seeded from.
+   They are not sources of its claims, so they sit under the source list behind a rule.
+   Mono and small like the links above; the "Tracker entry →" lead-in is the quiet part. */
+.trk-list { margin-top: 8px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.trk-list a { line-height: 1.7; }
+.trk-lbl { text-transform: uppercase; letter-spacing: 0.08em; font-size: 10.5px; color: var(--text-3); white-space: nowrap; }
+/* Under an item's sources line, which already has its own rule above it. */
+.heard .trk-list { margin-top: 10px; padding-top: 0; border-top: 0; }
+
 /* ── the prehistory + the sequence (timelines) ─────────────────────────── */
 .history-block { max-width: 880px; }
 .tl-month-head.is-history { color: var(--text-2); }
