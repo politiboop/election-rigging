@@ -17,7 +17,7 @@ const sites = NETWORK.filter((s) => s.strip);
   <div class="wrap netstrip-inner">
     <span class="netstrip-label">The network</span>
     {sites.map((s) => (
-      <a href={s.id === CURRENT ? '/' : s.href} aria-current={s.id === CURRENT ? 'true' : undefined}>{s.label}</a>
+      <a href={s.id === CURRENT ? '/' : s.href} aria-current={s.id === CURRENT ? 'true' : undefined}>{s.short ? <><span class="netstrip-long">{s.label}</span><span class="netstrip-short" aria-hidden="true">{s.short}</span></> : s.label}</a>
     ))}
   </div>
 </nav>
@@ -45,8 +45,16 @@ const sites = NETWORK.filter((s) => s.strip);
   /* Below 480px the "The network" label goes, so the site links start at the left edge and
      this site's own link is on screen at 375px without scrolling (UI-ROADMAP.md WP4; the
      tracker, Research and the other dark site hide it at the same width). */
+  .netstrip-short { display: none; }
   @media (max-width: 479.98px) {
     .netstrip-label { display: none; }
+    /* Rigged Before the Vote shows its short name here, so all four sites fit on one row at
+       375px. The full name stays in the page, clipped out of sight, for screen readers. */
+    .netstrip-short { display: inline; }
+    .netstrip-long {
+      position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0;
+      overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+    }
   }
   .netstrip a {
     position: relative;
