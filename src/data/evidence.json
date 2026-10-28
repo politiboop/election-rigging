@@ -819,6 +819,32 @@
         "trackerIds": [
           "trump-noncommittal-national-security-emergency-elections"
         ]
+      },
+      {
+        "when": "Oct. 27",
+        "who": "Donald Trump",
+        "role": "President",
+        "asked": "At Joint Base Andrews, whether he would accept the results of the midterms.",
+        "answer": "\"I will — if they're honest elections.\"",
+        "also": "The same day Speaker Mike Johnson, asked by MS NOW about concerns that Trump and congressional Republicans could contest the results if Democrats win, said, \"We're going to follow the Constitution,\" and, \"for anybody to suggest otherwise is absurd.\" He was answering that general question, not Trump's remark.",
+        "card": "nationalize-voting",
+        "sources": [
+          {
+            "text": "Washington Post: Trump declines to unconditionally accept midterm results",
+            "url": "https://www.washingtonpost.com/elections/2026/10/27/trump-declines-unconditionally-accept-midterm-results/"
+          },
+          {
+            "text": "The Hill: Trump says he will respect midterm results 'if they're honest elections'",
+            "url": "https://thehill.com/homenews/administration/6175318-trump-midterm-election-interference-honest/"
+          },
+          {
+            "text": "CNBC: Speaker Mike Johnson calls election-transfer concerns 'absurd'",
+            "url": "https://www.cnbc.com/2026/10/27/speaker-johnson-peaceful-transfer-midterms.html"
+          }
+        ],
+        "trackerIds": [
+          "nationalize-elections-conditional-acceptance"
+        ]
       }
     ],
     "take": "Several of these questions already have a one-line answer on paper, like General Caine's letter. The officials asked in person have mostly declined to repeat it. A threat does not need to be carried out to keep a voter home, which is why three lawsuits now argue that refusing to rule out armed agents at the polls is itself the harm."
