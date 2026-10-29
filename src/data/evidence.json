@@ -977,7 +977,7 @@
         "id": "military-purge",
         "claim": "Hegseth is purging the generals to set up a military coup.",
         "verdict": "No evidence of that purpose",
-        "record": "The purge is real. Hegseth has fired or blocked the promotions of \"more than 80 generals and admirals,\" about 10 percent of the military's top officers, the New York Times reported. The reasons on the record point elsewhere: the Army secretary resigned after objecting to Hegseth \"firing the generals who were responsible\" for his modernization plans. And in August the leaders of three combatant commands and the Chief of Naval Operations formally objected, in writing, to orders extending the Iran war. We have found no reporting that ties the firings to the election.",
+        "record": "The purge is real. Hegseth has fired or blocked the promotions of \"more than 80 generals and admirals,\" about 10 percent of the military's top officers, the New York Times reported. The reasons on the record point elsewhere: the Army secretary resigned after objecting to Hegseth \"firing the generals who were responsible\" for his modernization plans. And in August the leaders of three combatant commands and the Chief of Naval Operations formally objected, in writing, to orders extending the Iran war. On October 28 Hegseth fired Lt. Gen. Brett Sylvia, the Joint Staff's top planner; a Pentagon official cited leaks, and two other Pentagon sources told CBS News those accusations are not true. We have found no reporting that ties the firings to the election.",
         "stands": "The officers themselves are bound by law. It is a federal crime for \"an officer or member of the Armed Forces\" to prevent \"any qualified voter\" from voting or to interfere with an election officer's duties (18 U.S.C. 593). The Posse Comitatus Act bars using the military \"to execute the laws\" except where the Constitution or Congress expressly allows it (18 U.S.C. 1385).",
         "would": "An officer removed or disciplined for refusing an election-related order, or a written order placing troops at or near polling places.",
         "cards": [],
@@ -997,6 +997,14 @@
           {
             "text": "The Washington Post (via The Spokesman-Review): Military leaders warn Hegseth against extending Iran war operations",
             "url": "https://www.spokesman.com/stories/2026/aug/30/military-leaders-warn-hegseth-against-extending-ir/"
+          },
+          {
+            "text": "AP: Hegseth fires the Pentagon's top military planner even as Trump considers new Iran strikes",
+            "url": "https://apnews.com/article/hegseth-general-firing-iran-war-strikes-6726895f0c7fe93c7cbc94cae0ff7621"
+          },
+          {
+            "text": "CBS News: Hegseth fires Pentagon's top military planner over what official says were leaks to media",
+            "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
           }
         ],
         "refSources": [
@@ -1011,7 +1019,8 @@
         ],
         "trackerIds": [
           "driscoll-resigns-hegseth-blocks-80-generals-army-leaderless",
-          "military-chiefs-nonconcur-iran-sdob-trump-little-war"
+          "military-chiefs-nonconcur-iran-sdob-trump-little-war",
+          "hegseth-fires-pentagon-top-planner-sylvia-disputed-leak-accusations"
         ]
       },
       {
@@ -1084,7 +1093,7 @@
         "id": "ice-arrests",
         "claim": "ICE will arrest people waiting in line to vote.",
         "verdict": "Partly documented",
-        "record": "Officials will not rule out agents at polling places (see the table above), and Homeland Security Secretary Markwayne Mullin has said agents could be there if they are \"serving a warrant on someone that we have been actively tracking down.\" A lawsuit by Denver and voting groups cites reports of agents at or near polling places in San Antonio, Ventura County and Syracuse this year. Border czar Tom Homan says \"there is no plan for enforcement action at polling places.\" We have found no documented arrest of a voter at a polling place.",
+        "record": "Officials will not rule out agents at polling places (see the table above), and Homeland Security Secretary Markwayne Mullin has said agents could be there if they are \"serving a warrant on someone that we have been actively tracking down.\" A lawsuit by Denver and voting groups cites reports of agents at or near polling places in San Antonio, Ventura County and Syracuse this year. Border czar Tom Homan says \"there is no plan for enforcement action at polling places.\" On October 28 the Justice Department told a court that no sworn officers with arrest authority will serve as its election monitors; as reported, the filing does not address agents appearing in another capacity, such as serving a warrant. We have found no documented arrest of a voter at a polling place.",
         "stands": "Bringing \"any troops or armed men\" to a polling place is a federal felony unless needed \"to repel armed enemies of the United States\" (18 U.S.C. 592), and intimidating anyone \"for the purpose of interfering with the right of such other person to vote\" is a federal crime (18 U.S.C. 594). Three federal lawsuits ask the courts to keep armed federal agents away from polling places.",
         "would": "Armed federal agents posted at polling places on Election Day, or an arrest of a voter at one.",
         "cards": [
@@ -1112,6 +1121,10 @@
           {
             "text": "Democracy Docket: Democrats sue Trump admin to keep armed agents from polls during midterms",
             "url": "https://www.democracydocket.com/news-alerts/democrats-sue-trump-admin-to-keep-armed-agents-from-polls-during-midterms/"
+          },
+          {
+            "text": "Bloomberg Law: DOJ Says FBI, ICE Agents Won't Be Poll Monitors Next Week",
+            "url": "https://news.bloomberglaw.com/litigation/doj-says-fbi-ice-agents-wont-be-stationed-at-polls-next-week"
           }
         ],
         "refSources": [

@@ -578,8 +578,10 @@
       "One of the 28 green-card holders charged, 72-year-old Omar Muñoz, told the Guardian he was taken from his Los Angeles home before dawn on October 19 in his pajama pants, in shackles, past six vehicles, cameras and a helicopter: \"It was staged and I'm the patsy ... They wanted to make a scene.\" The Justice Department posted an edited, music-scored video of the arrest to X captioned \"OPERATION PROTECT THE VOTE.\" Former deputy assistant attorney general Justin Levitt called it \"disgusting.\"",
       "Speaking to reporters after voting on October 24, Trump said of Los Angeles, \"they have 20,000 votes, and it could be as high as a million votes.\" He did not say what the figure rested on.",
       "On October 26 a Ninth Circuit panel dismissed the department's emergency appeal, 2-1, in a published order. The department \"failed to allow the district court adequate opportunity to consider its application\" for a temporary restraining order, the court said, so \"we lack jurisdiction over this appeal,\" and \"The United States's claimed emergency, at least in part, is a self-constructed one.\" The order decided no merits question and set aside no ballots. Judges Mark Bennett, a Trump appointee, and Gabriel Sanchez, a Biden appointee, each wrote that they would have denied the request anyway; Judge Patrick Bumatay, a Trump appointee, dissented, writing that \"the federal government has a sovereign interest in safeguarding federal elections and ensuring that the votes of noncitizens do not undermine our electoral results.\" The case went back to Judge David O. Carter, who has presided since October 21 and set a hearing on the restraining-order request for 1 p.m. Pacific on October 27.",
-      "Judge Carter heard the restraining-order application on October 27 and did not rule by the end of the hearing. He said he intends to appoint a special master to examine how the department compiled its list, ABC News reported, and the AP reported he said a special master could evaluate both sides' claims, including whether counties could separate the ballots, before the state's December 11 certification deadline. He said he would not issue an official order until October 28. He called what the department sought a \"monumental change\" in California's ongoing administration of its election, and asked why it was suing rather than prosecuting: \"You got a remedy for goodness sakes — go out and indict.\"",
-      "Closing the hearing, Carter said, \"This court believes it would be wise that any threats to state and county election employees cease immediately.\" Bill Essayli, who leads the U.S. Attorney's Office in Los Angeles, told the court, \"We have not asked to void any ballots.\" More than 3 million California ballots had already been returned, the AP reported, and it reported that the department made a similar request this week asking Washington state to sequester ballots submitted by hundreds of people it suspects are not citizens."
+      "Judge Carter heard the restraining-order application on October 27 and did not rule from the bench. He said he intended to appoint a special master to examine how the department compiled its list, ABC News reported, called what the department sought a \"monumental change\" in California's ongoing administration of its election, and asked why it was suing rather than prosecuting: \"You got a remedy for goodness sakes — go out and indict.\"",
+      "Closing the hearing, Carter said, \"This court believes it would be wise that any threats to state and county election employees cease immediately.\" Bill Essayli, who leads the U.S. Attorney's Office in Los Angeles, told the court, \"We have not asked to void any ballots.\" More than 3 million California ballots had already been returned, the AP reported, and it reported that the department made a similar request this week asking Washington state to sequester ballots submitted by hundreds of people it suspects are not citizens.",
+      "On October 28 Carter denied the restraining order in a 26-page written order (Dkt. 149), finding that the United States had shown neither a likelihood of success on the merits nor irreparable harm. \"Never before in American history has the federal government, on the eve of an election, sought to coerce a state and local government to abandon their own Constitutional elections procedures and bend to the will of the Executive Branch,\" he wrote. The relief \"would wreak havoc and disrupt the election that is already underway,\" and \"a ballot segregated, in effect, would be a ballot removed.\" He concluded, \"This Court declines to be a party to such process.\" The order notes the department has filed at least 31 suits for states' full voter rolls and has won none of the 26 decided.",
+      "The written order appointed no special master; the AP reported that it \"appeared to reverse course, and he did not establish one.\" The department filed a notice of appeal to the Ninth Circuit that evening (Dkt. 152) and a renewed request for an injunction pending appeal (Dkt. 153). More than 3.7 million Californians had already voted, the AP reported."
     ],
     "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But the list has shrunk from 190,000 to about 20,000 without anyone outside the government being able to check it, the president has said the officials who count those ballots will go to jail, and he now says the number \"could be as high as a million votes.\" Election officials are being told to choose between a court process and a prison threat.",
     "sources": [
@@ -674,13 +676,26 @@
       {
         "text": "AP (via NBC Bay Area): Special master could evaluate Justice Department's claims of noncitizens on California voter rolls",
         "url": "https://www.nbcbayarea.com/news/california/judge-arguments-california-20000-ballots/4165522/"
+      },
+      {
+        "text": "Order Denying Temporary Restraining Order, United States v. California, No. 2:26-cv-12025 (C.D. Cal., October 28, 2026) (Dkt. 149)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.1043513/gov.uscourts.cacd.1043513.149.0.pdf"
+      },
+      {
+        "text": "AP: Judge denies federal request to segregate California ballots, says it would 'wreak havoc' on voting",
+        "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-481bed64919ad193e80e051d28beb2c0"
+      },
+      {
+        "text": "ABC News: Judge rejects Trump administration request for order to segregate 20,000 California ballots",
+        "url": "https://abcnews.com/Politics/judge-rejects-trump-administration-request-order-segregate-20000/story?id=137660006"
       }
     ],
     "trackerIds": [
       "doj-48-hours-california-segregate-mail-ballots-noncitizen-list",
       "doj-charges-28-california-green-card-holders-operation-protect-the-vote",
       "democrats-sue-trump-doj-dhs-threats-election-officials-purge-voters"
-    ]
+    ],
+    "unprecedented": "Judge David O. Carter, denying the department's request on October 28, 2026: \"Never before in American history has the federal government, on the eve of an election, sought to coerce a state and local government to abandon their own Constitutional elections procedures.\""
   },
   {
     "id": "dhs-unlawful-voter-initiative",
@@ -1014,7 +1029,8 @@
       "On September 1, 2026, Homeland Security Secretary Markwayne Mullin said \"ICE isn't there to patrol the polling places,\" but that \"The only reason why we would be at polling places is if there is a threat to that polling place or we're serving a warrant on someone that we have been actively tracking down.\"",
       "On September 10, Denver and a coalition of immigrant rights and voting groups sued to keep armed federal officers away from polling places under that law, citing reports of agents at polling places in San Antonio, Ventura County and Syracuse this year. DHS said \"ICE is not planning operations targeting polling locations,\" and Tom Homan said \"there is no plan for enforcement action at polling places.\"",
       "A second suit, NAACP v. Department of Homeland Security (No. 1:26-cv-03263), was filed September 18 by nine organizations under Section 11(b) of the Voting Rights Act, naming Mullin, Attorney General Todd Blanche, FBI Director Kash Patel and Tom Homan among its defendants. The Justice Department's response: \"The DOJ has never said it would send federal law enforcement to polling locations... Any suggestion otherwise is fearmongering.\" No deployment order has been documented; what is documented is officials declining to rule one out. A third suit followed on September 23 from the Democratic Party committees, Chuck Schumer and Hakeem Jeffries, against ICE, DHS, the FBI and their directors. Trump is not a defendant in any of them.",
-      "On October 7 the LULAC plaintiffs amended their complaint to add Hennepin County, the Justice Department and the FBI, and a Voting Rights Act claim, alleging that on October 5, the first day California drop boxes opened, ICE detained a man in a college parking lot next to a ballot drop-off location in Santa Maria. DHS confirmed the arrest but called claims it happened on campus \"FALSE\"."
+      "On October 7 the LULAC plaintiffs amended their complaint to add Hennepin County, the Justice Department and the FBI, and a Voting Rights Act claim, alleging that on October 5, the first day California drop boxes opened, ICE detained a man in a college parking lot next to a ballot drop-off location in Santa Maria. DHS confirmed the arrest but called claims it happened on campus \"FALSE\".",
+      "On October 28 the Justice Department told a court it is not using sworn law enforcement personnel \"to act as monitors in a 'law enforcement agent' capacity\" and knows of only one Homeland Security employee, from Customs and Border Protection, taking part in its Election Day monitoring, Bloomberg Law reported. As reported, the filing does not address Mullin's statement that ICE could be at a polling place to serve a warrant."
     ],
     "sources": [
       {
@@ -1064,6 +1080,10 @@
       {
         "text": "San Luis Obispo Tribune: DHS denies ICE agents arrested father on Central Coast college campus",
         "url": "https://www.sanluisobispo.com/news/local/crime/article317533722.html"
+      },
+      {
+        "text": "Bloomberg Law: DOJ Says FBI, ICE Agents Won't Be Poll Monitors Next Week",
+        "url": "https://news.bloomberglaw.com/litigation/doj-says-fbi-ice-agents-wont-be-stationed-at-polls-next-week"
       }
     ],
     "trackerIds": [
@@ -2808,7 +2828,8 @@
       "On September 21, 2026, Assistant Attorney General Harmeet Dhillon said of November: \"This is going to be the biggest DOJ election observer effort in history,\" and, \"I've called for, and plan to send, 1,000 to the general election jurisdictions that we're selecting.\" CNN reported that some monitors sent during the primaries were recently hired attorneys who had helped challenge Trump's 2020 loss, according to records obtained by Democracy Forward, and that DOJ first sent its Wyoming notice to election officials in Wisconsin.",
       "On October 2 the NAACP sued the Justice Department for records on the 1,000-monitor plan (NAACP v. Dhillon, No. 1:26-cv-03461) and on October 5 asked for emergency processing, calling it an \"unprecedented deployment of federal officials\" that \"stands to jeopardize the election.\" The suit seeks records, not an order stopping the deployment.",
       "Department records show David Michael Levin, who pleaded guilty in 2016 to two misdemeanors for accessing a Florida county elections website, was credentialed as a Justice Department observer in Maricopa County's July primary. The department says prosecutors will serve as monitors and that monitors will not identify themselves as prosecutors; at least seven monitored Arizona's primary.",
-      "On October 16 the NAACP and three voters sued Attorney General Todd Blanche, Dhillon and the department in NAACP v. Blanche (D.D.C.), claiming voter intimidation under Section 11(b) of the Voting Rights Act. \"There is no federal statute that gives Defendants the authority to turn polling places into interrogation rooms,\" the complaint says. It asks the court to bar using prosecutors or agents as monitors."
+      "On October 16 the NAACP and three voters sued Attorney General Todd Blanche, Dhillon and the department in NAACP v. Blanche (D.D.C.), claiming voter intimidation under Section 11(b) of the Voting Rights Act. \"There is no federal statute that gives Defendants the authority to turn polling places into interrogation rooms,\" the complaint says. It asks the court to bar using prosecutors or agents as monitors.",
+      "In an October 28 declaration in NAACP v. Dhillon, Eric Neff, acting chief of the Civil Rights Division's voting section, said the division \"is not engaging any sworn law enforcement personnel who are legally authorized to effectuate an arrest to act as monitors in a 'law enforcement agent' capacity,\" Bloomberg Law reported. Agents from the ATF, the DEA and the Bureau of Prisons will serve as monitors, all barred from carrying firearms, and one Customs and Border Protection employee is detailed to the department. It declined to make public the polling places its monitors will visit. As reported, the declaration does not address whether FBI or ICE agents could appear at polling places in another capacity, such as serving a warrant. Bloomberg Law also reported that Neff was hired into the division last year \"following a history of advancing debunked election conspiracy theories.\""
     ],
     "take": "Voting-rights groups warned for a year that the monitor program could be used to pressure local officials rather than protect voters, and that warning was easy to file as partisan. This complaint is not. It comes from a Republican governor in one of the reddest states in the country, who volunteered that his own election was run well and that he has no objection to monitors in principle. That narrows the dispute to the one question worth watching: what these observers actually do when they arrive. Wyoming is a two-attorney, one-county sample. November is roughly 1,000 of them.",
     "sources": [
@@ -2859,6 +2880,14 @@
       {
         "text": "Democracy Docket: NAACP sues Justice Department to block plan for 1,000 poll monitors nationwide",
         "url": "https://www.democracydocket.com/news-alerts/naacp-sues-justice-department-to-block-plan-for-1000-poll-monitors-nationwide/"
+      },
+      {
+        "text": "Bloomberg Law: DOJ Says FBI, ICE Agents Won't Be Poll Monitors Next Week",
+        "url": "https://news.bloomberglaw.com/litigation/doj-says-fbi-ice-agents-wont-be-stationed-at-polls-next-week"
+      },
+      {
+        "text": "Law&Crime (via Yahoo News): Trump admin says it won't send FBI or ICE agents to enforce laws at polling sites after DOJ boasted of plan to send 1,000 'election monitors'",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-admin-says-wont-send-164432003.html"
       }
     ],
     "trackerIds": [
@@ -3531,9 +3560,10 @@
       "Election-law scholars across the spectrum dismissed the theory. Notre Dame's Derek Muller called it \"one of the worst ones I've ever seen\" and \"designed to win the press release rather than the litigation.\" Ben Ginsberg, the Republican National Committee's former top election lawyer, told CNN a federal court had many reasons to refuse it. Walter Olson of the libertarian Cato Institute told the Alaska Beacon the suit \"borders on frivolous in its arguments,\" and Sen. Lisa Murkowski, a Republican who has endorsed Sen. Sullivan, wrote, \"The Department of Justice should never have filed this lawsuit.\" As of October 23 the department had sought no emergency relief.",
       "Trump said he ordered the suit. \"I'm the one that said do it,\" he told reporters on landing in Florida on October 23, the AP, Politico and the Guardian reported. Asked the next day about the department's independence, he said, \"So I recommended it to the DOJ. They looked at it, they agreed with me, and they've gone to court,\" according to the Roll Call Factbase transcript. On October 25 Blanche wrote on X that the department \"does not seek to stop any ballot from being cast or to stop the certification of Alaska's election\" and \"did not coordinate with any campaign or candidate, but rather relied solely on federal law,\" CNBC reported. The complaint asks the court to bar certification of a result affected by voter confusion, as it defines one, pending an investigation.",
       "Peltola's campaign committee and the Democratic Senatorial Campaign Committee moved to intervene on October 23 (Dkt. 5), as did the League of Women Voters of Alaska and Common Cause (Dkt. 6). On October 25 the campaign and the DSCC filed a proposed motion to dismiss arguing that the National Voter Registration Act regulates only voter registration, that the department has no authority to sue over the ballot, and that the Purcell principle bars the relief this close to the election (Dkt. 8-1). On October 26 Alaska's elections officials moved to dismiss \"immediately, with prejudice, because the complaint has no legal basis,\" arguing that \"the United States lacks authority to intervene in state elections at all, much less in support of a favored candidate\" (Dkt. 18), and asked for a decision by November 2 (Dkt. 16). The State's motion also says Daniel J. Sullivan, who appears on the ballot with no party affiliation, changed his affiliation from undeclared to Republican when he filed his declaration of candidacy.",
-      "On October 26 Judge Sharon Gleason granted expedited consideration (Dkt. 15). She intends to rule on the motions to intervene by 5 p.m. on October 28; if she admits the intervenors, the department must answer their motions to dismiss by 5 p.m. on October 29. Alaska expects to begin ranked-choice tabulation on November 18.",
-      "On October 27 Gleason granted the State's motion to expedite consideration of its motion to dismiss (Dkt. 19), noting, Alaska Public Media reported, that \"After Alaskans had already begun casting their ballots for the November 2026 election ... the United States initiated this action on October 22, 2026,\" nearly four months after the Alaska Supreme Court ordered Daniel J. Sullivan onto the ballot. The same day the State told the court it does not oppose either motion to intervene (Dkt. 20), and the Justice Department opposed both (Dkt. 26). As of the last docket entry on October 27, she had not ruled on intervention or on the motions to dismiss.",
-      "University of Kentucky law professor Joshua Douglas told Alaska Public Media, \"This case is a press release disguised as a lawsuit.\" Defending the suit on CNN on October 25, Blanche said, \"There could be a crime. But the real wrong here is that Alaskans are going to be confused and will not have their vote heard,\" the Hill reported."
+      "On October 26 Judge Sharon Gleason granted expedited consideration (Dkt. 15). Alaska expects to begin ranked-choice tabulation on November 18.",
+      "On October 27 Gleason granted the State's motion to expedite consideration of its motion to dismiss (Dkt. 19), noting, Alaska Public Media reported, that \"After Alaskans had already begun casting their ballots for the November 2026 election ... the United States initiated this action on October 22, 2026,\" nearly four months after the Alaska Supreme Court ordered Daniel J. Sullivan onto the ballot. The same day the State told the court it does not oppose either motion to intervene (Dkt. 20), and the Justice Department opposed both (Dkt. 26).",
+      "University of Kentucky law professor Joshua Douglas told Alaska Public Media, \"This case is a press release disguised as a lawsuit.\" Defending the suit on CNN on October 25, Blanche said, \"There could be a crime. But the real wrong here is that Alaskans are going to be confused and will not have their vote heard,\" the Hill reported.",
+      "On October 28 the Justice Department withdrew its opposition to the Peltola campaign's intervention, citing a New York Times report that campaign aides and DSCC staff had been involved in an effort to recruit Daniel J. Sullivan, and said it \"intends to seek expedited discovery from the Campaign regarding the reported conspiracy\" (Dkt. 33). The report's main source, Peltola's former campaign manager, later \"retracted all statements made regarding the 2026 Alaska Senate Race,\" NBC News reported, and the campaign and the DSCC deny involvement. The same day Gleason granted both motions to intervene and accepted both motions to dismiss as filed (Dkt. 35). The department's response was due at 5 p.m. on October 29, and the intervenors may reply by 2 p.m. on October 30. Election-law scholar Rick Hasen wrote, \"The lawsuit is not going anywhere for any number of reasons,\" the Juneau Independent reported. Trump, also on October 28, demanded that Peltola be prosecuted and removed from the ballot (see the separate card)."
     ],
     "take": "A federal lawsuit that asks a court to refuse certification in one direction only, when the government's candidate loses, is not an election-integrity measure. It is a pre-written objection to a result that has not happened yet. The theory may well fail, as the experts quoted, the state's own election officials and a Republican senator all argue. The point is that the Justice Department now files it, that the president says he told it to, and that the attorney general will not say the department would never do the same elsewhere.",
     "sources": [
@@ -3616,11 +3646,80 @@
       {
         "text": "The Hill: Trump says he will respect midterm results 'if they're honest elections'",
         "url": "https://thehill.com/homenews/administration/6175318-trump-midterm-election-interference-honest/"
+      },
+      {
+        "text": "Plaintiff's Notice Withdrawing Opposition to Motion to Intervene by Alaskans for Mary and DSCC, United States v. State of Alaska, 3:26-cv-00376-SLG (October 28, 2026) (Dkt. 33)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.akd.80263/gov.uscourts.akd.80263.33.0.pdf"
+      },
+      {
+        "text": "Order on Motions to Intervene, United States v. State of Alaska, 3:26-cv-00376-SLG (D. Alaska, October 28, 2026) (Dkt. 35)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.akd.80263/gov.uscourts.akd.80263.35.0.pdf"
+      },
+      {
+        "text": "Juneau Independent: Trump-ordered lawsuit in Alaska's US Senate race gains intensity after Peltola campaign revelations",
+        "url": "https://www.juneauindependent.com/post/trump-ordered-lawsuit-in-alaska-s-us-senate-race-gains-intensity-after-peltola-campaign-revelations"
+      },
+      {
+        "text": "NBC News: Alaska governor orders investigation into Peltola camp after report they recruited second Dan Sullivan",
+        "url": "https://www.nbcnews.com/politics/2020-election/mike-dunleavy-orders-investigation-mary-peltola-campaign-dan-sullivan-rcna606316"
       }
     ],
     "trackerIds": [
       "doj-sues-alaska-block-senate-certification-if-sullivan-loses-two-sullivans",
-      "blanche-wont-rule-out-doj-blocking-certification-doomsday-scenario"
+      "blanche-wont-rule-out-doj-blocking-certification-doomsday-scenario",
+      "trump-demands-peltola-prosecuted-removed-alaska-ballot"
+    ]
+  },
+  {
+    "id": "peltola-prosecution-demand",
+    "title": "Six Days Before the Election, Trump Demands That Alaska's Democratic Senate Nominee Be Prosecuted and Removed From the Ballot",
+    "date": "2026-10-28",
+    "category": "ballot",
+    "status": "record",
+    "facts": [
+      "On October 28, 2026, Trump called for Mary Peltola, the Democratic nominee for U.S. Senate in Alaska, to be prosecuted and removed from the ballot. \"In Alaska, I don't think Mary Peltola, after perpetrating such a terrible scheme, should be allowed to run, because this is ELECTION FRAUD,\" he wrote on Truth Social. In a later post he wrote that she \"should be removed from the Ballot and prosecuted — So should the FAKE Dan Sullivan.\" To reporters he said, \"I think she should be prosecuted criminally for what she did.\" USA Today noted he did not identify which statute he believed she had violated.",
+      "His demands followed a New York Times report that Peltola campaign aides and Democratic Senatorial Campaign Committee staff were involved in an effort to recruit candidates to split the incumbent's vote, including Daniel J. Sullivan Jr., who appears on the ballot alongside Republican Sen. Dan S. Sullivan. The report drew on Peltola's former campaign manager, Elisa Rios, who later \"retracted all statements made regarding the 2026 Alaska Senate Race,\" NBC News reported. The Alaska Beacon said it \"has not independently confirmed the Times reporting.\" The campaign and the DSCC deny involvement, and Daniel J. Sullivan has said he entered the race on his own.",
+      "Recruiting a spoiler candidate is not itself a crime. Legal experts told the Alaska Beacon the actions described \"are not illegal but do amount to a dirty trick,\" and The Hill wrote, \"Despite Trump's comments, the alleged tactics are not illegal.\" Attorney General Todd Blanche said the recruitment \"should be illegal\" but did not identify a crime, USA Today reported. No charge had been filed against Peltola as of October 29.",
+      "Gov. Mike Dunleavy ordered the state Department of Public Safety to examine \"whether this scheme violated Alaska's laws and whether criminal charges or civil action are warranted,\" the AP reported, and Vice President JD Vance said \"we should certainly look into whether she committed election fraud.\" On October 28 the Justice Department cited the Times report to drop its opposition to the Peltola campaign joining its suit over Alaska's certification, and said it would seek discovery from the campaign, the Washington Examiner reported.",
+      "Asked on October 29 whether Peltola would be seated if she won, Trump said, \"Well, you're going to have to see what happens,\" and, \"It's hard to believe that she could even be allowed to run,\" the AP reported. Peltola's campaign said, \"no tweet or threat from any DC politician will keep her away from that fight.\""
+    ],
+    "take": "Whatever the Times report finally shows, the president is asking for a prosecution without naming a crime, the removal of a candidate after Alaskans began voting, and he will not say the winner would be seated. The recruiting it describes may be a dirty trick. The remedy he demands is to decide the race before the count, and his Justice Department is already in court on the same race.",
+    "sources": [
+      {
+        "text": "Truth Social post by Donald J. Trump, status 42816 (October 28, 2026)",
+        "url": "https://www.trumpstruth.org/statuses/42816"
+      },
+      {
+        "text": "Truth Social post by Donald J. Trump, status 42817 (October 28, 2026)",
+        "url": "https://www.trumpstruth.org/statuses/42817"
+      },
+      {
+        "text": "USA Today: Trump calls for Mary Peltola to be prosecuted after report on Sullivan spoiler",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/28/trump-mary-peltola-prosecuted-dan-sullivan-recruitment-alaska/92485854007/"
+      },
+      {
+        "text": "The Hill: Trump: Peltola should be removed from ballot following New York Times report",
+        "url": "https://thehill.com/homenews/campaign/6179361-trump-peltola-election-fraud-claims/"
+      },
+      {
+        "text": "Alaska Beacon: Trump calls for Peltola to be criminally charged, removed from Alaska's U.S. Senate race",
+        "url": "https://alaskabeacon.com/2026/10/28/trump-calls-for-peltola-to-be-criminally-charged-removed-from-alaskas-u-s-senate-race/"
+      },
+      {
+        "text": "AP: Alaska's governor orders a probe into Peltola's Senate campaign over spoiler candidate controversy",
+        "url": "https://apnews.com/article/alaska-peltola-senate-dan-sullivan-democrats-dunleavy-c391cc7b546384c7adde9aebc9973620"
+      },
+      {
+        "text": "NBC News: Alaska governor orders investigation into Peltola camp after report they recruited second Dan Sullivan",
+        "url": "https://www.nbcnews.com/politics/2020-election/mike-dunleavy-orders-investigation-mary-peltola-campaign-dan-sullivan-rcna606316"
+      },
+      {
+        "text": "Washington Examiner: DOJ seeks 'expedited discovery' in Alaska lawsuit after Peltola NYT report",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4783608/doj-expedited-discovery-alaska-lawsuit-peltola/"
+      }
+    ],
+    "trackerIds": [
+      "trump-demands-peltola-prosecuted-removed-alaska-ballot"
     ]
   }
 ]
