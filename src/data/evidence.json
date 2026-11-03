@@ -1093,7 +1093,7 @@
         "id": "ice-arrests",
         "claim": "ICE will arrest people waiting in line to vote.",
         "verdict": "Partly documented",
-        "record": "Officials will not rule out agents at polling places (see the table above), and Homeland Security Secretary Markwayne Mullin has said agents could be there if they are \"serving a warrant on someone that we have been actively tracking down.\" A lawsuit by Denver and voting groups cites reports of agents at or near polling places in San Antonio, Ventura County and Syracuse this year. Border czar Tom Homan says \"there is no plan for enforcement action at polling places.\" On October 28 the Justice Department told a court that no sworn officers with arrest authority will serve as its election monitors; as reported, the filing does not address agents appearing in another capacity, such as serving a warrant. We have found no documented arrest of a voter at a polling place.",
+        "record": "Officials will not rule out agents at polling places (see the table above), and Homeland Security Secretary Markwayne Mullin has said agents could be there if they are \"serving a warrant on someone that we have been actively tracking down.\" A lawsuit by Denver and voting groups cites reports of agents at or near polling places in San Antonio, Ventura County and Syracuse this year. Border czar Tom Homan says \"there is no plan for enforcement action at polling places.\" On October 28 the Justice Department told a court that no sworn officers with arrest authority will serve as its election monitors; as reported, the filing does not address agents appearing in another capacity, such as serving a warrant. On November 2 a judge ordered the department to keep its monitors unarmed and without arrest power, and its status report the next morning said it excluded FBI and DHS personnel from monitoring while adding, \"there is no prohibition on the use of sworn law enforcement officers.\" As of the afternoon of November 3, no confirmed incident of ICE, troops or armed federal agents at a polling place was reported in the sources we reviewed, and we have found no documented arrest of a voter at one.",
         "stands": "Bringing \"any troops or armed men\" to a polling place is a federal felony unless needed \"to repel armed enemies of the United States\" (18 U.S.C. 592), and intimidating anyone \"for the purpose of interfering with the right of such other person to vote\" is a federal crime (18 U.S.C. 594). Three federal lawsuits ask the courts to keep armed federal agents away from polling places.",
         "would": "Armed federal agents posted at polling places on Election Day, or an arrest of a voter at one.",
         "cards": [
@@ -1125,6 +1125,10 @@
           {
             "text": "Bloomberg Law: DOJ Says FBI, ICE Agents Won't Be Poll Monitors Next Week",
             "url": "https://news.bloomberglaw.com/litigation/doj-says-fbi-ice-agents-wont-be-stationed-at-polls-next-week"
+          },
+          {
+            "text": "Fox News: Federal judge orders DOJ to ensure poll monitors are not law enforcement officials",
+            "url": "https://www.foxnews.com/politics/federal-judge-orders-doj-ensure-poll-monitors-not-law-enforcement-officials"
           }
         ],
         "refSources": [
@@ -1138,7 +1142,8 @@
           }
         ],
         "trackerIds": [
-          "white-house-ice-polling-places-midterms"
+          "white-house-ice-polling-places-midterms",
+          "doj-1000-election-monitors-dhillon-biggest-observer-effort-in-history"
         ]
       }
     ],

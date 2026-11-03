@@ -494,7 +494,8 @@
       "EPIC deputy director John Davisson: \"Building a database containing the identities, Social Security numbers, addresses, and citizenship information of every U.S. citizen is an extraordinary illegal overreach.\"",
       "On September 25, 2026, the Supreme Court stayed the June ruling 6-3, letting the government use the rebuilt SAVE system while the appeal goes on. The majority found the administration likely to prevail under a 1996 law and noted that federal law bars systematic purges within 90 days of an election. Justice Ketanji Brown Jackson, dissenting for three: \"[T]he harm caused by burdening or disenfranchising even a few lawful voters outweighs the nonexistent harm that the Government experiences when it is prevented from taking an action that it likely lacks the authority to take.\" At least 67 million registrations have been run through SAVE, the AP reported; in Travis County, Texas, at least 10% of 97 voters it flagged as apparent noncitizens were citizens.",
       "DHS says election officials in 25 states have run their rolls through SAVE; in Texas it flagged hundreds of people who had registered through the Department of Public Safety, which requires proof of citizenship, Votebeat reported. Georgia will not use it before the midterms. At a September 25 hearing on the separate citizenship-lists portal, a Justice Department attorney told Judge Paula Xinis, \"I can't tell you we won't have a live portal before the midterms,\" Democracy Docket reported; she ordered briefs by October 2.",
-      "After the September 25 hearing, Judge Paula Xinis ordered the government to \"file a NOTICE with this Court thirty (30) days in advance of any activation of the portal or provision of state citizenship lists,\" or immediately if it plans to act sooner. It is a notice requirement, not a bar; her ruling on whether the lists are lawful is pending. Separately, the State Department has told Congress it plans to let passport records be shared through federal verification platforms for checking \"voter eligibility.\""
+      "After the September 25 hearing, Judge Paula Xinis ordered the government to \"file a NOTICE with this Court thirty (30) days in advance of any activation of the portal or provision of state citizenship lists,\" or immediately if it plans to act sooner. It is a notice requirement, not a bar; her ruling on whether the lists are lawful is pending. Separately, the State Department has told Congress it plans to let passport records be shared through federal verification platforms for checking \"voter eligibility.\"",
+      "On November 2, the day before the election, Judge Tanya Chutkan granted a preliminary injunction in a separate suit by the League of Women Voters, LULAC and the Electronic Privacy Information Center (League of Women Voters v. DHS, D.D.C.). It bars the government \"from further disclosing, transmitting, or releasing data purporting to constitute lists of individual potential or actual non-citizen voters or registered voters\" to state and local election officials, Just Security's tracker quotes, and does not stop the government from answering an inquiry to verify an individual's citizenship through SAVE. Democracy Docket, an advocacy outlet founded by Marc Elias, reported that she also blocked directing states that already received lists to act on them, that lists had gone to California and Washington so far, and that she found the administration likely violated federal privacy and rulemaking laws, writing that the statute it cites \"contains no language authorizing the broad program of bulk transmission of sensitive voter data for the purposes of intervening in state election procedures.\" Reuters reported that a judge \"prevented the administration from sending such lists to officials in any state.\" The tracker has not read the order or found a report of an appeal."
     ],
     "sources": [
       {
@@ -548,6 +549,18 @@
       {
         "text": "Reuters via WIKY: Trump continues voter data push despite repeated setbacks",
         "url": "https://wiky.com/2026/09/25/trump-continues-voter-data-push-despite-repeated-setbacks/"
+      },
+      {
+        "text": "Democracy Docket: In victory for voters, judge orders Trump administration to stop challenging votes with noncitizen lists",
+        "url": "https://www.democracydocket.com/news-alerts/in-victory-for-voters-judge-orders-trump-administration-to-stop-challenging-votes-with-noncitizen-lists/"
+      },
+      {
+        "text": "Reuters (via WKZO): With US midterms underway, courts rebuff Trump's pressure on state election officials",
+        "url": "https://wkzo.com/2026/11/03/with-us-midterms-underway-courts-rebuff-trumps-pressure-on-state-election-officials/"
+      },
+      {
+        "text": "Just Security: 2026 Midterms: Election Integrity Litigation Tracker",
+        "url": "https://www.justsecurity.org/162830/2026-midterms-election-integrity-litigation-tracker/"
       }
     ],
     "trackerIds": [
@@ -556,7 +569,7 @@
     ],
     "legal": {
       "level": "ruled",
-      "basis": "A federal court vacated the rebuilt SAVE system on June 22, 2026 as contrary to law and in violation of the Privacy Act, the Social Security Act and the Administrative Procedure Act. A conflicting order from another district followed, and the successor State Citizenship Lists are separately under challenge. On September 25, 2026 the Supreme Court stayed the vacatur 6-3 pending appeal, finding the government likely to prevail."
+      "basis": "A federal court vacated the rebuilt SAVE system on June 22, 2026 as contrary to law and in violation of the Privacy Act, the Social Security Act and the Administrative Procedure Act. A conflicting order from another district followed, and the successor State Citizenship Lists are separately under challenge. On September 25, 2026 the Supreme Court stayed the vacatur 6-3 pending appeal, finding the government likely to prevail. On November 2, 2026 Judge Tanya Chutkan separately enjoined further transmission of lists of alleged noncitizen voters to state and local election officials, finding, Democracy Docket reported, that the administration likely violated federal privacy and rulemaking laws."
     }
   },
   {
@@ -592,13 +605,15 @@
       "A Justice Department spokesperson criticized Judge Thompson for ruling \"without even waiting to hear from the United States\" and said her decision was part of a \"two-track system of justice,\" the Los Angeles Times reported. \"The Department is reviewing the order and evaluating all options,\" the spokesperson said. The tracker found no report of Ninth Circuit action on the appeal or on any stay request as of November 1. On October 31 Gov. Gavin Newsom wrote to federal judges across California that he has \"grave concerns federal agents will seek search warrants to seize ballots and ballot materials before the election results are certified,\" and urged them not to grant such requests. That is his stated concern; the Times did not report that any such warrant had been sought.",
       "On November 2, the eve of the election, the Supreme Court denied the department's emergency request hours after Solicitor General D. John Sauer filed it. \"The application for injunction pending appeal presented to Justice Kagan and by her referred to the Court is denied,\" the one-line order said, as the Los Angeles Times quoted it. The Court gave no reasons, there were no noted dissents, and it did not ask California to respond first, CNBC and NBC News reported. Sauer had argued, \"Once California commingles the challenged ballots with lawful ones, there is no way to get the challenged ballots back.\" More than 6.4 million California ballots had been cast as of Sunday, the Times reported. Attorney General Rob Bonta said, \"This latest decision should put an end to the Administration's attempt to disrupt California's elections through emergency court orders.\" Just Security's litigation tracker still lists Judge Carter's November 13 hearing.",
       "The same day, in a separate suit by the Coalition for Humane Immigrant Rights and others (Trujillo v. DHS), Chief Judge James Boasberg ordered the government \"not to issue demands to California election officials seeking to compel the segregation of ballots, or other deviations from existing state elections procedures, based on voters' inclusion on the lists of suspected non-citizens,\" according to Just Security's tracker, which records the order as a preliminary injunction; Boasberg's opinion that day in DSCC v. Trump calls it a TRO. The tracker has not read the order itself. \"The Executive Branch lacks authority to unilaterally impose its preferred procedures,\" he wrote, Reuters reported, and it said he found the lists flawed, with many people wrongly listed as noncitizens.",
-      "In DSCC v. Trump, Boasberg denied the Democratic committees a restraining order and preliminary injunction on November 2 for lack of standing. The case was not dismissed, and he did not decide whether the federal demands are lawful. His opinion recites the Nevada episode: the government told the state that \"a paltry 185 of the 15,903\" were confirmed, and Nevada checked each of the 185. \"It found that none was a non-citizen.\" The Thompson order is a separate case. Thompson set a hearing for November 2 on the department's request to stay it; the tracker did not find the outcome, or any Ninth Circuit action, when this was written.",
-      "At that hearing the department's lawyer addressed the list. The Los Angeles Times and CNBC, citing MS NOW, reported that he acknowledged a \"high error rate.\" Law Dork reported that Assistant U.S. Attorney Kenneth Kao, answering a question from Thompson, said it would be \"fair\" to characterize the list that way. CNBC reported that the lawyer also argued the errors show why election officials need to examine their rolls. The tracker has not seen a transcript."
+      "In DSCC v. Trump, Boasberg denied the Democratic committees a restraining order and preliminary injunction on November 2 for lack of standing. The case was not dismissed, and he did not decide whether the federal demands are lawful. His opinion recites the Nevada episode: the government told the state that \"a paltry 185 of the 15,903\" were confirmed, and Nevada checked each of the 185. \"It found that none was a non-citizen.\" The Thompson order is a separate case.",
+      "At that hearing the department's lawyer addressed the list. The Los Angeles Times and CNBC, citing MS NOW, reported that he acknowledged a \"high error rate.\" Law Dork reported that Assistant U.S. Attorney Kenneth Kao, answering a question from Thompson, said it would be \"fair\" to characterize the list that way. CNBC reported that the lawyer also argued the errors show why election officials need to examine their rolls. The tracker has not seen a transcript.",
+      "Judge Thompson's order stands as of the afternoon of November 3 after a night of reversals. Late on November 2 she denied the department's motion to stay it, Courthouse News reported, and asked its lawyer, Kenneth Kao, \"Would you agree there's a high error rate?\" He answered, \"I think that's a fair statement.\" That night a Ninth Circuit panel stayed the order 2-1, The Hill reported. Hours later a majority of the court's nonrecused active judges voted to rehear the case en banc, vacating the panel's decision, which \"restored the district court's restrictions while the full court considers the dispute,\" Fox News wrote. The tracker did not find an en banc schedule. The order expires at 5 p.m. on November 16, and a hearing is set for November 13. Department spokesperson Kiersten Pels said, \"But this is not the end of our efforts,\" Reuters reported.",
+      "Also on November 2, Judge Tanya Chutkan barred the government from further sending lists of alleged noncitizen voters to state and local election officials (see the national voter database card)."
     ],
     "take": "Setting aside a ballot is not canceling it, and the department is right that noncitizens may not vote. But the list has shrunk from 190,000 to about 20,000 without anyone outside the government being able to check it, the department's own lawyer has reportedly accepted that it has a high error rate, the president has said the officials who count those ballots will go to jail, and he has said the number \"could be as high as a million votes.\" Election officials were told to choose between a court process and a prison threat. The courts refused the demand at every level, but no report says the subpoenas for the day after the election have been withdrawn.",
     "legal": {
       "level": "ruled",
-      "basis": "On November 2, 2026 Chief Judge James Boasberg, in Trujillo v. DHS, ordered the government \"not to issue demands to California election officials seeking to compel the segregation of ballots, or other deviations from existing state elections procedures, based on voters' inclusion on the lists of suspected non-citizens,\" writing, \"The Executive Branch lacks authority to unilaterally impose its preferred procedures.\" On October 30 Judge Trina L. Thompson issued a temporary restraining order barring the Justice Department and DHS from demanding, solely on their claims of ineligibility, that officials segregate or not count voters' ballots, and from threatening officials with prosecution for refusing, finding the defendants \"likely violated Section 11(b) of the Voting Rights Act\" and likely exceeded their authority under the Elections Clause. That order is temporary, expires November 16 and is on appeal; the department's request to stay it was heard November 2, outcome not found. The Supreme Court's November 2 denial gave no reasons."
+      "basis": "On November 2, 2026 Chief Judge James Boasberg, in Trujillo v. DHS, ordered the government \"not to issue demands to California election officials seeking to compel the segregation of ballots, or other deviations from existing state elections procedures, based on voters' inclusion on the lists of suspected non-citizens,\" writing, \"The Executive Branch lacks authority to unilaterally impose its preferred procedures.\" On October 30 Judge Trina L. Thompson issued a temporary restraining order barring the Justice Department and DHS from demanding, solely on their claims of ineligibility, that officials segregate or not count voters' ballots, and from threatening officials with prosecution for refusing, finding the defendants \"likely violated Section 11(b) of the Voting Rights Act\" and likely exceeded their authority under the Elections Clause. That order is temporary and expires November 16. Thompson denied a stay on November 2; a Ninth Circuit panel stayed the order 2-1 that night, and hours later an en banc vote vacated the panel's decision and restored it while the full court considers the dispute. The Supreme Court's November 2 denial gave no reasons."
     },
     "sources": [
       {
@@ -776,6 +791,26 @@
       {
         "text": "Memorandum Opinion, DSCC v. Trump, No. 1:26-cv-03674-JEB (D.D.C., November 2, 2026) (Dkt. 34)",
         "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297829/gov.uscourts.dcd.297829.34.0.pdf"
+      },
+      {
+        "text": "Courthouse News: Judge keeps block on DOJ action after hearing arguments about 'unreliable' voter list",
+        "url": "https://www.courthousenews.com/judge-presses-doj-attorney-over-unreliable-voter-list/"
+      },
+      {
+        "text": "The Hill: Full appeals court to rehear case on Trump administration election worker threats",
+        "url": "https://thehill.com/regulation/court-battles/6191286-9th-circuit-trump-administration-election-worker-case/"
+      },
+      {
+        "text": "Fox News: 9th Circuit block on California noncitizen voter probe lifted, then restored in legal boomerang",
+        "url": "https://www.foxnews.com/politics/9th-circuit-block-california-noncitizen-voter-probe-lifted-restored-legal-boomerang"
+      },
+      {
+        "text": "Democracy Docket: Ninth Circuit wipes out ruling allowing Trump administration to threaten election officials",
+        "url": "https://www.democracydocket.com/news-alerts/ninth-circuit-wipes-out-ruling-allowing-trump-administration-to-threaten-election-officials/"
+      },
+      {
+        "text": "Reuters (via WKZO): With US midterms underway, courts rebuff Trump's pressure on state election officials",
+        "url": "https://wkzo.com/2026/11/03/with-us-midterms-underway-courts-rebuff-trumps-pressure-on-state-election-officials/"
       }
     ],
     "trackerIds": [
@@ -2919,7 +2954,9 @@
       "Department records show David Michael Levin, who pleaded guilty in 2016 to two misdemeanors for accessing a Florida county elections website, was credentialed as a Justice Department observer in Maricopa County's July primary. The department says prosecutors will serve as monitors and that monitors will not identify themselves as prosecutors; at least seven monitored Arizona's primary.",
       "On October 16 the NAACP and three voters sued Attorney General Todd Blanche, Dhillon and the department in NAACP v. Blanche (D.D.C.), claiming voter intimidation under Section 11(b) of the Voting Rights Act. \"There is no federal statute that gives Defendants the authority to turn polling places into interrogation rooms,\" the complaint says. It asks the court to bar using prosecutors or agents as monitors.",
       "In an October 28 declaration in NAACP v. Dhillon, Eric Neff, acting chief of the Civil Rights Division's voting section, said the division \"is not engaging any sworn law enforcement personnel who are legally authorized to effectuate an arrest to act as monitors in a 'law enforcement agent' capacity,\" Bloomberg Law reported. Agents from the ATF, the DEA and the Bureau of Prisons will serve as monitors, all barred from carrying firearms, and one Customs and Border Protection employee is detailed to the department. It declined to make public the polling places its monitors will visit. As reported, the declaration does not address whether FBI or ICE agents could appear at polling places in another capacity, such as serving a warrant. Bloomberg Law also reported that Neff was hired into the division last year \"following a history of advancing debunked election conspiracy theories.\"",
-      "Officials in Indiana (Marion and Lake counties), Kentucky (Jefferson and Fayette counties) and Washington County, Arkansas, say the department's monitors must stay outside polling places, Newsweek reported. These are decisions under state law or by local officials, not court orders; the Washington County Election Commission voted 3-0 to deny access. An Indiana Election Division official told the Indiana Capital Chronicle, \"our state law does not give federal monitors access to enter any voting location.\" A department spokesperson told Newsweek it has \"never said that it would send federal law enforcement to the polls.\""
+      "Officials in Indiana (Marion and Lake counties), Kentucky (Jefferson and Fayette counties) and Washington County, Arkansas, say the department's monitors must stay outside polling places, Newsweek reported. These are decisions under state law or by local officials, not court orders; the Washington County Election Commission voted 3-0 to deny access. An Indiana Election Division official told the Indiana Capital Chronicle, \"our state law does not give federal monitors access to enter any voting location.\" A department spokesperson told Newsweek it has \"never said that it would send federal law enforcement to the polls.\"",
+      "On November 3 the department announced what it called \"its largest monitoring effort in history,\" with about 1,000 monitors and observers \"for the first time, in all 50 states\"; both claims are its own (release No. 26-1310). Late on November 2 Judge Reggie Walton denied the NAACP's request for a restraining order without prejudice, but ordered the department to comply with its lawyer's concession that monitors are \"administrative or clerical personnel and not law enforcement officials,\" will not be in uniform or display federal insignia, will not be armed and cannot make arrests. Monitors may not speak with voters inside polling places, Fox News reported, and may speak with them outside only after they vote.",
+      "In a status report on Election Day morning the department said it excluded FBI and DHS personnel and consulted the ATF, the Marshals Service and the DEA \"to ensure no sworn agents from those agencies participated,\" while adding, \"there is no prohibition on the use of sworn law enforcement officers,\" Fox reported. Spokesperson Kiersten Pels called any suggestion that federal law enforcement would be at the polls \"fearmongering,\" Reuters reported. D.C. Attorney General Brian Schwalb said members of Joint Task Force-DC \"have been directed not to patrol at or near any voting locations in the District,\" the Washington Examiner reported. As of the afternoon of November 3, no confirmed incident of ICE, troops or armed federal agents at a polling place was reported in the sources we reviewed."
     ],
     "take": "Voting-rights groups warned for a year that the monitor program could be used to pressure local officials rather than protect voters, and that warning was easy to file as partisan. This complaint is not. It comes from a Republican governor in one of the reddest states in the country, who volunteered that his own election was run well and that he has no objection to monitors in principle. That narrows the dispute to the one question worth watching: what these observers actually do when they arrive. Wyoming is a two-attorney, one-county sample. November is roughly 1,000 of them.",
     "sources": [
@@ -2986,6 +3023,22 @@
       {
         "text": "Indiana Capital Chronicle: Federal election monitors won't enter Indiana polling sites, officials say",
         "url": "https://indianacapitalchronicle.com/2026/10/28/federal-election-monitors-wont-enter-indiana-polling-sites-officials-say/"
+      },
+      {
+        "text": "U.S. Department of Justice: DOJ To Monitor Elections in All 50 States for First Time (No. 26-1310)",
+        "url": "https://www.justice.gov/opa/pr/doj-monitor-elections-all-50-states-first-time"
+      },
+      {
+        "text": "Fox News: Federal judge orders DOJ to ensure poll monitors are not law enforcement officials",
+        "url": "https://www.foxnews.com/politics/federal-judge-orders-doj-ensure-poll-monitors-not-law-enforcement-officials"
+      },
+      {
+        "text": "Reuters (via WKZO): With US midterms underway, courts rebuff Trump's pressure on state election officials",
+        "url": "https://wkzo.com/2026/11/03/with-us-midterms-underway-courts-rebuff-trumps-pressure-on-state-election-officials/"
+      },
+      {
+        "text": "Washington Examiner: DC attorney general tells voters to report National Guard members at polling stations",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4789191/dc-attorney-general-tells-voters-report-national-guard-members-polling-stations/"
       }
     ],
     "trackerIds": [
@@ -3515,7 +3568,7 @@
       "Dhillon called the letters \"standard litigation practice.\" No election official has been charged.",
       "On October 30, in a separate case brought by unions and civil rights groups (SEIU v. U.S. Department of Justice, N.D. Cal.), Judge Trina L. Thompson temporarily barred the Justice Department and DHS from threatening state or local election officials with prosecution for refusing demands, based solely on the administration's ineligibility claims, to remove voters or set aside their ballots, or for counting ballots as state and federal law require. \"When state and local government employees perform the work of distributing, processing, or counting ballots or otherwise administering the 2026 midterm election\" in accordance with the law, she wrote, \"they do not violate federal criminal law even if a particular ballot belongs to a registered voter alleged by Defendants to be ineligible to vote,\" CNN reported. The order expires November 16 and the department has appealed. A department spokesperson called it part of a \"two-track system of justice\" and said, \"The Department is reviewing the order and evaluating all options,\" the Los Angeles Times reported; no Ninth Circuit action had been reported as of November 1.",
       "On November 2 Chief Judge Boasberg denied the Democratic committees a restraining order and preliminary injunction in DSCC v. Trump for lack of standing, not on the merits. The case was not dismissed. \"Even extraordinary merits questions cannot justify the extraordinary relief of a preliminary injunction or temporary restraining order if those seeking it lack standing,\" his opinion begins. \"Plaintiffs present no evidence demonstrating that any state has acquiesced and removed a voter from the rolls or segregated her ballot based on the Government's letters,\" he wrote, adding, \"Had state officials capitulated in the face of the Administration's browbeating, this may well have been a different case.\"",
-      "Boasberg's denial does not touch Judge Thompson's order in the separate case. Thompson set a hearing for November 2 on the department's request to stay it; the tracker did not find the outcome, or any Ninth Circuit action, when this was written. Democracy Docket, an advocacy outlet founded by Marc Elias, reported that the department has argued the provision she relied on, Section 11(b), \"does not apply to the federal government.\" The tracker has not read that filing."
+      "Boasberg's denial does not touch Judge Thompson's order in the separate case. Thompson denied a stay on November 2. That night a Ninth Circuit panel stayed her order 2-1, with Judges Carlos Bea and Consuelo Callahan holding that the government's actions likely fell within \"core Executive functions,\" The Hill reported. Chief Judge Mary Murguia dissented: \"The Constitution's allocation of election procedures to the states is meaningless if Defendants can coerce states into foregoing their chosen procedures by abusing their prosecutorial powers.\" Hours later an en banc vote vacated the panel's decision and restored the order while the full court considers the dispute, Fox News wrote. Democracy Docket, an advocacy outlet founded by Marc Elias, reported that the department has argued the provision she relied on, Section 11(b), \"does not apply to the federal government.\" The tracker has not read that filing."
     ],
     "sources": [
       {
@@ -3593,6 +3646,14 @@
       {
         "text": "Democracy Docket: Voter intimidation ban doesn’t apply to federal government, DOJ claims in shocking new argument",
         "url": "https://www.democracydocket.com/news-alerts/voter-intimidation-ban-doesnt-apply-to-federal-government-doj-claims-in-shocking-new-argument/"
+      },
+      {
+        "text": "The Hill: Full appeals court to rehear case on Trump administration election worker threats",
+        "url": "https://thehill.com/regulation/court-battles/6191286-9th-circuit-trump-administration-election-worker-case/"
+      },
+      {
+        "text": "Fox News: 9th Circuit block on California noncitizen voter probe lifted, then restored in legal boomerang",
+        "url": "https://www.foxnews.com/politics/9th-circuit-block-california-noncitizen-voter-probe-lifted-restored-legal-boomerang"
       }
     ],
     "trackerIds": [
@@ -3733,7 +3794,8 @@
       "House Oversight Committee Chairman James Comer asked Peltola's former campaign manager, Elisa Rios, and Democratic operative Jerid Kurtz for in-person transcribed interviews, on November 5 and November 6 respectively, according to The Hill. The State has also argued, the AP reported, that ballots set aside or not \"wouldn't reveal any voter's reason for voting for Dan J. Sullivan.\"",
       "On November 1, two days before the election, Judge Gleason dismissed the amended complaint without prejudice and without leave to amend, and judgment was entered (Dkts. 79, 80). She held that the department lacks Article III standing: \"the Court cannot grant the United States the relief it seeks because the United States has failed to establish the redressability prerequisite for Article III standing.\" Segregating ballots so voters could be investigated \"is not a remedy that this Court can or should order,\" she wrote, saying it would violate Alaskans' right to a secret ballot, and the Purcell principle \"strongly cautions\" against the relief. The department's request for expedited discovery and a preliminary injunction was denied as moot.",
       "The department filed a notice of appeal the same day (Dkt. 81), signed by Associate Attorney General Stanley Woodward; Just Security's tracker lists it as Ninth Circuit No. 26-7304, and the tracker found no appellate ruling as of November 2. A department spokesperson told CBS News the judge ruled on procedural grounds \"but did not dispute the argument of the United States that Daniel J. Sullivan (a/k/a Decoy Dan) entered the race as a frivolous candidate to confuse voters.\" CNBC noted that Gleason did not resolve whether he was recruited; her order accepted the amended complaint's allegations as true for purposes of the motions. CBS reported that the criminal investigation continues and that nobody in the race has been charged.",
-      "In a Pod Force One interview that aired November 2, the New York Post's Miranda Devine asked Trump, \"Are you confident that these elections will be secure?\" He answered, \"No, well look, when you have Alaska where they look for a guy, not only, you know people don't - he even looks like Dan Sullivan,\" the Mirror US reported. The tracker has not heard the interview."
+      "In a Pod Force One interview that aired November 2, the New York Post's Miranda Devine asked Trump, \"Are you confident that these elections will be secure?\" He answered, \"No, well look, when you have Alaska where they look for a guy, not only, you know people don't - he even looks like Dan Sullivan,\" the Mirror US reported. The tracker has not heard the interview.",
+      "On Election Day the department's appeal was still pending; it has asked an appeals court to revive the suit, Reuters reported, and the tracker found no appellate ruling. Separately, prosecutors have sent target letters in the criminal investigation (see the separate card). At 1:12 a.m. that day Trump posted, \"FAKE ALASKA CANDIDATE DANIAL J. SULLIVAN, JR., IS MISSING IN ACTION!\" (his spelling), and \"MAYBE HE HAS BEEN 'KIDNAPPED' BY THE CORRUPT DUMOCRAT LAWYERS???\" The New Republic reported. It noted CBS had reported that Sullivan flew from his hometown to Anchorage. No reviewed report supports a kidnapping."
     ],
     "take": "A federal lawsuit that asks a court to refuse certification in one direction only, when the government's candidate loses, is not an election-integrity measure. It is a pre-written objection to a result that has not happened yet. A judge has now thrown it out for lack of standing, and the department has appealed. The point is that the Justice Department filed it at all, that the president says he told it to, and that the attorney general will not say the department would never do the same elsewhere.",
     "sources": [
@@ -3916,11 +3978,56 @@
       {
         "text": "The Mirror US: Trump says he doesn't believe midterms are secure and will 'become Mr Veto' if Democrats win",
         "url": "https://www.themirror.com/news/us-news/trump-says-doesnt-believe-midterms-2093471"
+      },
+      {
+        "text": "Reuters (via WKZO): With US midterms underway, courts rebuff Trump's pressure on state election officials",
+        "url": "https://wkzo.com/2026/11/03/with-us-midterms-underway-courts-rebuff-trumps-pressure-on-state-election-officials/"
+      },
+      {
+        "text": "The New Republic: Trump Loses His Mind Over Key Senate Race Hours Before Election",
+        "url": "https://newrepublic.com/post/217496/donald-trump-alaska-senate-race-daniel-sullivan"
+      },
+      {
+        "text": "Mediaite: Trump Shreds Democratic Candidates in Frantic 1 AM Election Morning Outburst: 'El-Sayed Hates Jews and Hates Blacks!'",
+        "url": "https://www.mediaite.com/online/trump-shreds-democratic-candidates-in-frantic-1-am-election-morning-outburst-el-sayed-hates-jews-and-hates-blacks/"
       }
     ],
     "trackerIds": [
       "doj-sues-alaska-block-senate-certification-if-sullivan-loses-two-sullivans",
       "blanche-wont-rule-out-doj-blocking-certification-doomsday-scenario",
+      "trump-demands-peltola-prosecuted-removed-alaska-ballot"
+    ]
+  },
+  {
+    "id": "elias-target-letters-alaska",
+    "title": "The Justice Department Makes Democratic Election Lawyer Marc Elias a Target in Its Alaska Senate Probe, Sources Say",
+    "date": "2026-11-03",
+    "category": "ballot",
+    "status": "active",
+    "facts": [
+      "Marc Elias, a longtime Democratic election lawyer, is a target of the Justice Department's criminal investigation into how a second Daniel Sullivan reached Alaska's U.S. Senate ballot, CBS News and ABC News reported on November 3, Election Day, each citing unnamed sources. CBS said the letters and subpoenas went out \"in recent days.\" No charge appears in any report we reviewed, and a target letter \"does not mean an individual will ultimately face federal charges,\" ABC wrote.",
+      "The outlets count differently. CBS: \"Approximately 20 target and preservation letters have been issued to date.\" ABC: prosecutors are \"in the process of issuing more than 100 subpoenas and at least twenty letters alerting individuals they are targets of the probe.\" The Democratic Senatorial Campaign Committee received a grand jury subpoena, one law enforcement source told CBS.",
+      "They differ on the offense too. ABC's sources say the letters indicate a grand jury is probing \"possible conspiracy and donor fraud related offenses,\" while CBS wrote, \"Federal prosecutors have not articulated what crimes they are investigating.\" Stacking a ballot with a similarly named candidate has been done by both parties and is \"generally not considered illegal,\" CBS wrote. Peltola's campaign and the DSCC deny any connection to Daniel J. Sullivan.",
+      "CBS wrote that the timing appears \"to run afoul of the Justice Department's own internal guidelines and historic norms limiting investigative steps ahead of a national election\"; that is CBS's assessment. Several sources told CBS that some assistant U.S. attorneys in Alaska \"have declined or expressed discomfort about getting involved.\" U.S. Attorney Michael Heyman said on October 30, \"We're not escalating anything except to the extent that a new article came out,\" and denied timing the steps to the election. The department did not respond to ABC or CNBC.",
+      "Trump has called for this prosecution in public; no report we reviewed says he ordered these letters. Over the weekend he said the ballot effort \"really started with Schumer and the lawyer, Marc Elias. And I think they should be held criminally responsible for it,\" CBS reported. On Fox & Friends on Election Day he said Elias \"should go to jail, in my opinion,\" CNBC reported. Elias, whose team has been involved in over 90 voting and election suits and in the Alaska civil case, CBS wrote, said, \"We will not be intimidated by a sham investigation,\" ABC reported."
+    ],
+    "take": "A target letter is not a charge, and prosecutors may hold evidence no outlet has seen. What is on the record is enough to worry about: the president says the lawyer should go to jail, CBS describes ballot-stacking as generally legal, and the two outlets that broke this differ on what crime is being investigated. The person receiving the letter is a lawyer whose team has been in over 90 voting and election suits, and the news of it arrived while people were voting.",
+    "sources": [
+      {
+        "text": "CBS News: Democratic attorney and Trump foe Marc Elias is a target of DOJ's Alaska ballot investigation, sources say",
+        "url": "https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/"
+      },
+      {
+        "text": "ABC News: DOJ ramps up probe of Alaska Senate race with target letters, new subpoenas: Sources",
+        "url": "https://abcnews.com/US/doj-ramps-probe-alaska-senate-race-target-letters/story?id=137819400"
+      },
+      {
+        "text": "CNBC: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
+        "url": "https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html"
+      }
+    ],
+    "trackerIds": [
+      "doj-target-letters-marc-elias-alaska-senate-grand-jury-election-day",
       "trump-demands-peltola-prosecuted-removed-alaska-ballot"
     ]
   },
@@ -3939,7 +4046,8 @@
       "Asked on NewsNation on October 29 whether he would certify the result if Peltola wins while the matter is under investigation, Gov. Mike Dunleavy stopped short of committing, Axios reported. He said he needs \"enough information to make that decision\" and that a finding of illegal activity \"may, in fact, impact whether somebody is seated in the U.S. Senate.\" Alaska's elections director certifies the race and the governor then sends a separate certification to the Senate, NewsNation noted; Dunleavy's term ends December 7, Axios noted. Peltola's campaign called it \"Dunleavy's threat to overrule the will of Alaskan voters,\" and Peltola said, \"I knew nothing about any other candidate on the ballot except for me and the incumbent.\"",
       "On October 30 Trump told a Kansas City radio host, \"You need about 190 IQ to figure out the ballot,\" and called the situation voter fraud \"as bad as what we went through in 2020,\" according to Mediaite's transcription. Mediaite noted that he has repeatedly and falsely claimed the 2020 election was stolen from him.",
       "FBI agents have begun contacting donors to Daniel J. Sullivan, the second Sullivan on the ballot and not the senator, in Petersburg and Sitka and in Groton, Massachusetts, asking whether they were deceived about whom they were supporting, the AP reported. \"I don't feel like I've been misled at all,\" Petersburg donor Charles Flint told the AP. \"Everybody knows who the incumbent is.\" On October 30 Alaska U.S. Attorney Michael Heyman confirmed a federal criminal investigation but declined to say what crimes it examines, and NBC News reported at least three dozen new subpoenas and preservation requests, including to the campaign offices of Peltola and Daniel J. Sullivan. At a Daytona Beach rally that day Trump again said Peltola \"should be removed from the ballot and prosecuted,\" Yahoo News reported, citing MS NOW. No one has been charged.",
-      "On November 1 Judge Sharon Gleason dismissed the Justice Department's certification suit without prejudice, and the department appealed (see the separate card)."
+      "On November 1 Judge Sharon Gleason dismissed the Justice Department's certification suit without prejudice, and the department appealed (see the separate card).",
+      "On November 3 CBS and ABC reported, citing unnamed sources, that prosecutors have sent target letters in the criminal investigation, including to Marc Elias. No charge has been reported (see the separate card)."
     ],
     "take": "Whatever the Times report finally shows, the president is asking for a prosecution without naming a crime, the removal of a candidate after Alaskans began voting, and he will not say the winner would be seated. The recruiting it describes may be a dirty trick. The remedy he demands is to decide the race before the count, and his Justice Department is already in court on the same race.",
     "sources": [
@@ -4019,7 +4127,8 @@
       "An earlier batch came about two weeks before, on the first day of early voting, according to NC Newsline; it counts 10 people and WRAL a dozen. Acting Deputy Attorney General Trent McCotter said, \"If you're not an American citizen, you cannot vote in our federal elections.\" The Examiner, citing Justice Department figures, counted roughly 160 noncitizens charged nationwide with voting and registration offenses from January 2025 through September 2026.",
       "WRAL reported that such charges could help the administration argue that noncitizens will cast midterm votes, \"even though the Justice Department's own investigations have shown that voting by noncitizens is extremely rare.\" Hilary Harris Klein, a voting rights attorney with the Southern Coalition for Social Justice, said, \"They could have raised these issues well before the election,\" and, \"It really creates an environment of fear around elections.\" Her group called the cases a \"miniscule percentage\" of the state's more than 7.9 million registered voters, NC Newsline reported.",
       "The state's elections chief gave a different account of the timing. Sam Hayes, who leads the State Board of Elections, told WRAL the cases came from state referrals, that his office started looking in April and was delayed by litigation over the federal SAVE database, and that it sent the FBI more names than the 30 charged. He also said some people on the lists may have been added by mistake at the DMV.",
-      "The department is also sending monitors to Wake, Alamance and Mecklenburg counties, part of a goal of 1,000 nationwide, WRAL reported. White House spokeswoman Lauren Bis said, \"President Trump has done more than any other president to ensure we have free and fair elections.\""
+      "The department is also sending monitors to Wake, Alamance and Mecklenburg counties, part of a goal of 1,000 nationwide, WRAL reported. White House spokeswoman Lauren Bis said, \"President Trump has done more than any other president to ensure we have free and fair elections.\"",
+      "On November 2, the day before the election, the department announced \"charges involving 63 individuals, including four illegal aliens,\" nationwide, and said it has charged 195 aliens across 25 states in the last nine weeks and 239 people with voting fraud-related offenses since the administration began; all defendants are presumed innocent. Attorney General Todd Blanche said, \"Today's announcement marks the largest surge of voter-fraud arrests since President Trump returned to office.\" The release's North Carolina rows, nine, five and four by district, match the October 29 batch; the tracker reads them as the same 18 people, not new charges in the state."
     ],
     "take": "Charging a noncitizen who voted is not rigging anything, and the state's account of the delay may be right. But 30 people among 7.9 million registered voters are a sliver, and an announcement in the final week reaches far more people than the cases do. For a naturalized citizen deciding whether to vote, the message is the same whether or not the timing was chosen.",
     "sources": [
@@ -4034,6 +4143,10 @@
       {
         "text": "NC Newsline: Federal prosecutors announce more indictments in NC for illegal voting",
         "url": "https://ncnewsline.com/2026/10/29/federal-prosecutors-announce-more-indictments-in-nc-for-illegal-voting/"
+      },
+      {
+        "text": "U.S. Department of Justice: Justice Department Announces Charges Involving 63 Individuals for Election-Related Crimes",
+        "url": "https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-63-individuals-election-related-crimes"
       }
     ],
     "trackerIds": [
