@@ -4244,5 +4244,41 @@
     "trackerIds": [
       "ssa-irs-emails-praise-trump-days-before-midterms-hatch-act"
     ]
+  },
+  {
+    "id": "machines-post-honest-election",
+    "title": "Six Days After the Vote, Trump Asks Whether the Midterms Were 'Honest' and Blames 'the Machines'",
+    "date": "2026-11-09",
+    "category": "narrative",
+    "status": "record",
+    "facts": [
+      "On November 9, six days after Republicans lost control of both chambers of Congress, Trump wrote on Truth Social: \"Does anybody really believe that this 'Election' was honest. How could the Polls be so wrong???\" He went on: \"Some early voting 'dumps' were so large that it was impossible to win, no matter how many people went to vote. It's all about the machines, which are far more important than the voter!\" The post did not identify any state, machine or count.",
+      "On election night he had told The New York Times, \"I'm absolutely willing to accept those results,\" NBC News and CNBC reported. On November 7 he reposted a user who asked how so many states could have swung by 15 percent, NBC reported.",
+      "Asked about the post, a White House official pointed NBC to his condition before the vote that he would respect the results \"if they're honest elections.\"",
+      "Election officials nationwide reported that voting was largely routine, NBC reported, and the post offered no evidence. Nevada Secretary of State Cisco Aguilar, a Democrat, told NBC the claims are \"completely false\" and said, \"The systems worked.\" No official challenge to any result has been reported."
+    ],
+    "take": "The condition he set in February and repeated on October 27, that he would accept the results if the elections were honest, left him room to reject them. Six days after his party lost, he used it, without naming a state, a machine or a count.",
+    "sources": [
+      {
+        "text": "NBC News: Trump casts doubt on election results after saying he was 'absolutely willing' to accept them",
+        "url": "https://www.nbcnews.com/politics/donald-trump/trump-midterm-elections-voting-machines-doubt-rcna607893"
+      },
+      {
+        "text": "CNBC: Trump questions midterm election results, revives voting-machine conspiracy",
+        "url": "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html"
+      },
+      {
+        "text": "The Daily Beast: Sore Loser Trump Makes Deranged U-Turn on Election Results",
+        "url": "https://www.thedailybeast.com/sore-loser-donald-trump-makes-deranged-u-turn-on-election-results"
+      },
+      {
+        "text": "Hannity.com: HONEST ELECTION?: Trump Asks If 'Anybody Really Believes' the Midterms Were on the Level",
+        "url": "https://hannity.com/media-room/honest-election-trump-asks-if-anybody-really-believes-the-midterms-were-on-the-level/"
+      }
+    ],
+    "trackerIds": [
+      "trump-midterm-results-honest-election-machines-post"
+    ],
+    "doubt": true
   }
 ]
